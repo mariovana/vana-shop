@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>vana shop — pedí lo que quieras, pagá por WhatsApp</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/styles.css?v=10">
+</head>
+<body>
+  <header class="hdr">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="vana shop"><span class="brand-txt">vana <i>shop</i></span></a>
+      <div class="search">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5 1.5-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
+        <input id="search" type="search" placeholder="¿Qué estás buscando hoy?" aria-label="Buscar productos">
+      </div>
+      <a class="hdr-cta" href="https://wa.me/50254166752?text=Hola%20%F0%9F%91%8B%20quiero%20comprar%20con%20vana%20pay%20shop" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8C11.6 28.4 13.8 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm5.8 13.7c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.8.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5z"/></svg>
+        <span>Compra por WhatsApp</span>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="hero-eyebrow">✨ Tu personal shopper por WhatsApp</span>
+          <h1>Pide lo que quieras.<br>Nosotros te lo conseguimos.</h1>
+          <p>Explora los productos de tus tiendas favoritas y compra en paguitos por WhatsApp. ¡Fácil y rápido!</p>
+          <div class="hero-steps">
+            <span><b>1</b> Elige un producto</span>
+            <span><b>2</b> Escríbenos por WhatsApp</span>
+            <span><b>3</b> Paga con vana pay</span>
+          </div>
+        </div>
+        <div class="hero-feat" id="hero-feat"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head"><h2>Compra por categoría</h2><span class="sub">Encuentra justo lo que buscas</span></div>
+    <div class="cats" id="cats"></div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head"><h2>Tiendas en vana shop</h2><a href="#catalog" class="see-all" id="seeAllStores">Ver todas →</a></div>
+    <div class="merchants" id="merchants"></div>
+  </section>
+
+  <section class="section wrap" id="catalog">
+    <div class="section-head"><h2>Explora todo</h2></div>
+    <button class="filter-trigger" id="filterOpen" type="button">
+      <svg viewBox="0 0 24 24"><path d="M3 5h18v2H3zm3 6h12v2H6zm3 6h6v2H9z"/></svg>
+      <span>Filtrar</span><span class="fsum" id="filterSummary"></span>
+    </button>
+    <div class="count" id="count"></div>
+    <div id="filters" class="filters-panel">
+      <div class="sheet-head"><span>Filtrar productos</span><button class="sheet-x" id="filterClose" type="button" aria-label="Cerrar">✕</button></div>
+      <div class="toolbar"><span class="flabel">Tienda</span><div class="chips" id="merchant-chips"></div></div>
+      <div class="toolbar"><span class="flabel">Categoría</span><div class="chips" id="category-chips"></div></div>
+      <button class="sheet-apply" id="filterApply" type="button">Ver <b id="applyCount"></b> resultados</button>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+  <div class="scrim" id="scrim"></div>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <span class="brand-txt brand-txt-w">vana <i>shop</i></span>
+          <p class="about">Tu personal shopper por WhatsApp. Pide productos de las mejores tiendas y paga en paguitos con vana pay, sin salir del chat.</p>
+        </div>
+        <div><h4>Comprar</h4><ul><li><a href="index.html">Todas las tiendas</a></li><li><a href="index.html">Categorías</a></li><li><a href="index.html">Ofertas</a></li></ul></div>
+        <div><h4>vana pay</h4><ul><li><a href="#">Cómo funciona</a></li><li><a href="#">Paga en cuotas</a></li><li><a href="#">Preguntas frecuentes</a></li></ul></div>
+        <div><h4>Ayuda</h4><ul><li><a href="https://wa.me/50254166752" target="_blank" rel="noopener">Escríbenos por WhatsApp</a></li><li><a href="#">Devoluciones</a></li><li><a href="#">Términos</a></li></ul></div>
+      </div>
+      <div class="legal">vana shop · prototipo MVP. Los productos, precios e imágenes se muestran con fines de demostración y provienen de las tiendas de comercios partner, con enlace a la fuente original.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js?v=10"></script>
+  <script src="assets/js/catalog.js?v=10"></script>
+</body>
+</html>

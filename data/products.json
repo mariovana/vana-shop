@@ -1,0 +1,1159 @@
+{
+  "merchants": [
+    {
+      "slug": "meatpack",
+      "name": "Meat Pack",
+      "domain": "www.meatpack.com",
+      "logo": "assets/img/merchants/meatpack.png"
+    },
+    {
+      "slug": "dressy",
+      "name": "Dressy",
+      "domain": "dressyshopgt.myshopify.com",
+      "logo": "assets/img/merchants/dressy.png"
+    },
+    {
+      "slug": "adoc",
+      "name": "ADOC",
+      "domain": "gt.tiendasadoc.com",
+      "logo": "assets/img/merchants/adoc.png"
+    },
+    {
+      "slug": "cat",
+      "name": "CAT",
+      "domain": "caterpillargt.com",
+      "logo": null
+    },
+    {
+      "slug": "kemik",
+      "name": "Kemik",
+      "domain": "www.kemik.gt",
+      "logo": "assets/img/merchants/kemik.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "meatpack-7166126456881",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "AIR MAX 95 BIG BUBBLE SP LTR HOMBRE IR0802-100",
+      "category": "Calzado",
+      "price": 1899.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/AIR_MAX_95_BIG_BUBBLE_SP_LTR__1.jpg?v=1784735454",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/AIR_MAX_95_BIG_BUBBLE_SP_LTR.jpg?v=1784735454",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/AIR_MAX_95_BIG_BUBBLE_SP_LTR__2.jpg?v=1784735455",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/AIR_MAX_95_BIG_BUBBLE_SP_LTR__3.jpg?v=1784735454"
+      ],
+      "url": "https://www.meatpack.com/products/air-max-95-big-bubble-sp-ltr-hombre-ir0802-100",
+      "description": "AIR MAX 95 BIG BUBBLE SP LTR"
+    },
+    {
+      "id": "meatpack-7166126719025",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "NIKE V5 RNR HOMBRE HJ5228-101",
+      "category": "Calzado",
+      "price": 999.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/hj5228-101_phsrh000-2000.jpg?v=1784734023",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/hj5228-101_phcfh001-2000.jpg?v=1784734023",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/hj5228-101_phsuh000-2000.jpg?v=1784734024"
+      ],
+      "url": "https://www.meatpack.com/products/nike-v5-rnr-hombre-hj5228-101",
+      "description": "NIKE V5 RNR HOMBRE"
+    },
+    {
+      "id": "meatpack-7166126587953",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "NIKE AIR MAX PLUS BP NIÑOS CD0610-001",
+      "category": "Calzado",
+      "price": 1199.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/NIKE_AIR_MAX_PLUS__PS___1.jpg?v=1784735149",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/NIKE_AIR_MAX_PLUS__PS.jpg?v=1784735149",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/NIKE_AIR_MAX_PLUS__PS___2.jpg?v=1784735149",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/NIKE_AIR_MAX_PLUS__PS___3.jpg?v=1784735149"
+      ],
+      "url": "https://www.meatpack.com/products/nike-air-max-plus-bp-ninos-cd0610-001",
+      "description": "NIKE AIR MAX PLUS BP NIÑOS"
+    },
+    {
+      "id": "meatpack-7166126555185",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "M NK TEE M90 SUMMIT VRXO HOMBRE IM5044-010",
+      "category": "Ropa",
+      "price": 399.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/367.png?v=1784744750",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/368.png?v=1784744750"
+      ],
+      "url": "https://www.meatpack.com/products/m-nk-tee-m90-summit-vrxo-hombre-im5044-010",
+      "description": "Esta playera está hecha de algodón de peso medio y tiene una ligera caída, para que estés listo para jugar cuando te llamen."
+    },
+    {
+      "id": "meatpack-7166126522417",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "M J BRK LSR GFX SS CREW HOMBRE IM9994-030",
+      "category": "Ropa",
+      "price": 349.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/371.png?v=1784745141",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/369.png?v=1784745141",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/370.png?v=1784745141"
+      ],
+      "url": "https://www.meatpack.com/products/m-j-brk-lsr-gfx-ss-crew-hombre-im9994-030",
+      "description": "Un guiño a la historia de Jordan, con un toque retro. El suave algodón hace que esta camiseta de uso diario se sienta tan bien como luce."
+    },
+    {
+      "id": "meatpack-7166126489649",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "M J BRK LSR GFX SS CREW HOMBRE IM9994-010",
+      "category": "Ropa",
+      "price": 349.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/374_9c550f46-b858-4293-9d61-721ab124c802.png?v=1784745855",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/372.png?v=1784745855",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/373.png?v=1784745855"
+      ],
+      "url": "https://www.meatpack.com/products/m-j-brk-lsr-gfx-ss-crew-hombre-im9994-010",
+      "description": "Un guiño a la historia de Jordan, con un toque retro. El suave algodón hace que esta camiseta de uso diario se sienta tan bien como luce."
+    },
+    {
+      "id": "meatpack-7166127013937",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "W NIKE V5 RNR SUEDE MUJER II6294-004",
+      "category": "Calzado",
+      "price": 999.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/267435-800-auto__2.jpg?v=1784732811",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/ii6294-004_phsuh000-2000.webp?v=1784731167",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/267437-800-auto.jpg?v=1784731094"
+      ],
+      "url": "https://www.meatpack.com/products/w-nike-v5-rnr-suede-mujer-ii6294-004",
+      "description": "W NIKE V5 RNR SUEDE MUJER"
+    },
+    {
+      "id": "meatpack-7166126981169",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "W NIKE V5 RNR MUJER HQ7901-115",
+      "category": "Calzado",
+      "price": 999.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_NIKE_V5_RNR__1.jpg?v=1784732279",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_NIKE_V5_RNR.jpg?v=1784732279",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_NIKE_V5_RNR__2.jpg?v=1784732279"
+      ],
+      "url": "https://www.meatpack.com/products/w-nike-v5-rnr-mujer-hq7901-115",
+      "description": "W NIKE V5 RNR MUJER"
+    },
+    {
+      "id": "dressy-9655743021287",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Hoodie de Spiderman con capucha",
+      "category": "Ropa",
+      "price": 150.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage29jul2026_08_32_42.png?v=1785335572",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/7821e52e-f680-4377-b771-3f6409315f9c.webp?v=1785275275",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage29jul2026_09_06_58.png?v=1785337630",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage29jul2026_09_06_54.png?v=1785337630"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/hoodie-de-spiderman-con-capucha",
+      "description": "Producto petit: Tamaño reducido, la diferencia entre cada talla es de aproximadamente 2 cm, por lo que el cambio de una talla a otra es mínimo. Te recomendamos revisar la guía de medidas antes de realizar tu compra. Material: Polyester Medidas Talla M: - Hombros: 49 cm - Pecho: 1"
+    },
+    {
+      "id": "dressy-8850796019943",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Mascara de Spiderman con ojos dinámicos",
+      "category": "Juguetes",
+      "price": 125.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "assets/img/products/dressy-8850796019943-0.jpg",
+        "assets/img/products/dressy-8850796019943-1.jpg",
+        "assets/img/products/dressy-8850796019943-2.jpg"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/mascara-de-spiderman-con-ojos-dinamicos",
+      "description": "Máscara de superhéroe con diseño clásico rojo y patrón tipo telaraña, equipada con sistema ajustable que permite entrecerrar o abrir los ojos para lograr diferentes expresiones. Este detalle dinámico le da un efecto más realista y profesional, ideal para cosplay, disfraces y cont"
+    },
+    {
+      "id": "dressy-8410064093415",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Maniquí classy con cabeza",
+      "category": "Hogar",
+      "price": 575.0,
+      "currency": "GTQ",
+      "compare_at_price": 785.0,
+      "discount_pct": 27,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01G7U5vm20pKjhkWx3B__2852496898-0-cib.jpg?v=1741723583",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01BWd4yd20pKjgla1E6__2852496898-0-cib.jpg?v=1741723599"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/maniqui-classy-con-cabeza",
+      "description": "Maniquí clásico dorado con cabeza y base cuadrada. Ya sea que tengas una tienda física, vendas en línea o simplemente quieras organizar tu clóset de forma aesthetic, el Maniquí Classy con Cabeza es ese toque chic y funcional que necesitas. Características: Diseño elegante y moder"
+    },
+    {
+      "id": "dressy-9495839637735",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Lonchera bento con compartimentos",
+      "category": "Hogar",
+      "price": 90.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage25mar2026_13_15_50.png?v=1774466481",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage25mar2026_13_15_40.png?v=1774466481",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage25mar2026_13_15_37.png?v=1774466481",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage25mar2026_13_15_44.png?v=1774466481"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/lonchera-bento-con-compartimentos",
+      "description": "Esta lonchera con compartimentos es la solución ideal para transportar alimentos de forma organizada y práctica. Su diseño tipo bento permite separar diferentes comidas en un solo recipiente, evitando mezclas y manteniendo cada porción en su lugar, perfecta para llevar al trabajo"
+    },
+    {
+      "id": "dressy-8867913203943",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Set de accesorios para skin care",
+      "category": "Belleza",
+      "price": 40.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/07454827-760F-41E2-A46E-F21118E9376E.jpg?v=1740072696",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/E3993B57-ED2E-4EF2-A642-5F53540ECEEF.jpg?v=1739989729",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/E9EFBC6C-4FAF-406A-A520-B68F5DB8172C.jpg?v=1739992813"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/set-de-accesorios-para-skin-care",
+      "description": "-Set de 3 piezas de herramientas para tu skin care, estimular los músculos faciales, favorece y refina eficazmente los contornos faciales del rostro. -El set incluye: Rodillo masajeador de Jade, Piedra Gua Sha y Brocha de silicona para mascarillas -Beneficios: Aumenta la circulac"
+    },
+    {
+      "id": "dressy-9425968333031",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Maletín brillante de gran capacidad",
+      "category": "Accesorios",
+      "price": 190.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01j5Y6O32Dya8VA5j37__2215183708678-0-cib.jpg?v=1766425770",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01kw2KJY2Dya8UlTM7G__2215183708678-0-cib.jpg?v=1766425792",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01SavynD2Dya8UlUMTA__2215183708678-0-cib.jpg?v=1766425832",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01YrQHvX2Dya8TYbzgD__2215183708678-0-cib.jpg?v=1766425857",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01x7cu5I2Dya8VhA5ib__2215183708678-0-cib.jpg?v=1766425878"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/maletin-brillante-de-gran-capacidad",
+      "description": "Esta bolsa deportiva acolchada es el equilibrio perfecto entre estilo moderno y practicidad diaria. Su diseño amplio y ligero la hace ideal para acompañarte al gym, viajes cortos, clases, fines de semana o incluso como bolso diario oversized. El acabado acolchado le da un look ac"
+    },
+    {
+      "id": "dressy-9464885117159",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Zapatera vertical con puertas de rejilla",
+      "category": "Calzado",
+      "price": 600.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_14_57.png?v=1771521329",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_12_53.png?v=1771521329",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_15_04.png?v=1771521329",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_17_16.png?v=1771521454",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/714S5DKPIeL._AC_UF894_1000_QL80.jpg?v=1771521453",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_18_34.png?v=1771521548"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/zapatera-vertical-con-puertas-de-rejilla",
+      "description": "El zapatero con puertas de rejilla combina funcionalidad y diseño en una pieza de estilo natural y elegante. Su estructura en tono madera clara y paneles tipo cannage aportan un acabado cálido y decorativo, ideal para entradas, dormitorios o espacios pequeños que buscan orden sin"
+    },
+    {
+      "id": "dressy-7891009798375",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Mochila BUSINESS AZUL by MOLVU",
+      "category": "Accesorios",
+      "price": 389.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132382439.jpg?v=1740068211",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132284135.jpg?v=1740068224",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132415207.jpg?v=1740068216",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132316903.jpg?v=1740068212",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132349671.jpg?v=1740068309"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/mochila-business-azul-by-molvu",
+      "description": "La mochila BUSINESS AZUL by MOLVU es mucho más que un simple accesorio, es la combinación perfecta entre comodidad, funcionalidad y estilo en un solo producto. Su diseño minimalista y elegante la convierten en el complemento ideal para aquellos que están siempre en movimiento, ya"
+    },
+    {
+      "id": "adoc-9748677492966",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Ballerinas Nerida para mujer color café",
+      "category": "Calzado",
+      "price": 319.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093281-1.jpg?v=1781280096",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093281-2.jpg?v=1781280096",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093281-3.jpg?v=1781280096",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093281-4.jpg?v=1781280096"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30093281-ballerinas-nerida-para-mujer-color-cafe",
+      "description": "Ballerinas Nerida para mujer en color café, elaboradas en material suede. Un diseño clásico y fácil de combinar, con un acabado suave que aporta un toque elegante para acompañarte en el uso diario."
+    },
+    {
+      "id": "adoc-9748677787878",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Tacones slingback Viper para mujer color multi",
+      "category": "Calzado",
+      "price": 409.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093260-1.png?v=1781280108",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093260-2.png?v=1781280108",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093260-3.png?v=1781280109",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093260-4.png?v=1781280108"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30093260-tacones-slingback-viper-para-mujer-color-multi",
+      "description": "Tacones slingback Viper para mujer en color multi, con altura de 9 cm y elaborados en material sintético. Un modelo llamativo y moderno para destacar, ideal para complementar outfits con un toque de color y estilo más audaz."
+    },
+    {
+      "id": "adoc-9748677394662",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Ballerinas Nerida para mujer color hueso",
+      "category": "Calzado",
+      "price": 319.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093282-1.jpg?v=1781280092",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093282-2.jpg?v=1781280092",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093282-3.jpg?v=1781280092",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093282-4.jpg?v=1781280092"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30093282-ballerinas-nerida-para-mujer-color-hueso",
+      "description": "Ballerinas Nerida para mujer en color hueso, elaboradas en material sintético. Un básico femenino y versátil que combina fácil con distintos outfits, ideal para el día a día por su estilo limpio y práctico."
+    },
+    {
+      "id": "adoc-9783732338918",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Mules Rachel para mujer color nude",
+      "category": "Calzado",
+      "price": 779.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-1.png?v=1784727374",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-2.png?v=1784727374",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-3.png?v=1784727374",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-4.png?v=1784727374",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-6.png?v=1784727374",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-5.png?v=1784727374",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-8.png?v=1784727374"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30094694-mules-rachel-para-mujer-color-nude",
+      "description": "Mules Rachel para mujer en color nude, elaborados en cuero. Incorporan tecnología Bounce™, con plantilla extraíble de alta memoria que brinda rebote de energía, recupera su forma y ofrece comodidad duradera."
+    },
+    {
+      "id": "adoc-9783731945702",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Tacones mules Faby para mujer color beige",
+      "category": "Calzado",
+      "price": 779.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-1.png?v=1784727367",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-2.png?v=1784727367",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-3.png?v=1784727366",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-4.png?v=1784727366",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-5.png?v=1784727366",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-6.png?v=1784727367",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-8.png?v=1784727366"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30094684-tacones-mules-faby-para-mujer-color-beige",
+      "description": "Tacones mules Faby para mujer en color beige, elaborados en cuero. Integran tecnología Bounce™, con plantilla extraíble de alta memoria que brinda rebote de energía y comodidad duradera."
+    },
+    {
+      "id": "adoc-9685831712998",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Sneakers Upton para hombre color negro",
+      "category": "Calzado",
+      "price": 359.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089480-1.jpg?v=1776793252",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089480-2.jpg?v=1776793252",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089480-3.jpg?v=1776793252",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089480-4.jpg?v=1776793252"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30089480-sneakers-upton-para-hombre-color-negro",
+      "description": "Sneakers Upton para hombre en color negro, elaborados en material sintético. Un básico urbano y fácil de combinar, pensado para acompañarte con comodidad en tu rutina diaria."
+    },
+    {
+      "id": "adoc-9685831549158",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Oxfords cap toe Dane para hombre color tan",
+      "category": "Calzado",
+      "price": 669.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-1.png?v=1782833879",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-2.png?v=1782833879",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-3.png?v=1782833879",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-4.png?v=1782833879",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-5.png?v=1782833879"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30089472-oxfords-cap-toe-dane-para-hombre-color-tan",
+      "description": "Oxfords cap toe Dane para hombre en color tan, tecnología Flexlite, elaborados en cuero. La tecnología Flexlite aporta amortiguación y confort con una plantilla de espuma y EVA que mantiene su forma para un rendimiento más durable."
+    },
+    {
+      "id": "adoc-9685831155942",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Sneakers casuales slip on Luca para hombre color café",
+      "category": "Calzado",
+      "price": 429.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089442-1.jpg?v=1777390368",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089442-2.jpg?v=1777390368",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089442-3.jpg?v=1777390368",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089442-4.jpg?v=1777390367"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30089442-sneakers-casuales-slip-on-luca-para-hombre-color-cafe",
+      "description": "Sneakers casuales slip on Luca para hombre en color café, elaborados en material sintético. Un básico cómodo y funcional para el día a día, con estilo casual y calce práctico."
+    },
+    {
+      "id": "adoc-9685831024870",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Sneakers Ibor para hombre color marino",
+      "category": "Calzado",
+      "price": 499.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089421-1.jpg?v=1777396267",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089421-2.jpg?v=1777396267",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089421-3.jpg?v=1777396268",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089421-4.jpg?v=1777396267"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30089421-sneakers-ibor-para-hombre-color-marino",
+      "description": "Sneakers Ibor para hombre en color marino, elaborados en material textil. Ligeros y cómodos, ideales para un look casual y fresco que acompaña la rutina diaria."
+    },
+    {
+      "id": "cat-9364944781544",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Mochila térmica Cancool para hombre color negro",
+      "category": "Accesorios",
+      "price": 599.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088901-1.jpg?v=1776457519",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088901-2.jpg?v=1776457519",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088901-3.jpg?v=1776457519",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088901-4.jpg?v=1776457519"
+      ],
+      "url": "https://caterpillargt.com/products/30088901-mochila-termica-cancool-para-hombre-color-negro",
+      "description": "Mochila térmica CAT fabricada en poliuretano polivinílico 600D con acabado CO2/WR, con dos bolsillos laterales de malla, correas para los hombros cómodas, bolsillo frontal con cremallera, forro laminado y una trabilla de cincha en la parte delantera para sujetar la bolsa y accesorios, con una capaci"
+    },
+    {
+      "id": "cat-9364945109224",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Camiseta Heritage Peoria para hombre color negro",
+      "category": "Ropa",
+      "price": 229.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088355-1.jpg?v=1775523945",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088355-2.jpg?v=1775523945"
+      ],
+      "url": "https://caterpillargt.com/products/30088355-camiseta-heritage-peoria-para-hombre-color-negro",
+      "description": "La camiseta Heritage Peoria Graphic Tee presenta gráficos en el pecho de inspiración vintage con el distintivo branding Cat®, ofreciendo un estilo auténtico con un aire retro."
+    },
+    {
+      "id": "cat-9507950756072",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Chaqueta Trucker para hombre color negro",
+      "category": "Ropa",
+      "price": 1099.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30094860-1.jpg?v=1779743569",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30094860-2.jpg?v=1779743569",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30094860-3.jpg?v=1779743569"
+      ],
+      "url": "https://caterpillargt.com/products/30094860-chaqueta-trucker-para-hombre-color-negro",
+      "description": "Esta prenda, diseñada por Avery Ranch, está confeccionada en una lona de algodón pesada de 11.5 oz que se suaviza con el uso, y destaca por sus costuras frontales entalladas que se integran a los bolsillos para lograr una silueta limpia, costuras tonales de estilo minimalista y herrajes exclusivos d"
+    },
+    {
+      "id": "cat-9349922554088",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Sneakers Grapple Leather para hombre color café",
+      "category": "Calzado",
+      "price": 1099.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089709-1.jpg?v=1773762091",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089709-2.jpg?v=1773762091",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089709-3.jpg?v=1773762091",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089709-4.jpg?v=1773762091"
+      ],
+      "url": "https://caterpillargt.com/products/30089709-sneakers-grapple-leather-para-hombre-color-cafe",
+      "description": "Calzado con capellada en nobuck granulado y gamuza recubierta en PU, forro interno de malla suave y respirable, plantilla de espuma EVA para comodidad prolongada, forro tipo calcetín en malla de nylon con tecnología CLEANSPORT NXT™ para control probiótico del mal olor, entresuela de EVA ligera y dur"
+    },
+    {
+      "id": "cat-9061253644520",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Tennis Ventura Sport para hombre color gris",
+      "category": "Calzado",
+      "price": 425.0,
+      "currency": "GTQ",
+      "compare_at_price": 849.99,
+      "discount_pct": 50,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086425-1_c230752b-de0d-455f-9740-71fb40611d38.jpg?v=1762303869",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086425-2_46625365-44b0-4e74-b813-6681da0128ac.jpg?v=1762303869",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086425-3_45d52f55-b21e-489c-8fe5-8f8123dbe02b.jpg?v=1762303869",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086425-4_a5045f0b-bf8d-4df3-b3ec-27454db0d89b.jpg?v=1762303869"
+      ],
+      "url": "https://caterpillargt.com/products/30086425-tennis-ventura-sport-para-hombre-color-gris",
+      "description": "¡Experimenta un estilo y comodidad incomparables con nuestras Tennis Ventura Sport para hombre! Su forro de malla de nylon suave y transpirable y su espuma EVA suave te brindarán una sensación de comodidad duradera. Además, la suela de goma duradera te garantiza una tracción sólida. ¡Haz de tus días"
+    },
+    {
+      "id": "kemik-1",
+      "merchant": "Kemik",
+      "merchant_slug": "kemik",
+      "title": "Licuadora Profesional Ninja BL610",
+      "category": "Hogar",
+      "price": 1306,
+      "currency": "GTQ",
+      "compare_at_price": 1467,
+      "discount_pct": 11,
+      "images": [
+        "https://static.kemikcdn.com/2026/06/6768E240DB-NINJA-1200X1200-8.-700x700.jpg"
+      ],
+      "url": "https://www.kemik.gt/licuadora-profesional-ninja-bl610-negro",
+      "description": "Licuadora de 1000W con trituración total, 4 velocidades y jarra de 72 oz."
+    },
+    {
+      "id": "kemik-2",
+      "merchant": "Kemik",
+      "merchant_slug": "kemik",
+      "title": "Combo Teclado, Mouse y Headset USB",
+      "category": "Tecnología",
+      "price": 94,
+      "currency": "GTQ",
+      "compare_at_price": 108,
+      "discount_pct": 13,
+      "images": [
+        "https://static.kemikcdn.com/2026/04/1201289-1200x1200-1.-700x700.jpg"
+      ],
+      "url": "https://www.kemik.gt/nova-combo-teclado-mouse-headset-usb-con-microfono-plug-and-play-negro",
+      "description": "Set completo de teclado, mouse y headset USB con micrófono, plug and play."
+    },
+    {
+      "id": "kemik-3",
+      "merchant": "Kemik",
+      "merchant_slug": "kemik",
+      "title": "Proyector HY300 · WiFi6 + Android TV",
+      "category": "Tecnología",
+      "price": 463,
+      "currency": "GTQ",
+      "compare_at_price": 601,
+      "discount_pct": 23,
+      "images": [
+        "https://static.kemikcdn.com/2024/11/7178mE6KzOL.-700x700.jpg"
+      ],
+      "url": "https://www.kemik.gt/proyector-hy300-con-wifi6-bluetooth-soporte-4k-1080p-con-android-tv-11_0-mini-proyector-portatil-de-pelicula-giratorio-de-180-compatible-con-keystone-automatico-para-laptop-pc-telefono-blanco",
+      "description": "Mini proyector portátil con WiFi 6, Bluetooth, Android TV y corrección trapezoidal automática."
+    },
+    {
+      "id": "kemik-4",
+      "merchant": "Kemik",
+      "merchant_slug": "kemik",
+      "title": "Ventilador de Piso Rush 20\"",
+      "category": "Hogar",
+      "price": 389,
+      "currency": "GTQ",
+      "compare_at_price": 449,
+      "discount_pct": 13,
+      "images": [
+        "https://static.kemikcdn.com/2025/08/8414234440655-rush-1200x1200-1.-700x700.jpg"
+      ],
+      "url": "https://www.kemik.gt/taurus-ventilador-de-piso-rush-de-20pulgadas-con-3-velocidades-130-w-negro",
+      "description": "Ventilador de piso 20\" con 3 velocidades y modo pared, para casa u oficina."
+    },
+    {
+      "id": "kemik-5",
+      "merchant": "Kemik",
+      "merchant_slug": "kemik",
+      "title": "Bocina Bluetooth JBL Flip 7 35W",
+      "category": "Tecnología",
+      "price": 799,
+      "currency": "GTQ",
+      "compare_at_price": 999,
+      "discount_pct": 20,
+      "images": [
+        "https://static.kemikcdn.com/2025/07/JBLFLIP7BLKAM-1200x1200-1.-700x700.jpg"
+      ],
+      "url": "https://www.kemik.gt/jbl-flip-7-bocina-portatil-bluetooth-25w-negro",
+      "description": "Bocina portátil 35W, resistente al agua IP68 y hasta 16 horas de batería."
+    },
+    {
+      "id": "kemik-6",
+      "merchant": "Kemik",
+      "merchant_slug": "kemik",
+      "title": "Licuadora Xiaomi Smart Blender",
+      "category": "Hogar",
+      "price": 768,
+      "currency": "GTQ",
+      "compare_at_price": 1199,
+      "discount_pct": 36,
+      "images": [
+        "https://static.kemikcdn.com/2025/11/118-XIAOMI-1200X1200-1.-700x700.jpg"
+      ],
+      "url": "https://www.kemik.gt/xiaomi-licuadora-smart-blender-tw-con-9-velocidades-ajustables-jarra-de-vidrio-blanco",
+      "description": "Licuadora inteligente con 9 velocidades, jarra de vidrio y modos frío/caliente."
+    },
+    {
+      "id": "kemik-7",
+      "merchant": "Kemik",
+      "merchant_slug": "kemik",
+      "title": "GameSir Nova Lite · Control inalámbrico",
+      "category": "Tecnología",
+      "price": 331,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://static.kemikcdn.com/2024/10/NOVALITEWHT-GAMESIR-1200x1200-01.-700x700.jpg"
+      ],
+      "url": "https://www.kemik.gt/gamesir-nova-lite-control-inalambrico-bt-y-24ghz-con-hall-effect-para-pc-switch-y-celulares-blanco",
+      "description": "Control inalámbrico multiplataforma con joysticks Hall Effect y triple conectividad."
+    },
+    {
+      "id": "dressy-8614132482279",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "POWER BANK BOOST 20 de MOLVU",
+      "category": "Accesorios",
+      "price": 299.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/POWERBANK201-1200x1200.jpg?v=1739994655",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/POWERBANK203-1200x1200.jpg?v=1740072146",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/POWERBANK200-1200x1200.jpg?v=1739994708",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/POWERBANK202-1200x1200.jpg?v=1739994786"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/power-bank-boost-20-de-molvu",
+      "description": "Batería portátil POWER BANK BOOST 20 de MOLVU de carga rápida te ayuda a mantener cargados todos tus dispositivos durante el día. No te preocupes por quedarte sin carga. Es práctico y fácil de llevar a todas partes. Con una capacidad de 20,000mAh de potencia. Funciona con puertos USB y USB-C. Lo pue"
+    },
+    {
+      "id": "dressy-9569299136743",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Lima eléctrica para pies",
+      "category": "Belleza",
+      "price": 45.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage2jun2026_14_49_12.png?v=1780433373",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/30b98502-c343-42d1-bea5-29e6079643b0.jpg?v=1780433646",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage2jun2026_14_51_23.png?v=1780433496",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/da1be0dc-5608-42b9-8fcf-1f07e21c7c61.webp?v=1780433522"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/lima-electrica-para-pies-1",
+      "description": "Mantén tus pies suaves y libres de durezas con este removedor eléctrico de callos diseñado para ayudar a eliminar la piel seca y endurecida de forma práctica y cómoda. Su cabezal giratorio trabaja sobre las áreas ásperas de los pies, ayudando a mejorar la apariencia de talones, plantas y zonas con a"
+    },
+    {
+      "id": "dressy-9462880862439",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Tshirt casual manga corta",
+      "category": "Accesorios",
+      "price": 45.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "assets/img/products/dressy-9462880862439-0.jpg",
+        "assets/img/products/dressy-9462880862439-1.jpg"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/tshirt-casual-manga-corta",
+      "description": "Esta blusa estilo ringer destaca por su diseño bicolor con contraste en cuello y mangas, evocando un look noventero fresco y juvenil. Su corte limpio y favorecedor la convierte en una prenda versátil que puedes usar con jeans, shorts o joggers para un outfit relajado pero con personalidad. Material:"
+    },
+    {
+      "id": "dressy-9103116861671",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Vestido cut-out con estampado",
+      "category": "Ropa",
+      "price": 225.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/086B5086-250F-4A7E-B15E-7679F4D387EB.webp?v=1738177513",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/072C8FE4-0A14-476E-9F37-81B10E509478.webp?v=1738177513",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/3C9E80E0-3FC1-4230-A4F3-382C00C51799.jpg?v=1738177480",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/24743794-A9E2-4D24-87D4-5C3C9FE52247.jpg?v=1738177480"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/vestido-cut-out-con-estampado",
+      "description": "Vestido largo de tirantes ajustables con estampado, este vestido es ligero, suave al tacto y cómodo de llevar. Material: Poliéster Talla S Busto: 68cm (elástico) Cintura: 60cm (elástico) Largo: 95cm Talla M Busto: 70cm (elástico) Cintura: 62cm (elástico) Largo: 96cm Talla L Busto: 72cm (elástico) Ci"
+    },
+    {
+      "id": "adoc-9783734337766",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Chaqueta Cedar Tra para hombre color negro",
+      "category": "Ropa",
+      "price": 1049.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-1_52f03bfe-c8c7-4e71-a697-50c6ed9a5748.png?v=1784727432",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-2_ce66bf28-5687-46a6-89d8-020c99f6882d.png?v=1784727433",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-3_d5949384-9765-467d-a34d-10f59fae48f7.png?v=1784727433",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-4_f58112bc-253d-4b2a-b2b4-9b3853b30293.png?v=1784727433",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-5_a8665b70-8a6a-4893-bf8f-51a5b74450a8.png?v=1784727433"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30095550-chaqueta-cedar-tra-para-hombre-color-negro",
+      "description": "Chaqueta Cedar Trail Grid Fleece Full-Zip para hombre en color negro, ideal como capa intermedia o para clima fresco. Confeccionada en fleece flat-grid de poliéster reciclado y elastano, incluye cierre frontal completo, bolsillos laterales con cierre y refuerzos en cuello y puños."
+    },
+    {
+      "id": "adoc-9783733715174",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Mochila Verto 27 unisex color blanco",
+      "category": "Accesorios",
+      "price": 1299.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095405-1.png?v=1784727410",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095405-2.png?v=1784727410",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095405-3.png?v=1784727410",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095405-4.png?v=1784727410"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30095405-mochila-verto-27-unisex-color-blanco",
+      "description": "Mochila Summit Series Verto 27 unisex en color blanco, ultraligera y resistente para alpinismo y alta montaña. Fabricada en nylon ripstop IronLite™ con DWR sin PFC, incluye sistema para portar piolets, hachas y cuerda, correas acolchadas, cinturón ajustable y funda interna para hidratación."
+    },
+    {
+      "id": "adoc-9783733289190",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Gorra Horizon unisex color azul",
+      "category": "Ropa",
+      "price": 349.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095366-1_1941b068-48d0-40bc-95ae-1e56b57f835b.png?v=1784727395",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095366-2_d6809dfc-85cc-4335-8906-47944e0447b0.png?v=1784727396",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095366-3_2ba58111-a751-41a3-8cd3-d44657f09a9e.png?v=1784727397"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30095366-gorra-horizon-unisex-color-azul",
+      "description": "Gorra Horizon unisex en color azul, ligera y resistente para actividades al aire libre. Está confeccionada en nylon reciclado y cuenta con banda FLASHDRY-PRO™, cierre ajustable y logo bordado."
+    },
+    {
+      "id": "adoc-9783732830438",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Gorra Horizon unisex color rojo",
+      "category": "Ropa",
+      "price": 349.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095368-1.png?v=1784727382",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095368-2.png?v=1784727383",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095368-3.png?v=1784727384"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30095368-gorra-horizon-unisex-color-rojo",
+      "description": "Confeccionada en nylon reciclado, incorpora banda interna FLASHDRY PRO™ para gestionar la humedad. Su cierre ajustable y diseño clásico la hacen ideal para uso diario y outdoor."
+    },
+    {
+      "id": "adoc-9783732273382",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Mules Rachel para mujer color tan",
+      "category": "Calzado",
+      "price": 779.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-1.png?v=1784727373",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-2.png?v=1784727373",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-3.png?v=1784727372",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-4.png?v=1784727373",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-7.png?v=1784727373",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-5.png?v=1784727373",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-6.png?v=1784727372"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30094693-mules-rachel-para-mujer-color-tan",
+      "description": "Mules Rachel para mujer en color tan, elaborados en cuero. Incorporan tecnología Bounce™, con plantilla extraíble de alta memoria que amortigua la pisada, devuelve energía y recupera su forma para mayor comodidad."
+    },
+    {
+      "id": "adoc-9783732207846",
+      "merchant": "ADOC",
+      "merchant_slug": "adoc",
+      "title": "Mocasines Jacky para mujer color tan",
+      "category": "Calzado",
+      "price": 779.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-1.png?v=1784727371",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-2.png?v=1784727372",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-3.png?v=1784727371",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-4.png?v=1784727371",
+        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-7.png?v=1784727371"
+      ],
+      "url": "https://gt.tiendasadoc.com/products/30094692-mocasines-jacky-para-mujer-color-tan",
+      "description": "Mocasines Jacky para mujer en color tan, elaborados en cuero. Incorporan tecnología Bounce™, con plantilla extraíble de alta memoria que aporta rebote de energía, recuperación de forma y confort prolongado durante el día."
+    },
+    {
+      "id": "cat-9116864446696",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Mochila Tokyo Urban para hombre color turqueza",
+      "category": "Accesorios",
+      "price": 200.0,
+      "currency": "GTQ",
+      "compare_at_price": 399.99,
+      "discount_pct": 50,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30082903-1.jpg?v=1756922011",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30082903-2.jpg?v=1756922011",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30082903-3.jpg?v=1756922011",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30082903-4.jpg?v=1756922011"
+      ],
+      "url": "https://caterpillargt.com/products/30082903-mochila-tokyo-urban-para-hombre-color-turqueza",
+      "description": "Lleva tu laptop con seguridad en este mochila de la marca CAT, material de 600D Polyester con bolsillo acolchado y correas de hombro ajustables de malla. Con asa tejida y dos bolsillos de malla lateral. Cuenta con etiqueta tejida Caterpillar, asa de agarre en la parte frontal y elemento reflectante "
+    },
+    {
+      "id": "cat-9146936328424",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Jeans Wide para mujer color azul",
+      "category": "Ropa",
+      "price": 449.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30087456-1.jpg?v=1756921974",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30087456-2.jpg?v=1756921974",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30087456-3.jpg?v=1756921975",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30087456-4.jpg?v=1756921975"
+      ],
+      "url": "https://caterpillargt.com/products/30087456-jeans-wide-para-mujer-color-azul",
+      "description": "Eleva tu colección de mezclilla con los jeans de pierna ancha de mezclilla elástica TriBlend CAT® para mujer. Con bragueta con cremallera y cierre de caña con la marca, diseño de cinco bolsillos, remache con el logo en el bolsillo para las manos, parche con el logo de Oxford CAT® en la cintura trase"
+    },
+    {
+      "id": "cat-9225267937512",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Camiseta Metallic V-Neck para mujer color rosado",
+      "category": "Ropa",
+      "price": 72.0,
+      "currency": "GTQ",
+      "compare_at_price": 179.99,
+      "discount_pct": 60,
+      "images": [
+        "assets/img/products/cat-9225267937512-0.jpg",
+        "assets/img/products/cat-9225267937512-1.jpg"
+      ],
+      "url": "https://caterpillargt.com/products/30088327-camiseta-metallic-v-neck-para-mujer-color-rosado",
+      "description": "Una versión audaz de un básico. Esta camiseta de cuello en V luce un gráfico metálico que captura la luz y atrae todas las miradas: fácil de usar, imposible de pasar desapercibida."
+    },
+    {
+      "id": "cat-8151880663272",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Jeans Symbol High Rise para Mujer",
+      "category": "Ropa",
+      "price": 135.0,
+      "currency": "GTQ",
+      "compare_at_price": 449.99,
+      "discount_pct": 70,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/jeans.jpg?v=1756923240"
+      ],
+      "url": "https://caterpillargt.com/products/30070370-jeans-symbol-high-rise-para-mujer",
+      "description": "Jeans denim 80% algodón, 18% polyester 2% spandex, bragueta con cremallera y cierre de caña, diseño de 5 bolsillos, parche con el logo de oxford cat en, parte posterior etiqueta envolvente triangular en el parche trasero, bolsillo, remache con logo en el bolsillo de la mano."
+    },
+    {
+      "id": "cat-9323752390888",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Botas industriales Booster CT para mujer color café",
+      "category": "Calzado",
+      "price": 1299.99,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-1.jpg?v=1770334309",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-2.jpg?v=1770334309",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-3.jpg?v=1770334310",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-5.jpg?v=1770334309",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-4.jpg?v=1770334309"
+      ],
+      "url": "https://caterpillargt.com/products/30089187-botas-industriales-booster-ct-para-mujer-color-cafe",
+      "description": "Botas de cuero full grain aceitado, con Composite Toe (cubo no metálico en la punta, no detectable por equipos electrónicos de seguridad y 40% más liviano que el acero) y protección EH – Electrical Hazard, cuya construcción especial protege contra circuitos abiertos de hasta 14,000 voltios en condic"
+    },
+    {
+      "id": "cat-9203045368040",
+      "merchant": "CAT",
+      "merchant_slug": "cat",
+      "title": "Mochila Fastlane para hombre color negro",
+      "category": "Accesorios",
+      "price": 200.0,
+      "currency": "GTQ",
+      "compare_at_price": 399.99,
+      "discount_pct": 50,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086322-1.jpg?v=1756921948",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086322-2.jpg?v=1756921948",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086322-3.jpg?v=1756921948",
+        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086322-4.jpg?v=1756921948"
+      ],
+      "url": "https://caterpillargt.com/products/30086322-mochila-fastlane-para-hombre-color-negro",
+      "description": "Esta mochila está fabricada en 100% poliéster y ofrece un diseño práctico y resistente. Cuenta con panel trasero transpirable y correas de hombro ajustables que brindan mayor comodidad. Dispone de cierre principal con cremallera de fácil acceso, bolsillo frontal con cierre, bolsillos laterales para "
+    },
+    {
+      "id": "meatpack-7166126948401",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "W NIKE V5 RNR DF MUJER IV5522-100",
+      "category": "Calzado",
+      "price": 999.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/iv5522-100_phsrh000-2000.jpg?v=1784732628",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/iv5522-100_phsuh000-2000.jpg?v=1784732628",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/iv5522-100_phcfh001-2000.jpg?v=1784732628"
+      ],
+      "url": "https://www.meatpack.com/products/w-nike-v5-rnr-df-mujer-iv5522-100",
+      "description": "W NIKE V5 RNR DF MUJER"
+    },
+    {
+      "id": "meatpack-7166126915633",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "W AIR FORCE 1 07 SHOELERY WOMEN IR0872-101",
+      "category": "Calzado",
+      "price": 1399.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/IR0872-101__1.jpg?v=1784742893",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_AIR_FORCE_1__07.jpg?v=1784733268",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_AIR_FORCE_1__07__1.jpg?v=1784733268",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_AIR_FORCE_1__07__2.jpg?v=1784733268"
+      ],
+      "url": "https://www.meatpack.com/products/w-air-force-1-07-shoelery-women-ir0872-101",
+      "description": ""
+    },
+    {
+      "id": "meatpack-7166126882865",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "U NRG CLUB CAP NOCTA-USCB HOMBRE FV5541-486",
+      "category": "Ropa",
+      "price": 249.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/360_fd159530-8084-4d58-b293-ce6cdff5ac4b.png?v=1784740081",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/361_17e9d69d-a715-4db1-b3ef-4e30a998faaa.png?v=1784740081"
+      ],
+      "url": "https://www.meatpack.com/products/u-nrg-club-cap-nocta-uscb-hombre-fv5541-486",
+      "description": "Esta elegante gorra cuenta con gráficos estampados y un cierre ajustable con el logo de NOCTA para un ajuste perfecto."
+    },
+    {
+      "id": "meatpack-7166126850097",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "U NK CLUB CAP US KNIT 26 HOMBRE IQ1326-323",
+      "category": "Ropa",
+      "price": 349.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/362_40846637-27eb-4775-aac7-9a78fd6c0009.png?v=1784743102",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/363_b23f6ff0-94f7-4fe7-88fc-bf0b37559e81.png?v=1784743102",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/364.png?v=1784743102"
+      ],
+      "url": "https://www.meatpack.com/products/u-nk-club-cap-us-knit-26-hombre-iq1326-323",
+      "description": "Una pieza de estilo casual y deportivo diseñada con una estructura desestructurada de profundidad media."
+    },
+    {
+      "id": "meatpack-7166126817329",
+      "merchant": "Meat Pack",
+      "merchant_slug": "meatpack",
+      "title": "U NK CLUB CAP US KNIT 26 HOMBRE IQ1326-010",
+      "category": "Ropa",
+      "price": 349.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/365.png?v=1784743828",
+        "https://cdn.shopify.com/s/files/1/1363/9583/files/366.png?v=1784743828"
+      ],
+      "url": "https://www.meatpack.com/products/u-nk-club-cap-us-knit-26-hombre-iq1326-010",
+      "description": "Gorra de punto sin estructura NIKE Club. El escudo bordado y la visera de punto gofrado le dan un toque de distinción a esta clásica gorra Club de media caña. Está confeccionada con tela de lona de algodón resistente y tiene una visera curvada para un estilo clásico."
+    },
+    {
+      "id": "dressy-9352891662567",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Set semi formal de short y tank top Blazer",
+      "category": "Ropa",
+      "price": 150.0,
+      "currency": "GTQ",
+      "compare_at_price": 325.0,
+      "discount_pct": 54,
+      "images": [
+        "assets/img/products/dressy-9352891662567-0.jpg",
+        "assets/img/products/dressy-9352891662567-1.jpg"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/set-semi-formal-de-short-y-tank-top-blazer",
+      "description": "Atrévete a destacar con este Set semi formal de short y tank top, ideal para un look moderno, fresco y sofisticado. Perfecto para llevar en reuniones, salidas casuales, cenas o incluso eventos semi–formales donde quieras proyectar estilo sin perder comodidad. -Material: 100%poliéster -Talla S -Top: "
+    },
+    {
+      "id": "dressy-9412913135847",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Molinillo de café",
+      "category": "Hogar",
+      "price": 95.0,
+      "currency": "GTQ",
+      "compare_at_price": null,
+      "discount_pct": null,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/F2B33C5A-02ED-4D21-B450-B5608F0093F0.png?v=1764869861",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/1FC375F8-A02A-4169-B945-4F54B39EB119.png?v=1764869977",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01vh7YK11zWjOQLpgCv__2218896256722-0-cib.jpg?v=1764869861",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01NK94kt1zWjOIawvAh__2218896256722-0-cib.jpg?v=1764869861",
+        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN010AgpM01zWjONgk8Gh__2218896256722-0-cib.jpg?v=1764869861"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/molinillo-de-cafe",
+      "description": "Molinillo manual de madera con manivela metálica ideal para moler los granos al instante y disfrutar de todo su aroma y frescura, ajusta la molienda según tu gusto (fina, media o gruesa). Medidas: -Alto: 17.5cm -Largo: 10cm -Ancho: 10cm El color real puede ser ligeramente diferente al de las imágene"
+    },
+    {
+      "id": "dressy-9324959432935",
+      "merchant": "Dressy",
+      "merchant_slug": "dressy",
+      "title": "Juguete de utensilios de cocina mini",
+      "category": "Juguetes",
+      "price": 35.0,
+      "currency": "GTQ",
+      "compare_at_price": 128.0,
+      "discount_pct": 73,
+      "images": [
+        "assets/img/products/dressy-9324959432935-0.jpg",
+        "assets/img/products/dressy-9324959432935-1.jpg"
+      ],
+      "url": "https://dressyshopgt.myshopify.com/products/juguete-de-utensilios-de-cocina-mini",
+      "description": "¡La hora de cocinar será más divertida con este increíble set de cocina infantil de 35 piezas! Diseñado especialmente para que los niños jueguen a ser pequeños chefs, este kit incluye estufa, ollitas, sartén, utensilios, alimentos de juguete y hasta mesa con sillas. Fabricado con materiales seguros "
+    }
+  ]
+}
