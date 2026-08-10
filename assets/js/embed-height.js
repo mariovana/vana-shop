@@ -130,8 +130,34 @@
     else setTimeout(send, 16);
   }
 
+  /**
+   * Pide al contenedor que scrollee a una posición nuestra (en px desde el
+   * inicio de nuestro documento). Necesario porque, cuando el padre ya estiró
+   * el iframe a la altura completa, el iframe no tiene scroll propio: el que
+   * scrollea es la página de Framer. Devuelve true si se envió.
+   */
+  function requestScroll(offsetY) {
+    if (window.parent === window) return false;
+    var offset = Math.max(0, Math.round(offsetY || 0));
+    var sent = false;
+    for (var i = 0; i < PARENT_ORIGINS.length; i++) {
+      try {
+        window.parent.postMessage(
+          { type: "storefront-scroll", offset: offset },
+          PARENT_ORIGINS[i]
+        );
+        sent = true;
+      } catch (e) { /* origen no coincide */ }
+    }
+    return sent;
+  }
+
   // Expuesto para que catalog.js / product.js avisen tras render asíncrono.
-  window.VanaShopEmbed = { report: report, measureHeight: measureHeight };
+  window.VanaShopEmbed = {
+    report: report,
+    measureHeight: measureHeight,
+    requestScroll: requestScroll
+  };
 
   // --- Eventos del ciclo de vida ---
   document.addEventListener("DOMContentLoaded", report);

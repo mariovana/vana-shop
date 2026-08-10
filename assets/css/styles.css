@@ -101,6 +101,18 @@ h1,h2,h3{color:var(--ink); letter-spacing:-.02em; margin:0}
 
 /* ---------- Product grid ---------- */
 .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(236px,1fr)); gap:20px; padding:6px 0 20px}
+
+/* ---------- Paginación ---------- */
+.pager{display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; padding:6px 0 34px}
+.pager[hidden]{display:none}
+.pg{min-width:42px; height:42px; padding:0 12px; border:1.5px solid var(--line); background:var(--surface);
+    color:var(--body); border-radius:var(--r-md); font-size:15px; font-weight:700; font-family:inherit;
+    cursor:pointer; transition:border-color .15s, color .15s, background .15s}
+.pg:hover:not(:disabled):not(.active){border-color:var(--teal); color:var(--teal-600)}
+.pg.active{background:var(--teal); border-color:var(--teal); color:#fff; cursor:default}
+.pg:disabled{opacity:.38; cursor:not-allowed}
+.pg-nav{font-size:19px; line-height:1; padding:0 10px}
+.pg-gap{color:var(--faint); padding:0 2px; font-weight:700; align-self:flex-end; line-height:2.4}
 .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--r-lg); overflow:hidden; display:flex; flex-direction:column; cursor:pointer; transition:box-shadow .18s, transform .18s}
 .card:hover{box-shadow:var(--sh-2); transform:translateY(-4px)}
 .card-img{position:relative; aspect-ratio:1/1; background:#fff; padding:16px; display:flex; align-items:center; justify-content:center}
@@ -202,6 +214,8 @@ h1,h2,h3{color:var(--ink); letter-spacing:-.02em; margin:0}
   .brand img{height:36px}
   .brand-txt{font-size:25px}
   .grid{grid-template-columns:repeat(2,1fr); gap:13px}
+  .pager{gap:5px; padding-bottom:26px}
+  .pg{min-width:38px; height:40px; padding:0 9px; font-size:14px}
   .cats{grid-template-columns:repeat(2,1fr)}
   .card-img{padding:10px}
   .buy{font-size:12px; padding:10px; gap:6px}
