@@ -10,14 +10,48 @@
 (function () {
   "use strict";
 
-  // Orígenes autorizados del contenedor.
+  // Producción: orígenes fijos y conocidos.
   // OJO: vana.gt responde 308 → https://www.vana.gt, así que el origen real
   // donde corre la página de Framer es el de www. Mandar solo a "https://vana.gt"
   // haría que el mensaje se descarte en silencio.
-  var PARENT_ORIGINS = [
+  var STATIC_ORIGINS = [
     "https://www.vana.gt",
     "https://vana.gt"
   ];
+
+  // Previews de Framer: la URL incluye un id de rama y cambia sola
+  // (p.ej. stale-food-211646--mi-rama-ff4lbh6eb.framer.app), así que no se
+  // puede hardcodear. En vez de eso se valida el origen real del padre contra
+  // estos patrones y, si calza, se usa ese origen EXACTO como targetOrigin.
+  // Sigue sin haber wildcard: nunca se manda a un origen no verificado.
+  var ORIGIN_PATTERNS = [
+    /^https:\/\/[a-z0-9-]+\.framer\.app$/i,      // previews por rama
+    /^https:\/\/[a-z0-9-]+\.framer\.website$/i   // staging publicado
+  ];
+
+  /** Origen del contenedor que nos embebe, o null si no se puede determinar. */
+  function detectParentOrigin() {
+    try {
+      if (location.ancestorOrigins && location.ancestorOrigins.length) {
+        return location.ancestorOrigins[0];
+      }
+    } catch (e) { /* no soportado */ }
+    if (document.referrer) {
+      try { return new URL(document.referrer).origin; } catch (e) { /* inválido */ }
+    }
+    return null;
+  }
+
+  var PARENT_ORIGINS = (function () {
+    var list = STATIC_ORIGINS.slice();
+    var parent = detectParentOrigin();
+    if (parent && list.indexOf(parent) === -1) {
+      for (var i = 0; i < ORIGIN_PATTERNS.length; i++) {
+        if (ORIGIN_PATTERNS[i].test(parent)) { list.push(parent); break; }
+      }
+    }
+    return list;
+  })();
 
   var lastHeight = -1;
   var scheduled = false;
