@@ -57,5 +57,9 @@ function render(p, m) {
     t.addEventListener("click", () => {
       document.getElementById("main-img").src = p.images[t.dataset.i];
       document.querySelectorAll(".thumbs img").forEach((x) => x.classList.toggle("active", x === t));
+      if (window.VanaShopEmbed) window.VanaShopEmbed.report();
     }));
+
+  // el detalle ya está montado: avisarle su alto al embed de Framer
+  if (window.VanaShopEmbed) window.VanaShopEmbed.report();
 }

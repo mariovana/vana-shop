@@ -150,8 +150,9 @@ function render() {
     if (state.category !== "all") pr.push(state.category);
     fs.textContent = pr.length ? pr.join(" · ") : "Todo";
   }
-  if (list.length) { $("#grid").innerHTML = list.map(card).join(""); return; }
-  if (state.q) {
+  if (list.length) {
+    $("#grid").innerHTML = list.map(card).join("");
+  } else if (state.q) {
     $("#grid").innerHTML =
       '<div class="empty search-empty">' +
         '<div class="se-emoji">🔎</div>' +
@@ -163,6 +164,8 @@ function render() {
   } else {
     $("#grid").innerHTML = '<div class="empty">No encontramos productos con esos filtros. Prueba con otra categoría.</div>';
   }
+  // el grid cambió de alto: avisarle al embed de Framer
+  if (window.VanaShopEmbed) window.VanaShopEmbed.report();
 }
 function card(p) {
   const disc = p.discount_pct ? '<span class="disc-badge">-' + p.discount_pct + "%</span>" : "";
