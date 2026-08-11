@@ -6,7 +6,7 @@ const ico = (id) => '<svg class="ico"><use href="#' + id + '"/></svg>';
 const id = new URLSearchParams(location.search).get("id");
 let DATA = null, P = null, QTY = 1;
 
-fetch("data/products.json").then((r) => r.json()).then((d) => {
+fetch(VPS.DATA_URL).then((r) => r.json()).then((d) => {
   DATA = d;
   P = d.products.find((x) => x.id === id);
   if (!P) {

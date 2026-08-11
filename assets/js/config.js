@@ -3,6 +3,15 @@ window.VPS = {
   // Número de WhatsApp de vana shop (cambiar aquí en un solo lugar).
   WA_NUMBER: "50254166752",
 
+  // URL del catálogo con la misma versión que traen los assets. Sin esto, un
+  // visitante con products.json en caché seguiría viendo el catálogo viejo
+  // después de publicar.
+  DATA_URL: (function () {
+    var src = document.currentScript && document.currentScript.src;
+    var m = src && src.match(/\?v=[\w.]+/);
+    return "data/products.json" + (m ? m[0] : "");
+  })(),
+
   // Q con separador de miles, sin decimales.
   money: function (v) {
     return "Q" + Math.round(Number(v)).toLocaleString("es-GT");

@@ -1,1159 +1,1497 @@
 {
-  "merchants": [
-    {
-      "slug": "meatpack",
-      "name": "Meat Pack",
-      "domain": "www.meatpack.com",
-      "logo": "assets/img/merchants/meatpack.png"
-    },
-    {
-      "slug": "dressy",
-      "name": "Dressy",
-      "domain": "dressyshopgt.myshopify.com",
-      "logo": "assets/img/merchants/dressy.png"
-    },
-    {
-      "slug": "adoc",
-      "name": "ADOC",
-      "domain": "gt.tiendasadoc.com",
-      "logo": "assets/img/merchants/adoc.png"
-    },
-    {
-      "slug": "cat",
-      "name": "CAT",
-      "domain": "caterpillargt.com",
-      "logo": null
-    },
-    {
-      "slug": "kemik",
-      "name": "Kemik",
-      "domain": "www.kemik.gt",
-      "logo": "assets/img/merchants/kemik.png"
-    }
-  ],
-  "products": [
-    {
-      "id": "meatpack-7166126456881",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "AIR MAX 95 BIG BUBBLE SP LTR HOMBRE IR0802-100",
-      "category": "Calzado",
-      "price": 1899.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/AIR_MAX_95_BIG_BUBBLE_SP_LTR__1.jpg?v=1784735454",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/AIR_MAX_95_BIG_BUBBLE_SP_LTR.jpg?v=1784735454",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/AIR_MAX_95_BIG_BUBBLE_SP_LTR__2.jpg?v=1784735455",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/AIR_MAX_95_BIG_BUBBLE_SP_LTR__3.jpg?v=1784735454"
-      ],
-      "url": "https://www.meatpack.com/products/air-max-95-big-bubble-sp-ltr-hombre-ir0802-100",
-      "description": "AIR MAX 95 BIG BUBBLE SP LTR"
-    },
-    {
-      "id": "meatpack-7166126719025",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "NIKE V5 RNR HOMBRE HJ5228-101",
-      "category": "Calzado",
-      "price": 999.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/hj5228-101_phsrh000-2000.jpg?v=1784734023",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/hj5228-101_phcfh001-2000.jpg?v=1784734023",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/hj5228-101_phsuh000-2000.jpg?v=1784734024"
-      ],
-      "url": "https://www.meatpack.com/products/nike-v5-rnr-hombre-hj5228-101",
-      "description": "NIKE V5 RNR HOMBRE"
-    },
-    {
-      "id": "meatpack-7166126587953",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "NIKE AIR MAX PLUS BP NIÑOS CD0610-001",
-      "category": "Calzado",
-      "price": 1199.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/NIKE_AIR_MAX_PLUS__PS___1.jpg?v=1784735149",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/NIKE_AIR_MAX_PLUS__PS.jpg?v=1784735149",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/NIKE_AIR_MAX_PLUS__PS___2.jpg?v=1784735149",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/NIKE_AIR_MAX_PLUS__PS___3.jpg?v=1784735149"
-      ],
-      "url": "https://www.meatpack.com/products/nike-air-max-plus-bp-ninos-cd0610-001",
-      "description": "NIKE AIR MAX PLUS BP NIÑOS"
-    },
-    {
-      "id": "meatpack-7166126555185",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "M NK TEE M90 SUMMIT VRXO HOMBRE IM5044-010",
-      "category": "Ropa",
-      "price": 399.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/367.png?v=1784744750",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/368.png?v=1784744750"
-      ],
-      "url": "https://www.meatpack.com/products/m-nk-tee-m90-summit-vrxo-hombre-im5044-010",
-      "description": "Esta playera está hecha de algodón de peso medio y tiene una ligera caída, para que estés listo para jugar cuando te llamen."
-    },
-    {
-      "id": "meatpack-7166126522417",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "M J BRK LSR GFX SS CREW HOMBRE IM9994-030",
-      "category": "Ropa",
-      "price": 349.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/371.png?v=1784745141",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/369.png?v=1784745141",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/370.png?v=1784745141"
-      ],
-      "url": "https://www.meatpack.com/products/m-j-brk-lsr-gfx-ss-crew-hombre-im9994-030",
-      "description": "Un guiño a la historia de Jordan, con un toque retro. El suave algodón hace que esta camiseta de uso diario se sienta tan bien como luce."
-    },
-    {
-      "id": "meatpack-7166126489649",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "M J BRK LSR GFX SS CREW HOMBRE IM9994-010",
-      "category": "Ropa",
-      "price": 349.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/374_9c550f46-b858-4293-9d61-721ab124c802.png?v=1784745855",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/372.png?v=1784745855",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/373.png?v=1784745855"
-      ],
-      "url": "https://www.meatpack.com/products/m-j-brk-lsr-gfx-ss-crew-hombre-im9994-010",
-      "description": "Un guiño a la historia de Jordan, con un toque retro. El suave algodón hace que esta camiseta de uso diario se sienta tan bien como luce."
-    },
-    {
-      "id": "meatpack-7166127013937",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "W NIKE V5 RNR SUEDE MUJER II6294-004",
-      "category": "Calzado",
-      "price": 999.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/267435-800-auto__2.jpg?v=1784732811",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/ii6294-004_phsuh000-2000.webp?v=1784731167",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/267437-800-auto.jpg?v=1784731094"
-      ],
-      "url": "https://www.meatpack.com/products/w-nike-v5-rnr-suede-mujer-ii6294-004",
-      "description": "W NIKE V5 RNR SUEDE MUJER"
-    },
-    {
-      "id": "meatpack-7166126981169",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "W NIKE V5 RNR MUJER HQ7901-115",
-      "category": "Calzado",
-      "price": 999.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_NIKE_V5_RNR__1.jpg?v=1784732279",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_NIKE_V5_RNR.jpg?v=1784732279",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_NIKE_V5_RNR__2.jpg?v=1784732279"
-      ],
-      "url": "https://www.meatpack.com/products/w-nike-v5-rnr-mujer-hq7901-115",
-      "description": "W NIKE V5 RNR MUJER"
-    },
-    {
-      "id": "dressy-9655743021287",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Hoodie de Spiderman con capucha",
-      "category": "Ropa",
-      "price": 150.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage29jul2026_08_32_42.png?v=1785335572",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/7821e52e-f680-4377-b771-3f6409315f9c.webp?v=1785275275",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage29jul2026_09_06_58.png?v=1785337630",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage29jul2026_09_06_54.png?v=1785337630"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/hoodie-de-spiderman-con-capucha",
-      "description": "Producto petit: Tamaño reducido, la diferencia entre cada talla es de aproximadamente 2 cm, por lo que el cambio de una talla a otra es mínimo. Te recomendamos revisar la guía de medidas antes de realizar tu compra. Material: Polyester Medidas Talla M: - Hombros: 49 cm - Pecho: 1"
-    },
-    {
-      "id": "dressy-8850796019943",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Mascara de Spiderman con ojos dinámicos",
-      "category": "Juguetes",
-      "price": 125.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "assets/img/products/dressy-8850796019943-0.jpg",
-        "assets/img/products/dressy-8850796019943-1.jpg",
-        "assets/img/products/dressy-8850796019943-2.jpg"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/mascara-de-spiderman-con-ojos-dinamicos",
-      "description": "Máscara de superhéroe con diseño clásico rojo y patrón tipo telaraña, equipada con sistema ajustable que permite entrecerrar o abrir los ojos para lograr diferentes expresiones. Este detalle dinámico le da un efecto más realista y profesional, ideal para cosplay, disfraces y cont"
-    },
-    {
-      "id": "dressy-8410064093415",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Maniquí classy con cabeza",
-      "category": "Hogar",
-      "price": 575.0,
-      "currency": "GTQ",
-      "compare_at_price": 785.0,
-      "discount_pct": 27,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01G7U5vm20pKjhkWx3B__2852496898-0-cib.jpg?v=1741723583",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01BWd4yd20pKjgla1E6__2852496898-0-cib.jpg?v=1741723599"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/maniqui-classy-con-cabeza",
-      "description": "Maniquí clásico dorado con cabeza y base cuadrada. Ya sea que tengas una tienda física, vendas en línea o simplemente quieras organizar tu clóset de forma aesthetic, el Maniquí Classy con Cabeza es ese toque chic y funcional que necesitas. Características: Diseño elegante y moder"
-    },
-    {
-      "id": "dressy-9495839637735",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Lonchera bento con compartimentos",
-      "category": "Hogar",
-      "price": 90.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage25mar2026_13_15_50.png?v=1774466481",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage25mar2026_13_15_40.png?v=1774466481",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage25mar2026_13_15_37.png?v=1774466481",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage25mar2026_13_15_44.png?v=1774466481"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/lonchera-bento-con-compartimentos",
-      "description": "Esta lonchera con compartimentos es la solución ideal para transportar alimentos de forma organizada y práctica. Su diseño tipo bento permite separar diferentes comidas en un solo recipiente, evitando mezclas y manteniendo cada porción en su lugar, perfecta para llevar al trabajo"
-    },
-    {
-      "id": "dressy-8867913203943",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Set de accesorios para skin care",
-      "category": "Belleza",
-      "price": 40.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/07454827-760F-41E2-A46E-F21118E9376E.jpg?v=1740072696",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/E3993B57-ED2E-4EF2-A642-5F53540ECEEF.jpg?v=1739989729",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/E9EFBC6C-4FAF-406A-A520-B68F5DB8172C.jpg?v=1739992813"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/set-de-accesorios-para-skin-care",
-      "description": "-Set de 3 piezas de herramientas para tu skin care, estimular los músculos faciales, favorece y refina eficazmente los contornos faciales del rostro. -El set incluye: Rodillo masajeador de Jade, Piedra Gua Sha y Brocha de silicona para mascarillas -Beneficios: Aumenta la circulac"
-    },
-    {
-      "id": "dressy-9425968333031",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Maletín brillante de gran capacidad",
-      "category": "Accesorios",
-      "price": 190.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01j5Y6O32Dya8VA5j37__2215183708678-0-cib.jpg?v=1766425770",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01kw2KJY2Dya8UlTM7G__2215183708678-0-cib.jpg?v=1766425792",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01SavynD2Dya8UlUMTA__2215183708678-0-cib.jpg?v=1766425832",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01YrQHvX2Dya8TYbzgD__2215183708678-0-cib.jpg?v=1766425857",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01x7cu5I2Dya8VhA5ib__2215183708678-0-cib.jpg?v=1766425878"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/maletin-brillante-de-gran-capacidad",
-      "description": "Esta bolsa deportiva acolchada es el equilibrio perfecto entre estilo moderno y practicidad diaria. Su diseño amplio y ligero la hace ideal para acompañarte al gym, viajes cortos, clases, fines de semana o incluso como bolso diario oversized. El acabado acolchado le da un look ac"
-    },
-    {
-      "id": "dressy-9464885117159",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Zapatera vertical con puertas de rejilla",
-      "category": "Calzado",
-      "price": 600.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_14_57.png?v=1771521329",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_12_53.png?v=1771521329",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_15_04.png?v=1771521329",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_17_16.png?v=1771521454",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/714S5DKPIeL._AC_UF894_1000_QL80.jpg?v=1771521453",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage19feb2026_11_18_34.png?v=1771521548"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/zapatera-vertical-con-puertas-de-rejilla",
-      "description": "El zapatero con puertas de rejilla combina funcionalidad y diseño en una pieza de estilo natural y elegante. Su estructura en tono madera clara y paneles tipo cannage aportan un acabado cálido y decorativo, ideal para entradas, dormitorios o espacios pequeños que buscan orden sin"
-    },
-    {
-      "id": "dressy-7891009798375",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Mochila BUSINESS AZUL by MOLVU",
-      "category": "Accesorios",
-      "price": 389.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132382439.jpg?v=1740068211",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132284135.jpg?v=1740068224",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132415207.jpg?v=1740068216",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132316903.jpg?v=1740068212",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/molvu-molvu-mochila-business-azul-by-molvu-38061132349671.jpg?v=1740068309"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/mochila-business-azul-by-molvu",
-      "description": "La mochila BUSINESS AZUL by MOLVU es mucho más que un simple accesorio, es la combinación perfecta entre comodidad, funcionalidad y estilo en un solo producto. Su diseño minimalista y elegante la convierten en el complemento ideal para aquellos que están siempre en movimiento, ya"
-    },
-    {
-      "id": "adoc-9748677492966",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Ballerinas Nerida para mujer color café",
-      "category": "Calzado",
-      "price": 319.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093281-1.jpg?v=1781280096",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093281-2.jpg?v=1781280096",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093281-3.jpg?v=1781280096",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093281-4.jpg?v=1781280096"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30093281-ballerinas-nerida-para-mujer-color-cafe",
-      "description": "Ballerinas Nerida para mujer en color café, elaboradas en material suede. Un diseño clásico y fácil de combinar, con un acabado suave que aporta un toque elegante para acompañarte en el uso diario."
-    },
-    {
-      "id": "adoc-9748677787878",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Tacones slingback Viper para mujer color multi",
-      "category": "Calzado",
-      "price": 409.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093260-1.png?v=1781280108",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093260-2.png?v=1781280108",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093260-3.png?v=1781280109",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093260-4.png?v=1781280108"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30093260-tacones-slingback-viper-para-mujer-color-multi",
-      "description": "Tacones slingback Viper para mujer en color multi, con altura de 9 cm y elaborados en material sintético. Un modelo llamativo y moderno para destacar, ideal para complementar outfits con un toque de color y estilo más audaz."
-    },
-    {
-      "id": "adoc-9748677394662",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Ballerinas Nerida para mujer color hueso",
-      "category": "Calzado",
-      "price": 319.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093282-1.jpg?v=1781280092",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093282-2.jpg?v=1781280092",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093282-3.jpg?v=1781280092",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30093282-4.jpg?v=1781280092"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30093282-ballerinas-nerida-para-mujer-color-hueso",
-      "description": "Ballerinas Nerida para mujer en color hueso, elaboradas en material sintético. Un básico femenino y versátil que combina fácil con distintos outfits, ideal para el día a día por su estilo limpio y práctico."
-    },
-    {
-      "id": "adoc-9783732338918",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Mules Rachel para mujer color nude",
-      "category": "Calzado",
-      "price": 779.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-1.png?v=1784727374",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-2.png?v=1784727374",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-3.png?v=1784727374",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-4.png?v=1784727374",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-6.png?v=1784727374",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-5.png?v=1784727374",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094694-8.png?v=1784727374"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30094694-mules-rachel-para-mujer-color-nude",
-      "description": "Mules Rachel para mujer en color nude, elaborados en cuero. Incorporan tecnología Bounce™, con plantilla extraíble de alta memoria que brinda rebote de energía, recupera su forma y ofrece comodidad duradera."
-    },
-    {
-      "id": "adoc-9783731945702",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Tacones mules Faby para mujer color beige",
-      "category": "Calzado",
-      "price": 779.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-1.png?v=1784727367",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-2.png?v=1784727367",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-3.png?v=1784727366",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-4.png?v=1784727366",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-5.png?v=1784727366",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-6.png?v=1784727367",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094684-8.png?v=1784727366"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30094684-tacones-mules-faby-para-mujer-color-beige",
-      "description": "Tacones mules Faby para mujer en color beige, elaborados en cuero. Integran tecnología Bounce™, con plantilla extraíble de alta memoria que brinda rebote de energía y comodidad duradera."
-    },
-    {
-      "id": "adoc-9685831712998",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Sneakers Upton para hombre color negro",
-      "category": "Calzado",
-      "price": 359.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089480-1.jpg?v=1776793252",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089480-2.jpg?v=1776793252",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089480-3.jpg?v=1776793252",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089480-4.jpg?v=1776793252"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30089480-sneakers-upton-para-hombre-color-negro",
-      "description": "Sneakers Upton para hombre en color negro, elaborados en material sintético. Un básico urbano y fácil de combinar, pensado para acompañarte con comodidad en tu rutina diaria."
-    },
-    {
-      "id": "adoc-9685831549158",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Oxfords cap toe Dane para hombre color tan",
-      "category": "Calzado",
-      "price": 669.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-1.png?v=1782833879",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-2.png?v=1782833879",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-3.png?v=1782833879",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-4.png?v=1782833879",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089472-5.png?v=1782833879"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30089472-oxfords-cap-toe-dane-para-hombre-color-tan",
-      "description": "Oxfords cap toe Dane para hombre en color tan, tecnología Flexlite, elaborados en cuero. La tecnología Flexlite aporta amortiguación y confort con una plantilla de espuma y EVA que mantiene su forma para un rendimiento más durable."
-    },
-    {
-      "id": "adoc-9685831155942",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Sneakers casuales slip on Luca para hombre color café",
-      "category": "Calzado",
-      "price": 429.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089442-1.jpg?v=1777390368",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089442-2.jpg?v=1777390368",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089442-3.jpg?v=1777390368",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089442-4.jpg?v=1777390367"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30089442-sneakers-casuales-slip-on-luca-para-hombre-color-cafe",
-      "description": "Sneakers casuales slip on Luca para hombre en color café, elaborados en material sintético. Un básico cómodo y funcional para el día a día, con estilo casual y calce práctico."
-    },
-    {
-      "id": "adoc-9685831024870",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Sneakers Ibor para hombre color marino",
-      "category": "Calzado",
-      "price": 499.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089421-1.jpg?v=1777396267",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089421-2.jpg?v=1777396267",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089421-3.jpg?v=1777396268",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30089421-4.jpg?v=1777396267"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30089421-sneakers-ibor-para-hombre-color-marino",
-      "description": "Sneakers Ibor para hombre en color marino, elaborados en material textil. Ligeros y cómodos, ideales para un look casual y fresco que acompaña la rutina diaria."
-    },
-    {
-      "id": "cat-9364944781544",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Mochila térmica Cancool para hombre color negro",
-      "category": "Accesorios",
-      "price": 599.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088901-1.jpg?v=1776457519",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088901-2.jpg?v=1776457519",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088901-3.jpg?v=1776457519",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088901-4.jpg?v=1776457519"
-      ],
-      "url": "https://caterpillargt.com/products/30088901-mochila-termica-cancool-para-hombre-color-negro",
-      "description": "Mochila térmica CAT fabricada en poliuretano polivinílico 600D con acabado CO2/WR, con dos bolsillos laterales de malla, correas para los hombros cómodas, bolsillo frontal con cremallera, forro laminado y una trabilla de cincha en la parte delantera para sujetar la bolsa y accesorios, con una capaci"
-    },
-    {
-      "id": "cat-9364945109224",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Camiseta Heritage Peoria para hombre color negro",
-      "category": "Ropa",
-      "price": 229.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088355-1.jpg?v=1775523945",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30088355-2.jpg?v=1775523945"
-      ],
-      "url": "https://caterpillargt.com/products/30088355-camiseta-heritage-peoria-para-hombre-color-negro",
-      "description": "La camiseta Heritage Peoria Graphic Tee presenta gráficos en el pecho de inspiración vintage con el distintivo branding Cat®, ofreciendo un estilo auténtico con un aire retro."
-    },
-    {
-      "id": "cat-9507950756072",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Chaqueta Trucker para hombre color negro",
-      "category": "Ropa",
-      "price": 1099.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30094860-1.jpg?v=1779743569",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30094860-2.jpg?v=1779743569",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30094860-3.jpg?v=1779743569"
-      ],
-      "url": "https://caterpillargt.com/products/30094860-chaqueta-trucker-para-hombre-color-negro",
-      "description": "Esta prenda, diseñada por Avery Ranch, está confeccionada en una lona de algodón pesada de 11.5 oz que se suaviza con el uso, y destaca por sus costuras frontales entalladas que se integran a los bolsillos para lograr una silueta limpia, costuras tonales de estilo minimalista y herrajes exclusivos d"
-    },
-    {
-      "id": "cat-9349922554088",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Sneakers Grapple Leather para hombre color café",
-      "category": "Calzado",
-      "price": 1099.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089709-1.jpg?v=1773762091",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089709-2.jpg?v=1773762091",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089709-3.jpg?v=1773762091",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089709-4.jpg?v=1773762091"
-      ],
-      "url": "https://caterpillargt.com/products/30089709-sneakers-grapple-leather-para-hombre-color-cafe",
-      "description": "Calzado con capellada en nobuck granulado y gamuza recubierta en PU, forro interno de malla suave y respirable, plantilla de espuma EVA para comodidad prolongada, forro tipo calcetín en malla de nylon con tecnología CLEANSPORT NXT™ para control probiótico del mal olor, entresuela de EVA ligera y dur"
-    },
-    {
-      "id": "cat-9061253644520",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Tennis Ventura Sport para hombre color gris",
-      "category": "Calzado",
-      "price": 425.0,
-      "currency": "GTQ",
-      "compare_at_price": 849.99,
-      "discount_pct": 50,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086425-1_c230752b-de0d-455f-9740-71fb40611d38.jpg?v=1762303869",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086425-2_46625365-44b0-4e74-b813-6681da0128ac.jpg?v=1762303869",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086425-3_45d52f55-b21e-489c-8fe5-8f8123dbe02b.jpg?v=1762303869",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086425-4_a5045f0b-bf8d-4df3-b3ec-27454db0d89b.jpg?v=1762303869"
-      ],
-      "url": "https://caterpillargt.com/products/30086425-tennis-ventura-sport-para-hombre-color-gris",
-      "description": "¡Experimenta un estilo y comodidad incomparables con nuestras Tennis Ventura Sport para hombre! Su forro de malla de nylon suave y transpirable y su espuma EVA suave te brindarán una sensación de comodidad duradera. Además, la suela de goma duradera te garantiza una tracción sólida. ¡Haz de tus días"
-    },
-    {
-      "id": "kemik-1",
-      "merchant": "Kemik",
-      "merchant_slug": "kemik",
-      "title": "Licuadora Profesional Ninja BL610",
-      "category": "Hogar",
-      "price": 1306,
-      "currency": "GTQ",
-      "compare_at_price": 1467,
-      "discount_pct": 11,
-      "images": [
-        "https://static.kemikcdn.com/2026/06/6768E240DB-NINJA-1200X1200-8.-700x700.jpg"
-      ],
-      "url": "https://www.kemik.gt/licuadora-profesional-ninja-bl610-negro",
-      "description": "Licuadora de 1000W con trituración total, 4 velocidades y jarra de 72 oz."
-    },
-    {
-      "id": "kemik-2",
-      "merchant": "Kemik",
-      "merchant_slug": "kemik",
-      "title": "Combo Teclado, Mouse y Headset USB",
-      "category": "Tecnología",
-      "price": 94,
-      "currency": "GTQ",
-      "compare_at_price": 108,
-      "discount_pct": 13,
-      "images": [
-        "https://static.kemikcdn.com/2026/04/1201289-1200x1200-1.-700x700.jpg"
-      ],
-      "url": "https://www.kemik.gt/nova-combo-teclado-mouse-headset-usb-con-microfono-plug-and-play-negro",
-      "description": "Set completo de teclado, mouse y headset USB con micrófono, plug and play."
-    },
-    {
-      "id": "kemik-3",
-      "merchant": "Kemik",
-      "merchant_slug": "kemik",
-      "title": "Proyector HY300 · WiFi6 + Android TV",
-      "category": "Tecnología",
-      "price": 463,
-      "currency": "GTQ",
-      "compare_at_price": 601,
-      "discount_pct": 23,
-      "images": [
-        "https://static.kemikcdn.com/2024/11/7178mE6KzOL.-700x700.jpg"
-      ],
-      "url": "https://www.kemik.gt/proyector-hy300-con-wifi6-bluetooth-soporte-4k-1080p-con-android-tv-11_0-mini-proyector-portatil-de-pelicula-giratorio-de-180-compatible-con-keystone-automatico-para-laptop-pc-telefono-blanco",
-      "description": "Mini proyector portátil con WiFi 6, Bluetooth, Android TV y corrección trapezoidal automática."
-    },
-    {
-      "id": "kemik-4",
-      "merchant": "Kemik",
-      "merchant_slug": "kemik",
-      "title": "Ventilador de Piso Rush 20\"",
-      "category": "Hogar",
-      "price": 389,
-      "currency": "GTQ",
-      "compare_at_price": 449,
-      "discount_pct": 13,
-      "images": [
-        "https://static.kemikcdn.com/2025/08/8414234440655-rush-1200x1200-1.-700x700.jpg"
-      ],
-      "url": "https://www.kemik.gt/taurus-ventilador-de-piso-rush-de-20pulgadas-con-3-velocidades-130-w-negro",
-      "description": "Ventilador de piso 20\" con 3 velocidades y modo pared, para casa u oficina."
-    },
-    {
-      "id": "kemik-5",
-      "merchant": "Kemik",
-      "merchant_slug": "kemik",
-      "title": "Bocina Bluetooth JBL Flip 7 35W",
-      "category": "Tecnología",
-      "price": 799,
-      "currency": "GTQ",
-      "compare_at_price": 999,
-      "discount_pct": 20,
-      "images": [
-        "https://static.kemikcdn.com/2025/07/JBLFLIP7BLKAM-1200x1200-1.-700x700.jpg"
-      ],
-      "url": "https://www.kemik.gt/jbl-flip-7-bocina-portatil-bluetooth-25w-negro",
-      "description": "Bocina portátil 35W, resistente al agua IP68 y hasta 16 horas de batería."
-    },
-    {
-      "id": "kemik-6",
-      "merchant": "Kemik",
-      "merchant_slug": "kemik",
-      "title": "Licuadora Xiaomi Smart Blender",
-      "category": "Hogar",
-      "price": 768,
-      "currency": "GTQ",
-      "compare_at_price": 1199,
-      "discount_pct": 36,
-      "images": [
-        "https://static.kemikcdn.com/2025/11/118-XIAOMI-1200X1200-1.-700x700.jpg"
-      ],
-      "url": "https://www.kemik.gt/xiaomi-licuadora-smart-blender-tw-con-9-velocidades-ajustables-jarra-de-vidrio-blanco",
-      "description": "Licuadora inteligente con 9 velocidades, jarra de vidrio y modos frío/caliente."
-    },
-    {
-      "id": "kemik-7",
-      "merchant": "Kemik",
-      "merchant_slug": "kemik",
-      "title": "GameSir Nova Lite · Control inalámbrico",
-      "category": "Tecnología",
-      "price": 331,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://static.kemikcdn.com/2024/10/NOVALITEWHT-GAMESIR-1200x1200-01.-700x700.jpg"
-      ],
-      "url": "https://www.kemik.gt/gamesir-nova-lite-control-inalambrico-bt-y-24ghz-con-hall-effect-para-pc-switch-y-celulares-blanco",
-      "description": "Control inalámbrico multiplataforma con joysticks Hall Effect y triple conectividad."
-    },
-    {
-      "id": "dressy-8614132482279",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "POWER BANK BOOST 20 de MOLVU",
-      "category": "Accesorios",
-      "price": 299.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/POWERBANK201-1200x1200.jpg?v=1739994655",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/POWERBANK203-1200x1200.jpg?v=1740072146",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/POWERBANK200-1200x1200.jpg?v=1739994708",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/POWERBANK202-1200x1200.jpg?v=1739994786"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/power-bank-boost-20-de-molvu",
-      "description": "Batería portátil POWER BANK BOOST 20 de MOLVU de carga rápida te ayuda a mantener cargados todos tus dispositivos durante el día. No te preocupes por quedarte sin carga. Es práctico y fácil de llevar a todas partes. Con una capacidad de 20,000mAh de potencia. Funciona con puertos USB y USB-C. Lo pue"
-    },
-    {
-      "id": "dressy-9569299136743",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Lima eléctrica para pies",
-      "category": "Belleza",
-      "price": 45.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage2jun2026_14_49_12.png?v=1780433373",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/30b98502-c343-42d1-bea5-29e6079643b0.jpg?v=1780433646",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/ChatGPTImage2jun2026_14_51_23.png?v=1780433496",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/da1be0dc-5608-42b9-8fcf-1f07e21c7c61.webp?v=1780433522"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/lima-electrica-para-pies-1",
-      "description": "Mantén tus pies suaves y libres de durezas con este removedor eléctrico de callos diseñado para ayudar a eliminar la piel seca y endurecida de forma práctica y cómoda. Su cabezal giratorio trabaja sobre las áreas ásperas de los pies, ayudando a mejorar la apariencia de talones, plantas y zonas con a"
-    },
-    {
-      "id": "dressy-9462880862439",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Tshirt casual manga corta",
-      "category": "Accesorios",
-      "price": 45.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "assets/img/products/dressy-9462880862439-0.jpg",
-        "assets/img/products/dressy-9462880862439-1.jpg"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/tshirt-casual-manga-corta",
-      "description": "Esta blusa estilo ringer destaca por su diseño bicolor con contraste en cuello y mangas, evocando un look noventero fresco y juvenil. Su corte limpio y favorecedor la convierte en una prenda versátil que puedes usar con jeans, shorts o joggers para un outfit relajado pero con personalidad. Material:"
-    },
-    {
-      "id": "dressy-9103116861671",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Vestido cut-out con estampado",
-      "category": "Ropa",
-      "price": 225.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/086B5086-250F-4A7E-B15E-7679F4D387EB.webp?v=1738177513",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/072C8FE4-0A14-476E-9F37-81B10E509478.webp?v=1738177513",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/3C9E80E0-3FC1-4230-A4F3-382C00C51799.jpg?v=1738177480",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/24743794-A9E2-4D24-87D4-5C3C9FE52247.jpg?v=1738177480"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/vestido-cut-out-con-estampado",
-      "description": "Vestido largo de tirantes ajustables con estampado, este vestido es ligero, suave al tacto y cómodo de llevar. Material: Poliéster Talla S Busto: 68cm (elástico) Cintura: 60cm (elástico) Largo: 95cm Talla M Busto: 70cm (elástico) Cintura: 62cm (elástico) Largo: 96cm Talla L Busto: 72cm (elástico) Ci"
-    },
-    {
-      "id": "adoc-9783734337766",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Chaqueta Cedar Tra para hombre color negro",
-      "category": "Ropa",
-      "price": 1049.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-1_52f03bfe-c8c7-4e71-a697-50c6ed9a5748.png?v=1784727432",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-2_ce66bf28-5687-46a6-89d8-020c99f6882d.png?v=1784727433",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-3_d5949384-9765-467d-a34d-10f59fae48f7.png?v=1784727433",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-4_f58112bc-253d-4b2a-b2b4-9b3853b30293.png?v=1784727433",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095550-5_a8665b70-8a6a-4893-bf8f-51a5b74450a8.png?v=1784727433"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30095550-chaqueta-cedar-tra-para-hombre-color-negro",
-      "description": "Chaqueta Cedar Trail Grid Fleece Full-Zip para hombre en color negro, ideal como capa intermedia o para clima fresco. Confeccionada en fleece flat-grid de poliéster reciclado y elastano, incluye cierre frontal completo, bolsillos laterales con cierre y refuerzos en cuello y puños."
-    },
-    {
-      "id": "adoc-9783733715174",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Mochila Verto 27 unisex color blanco",
-      "category": "Accesorios",
-      "price": 1299.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095405-1.png?v=1784727410",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095405-2.png?v=1784727410",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095405-3.png?v=1784727410",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095405-4.png?v=1784727410"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30095405-mochila-verto-27-unisex-color-blanco",
-      "description": "Mochila Summit Series Verto 27 unisex en color blanco, ultraligera y resistente para alpinismo y alta montaña. Fabricada en nylon ripstop IronLite™ con DWR sin PFC, incluye sistema para portar piolets, hachas y cuerda, correas acolchadas, cinturón ajustable y funda interna para hidratación."
-    },
-    {
-      "id": "adoc-9783733289190",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Gorra Horizon unisex color azul",
-      "category": "Ropa",
-      "price": 349.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095366-1_1941b068-48d0-40bc-95ae-1e56b57f835b.png?v=1784727395",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095366-2_d6809dfc-85cc-4335-8906-47944e0447b0.png?v=1784727396",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095366-3_2ba58111-a751-41a3-8cd3-d44657f09a9e.png?v=1784727397"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30095366-gorra-horizon-unisex-color-azul",
-      "description": "Gorra Horizon unisex en color azul, ligera y resistente para actividades al aire libre. Está confeccionada en nylon reciclado y cuenta con banda FLASHDRY-PRO™, cierre ajustable y logo bordado."
-    },
-    {
-      "id": "adoc-9783732830438",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Gorra Horizon unisex color rojo",
-      "category": "Ropa",
-      "price": 349.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095368-1.png?v=1784727382",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095368-2.png?v=1784727383",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30095368-3.png?v=1784727384"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30095368-gorra-horizon-unisex-color-rojo",
-      "description": "Confeccionada en nylon reciclado, incorpora banda interna FLASHDRY PRO™ para gestionar la humedad. Su cierre ajustable y diseño clásico la hacen ideal para uso diario y outdoor."
-    },
-    {
-      "id": "adoc-9783732273382",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Mules Rachel para mujer color tan",
-      "category": "Calzado",
-      "price": 779.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-1.png?v=1784727373",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-2.png?v=1784727373",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-3.png?v=1784727372",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-4.png?v=1784727373",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-7.png?v=1784727373",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-5.png?v=1784727373",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094693-6.png?v=1784727372"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30094693-mules-rachel-para-mujer-color-tan",
-      "description": "Mules Rachel para mujer en color tan, elaborados en cuero. Incorporan tecnología Bounce™, con plantilla extraíble de alta memoria que amortigua la pisada, devuelve energía y recupera su forma para mayor comodidad."
-    },
-    {
-      "id": "adoc-9783732207846",
-      "merchant": "ADOC",
-      "merchant_slug": "adoc",
-      "title": "Mocasines Jacky para mujer color tan",
-      "category": "Calzado",
-      "price": 779.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-1.png?v=1784727371",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-2.png?v=1784727372",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-3.png?v=1784727371",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-4.png?v=1784727371",
-        "https://cdn.shopify.com/s/files/1/0271/4252/0921/files/30094692-7.png?v=1784727371"
-      ],
-      "url": "https://gt.tiendasadoc.com/products/30094692-mocasines-jacky-para-mujer-color-tan",
-      "description": "Mocasines Jacky para mujer en color tan, elaborados en cuero. Incorporan tecnología Bounce™, con plantilla extraíble de alta memoria que aporta rebote de energía, recuperación de forma y confort prolongado durante el día."
-    },
-    {
-      "id": "cat-9116864446696",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Mochila Tokyo Urban para hombre color turqueza",
-      "category": "Accesorios",
-      "price": 200.0,
-      "currency": "GTQ",
-      "compare_at_price": 399.99,
-      "discount_pct": 50,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30082903-1.jpg?v=1756922011",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30082903-2.jpg?v=1756922011",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30082903-3.jpg?v=1756922011",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30082903-4.jpg?v=1756922011"
-      ],
-      "url": "https://caterpillargt.com/products/30082903-mochila-tokyo-urban-para-hombre-color-turqueza",
-      "description": "Lleva tu laptop con seguridad en este mochila de la marca CAT, material de 600D Polyester con bolsillo acolchado y correas de hombro ajustables de malla. Con asa tejida y dos bolsillos de malla lateral. Cuenta con etiqueta tejida Caterpillar, asa de agarre en la parte frontal y elemento reflectante "
-    },
-    {
-      "id": "cat-9146936328424",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Jeans Wide para mujer color azul",
-      "category": "Ropa",
-      "price": 449.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30087456-1.jpg?v=1756921974",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30087456-2.jpg?v=1756921974",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30087456-3.jpg?v=1756921975",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30087456-4.jpg?v=1756921975"
-      ],
-      "url": "https://caterpillargt.com/products/30087456-jeans-wide-para-mujer-color-azul",
-      "description": "Eleva tu colección de mezclilla con los jeans de pierna ancha de mezclilla elástica TriBlend CAT® para mujer. Con bragueta con cremallera y cierre de caña con la marca, diseño de cinco bolsillos, remache con el logo en el bolsillo para las manos, parche con el logo de Oxford CAT® en la cintura trase"
-    },
-    {
-      "id": "cat-9225267937512",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Camiseta Metallic V-Neck para mujer color rosado",
-      "category": "Ropa",
-      "price": 72.0,
-      "currency": "GTQ",
-      "compare_at_price": 179.99,
-      "discount_pct": 60,
-      "images": [
-        "assets/img/products/cat-9225267937512-0.jpg",
-        "assets/img/products/cat-9225267937512-1.jpg"
-      ],
-      "url": "https://caterpillargt.com/products/30088327-camiseta-metallic-v-neck-para-mujer-color-rosado",
-      "description": "Una versión audaz de un básico. Esta camiseta de cuello en V luce un gráfico metálico que captura la luz y atrae todas las miradas: fácil de usar, imposible de pasar desapercibida."
-    },
-    {
-      "id": "cat-8151880663272",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Jeans Symbol High Rise para Mujer",
-      "category": "Ropa",
-      "price": 135.0,
-      "currency": "GTQ",
-      "compare_at_price": 449.99,
-      "discount_pct": 70,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/jeans.jpg?v=1756923240"
-      ],
-      "url": "https://caterpillargt.com/products/30070370-jeans-symbol-high-rise-para-mujer",
-      "description": "Jeans denim 80% algodón, 18% polyester 2% spandex, bragueta con cremallera y cierre de caña, diseño de 5 bolsillos, parche con el logo de oxford cat en, parte posterior etiqueta envolvente triangular en el parche trasero, bolsillo, remache con logo en el bolsillo de la mano."
-    },
-    {
-      "id": "cat-9323752390888",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Botas industriales Booster CT para mujer color café",
-      "category": "Calzado",
-      "price": 1299.99,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-1.jpg?v=1770334309",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-2.jpg?v=1770334309",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-3.jpg?v=1770334310",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-5.jpg?v=1770334309",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30089187-4.jpg?v=1770334309"
-      ],
-      "url": "https://caterpillargt.com/products/30089187-botas-industriales-booster-ct-para-mujer-color-cafe",
-      "description": "Botas de cuero full grain aceitado, con Composite Toe (cubo no metálico en la punta, no detectable por equipos electrónicos de seguridad y 40% más liviano que el acero) y protección EH – Electrical Hazard, cuya construcción especial protege contra circuitos abiertos de hasta 14,000 voltios en condic"
-    },
-    {
-      "id": "cat-9203045368040",
-      "merchant": "CAT",
-      "merchant_slug": "cat",
-      "title": "Mochila Fastlane para hombre color negro",
-      "category": "Accesorios",
-      "price": 200.0,
-      "currency": "GTQ",
-      "compare_at_price": 399.99,
-      "discount_pct": 50,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086322-1.jpg?v=1756921948",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086322-2.jpg?v=1756921948",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086322-3.jpg?v=1756921948",
-        "https://cdn.shopify.com/s/files/1/0438/9561/9735/files/30086322-4.jpg?v=1756921948"
-      ],
-      "url": "https://caterpillargt.com/products/30086322-mochila-fastlane-para-hombre-color-negro",
-      "description": "Esta mochila está fabricada en 100% poliéster y ofrece un diseño práctico y resistente. Cuenta con panel trasero transpirable y correas de hombro ajustables que brindan mayor comodidad. Dispone de cierre principal con cremallera de fácil acceso, bolsillo frontal con cierre, bolsillos laterales para "
-    },
-    {
-      "id": "meatpack-7166126948401",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "W NIKE V5 RNR DF MUJER IV5522-100",
-      "category": "Calzado",
-      "price": 999.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/iv5522-100_phsrh000-2000.jpg?v=1784732628",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/iv5522-100_phsuh000-2000.jpg?v=1784732628",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/iv5522-100_phcfh001-2000.jpg?v=1784732628"
-      ],
-      "url": "https://www.meatpack.com/products/w-nike-v5-rnr-df-mujer-iv5522-100",
-      "description": "W NIKE V5 RNR DF MUJER"
-    },
-    {
-      "id": "meatpack-7166126915633",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "W AIR FORCE 1 07 SHOELERY WOMEN IR0872-101",
-      "category": "Calzado",
-      "price": 1399.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/IR0872-101__1.jpg?v=1784742893",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_AIR_FORCE_1__07.jpg?v=1784733268",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_AIR_FORCE_1__07__1.jpg?v=1784733268",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/W_AIR_FORCE_1__07__2.jpg?v=1784733268"
-      ],
-      "url": "https://www.meatpack.com/products/w-air-force-1-07-shoelery-women-ir0872-101",
-      "description": ""
-    },
-    {
-      "id": "meatpack-7166126882865",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "U NRG CLUB CAP NOCTA-USCB HOMBRE FV5541-486",
-      "category": "Ropa",
-      "price": 249.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/360_fd159530-8084-4d58-b293-ce6cdff5ac4b.png?v=1784740081",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/361_17e9d69d-a715-4db1-b3ef-4e30a998faaa.png?v=1784740081"
-      ],
-      "url": "https://www.meatpack.com/products/u-nrg-club-cap-nocta-uscb-hombre-fv5541-486",
-      "description": "Esta elegante gorra cuenta con gráficos estampados y un cierre ajustable con el logo de NOCTA para un ajuste perfecto."
-    },
-    {
-      "id": "meatpack-7166126850097",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "U NK CLUB CAP US KNIT 26 HOMBRE IQ1326-323",
-      "category": "Ropa",
-      "price": 349.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/362_40846637-27eb-4775-aac7-9a78fd6c0009.png?v=1784743102",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/363_b23f6ff0-94f7-4fe7-88fc-bf0b37559e81.png?v=1784743102",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/364.png?v=1784743102"
-      ],
-      "url": "https://www.meatpack.com/products/u-nk-club-cap-us-knit-26-hombre-iq1326-323",
-      "description": "Una pieza de estilo casual y deportivo diseñada con una estructura desestructurada de profundidad media."
-    },
-    {
-      "id": "meatpack-7166126817329",
-      "merchant": "Meat Pack",
-      "merchant_slug": "meatpack",
-      "title": "U NK CLUB CAP US KNIT 26 HOMBRE IQ1326-010",
-      "category": "Ropa",
-      "price": 349.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/365.png?v=1784743828",
-        "https://cdn.shopify.com/s/files/1/1363/9583/files/366.png?v=1784743828"
-      ],
-      "url": "https://www.meatpack.com/products/u-nk-club-cap-us-knit-26-hombre-iq1326-010",
-      "description": "Gorra de punto sin estructura NIKE Club. El escudo bordado y la visera de punto gofrado le dan un toque de distinción a esta clásica gorra Club de media caña. Está confeccionada con tela de lona de algodón resistente y tiene una visera curvada para un estilo clásico."
-    },
-    {
-      "id": "dressy-9352891662567",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Set semi formal de short y tank top Blazer",
-      "category": "Ropa",
-      "price": 150.0,
-      "currency": "GTQ",
-      "compare_at_price": 325.0,
-      "discount_pct": 54,
-      "images": [
-        "assets/img/products/dressy-9352891662567-0.jpg",
-        "assets/img/products/dressy-9352891662567-1.jpg"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/set-semi-formal-de-short-y-tank-top-blazer",
-      "description": "Atrévete a destacar con este Set semi formal de short y tank top, ideal para un look moderno, fresco y sofisticado. Perfecto para llevar en reuniones, salidas casuales, cenas o incluso eventos semi–formales donde quieras proyectar estilo sin perder comodidad. -Material: 100%poliéster -Talla S -Top: "
-    },
-    {
-      "id": "dressy-9412913135847",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Molinillo de café",
-      "category": "Hogar",
-      "price": 95.0,
-      "currency": "GTQ",
-      "compare_at_price": null,
-      "discount_pct": null,
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/F2B33C5A-02ED-4D21-B450-B5608F0093F0.png?v=1764869861",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/1FC375F8-A02A-4169-B945-4F54B39EB119.png?v=1764869977",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01vh7YK11zWjOQLpgCv__2218896256722-0-cib.jpg?v=1764869861",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN01NK94kt1zWjOIawvAh__2218896256722-0-cib.jpg?v=1764869861",
-        "https://cdn.shopify.com/s/files/1/0526/2039/4645/files/O1CN010AgpM01zWjONgk8Gh__2218896256722-0-cib.jpg?v=1764869861"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/molinillo-de-cafe",
-      "description": "Molinillo manual de madera con manivela metálica ideal para moler los granos al instante y disfrutar de todo su aroma y frescura, ajusta la molienda según tu gusto (fina, media o gruesa). Medidas: -Alto: 17.5cm -Largo: 10cm -Ancho: 10cm El color real puede ser ligeramente diferente al de las imágene"
-    },
-    {
-      "id": "dressy-9324959432935",
-      "merchant": "Dressy",
-      "merchant_slug": "dressy",
-      "title": "Juguete de utensilios de cocina mini",
-      "category": "Juguetes",
-      "price": 35.0,
-      "currency": "GTQ",
-      "compare_at_price": 128.0,
-      "discount_pct": 73,
-      "images": [
-        "assets/img/products/dressy-9324959432935-0.jpg",
-        "assets/img/products/dressy-9324959432935-1.jpg"
-      ],
-      "url": "https://dressyshopgt.myshopify.com/products/juguete-de-utensilios-de-cocina-mini",
-      "description": "¡La hora de cocinar será más divertida con este increíble set de cocina infantil de 35 piezas! Diseñado especialmente para que los niños jueguen a ser pequeños chefs, este kit incluye estufa, ollitas, sartén, utensilios, alimentos de juguete y hasta mesa con sillas. Fabricado con materiales seguros "
-    }
-  ]
+ "merchants": [
+  {
+   "slug": "kemik",
+   "name": "Kemik",
+   "domain": "www.kemik.gt",
+   "logo": "assets/img/merchants/kemik.png"
+  },
+  {
+   "slug": "max",
+   "name": "MAX",
+   "domain": "www.max.com.gt",
+   "logo": "assets/img/merchants/max.svg"
+  }
+ ],
+ "products": [
+  {
+   "id": "max-WM1807D",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas de 0.7' cúbicos, 700 Watts de potencia y autolimpieza, Whirlpool WM1807D.",
+   "brand": "Whirlpool",
+   "category": "Microondas",
+   "price": 599.0,
+   "currency": "GTQ",
+   "compare_at_price": 995.0,
+   "discount_pct": 40,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/w/m/wm1807d-01.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-de-0-7-cubicos-700-watts-de-potencia-y-opcion-de-autolimpieza-whirlpool-wm1807d",
+   "description": "* 5 niveles de potencia. * 12 opciones para auto cocción. * 4 opciones para descongelar. * Función mantener caliente. * Función auto limpieza, reloj digital y opción para silenciar. * Modalidad Eco Standby para ahorro de energía."
+  },
+  {
+   "id": "kemik-oster-horno-microondas-de-0-7-cubicos-de-capacidad-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Horno Microondas de 0.7' Cúbicos de Capacidad - Negro",
+   "brand": "Oster",
+   "category": "Microondas",
+   "price": 496.0,
+   "currency": "GTQ",
+   "compare_at_price": 699.0,
+   "discount_pct": 29,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/OGGE3702-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-horno-microondas-de-0_7-cubicos-de-capacidad-negro",
+   "description": ""
+  },
+  {
+   "id": "max-OGGE3702",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas digital de 0.7' cúbicos de capacidad, negro",
+   "brand": "Oster",
+   "category": "Microondas",
+   "price": 496.0,
+   "currency": "GTQ",
+   "compare_at_price": 995.0,
+   "discount_pct": 50,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/O/G/OGGE3702_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-digital-de-0-7-cubicos-de-capacidad-negro-oster-ogge3702",
+   "description": "* Función de reloj digital. * 6 funciones programables. * Seguro de niños. * Plato giratorio de vidrio templado. * Apertura de puerta con botón."
+  },
+  {
+   "id": "kemik-ninja-licuadora-profesional-plus-con-auto-iq",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Licuadora Profesional Plus con Auto iQ de 72 oz - BN701LA",
+   "brand": "NINJA",
+   "category": "Licuadoras",
+   "price": 735.0,
+   "currency": "GTQ",
+   "compare_at_price": 899.0,
+   "discount_pct": 18,
+   "images": [
+    "https://static.kemikcdn.com/2025/01/739DB7418C-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-licuadora-profesional-plus-con-auto-iq",
+   "description": ""
+  },
+  {
+   "id": "max-WM1114D",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas de 1.4' cúbicos, 1450W de potencia, Whirlpool WM1114D.",
+   "brand": "Whirlpool",
+   "category": "Microondas",
+   "price": 999.0,
+   "currency": "GTQ",
+   "compare_at_price": 1995.0,
+   "discount_pct": 50,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/w/m/wm1114d.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-de-1-4-cubicos-1450w-de-potencia-whirlpool-wm1114d",
+   "description": "Calienta en pocos minutos tus alimentos gracias al microondas de Whirlpool modelo WM1114D, el cual cuenta con una capacidad de 1.4 pies cúbicos, también cuenta con una potencia de 1450 W, además cuenta con 6 funciones pre-programadas (palomitas, papa asada, pizza, bebidas, congelados y recalentado,…"
+  },
+  {
+   "id": "kemik-bascula-para-cocina-de-alta-precision-maxima-de-10-kg-digita",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Báscula para Cocina de Alta Precisión Máxima de 10 Kg, Digital - Blanco SF400",
+   "brand": "",
+   "category": "Otros",
+   "price": 91.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/03/PESA-COCINA-SF400-BALANZA-NOVA-HOME-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/bascula-para-cocina-de-alta-precision-maxima-de-10-kg-digital-blanco-sf400",
+   "description": ""
+  },
+  {
+   "id": "max-WM1211D",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas de 1.1' cúbicos de capacidad, color gris. Whirlpool WM1211D.",
+   "brand": "Whirlpool",
+   "category": "Microondas",
+   "price": 799.0,
+   "currency": "GTQ",
+   "compare_at_price": 1495.0,
+   "discount_pct": 47,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/w/m/wm1211d.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-de-1-1-cubicos-de-capacidad-color-gris-whirlpool-wm1211d",
+   "description": "Pantalla LED, operación con control digital y botones rápidos de tiempo. Cuenta con calentado rápido de 1 a 6 minutos que permitirán tener comidas listas al momento. Además, cuenta con 3 niveles de potencia y 9 opciones para cocina Food Expert."
+  },
+  {
+   "id": "kemik-taurus-hervidor-electrico-caronte-de-acero-inoxidable-de-2-l",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Hervidor Eléctrico Caronte de Acero Inoxidable de 2 Litros, 1000 W - Negro",
+   "brand": "Taurus",
+   "category": "Cafeteras",
+   "price": 159.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/08/8414234580245-taurus-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/taurus-hervidor-electrico-caronte-de-acero-inoxidable-de-2-litros-1000-w-negro",
+   "description": ""
+  },
+  {
+   "id": "max-LWMC30309LB",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas de 0.9', color negro, Whirlpool LWMC30309LB.",
+   "brand": "Whirlpool",
+   "category": "Microondas",
+   "price": 699.0,
+   "currency": "GTQ",
+   "compare_at_price": 1295.0,
+   "discount_pct": 46,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/L/W/LWMC30309LB_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-de-0-9-color-negro-whirlpool-lwmc30309lb",
+   "description": "Horno microondas de 0.9' cúbicos de capacidad, color negro, 10 niveles de potencia, opción para mantener calientes los alimentos."
+  },
+  {
+   "id": "kemik-truper-bascula-digital-para-cocina-plato-de-vidrio-5-kg",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Báscula Digital para Cocina Plato de Vidrio 5 kg",
+   "brand": "Truper",
+   "category": "Otros",
+   "price": 83.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/15160-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/truper-bascula-digital-para-cocina-plato-de-vidrio-5-kg",
+   "description": ""
+  },
+  {
+   "id": "max-OGGM61002",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas digital de 1.1' cúbicos de capacidad, marco de acero, alta potencia",
+   "brand": "Oster",
+   "category": "Microondas",
+   "price": 796.0,
+   "currency": "GTQ",
+   "compare_at_price": 1795.0,
+   "discount_pct": 56,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/O/G/OGGM61002_1_21082024161030.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-digital-de-1-1-cubicos-de-capacidad-marco-de-acero-alta-potencia-oster-oggm61002",
+   "description": "* Reloj digital * 1000 watts de potencia * Seguro de niños * Plato giratorio de vidrio templado * 6 programas de cocción predeterminados * Agarradera en puerta"
+  },
+  {
+   "id": "kemik-picca-plancha-de-vapor-con-suela-antiadherente-azul-1",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Plancha de Vapor con Suela Antiadherente - Azul",
+   "brand": "Picca",
+   "category": "Planchas",
+   "price": 85.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/05/PIIR028-1200x1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/picca-plancha-de-vapor-con-suela-antiadherente-azul-1",
+   "description": ""
+  },
+  {
+   "id": "max-OGYME1502",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas digital de 1.6' cúbicos de capacidad, acero, alta potencia",
+   "brand": "Oster",
+   "category": "Microondas",
+   "price": 1499.0,
+   "currency": "GTQ",
+   "compare_at_price": 2495.0,
+   "discount_pct": 40,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/O/G/OGYME1502_1_23082024091938.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-digital-de-1-6-cubicos-de-capacidad-acero-alta-potencia-oster-ogyme1502",
+   "description": "* Función de reloj digital. * 12 funciones programables. * Seguro de niños. * Marco y puerta de acero * Agarradera en puerta * 1100 Watts de potencia"
+  },
+  {
+   "id": "kemik-nima-molino-electrico-de-granos-de-cafe-especias-nm-8300",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Molino Eléctrico de Granos de Café y Especias - NM-8300",
+   "brand": "NIMA",
+   "category": "Cafeteras",
+   "price": 135.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/05/MOLINOELECTRICO-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/nima-molino-electrico-de-granos-de-cafe-especias-nm-8300",
+   "description": ""
+  },
+  {
+   "id": "max-OGYM3701M",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas digital de 0.7' cúbicos de capacidad, acero con puerta tipo espejo",
+   "brand": "Oster",
+   "category": "Microondas",
+   "price": 699.0,
+   "currency": "GTQ",
+   "compare_at_price": 1295.0,
+   "discount_pct": 46,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/O/G/OGYM3701M_1_23082024091437.png"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-digital-de-0-7-cubicos-de-capacidad-acero-con-puerta-tipo-espejo-oster-ogym3701m",
+   "description": "* Función de reloj digital. * 10 funciones programables. * Seguro de niños. * Marco de acero * Plato giratorio de vidrio templado. * Agarradera en puerta"
+  },
+  {
+   "id": "kemik-espumador-portatil-para-hacer-bebidas-cremosas-gris",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Espumador Portátil para Hacer Bebidas Cremosas - Gris",
+   "brand": "",
+   "category": "Cafeteras",
+   "price": 29.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2023/06/ACP-OURSLIFE-1200x1200-02.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/espumador-portatil-para-hacer-bebidas-cremosas-gris",
+   "description": ""
+  },
+  {
+   "id": "max-MS1536GIR",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas de 1.5' cúbicos de capacidad, color negro, acabado espejo.",
+   "brand": "LG",
+   "category": "Microondas",
+   "price": 1599.0,
+   "currency": "GTQ",
+   "compare_at_price": 2295.0,
+   "discount_pct": 30,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/m/s/ms1536gir.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-de-1-5-cubicos-de-capacidad-color-negro-acabado-espejo",
+   "description": "Horno microondas de 1.5' cúbicos de capacidad"
+  },
+  {
+   "id": "kemik-peanuts-x-dash-mini-waffle-maker-peanuts-black-white",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Peanuts x Dash Mini Waffle Maker (Black & White)",
+   "brand": "",
+   "category": "Otros",
+   "price": 185.0,
+   "currency": "GTQ",
+   "compare_at_price": 364.0,
+   "discount_pct": 49,
+   "images": [
+    "https://static.kemikcdn.com/2026/01/81clo1ahNRL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/peanuts-x-dash-mini-waffle-maker-peanuts-black-white",
+   "description": ""
+  },
+  {
+   "id": "max-MS19DG8500SR",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas de 1.9', acabado en acero, Samsung MS19DG8500SR.",
+   "brand": "Samsung",
+   "category": "Microondas",
+   "price": 1999.0,
+   "currency": "GTQ",
+   "compare_at_price": 2995.0,
+   "discount_pct": 33,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/M/S/MS19DG8500SR_1_27082025152533.png"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-de-1-9-acabado-en-acero-samsung-ms19dg8500sr-samsung-ms19dg8500sr",
+   "description": "Horno microondas de 1.9' de capacidad, interior de acero, 10 niveles de potencia, bloqueo de seguridad, acabado en acero."
+  },
+  {
+   "id": "kemik-gourmia-freidora-de-aire-en-acero-inoxidable-6-62-l-7-qt",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Freidora de Aire en Acero Inoxidable - 6.62 L / 7 qt",
+   "brand": "Gourmia",
+   "category": "Freidoras",
+   "price": 566.0,
+   "currency": "GTQ",
+   "compare_at_price": 655.0,
+   "discount_pct": 14,
+   "images": [
+    "https://static.kemikcdn.com/2025/12/487710-1200x1200-7.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/gourmia-freidora-de-aire-en-acero-inoxidable-6_62-l-_-7-qt",
+   "description": ""
+  },
+  {
+   "id": "max-FMOS1846BS",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas de 1.8' con extractor de olores, Frigidaire, FMOS1846BS.",
+   "brand": "Frigidaire",
+   "category": "Microondas",
+   "price": 4299.0,
+   "currency": "GTQ",
+   "compare_at_price": 4795.0,
+   "discount_pct": 10,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/F/M/FMOS1846BS_1_16062023152516.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-de-1-8-con-extractor-de-olores-frigidaire-fmos1846bs-frigidaire-fmos1846bs",
+   "description": "Horno microondas de 1.8' de capacidad, con extractor de olores, acabado en acero."
+  },
+  {
+   "id": "kemik-ninja-cafetera-programable-de-12-tazas-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Cafetera Programable de 12 Tazas - Negro",
+   "brand": "NINJA",
+   "category": "Cafeteras",
+   "price": 759.0,
+   "currency": "GTQ",
+   "compare_at_price": 859.0,
+   "discount_pct": 12,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/CE250-NINJA-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-cafetera-programable-de-12-tazas-negro",
+   "description": ""
+  },
+  {
+   "id": "max-FMDO17S3GSPG",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno microondas de 0.6', color gris",
+   "brand": "Frigidaire",
+   "category": "Microondas",
+   "price": 596.0,
+   "currency": "GTQ",
+   "compare_at_price": 699.0,
+   "discount_pct": 15,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/F/M/FMDO17S3GSPG_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-microondas-de-0-6-color-gris-frigidaire-fmdo17s3gspg",
+   "description": "Horno microondas de 0.6', color gris"
+  },
+  {
+   "id": "kemik-batidor-electrico-de-metal-kitchen-pro-espumador-inalambrico",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Batidor Eléctrico Kitchen-Pro Espumador Inalámbrico USB Multifuncional - Negro",
+   "brand": "",
+   "category": "Cafeteras",
+   "price": 149.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/06/ESPUMADOR-ELE-NEGRO-IMPORT-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/batidor-electrico-de-metal-kitchen-pro-espumador-inalambrico-usb-multifuncional-negro",
+   "description": ""
+  },
+  {
+   "id": "max-BN701LAA",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Licuadora Ninja profesional Plus Auto- IQ 2.1 L",
+   "brand": "NINJA",
+   "category": "Licuadoras",
+   "price": 799.0,
+   "currency": "GTQ",
+   "compare_at_price": 895.0,
+   "discount_pct": 11,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/B/N/BN701LAA_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/licuadora-profesional-plus-auto-iq-2-1-l-ninja-ninja-bn701laa",
+   "description": "Tecnología y potencia en una sola licuadora digital. Tritura frutas, verduras, hielo e ingredientes congelados con la combinación perfecta de un potente motor * Crea tus smoothies malteadas, licuados, batidos * 1 Tapa tipo Flip Top para jarra * 4 velocidades , 3 Programas Autoprogramables * 2.1 L. d…"
+  },
+  {
+   "id": "kemik-blackdecker-cafetera-personal-2-en-1-con-taza-termica-de-16-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Black+Decker Cafetera Personal 2 en 1 con Taza Térmica de 16 oz - 650 W",
+   "brand": "Black + Decker",
+   "category": "Cafeteras",
+   "price": 219.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2023/10/CM618-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/blackdecker-cafetera-personal-2-en-1-con-taza-termica-de-16-oz-650-w",
+   "description": ""
+  },
+  {
+   "id": "max-51101RV",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Hamilton Beach, 51101RV, Licuadora personal, Cuchillas de acero inoxidable",
+   "brand": "Hamilton Beach",
+   "category": "Licuadoras",
+   "price": 199.0,
+   "currency": "GTQ",
+   "compare_at_price": 245.0,
+   "discount_pct": 19,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/5/1/51101rv-vpa-01.jpg"
+   ],
+   "url": "https://www.max.com.gt/hamilton-beach-51101rv-licuadora-personal-cuchillas-de-acero-inoxidable-hamilton-beach-51101rv",
+   "description": "* El vaso de la licuadora también sirve como vaso para llevar * Potente rendimiento de licuado con cuchillas de acero inoxidable duraderas * La limpieza es rápida y fácil. * El diseño compacto se adapta a la mayoría de los portavasos de automóviles * Mezcla fácil con un solo toque * Frasco duradero…"
+  },
+  {
+   "id": "kemik-taurus-licuadora-personal-blender-2go-con-2-botellas-de-500-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Licuadora Personal Blender 2GO con 2 Botellas de 500 ml, 300 W - Negro",
+   "brand": "Taurus",
+   "category": "Licuadoras",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/08/8414234121424-taurus-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/taurus-licuadora-personal-blender-2go-con-2-botellas-de-500-ml-2-velocidades-300-w-negro",
+   "description": ""
+  },
+  {
+   "id": "max-BL08762SDLA",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Licuadora Black and Decker de 1.25L con acabado de acero",
+   "brand": "Black & Decker",
+   "category": "Licuadoras",
+   "price": 499.0,
+   "currency": "GTQ",
+   "compare_at_price": 565.0,
+   "discount_pct": 12,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/B/L/BL08762SDLA_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/licuadora-black-and-decker-de-1-25l-con-acabado-de-acero-black-decker-bl08762sdla",
+   "description": "* 4 cuchillas de acero inoxidable * 8 velocidades * 700 watts de potencia* para triturar hielo * Jarra de vidrio ergonómica de 1.25L * Tapa de doble abertura * Cuchillas removibles para una limpieza fácil"
+  },
+  {
+   "id": "kemik-estufa-de-mesa-a-gas-gris-metalico",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Estufa de Mesa a Gas - Gris Metálico",
+   "brand": "Oster",
+   "category": "Cocina",
+   "price": 699.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/OSGSTB20IS-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/estufa-de-mesa-a-gas-gris-metalico",
+   "description": ""
+  },
+  {
+   "id": "max-BLSTKAGRPB013",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Oster®, BLSTKAGRPB013, Licuadora de 2 velocidades, Jarra de vidrio",
+   "brand": "Oster",
+   "category": "Licuadoras",
+   "price": 469.0,
+   "currency": "GTQ",
+   "compare_at_price": 545.0,
+   "discount_pct": 14,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/B/L/BLSTKAGRPB013_1_20052025174402_1.png"
+   ],
+   "url": "https://www.max.com.gt/oster-blstkagrpb013-licuadora-de-2-velocidades-jarra-de-vidrio-oster-blstkagrpb013",
+   "description": "El poderoso motor con alta fuerza de torsión y vaso de vidrio refractario Boroclass® de la licuadora Oster® son ideales para preparar una amplia variedad de recetas frías y calientes, jugos, batidos y mucho más. Dos velocidades con pulso alto y bajo Capacidad de 1.5 litros para preparar desde sopas…"
+  },
+  {
+   "id": "kemik-oster-batidora-manual-5-velocidades-blanco",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Batidora Manual - 5 Velocidades, Blanco",
+   "brand": "Oster",
+   "category": "Batidoras",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/02/2499-013-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-batidora-manual-5-velocidades-blanco",
+   "description": ""
+  },
+  {
+   "id": "max-BLSTBPST",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Oster®, BLSTBPST, Licuadora Clásica, Serie Profesional Color Negro",
+   "brand": "Oster",
+   "category": "Licuadoras",
+   "price": 1299.0,
+   "currency": "GTQ",
+   "compare_at_price": 1445.0,
+   "discount_pct": 10,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/b/l/blstbpst_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/oster-blstbpst-licuadora-clasica-serie-profesional-color-negro-oster-blstbpst",
+   "description": "Oster®, BLSTBPST, Licuadora Clásica, Serie Profesional Color Negro. 700 Watts de potencia Motor 6 veces mas duradero Vaso de vidrio de 1.5 lt. Capacidad para 6 tazas Interruptor de palanca"
+  },
+  {
+   "id": "kemik-picca-cafetera-digital-de-12-tazas-con-filtro-permanente-jar",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Cafetera Digital de 12 Tazas con Filtro Permanente, Jarra de Vidrio - Gris",
+   "brand": "Picca",
+   "category": "Cafeteras",
+   "price": 331.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/05/PICM12DN-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/picca-cafetera-digital-de-12-tazas-con-filtro-permanente-jarra-de-vidrio-gris-con-negro",
+   "description": ""
+  },
+  {
+   "id": "max-67a3da07",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Freidora de aire digital mertec 4.2 litros con visor",
+   "brand": "Mertec",
+   "category": "Freidoras",
+   "price": 474.0,
+   "currency": "GTQ",
+   "compare_at_price": 678.0,
+   "discount_pct": 30,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/d/8/d811b6a4180acd6c.jpg"
+   ],
+   "url": "https://www.max.com.gt/freidora-de-aire-digital-mertec-4-2-litros-con-visor-67a3da07",
+   "description": "Freír, asar y hornear de una forma saludable nunca fue tan fácil como con tu mertec 4,2l digital. La freidora de aire usa un sistema para cocinar los alimentos circulando aire caliente alrededor de la comida y requiere muy poco o nada de aceite, esto te permite realizar recetas saludables y para tod…"
+  },
+  {
+   "id": "kemik-taurus-estufa-electrica-alpha-duo-black-con-dos-hornillas-en",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Estufa Eléctrica Alpha Duo con Dos Hornillas, 1650W - Negro",
+   "brand": "Taurus",
+   "category": "Cocina",
+   "price": 219.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/08/8414234681324-taurus-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/taurus-estufa-electrica-alpha-duo-black-con-dos-hornillas-en-espiral-con-5-niveles-de-calentamiento-1650w-negro",
+   "description": ""
+  },
+  {
+   "id": "max-AFBD82",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Freidora de aire con 9 funciones preprogramadas 8L. purifry, Black+ Decker",
+   "brand": "Black & Decker",
+   "category": "Freidoras",
+   "price": 999.0,
+   "currency": "GTQ",
+   "compare_at_price": 1195.0,
+   "discount_pct": 16,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/A/F/AFBD82_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/freidora-de-aire-con-9-funciones-preprogramadas-8l-purifry-black-decker-black-decker-afbd82",
+   "description": "Disfruta de un sabor crujiente con menos cantidad de aceite y en menos tiempo, con 9 funciones preprogramadas para asistirte mientras cocinas. La cesta antiadherente te permite fácil limpieza y es apta para lavavajillas Pantalla táctil 2 veces más rápida Notificación para agitar los alimentos Tempor…"
+  },
+  {
+   "id": "kemik-truper-bascula-digital-para-cocina-con-tazon-5-kg",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Báscula Digital para Cocina con Tazón 5 kg",
+   "brand": "Truper",
+   "category": "Otros",
+   "price": 115.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/102421-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/truper-bascula-digital-para-cocina-con-tazon-5-kg",
+   "description": ""
+  },
+  {
+   "id": "max-466e6d86",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Freidor de aire Morphy Richards con doble cesta con 7.2L de capacidad",
+   "brand": "MORPHY RICHARDS",
+   "category": "Freidoras",
+   "price": 799.0,
+   "currency": "GTQ",
+   "compare_at_price": 1299.0,
+   "discount_pct": 38,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/c/1/c124abce552a2a12.jpg"
+   ],
+   "url": "https://www.max.com.gt/freidor-de-aire-morphy-richards-con-doble-cesta-con-7-2l-de-capacidad-466e6d86",
+   "description": "Freidor de aire color negro Morphy Richards con doble canasta con 3.6L de capacidad por cada canasta, total 7.2 litros. Incluye 14 ajustes generales, independientes por cada canasta, iluminación y ventana para ver interior. Producto tiene 2 años de garantía."
+  },
+  {
+   "id": "kemik-ninja-freidora-de-aire-dualzone-6-en-1-de-7-5-l-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Freidora de Aire DualZone 6 en 1 de 7.5 L - Negro",
+   "brand": "NINJA",
+   "category": "Freidoras",
+   "price": 1239.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/04/DZ201-NINJA-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-freidora-de-aire-dualzone-6-en-1-de-7_5-l-negro",
+   "description": ""
+  },
+  {
+   "id": "max-TO62350SDLA",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno tostador para freír con aire, Black and Decker, con 6 funciones automáticas",
+   "brand": "Black & Decker",
+   "category": "Freidoras",
+   "price": 899.0,
+   "currency": "GTQ",
+   "compare_at_price": 995.0,
+   "discount_pct": 10,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/T/O/TO62350SDLA_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-tostador-para-freir-con-aire-black-and-decker-con-6-funciones-automaticas-black-decker-to62350sdla",
+   "description": "* Gran capacidad de 23L con espacio para 6 rebanadas de pan o una pizza de hasta 30 cm. * 6 funciones automáticas: Freír con aire, asar, hornear, tostar, calentar y pizza. * Reloj automático de 60 minutos y temporizador de tostado para resultados perfectos. * Potencia de 1500 watts * Rejilla con 4 p…"
+  },
+  {
+   "id": "kemik-plancha-a-vapo-black-decker",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Plancha a Vapor - IRBD100",
+   "brand": "Black + Decker",
+   "category": "Planchas",
+   "price": 159.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2018/08/3513-large_default-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/plancha-a-vapo-black-decker",
+   "description": ""
+  },
+  {
+   "id": "max-CMU3000",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker, CMU3000, Percoladora de acero, 30 tazas",
+   "brand": "Black & Decker",
+   "category": "Cafeteras",
+   "price": 499.0,
+   "currency": "GTQ",
+   "compare_at_price": 565.0,
+   "discount_pct": 12,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/c/m/cmu3000_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/black-decker-cmu3000-percoladora-de-acero-30-tazas-black-decker-cmu3000",
+   "description": "Black+Decker, CMU3000, Cafetera de acero, 30 tazas. * Cuela el café a la velocidad de 1 taza por minuto * Mantiene el café caliente automáticamente * Filtro de café * Asas frias al tacto * Marcas de nivel de agua * Llave * Luz indicadora"
+  },
+  {
+   "id": "kemik-oster-s7000-plancha-de-vapor-aeroglide-de-1250w-con-suela-ae",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "S7000 Plancha de Vapor AeroGlide con Suela Aeroceramic, 1250W - Negro",
+   "brand": "Oster",
+   "category": "Planchas",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/03/GCSTAC7002-013-1200x1200-6.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-s7000-plancha-de-vapor-aeroglide-de-1250w-con-suela-aeroceramic-negro",
+   "description": ""
+  },
+  {
+   "id": "max-BVSTDCS121B",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Cafetera de 12 tazas con filtro permanente, Oster",
+   "brand": "Oster",
+   "category": "Cafeteras",
+   "price": 369.0,
+   "currency": "GTQ",
+   "compare_at_price": 445.0,
+   "discount_pct": 17,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/B/V/BVSTDCS121B_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/cafetera-de-12-tazas-con-filtro-permanente-oster-oster-bvstdcs121b",
+   "description": "Cafetera de 12 tazas Oster Usarla es muy fácil: simplemente agrega agua, café y presiona el botón de encendido Con el filtro reutilizable, ahorra dinero y reduce residuos, ya que no necesitarás comprar filtros desechables Función Pausa y Servir te permite saborear una taza antes de que finalice la p…"
+  },
+  {
+   "id": "kemik-oster-plancha-para-ropa-a-vapor-suela-anti-adherente-rosada",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Plancha Antiadherente, Vapor - Palo Rosa",
+   "brand": "Oster",
+   "category": "Planchas",
+   "price": 162.0,
+   "currency": "GTQ",
+   "compare_at_price": 229.0,
+   "discount_pct": 29,
+   "images": [
+    "https://static.kemikcdn.com/2022/02/GCSTBS3801-13-OSTER-PLANCA-1200X1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-plancha-para-ropa-a-vapor-suela-anti-adherente-rosada",
+   "description": ""
+  },
+  {
+   "id": "max-JKCBD7876W",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker, JKCBD7876W, Tetera Eléctrica de 1.7 litros, Inalambrica",
+   "brand": "Black & Decker",
+   "category": "Cafeteras",
+   "price": 199.0,
+   "currency": "GTQ",
+   "compare_at_price": 245.0,
+   "discount_pct": 19,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/j/k/jkcbd7876w_1.png"
+   ],
+   "url": "https://www.max.com.gt/black-decker-jkcbd7876w-tetera-electrica-de-1-7-litros-inalambrica-black-decker-jkcbd7876w",
+   "description": "Black+Decker, JKCBD7876W, Hervidor Eléctrico de 1.7 litros, Inalambrica. 1500 Watts Capacidad de 1.7 lt. Base giratoria de 360° Apagado automático Sistema Anti-Goteo Guardacable Interruptor de encendido y apagado"
+  },
+  {
+   "id": "kemik-mertec-mini-licuadora-portatil-recargable-personal-con-puert",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Mini Licuadora Portátil Recargable con Puerto USB - Celeste",
+   "brand": "Mertec",
+   "category": "Licuadoras",
+   "price": 75.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/04/10000587-LICUADORA-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/mertec-mini-licuadora-portatil-recargable-personal-con-puerto-usb-para-smoothies-proteina-celeste",
+   "description": ""
+  },
+  {
+   "id": "max-HB2400B",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker, HB2400B, Batidora de inmersión, Color negro",
+   "brand": "Black & Decker",
+   "category": "Batidoras",
+   "price": 199.0,
+   "currency": "GTQ",
+   "compare_at_price": 295.0,
+   "discount_pct": 33,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/h/b/hb2400b_1.png"
+   ],
+   "url": "https://www.max.com.gt/black-decker-hb2400b-batidora-de-inmersion-color-negro",
+   "description": "Black+Decker, HB2400B, Batidora de inmersión, Color negro. * 200 Watts * 2 Velocidades * Cuchillas de acero inoxidable 2 veces mas grandes * Mango Ergónomico * Con boquilla fácil de verter. (700ml)"
+  },
+  {
+   "id": "kemik-frigobar-de-1-6-cubicos-gris",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Frigobar de 1.6' Cúbicos - Gris",
+   "brand": "Hisense",
+   "category": "Refrigeración",
+   "price": 899.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/RR16D6AGX1-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/frigobar-de-1_6-cubicos-gris",
+   "description": ""
+  },
+  {
+   "id": "max-HB2800B",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker, HB2800B, Batidora de inmersión, Color negro",
+   "brand": "Black & Decker",
+   "category": "Batidoras",
+   "price": 399.0,
+   "currency": "GTQ",
+   "compare_at_price": 595.0,
+   "discount_pct": 33,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/h/b/hb2800b_1.png"
+   ],
+   "url": "https://www.max.com.gt/black-decker-hb2800b-batidora-de-inmersion-color-negro",
+   "description": "Con tu batidora de inmersión 3 en 1 Black+Decker, mezcla, pica y bate todo tipo de alimentos de manera fácil y rápida."
+  },
+  {
+   "id": "max-CI100",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Licuadora de mano, Ninja, Power Mixer 3 en 1",
+   "brand": "NINJA",
+   "category": "Licuadoras",
+   "price": 949.0,
+   "currency": "GTQ",
+   "compare_at_price": 1095.0,
+   "discount_pct": 13,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/C/I/CI100_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/licuadora-de-mano-ninja-power-mixer-3-en-1-ninja-ci100",
+   "description": "¡Mezcla, bate y licua, todo en uno! Versatilidad y potencia. 5 velocidades de mezcla y 2 velocidades de batido Batidores potentes Brazo de mezcla de inmersión de acero inoxidable de 9\". El motor está diseñado para funcionar a través de ingredientes densos sin atascarse, lo que es ideal para hacer sm…"
+  },
+  {
+   "id": "kemik-fresh-juice-licuadora-portatil-de-350-ml-blanco",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Fresh Juice Licuadora Portátil de 350 ml - Blanco",
+   "brand": "FRESH JUICE",
+   "category": "Licuadoras",
+   "price": 163.0,
+   "currency": "GTQ",
+   "compare_at_price": 299.0,
+   "discount_pct": 45,
+   "images": [
+    "https://static.kemikcdn.com/2024/08/214B-BLANCO-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/fresh-juice-licuadora-portatil-de-350-ml-blanco",
+   "description": ""
+  },
+  {
+   "id": "max-62633R",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Hamilton Beach®, 62633R, Batidora de mano, Color Rojo",
+   "brand": "Hamilton Beach",
+   "category": "Batidoras",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": 345.0,
+   "discount_pct": 13,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/6/2/62633r.jpg"
+   ],
+   "url": "https://www.max.com.gt/hamilton-beachr-62633r-batidora-de-mano-color-rojo",
+   "description": "Hamilton Beach®, 62633R, Batidora de mano, Color Rojo. * 6 Velocidades * Estuche de almacenamiento a presión * 250 Watts de potencia * Accesorios versátiles * Reposacauchos"
+  },
+  {
+   "id": "kemik-ninja-blast-max-licuadora-portatil-twist-go-licuadora-person",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Blast Max Licuadora Portátil Inalámbrica (22 oz) - Gris",
+   "brand": "NINJA",
+   "category": "Licuadoras",
+   "price": 697.0,
+   "currency": "GTQ",
+   "compare_at_price": 781.0,
+   "discount_pct": 11,
+   "images": [
+    "https://static.kemikcdn.com/2025/01/71riGHW4v4L.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-blast-max-licuadora-portatil-twist-go-licuadora-personal-ninja-blender-licuadora-licuadora-mezcla-de-hielo-3-programas-inalambrico-recipiente-extraible-de-22-onzas-apto-para-gris",
+   "description": ""
+  },
+  {
+   "id": "max-0c3665ff",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Plancha de vapor morada Morphy Richards de alta potencia 1,700W",
+   "brand": "MORPHY RICHARDS",
+   "category": "Planchas",
+   "price": 399.0,
+   "currency": "GTQ",
+   "compare_at_price": 499.0,
+   "discount_pct": 20,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/f/b/fb414805fcbe3775.jpg"
+   ],
+   "url": "https://www.max.com.gt/plancha-de-vapor-morada-morphy-richards-de-alta-potencia-1-700w-0c3665ff",
+   "description": "Plancha de vapor Morphy Richards color morado de alta potencia. Con potencia de 1,700W, con suela cerámica. Tanque con capacidad de 350 ml. Perilla para seleccionar distintos tipos de planchado. Producto tiene 2 años de garantía."
+  },
+  {
+   "id": "kemik-ninja-crispi-freidora-de-aire-apta-para-microondas-congelado",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Crispi Freidora de Aire de Vidrio 4 en 1, 1500W - Gris",
+   "brand": "NINJA",
+   "category": "Freidoras",
+   "price": 1239.0,
+   "currency": "GTQ",
+   "compare_at_price": 2330.0,
+   "discount_pct": 47,
+   "images": [
+    "https://static.kemikcdn.com/2026/08/FN101GY-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-crispi-freidora-de-aire-apta-para-microondas-congelador-lavavajillas-sistema-de-coccion-portatil-de-vidrio-no-toxico-recipientes-de-vidrio-de-4-cuartos-6-tazas-con-tapas-de-gris",
+   "description": ""
+  },
+  {
+   "id": "max-GCSTAC7002",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Plancha de Vapor AeroGlide Oster color Negro",
+   "brand": "Oster",
+   "category": "Planchas",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": 335.0,
+   "discount_pct": 11,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/G/C/GCSTAC7002_1_9062026163342_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/plancha-de-vapor-aeroglide-oster-color-negro-oster-gcstac7002",
+   "description": "La plancha AEROGLIDE permite planchar más rápido y fácilmente gracias a su potente vapor de 180 g/min, que elimina arrugas difíciles. Su suela aerocerámica se desliza mejor, es más resistente y cubre más superficie. Incluye vapor vertical, punta de precisión y cable giratorio Además, cuenta con roci…"
+  },
+  {
+   "id": "kemik-ninja-detect-power-blender-pro-personal-single-serve-tecnolo",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Licuadora Detect Power Blender Pro de 72 oz - Negro",
+   "brand": "NINJA",
+   "category": "Licuadoras",
+   "price": 1285.0,
+   "currency": "GTQ",
+   "compare_at_price": 2324.0,
+   "discount_pct": 45,
+   "images": [
+    "https://static.kemikcdn.com/2025/04/TB301-NINJA-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-detect-power-blender-pro-personal-single-serve-tecnologia-blendsense-para-batidos-alimentos-mas-encimera-de-cocina-compacta-1800-p-w-jarra-de-72-onzas-2-tazas-para-llevar-de-24-power-blender-tazas",
+   "description": ""
+  },
+  {
+   "id": "max-GCSTAC7202",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Plancha de Vapor Oster con suela Aeroceramic color azul",
+   "brand": "Oster",
+   "category": "Planchas",
+   "price": 349.0,
+   "currency": "GTQ",
+   "compare_at_price": 395.0,
+   "discount_pct": 12,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/G/C/GCSTAC7202_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/plancha-de-vapor-oster-con-suela-aeroceramic-color-azul-oster-gcstac7202",
+   "description": "La plancha Oster AEROGLIDE genera hasta 40% más vapor para quitar arrugas difíciles sin esfuerzo. Su suela Aeroceramic tiene 25% más cobertura y se desliza 30% mejor, además de ser 50% más resistente a rayaduras. Con golpe de vapor vertical, punta de precisión. También cuenta con función de autolimp…"
+  },
+  {
+   "id": "kemik-frigidaire-frigobar-3-1-pies-con-compartimento-de-congelacio",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Frigobar 3.1 Pies con Compartimento de Congelación, 88 L - Gris",
+   "brand": "Frigidaire",
+   "category": "Refrigeración",
+   "price": 1323.0,
+   "currency": "GTQ",
+   "compare_at_price": 1699.0,
+   "discount_pct": 22,
+   "images": [
+    "https://static.kemikcdn.com/2026/04/FFPS3133UM-BODEGANGA-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/frigidaire-frigobar-3_1-pies-con-compartimento-de-congelacion-control-de-temperatura-anaqueles-para-botellas-88-l-gris",
+   "description": ""
+  },
+  {
+   "id": "max-GCSTCC5000013",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Oster®, GCSTCC5000013, Plancha de ropa, inalámbrica",
+   "brand": "Oster",
+   "category": "Planchas",
+   "price": 529.0,
+   "currency": "GTQ",
+   "compare_at_price": 595.0,
+   "discount_pct": 11,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/G/C/GCSTCC5000013_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/oster-gcstcc5000013-plancha-de-ropa-inalambrica-oster-gcstcc5000013",
+   "description": "Plancha de ropa inalámbrica con pontente golpe de vapor. Apagado inteligente Opción para planchar con cable."
+  },
+  {
+   "id": "kemik-espumador-portatil-para-hacer-bebidas-cremosas-rosado",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Espumador Portátil para Hacer Bebidas Cremosas - Rosado",
+   "brand": "",
+   "category": "Cafeteras",
+   "price": 29.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/03/ESPUMADOR-CAFE-ROSA-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/espumador-portatil-para-hacer-bebidas-cremosas-rosado",
+   "description": ""
+  },
+  {
+   "id": "max-TO1950SBD",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker, TO1950SBD, Horno tostador, de 14 o 6 rebanadas",
+   "brand": "Black & Decker",
+   "category": "Cocina",
+   "price": 699.0,
+   "currency": "GTQ",
+   "compare_at_price": 795.0,
+   "discount_pct": 12,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/t/o/to1950sbd_1.png"
+   ],
+   "url": "https://www.max.com.gt/black-decker-to1950sbd-horno-tostador-de-14-o-6-rebanadas",
+   "description": "El horno de seis rebanadas de pan BLACK+DECKER tiene tecnología de convección que circula aire caliente para cocinar pizzas y congelados favoritos por mínimo tiempo. El interior está diseñado para el enfoque hacia la comida rápida e incluso cocinar. La"
+  },
+  {
+   "id": "kemik-oster-vaso-de-vidrio-para-licuadora-de-1-5-litros-termorresi",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Vaso de Vidrio para Licuadora de 1.5 Litros Termorresistente",
+   "brand": "Oster",
+   "category": "Licuadoras",
+   "price": 129.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/06/124461-000-000-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-vaso-de-vidrio-para-licuadora-de-1_5-litros-termorresistente",
+   "description": ""
+  },
+  {
+   "id": "max-TO41300SDLA",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno tostador de 4 rebanadas, 5 funciones de cocción, negro",
+   "brand": "Black & Decker",
+   "category": "Cocina",
+   "price": 449.0,
+   "currency": "GTQ",
+   "compare_at_price": 495.0,
+   "discount_pct": 9,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/T/O/TO41300SDLA_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-tostador-de-4-rebanadas-5-funciones-de-coccion-negro-black-decker-to41300sdla",
+   "description": "Tecnología Eventoast, diseñada para un tostado uniforme 5 funciones de cocción: hornear, asar, tostar, calentar y recalentar Temporizador de 30 minutos con función de apagado automático Accesorios incluidos: bandeja para hornear y parrilla Bandeja de migas extraíble para una fácil limpieza 3 perilla…"
+  },
+  {
+   "id": "kemik-molino-electrico-multifuncional-de-acero-inoxidable-para-caf",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Molino Eléctrico Multifuncional para Café, Especias y Granos - 200W",
+   "brand": "",
+   "category": "Cafeteras",
+   "price": 150.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/05/MOL-ELE-001-MOLINO-1200X12000.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/molino-electrico-multifuncional-de-acero-inoxidable-para-cafe-especias-granos-semillas-200w",
+   "description": ""
+  },
+  {
+   "id": "max-TO82350SDLA",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Horno tostador con freidora extra ancho",
+   "brand": "Black & Decker",
+   "category": "Freidoras",
+   "price": 1299.0,
+   "currency": "GTQ",
+   "compare_at_price": 1445.0,
+   "discount_pct": 10,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/T/O/TO82350SDLA_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/horno-tostador-con-freidora-extra-ancho-black-decker-to82350sdla",
+   "description": "Desempeño de 1750 watts para una cocción rápida y uniforme Diseño extra ancho con capacidad de 32 litros Horno con freidora de aire y 6 funciones automáticas para freír con aire, hornear, asar, tostar, calentar y pizza. Incluye cesta para freír, bandeja para hornear y rejilla"
+  },
+  {
+   "id": "kemik-multilaser-plancha-a-vapor-portatil-con-tanque-de-280-ml-800",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Plancha a Vapor Portátil con Tanque de 280 ml, 800W - Blanco",
+   "brand": "Multilaser",
+   "category": "Planchas",
+   "price": 174.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/03/HO470USA-1200x1200-4.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/multilaser-plancha-a-vapor-portatil-con-tanque-de-280-ml-800w-blanco",
+   "description": ""
+  },
+  {
+   "id": "max-MUCTS25B",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Tostador de Pan Signature Negro de 4 rebanadas,| Morphy Richards",
+   "brand": "MORPHY RICHARDS",
+   "category": "Cocina",
+   "price": 599.0,
+   "currency": "GTQ",
+   "compare_at_price": 795.0,
+   "discount_pct": 25,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/M/U/MUCTS25B_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/tostador-de-pan-signature-negro-de-4-rebanadas-morphy-richards-morphy-richards-mucts25b",
+   "description": "2 ranuras, 4 rebanadas – Ranuras extra largas. Prepara variedad; como pan de masa madre, baguettes, pita o paninis. Control de tostado variable Botones de cancelación, recalentamiento y descongelación: Botones cromados con luces LED grabadas a láser. Bandeja recogemigas extraíble para una limpieza s…"
+  },
+  {
+   "id": "kemik-picca-cafetera-programable-de-12-tazas-con-filtro-permanente",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Cafetera Programable de 12 Tazas, Pantalla LCD - Gris con Negro",
+   "brand": "Picca",
+   "category": "Cafeteras",
+   "price": 219.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/05/PICM12PN-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/picca-cafetera-programable-de-12-tazas-con-filtro-permanente-pantalla-lcd-gris-con-negro",
+   "description": ""
+  },
+  {
+   "id": "max-MCH14",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "BLACK+DECKER®,MCH14, Olla Multifunción",
+   "brand": "Black & Decker",
+   "category": "Cocina",
+   "price": 499.0,
+   "currency": "GTQ",
+   "compare_at_price": 565.0,
+   "discount_pct": 12,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/m/c/mch14_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/black-deckerr-mch14-olla-multifuncion",
+   "description": "BLACK+DECKER®,MCH14, Olla Multifunción"
+  },
+  {
+   "id": "max-CKSTPC4693",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Oster®, CKSTPC4693, Multi olla de presión, 12 funciones",
+   "brand": "Oster",
+   "category": "Cocina",
+   "price": 839.0,
+   "currency": "GTQ",
+   "compare_at_price": 945.0,
+   "discount_pct": 11,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/c/k/ckstpc4693_2.jpg"
+   ],
+   "url": "https://www.max.com.gt/osterr-ckstpc4693-multi-olla-de-presion-12-funciones",
+   "description": "Oster®, CKSTPC4693, Multi olla de presión, 12 funciones. * Echo de aluminio * 4 valvulas de seguridad * Tapa con cierre de seguridad * Filtro integrado para retener residuos * doble asa para mejor uso"
+  },
+  {
+   "id": "max-RC620S",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker, RC620S, Arrocera de 20 Tazas",
+   "brand": "Black & Decker",
+   "category": "Cocina",
+   "price": 589.0,
+   "currency": "GTQ",
+   "compare_at_price": 675.0,
+   "discount_pct": 13,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/r/c/rc620s.jpg"
+   ],
+   "url": "https://www.max.com.gt/black-decker-rc620s-arrocera-de-20-tazas",
+   "description": "Recubrimiento antiadherente con tecnología DURAGLIDE Capacidad de 20 tazas/1.8L Ciclo para mantener los alimentos calientes Escape de vapor Asas frías al tacto Tapa de vidrio resistente Soporte para la tapa Luces indicadoras del ciclo de cocción y calentamiento Accesorios incluidos: cesta para cocin…"
+  },
+  {
+   "id": "max-FPSTFP3322",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Oster®, FPSTFP3322, Mini picatodo, de 1.5 tazas",
+   "brand": "Oster",
+   "category": "Batidoras",
+   "price": 239.0,
+   "currency": "GTQ",
+   "compare_at_price": 295.0,
+   "discount_pct": 19,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/f/p/fpstfp3322.png"
+   ],
+   "url": "https://www.max.com.gt/osterr-fpstfp3322-mini-picatodo-de-1-5-tazas",
+   "description": "Pica, muele y mezcla diferentes alimentos e ingredientes, permitiéndote preparar una gran variedad de recetas en tan solo segundos."
+  },
+  {
+   "id": "max-3320",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Mini procesador de alimentos, Oster, 3320, De 3 tazas",
+   "brand": "Oster",
+   "category": "Batidoras",
+   "price": 449.0,
+   "currency": "GTQ",
+   "compare_at_price": 495.0,
+   "discount_pct": 9,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/3/3/3320_2_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/mini-procesador-de-alimentos-oster-3320-de-3-tazas",
+   "description": "Mini procesador de alimentos, Oster, 3320, De 3 tazas"
+  },
+  {
+   "id": "max-a7ff79ac",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Procesador alimentos portátil Morphy Richards",
+   "brand": "MORPHY RICHARDS",
+   "category": "Batidoras",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": 449.0,
+   "discount_pct": 33,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/7/b/7be028b8981dc4ad.jpg"
+   ],
+   "url": "https://www.max.com.gt/procesador-alimentos-portatil-morphy-richards-a7ff79ac",
+   "description": "Procesador de alimentos inalámbrica y portátil Morphy Richards color azul. Con batería de recarga rápida, batería alcanza para 100 usos, 30 segundos máximo por cada presión del botón de pulso. 3 tazones incluidos para licuar distintos alimentos. Cable de carga USB tipo C incluído. Producto tiene 2 a…"
+  },
+  {
+   "id": "max-WMD200B",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker, WMD200B, Wafflera doble, color negro",
+   "brand": "Black & Decker",
+   "category": "Cocina",
+   "price": 599.0,
+   "currency": "GTQ",
+   "compare_at_price": 665.0,
+   "discount_pct": 10,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/w/m/wmd200b.png"
+   ],
+   "url": "https://www.max.com.gt/black-decker-wmd200b-wafflera-doble-color-negro-black-decker-wmd200b",
+   "description": "Black+Decker, WMD200B, Wafflera doble, color negro"
+  },
+  {
+   "id": "max-WM1000B",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker,WM1000B, Waflera Estilo Belga, Giratoria, Color Negro",
+   "brand": "Black & Decker",
+   "category": "Cocina",
+   "price": 429.0,
+   "currency": "GTQ",
+   "compare_at_price": 475.0,
+   "discount_pct": 10,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/w/m/wm1000b.jpg"
+   ],
+   "url": "https://www.max.com.gt/black-decker-wm1000b-waflera-estilo-belga-giratoria-color-negro-black-decker-wm1000b",
+   "description": "Nada mejor para desayunar que unos Wafles Belgas con tus ingredientes favoritos, pueden ser con chocolate, de avena si estas cuidando tu figura o simplemente la receta tradicional con la Waflera giratoria de Black + Decker. Su sistema de rotación de 180°C ayuda a garantizar una cocción uniforme. Lis…"
+  },
+  {
+   "id": "max-JC151",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Extractor de jugos de prensado en frío, Neverclog , Ninja",
+   "brand": "NINJA",
+   "category": "Batidoras",
+   "price": 1499.0,
+   "currency": "GTQ",
+   "compare_at_price": 1755.0,
+   "discount_pct": 15,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/J/C/JC151_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/extractor-de-jugos-de-prensado-en-frio-neverclog-ninja-ninja-jc151",
+   "description": "Potencia a través de ingredientes resistentes para un jugo potente y sin parar Control total de pulpa permite un jugo personalizado con dos filtros de pulpa intercambiables: Menos pulpa y mucha pulpa Programas Inicio/Parada y Reversa Potente base de motor de alto torque que gira la barrena a bajas v…"
+  },
+  {
+   "id": "max-JE26012DLA",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Extractor de jugos",
+   "brand": "Black & Decker",
+   "category": "Batidoras",
+   "price": 499.0,
+   "currency": "GTQ",
+   "compare_at_price": 565.0,
+   "discount_pct": 12,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/J/E/JE26012DLA_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/extractor-de-jugos-black-decker-je26012dla",
+   "description": "Tubo de alimentación extra grande Potencia de 400 watts Recipiente para pulpa de 1.6 L Boquilla antigoteo integrada Incluye empujador y cepillo de limpieza, para un uso completo y mantenimiento rápido"
+  },
+  {
+   "id": "max-67608Z",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Hamilton Beach®, 67608Z, Extractor de Jugos Big Mouth® Pro Negro con Acero",
+   "brand": "Hamilton Beach",
+   "category": "Batidoras",
+   "price": 999.0,
+   "currency": "GTQ",
+   "compare_at_price": 1145.0,
+   "discount_pct": 13,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/6/7/67608z.jpg"
+   ],
+   "url": "https://www.max.com.gt/hamilton-beach-67608z-extractor-de-jugos-big-mouth-pro-negro-con-acero-hamilton-beach-67608z",
+   "description": "Hamilton Beach®, 67608Z, Extractor de Jugos Big Mouth® Pro Negro con Acero Caben alimentos enteros Jugos frescos y saludable en segundos Fácil de armar y guardar Incluye recetario Motor poderoso de 800 Watts"
+  },
+  {
+   "id": "max-IG201",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Black+Decker, IG201, Parrilla para interior, Antiadherente",
+   "brand": "Black & Decker",
+   "category": "Cocina",
+   "price": 529.0,
+   "currency": "GTQ",
+   "compare_at_price": 595.0,
+   "discount_pct": 11,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/i/g/ig201.jpg"
+   ],
+   "url": "https://www.max.com.gt/black-decker-ig201-parrilla-para-interior-antiadherente",
+   "description": "Prepare comidas con rápidez con la superficie de cocción antiadherente grande y con temperaturas variables. A la hora de limpiar, la bandeja de goteo es apta para lavavajillas y la plancha es submergible sin el control de temperatura."
+  },
+  {
+   "id": "max-JS2135",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "MÁQUINA DE COSER CON 14 PUNTADAS INTEGRADAS",
+   "brand": "BROTHER",
+   "category": "Otros",
+   "price": 1349.0,
+   "currency": "GTQ",
+   "compare_at_price": 1525.0,
+   "discount_pct": 12,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/J/S/JS2135_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/maquina-de-coser-con-14-puntadas-integradas-brother-js2135",
+   "description": "Brother JS2135 es una máquina de coser mecánica compacta y portátil, ideal para costura básica, reparaciones y manualidades. Cuenta con 14 puntadas integradas, ojal automático de 4 pasos, brazo libre para mangas y pantalones, sistema de devanado rápido y cambio sencillo de prensatelas. Permite reali…"
+  },
+  {
+   "id": "max-ST371HD",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Máquina de coser con 37 puntadas integradas",
+   "brand": "BROTHER",
+   "category": "Otros",
+   "price": 2399.0,
+   "currency": "GTQ",
+   "compare_at_price": 2695.0,
+   "discount_pct": 11,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/S/T/ST371HD_1_1.jpg"
+   ],
+   "url": "https://www.max.com.gt/maquina-de-coser-con-37-puntadas-integradas-brother-st371hd",
+   "description": "Brother ST371HD es una máquina de coser mecánica de trabajo pesado, ideal para telas ligeras y gruesas. Cuenta con 37 puntadas incorporadas, ojal automático de un paso, brazo libre, enhebrador de aguja y sistema de arrastre reforzado para una alimentación uniforme de la tela. Su diseño resistente y…"
+  },
+  {
+   "id": "max-7b877ae0",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Licuadora blanca Morphy Richards con accesorio para triturar",
+   "brand": "MORPHY RICHARDS",
+   "category": "Licuadoras",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": 449.0,
+   "discount_pct": 33,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/3/f/3f8a89ba1fc3269f.jpg"
+   ],
+   "url": "https://www.max.com.gt/licuadora-blanca-morphy-richards-con-accesorio-para-triturar-7b877ae0",
+   "description": "Licuadora color blanca Morphy Richards con jarra de vidrio, incluye accesorio para triturar. Con 5 velocidades y botón de pulso, potencia de 350 watts. Capacidad de 1.5 litros. Producto tiene 2 años de garantía."
+  },
+  {
+   "id": "max-94ae15d9",
+   "merchant": "MAX",
+   "merchant_slug": "max",
+   "title": "Cafetera gris programable Morphy Richards (12 tazas)",
+   "brand": "MORPHY RICHARDS",
+   "category": "Cafeteras",
+   "price": 349.0,
+   "currency": "GTQ",
+   "compare_at_price": 649.0,
+   "discount_pct": 46,
+   "images": [
+    "https://backoffice.max.com.gt/media/catalog/product/1/a/1af13b42ddc2f681.jpg"
+   ],
+   "url": "https://www.max.com.gt/cafetera-gris-programable-morphy-richards-12-tazas-94ae15d9",
+   "description": "Cafetera color gris programable Morphy Richards de 1.5 litros de capacidad (12 tazas) con jarra de vidrio, filtro permanente y cuchara para servir incorporada. Compartimento para guardar el cable detrás. Producto tiene 2 años de garantía."
+  }
+ ]
 }

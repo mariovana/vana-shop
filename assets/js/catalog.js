@@ -12,15 +12,16 @@ const TINTS = [
   ["#D7F0E0", "#2E8B57"], ["#FFE3CC", "#E0671C"], ["#E7E1FD", "#5B3FD0"],
 ];
 const CAT_EMOJI = {
-  "Calzado": "👟", "Ropa": "👕", "Accesorios": "🎒", "Hogar": "🏠",
-  "Tecnología": "📱", "Juguetes": "🧸", "Belleza": "💄",
+  "Microondas": "🍲", "Licuadoras": "🥤", "Freidoras": "🍟", "Cafeteras": "☕",
+  "Batidoras": "🧁", "Planchas": "👔", "Refrigeración": "🧊", "Cocina": "🍳",
+  "Otros": "🔌",
 };
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const ico = (id, cls) => '<svg class="ico' + (cls ? " " + cls : "") + '"><use href="#' + id + '"/></svg>';
 
-fetch("data/products.json").then((r) => r.json()).then((d) => {
+fetch(VPS.DATA_URL).then((r) => r.json()).then((d) => {
   state.data = d;
   renderChatMock();
   renderCategories();
@@ -62,9 +63,9 @@ function setHdrVar() {
  * cuadre con el placeholder del buscador ("unos tenis para correr, talla 41").
  * La card destacada del catálogo sigue siendo la mejor oferta real. */
 function mockProduct() {
-  const shoes = state.data.products.filter((p) => p.category === "Calzado" && p.discount_pct);
-  const anyShoe = state.data.products.filter((p) => p.category === "Calzado");
-  return (shoes.sort((a, b) => b.discount_pct - a.discount_pct)[0]) || anyShoe[0] || bestOffer();
+  const star = state.data.products.filter(
+    (p) => /Microondas|Licuadoras/.test(p.category) && p.discount_pct);
+  return star.sort((a, b) => b.discount_pct - a.discount_pct)[0] || bestOffer();
 }
 function renderChatMock() {
   const p = mockProduct();
@@ -94,6 +95,14 @@ function renderCategories() {
       '<span class="cat-n">' + esc(c.name) + "</span>" +
       '<span class="cat-c">' + c.n + " producto" + (c.n === 1 ? "" : "s") + "</span>" +
     "</button>").join("");
+  // Cierre de la sección: lo que NO está en el catálogo también se puede pedir.
+  $("#cats").insertAdjacentHTML("beforeend",
+    '<a class="cat cat-ask" href="' + VPS.waAskLink("") + '" target="_blank" rel="noopener">' +
+      '<span class="cat-ico" style="background:var(--green-25)">' +
+        '<span class="ico" style="font-size:26px;line-height:1">💬</span></span>' +
+      '<span class="cat-n">Otras categorías</span>' +
+      '<span class="cat-c">Pídelo por el chat</span>' +
+    "</a>");
   $("#cats").querySelectorAll("[data-cat]").forEach((b) =>
     b.addEventListener("click", () => { setFilter("cat", b.dataset.cat); scrollToCatalog(); }));
 }
@@ -287,7 +296,7 @@ function wireUp() {
   });
   syncAsk();
 
-  ["Tenis", "Audífonos", "Mochila", "Licuadora"].forEach((label) => {
+  ["Microondas", "Licuadora", "Freidora de aire", "Cafetera"].forEach((label) => {
     const b = document.createElement("button");
     b.className = "pop"; b.type = "button"; b.textContent = label;
     b.addEventListener("click", () => {

@@ -379,3 +379,9 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   .footer .cols{gap:26px}
   .footer .col{flex:1 1 45%}
 }
+
+/* Tile de cierre en categorías: pedir por chat lo que no está en el catálogo */
+.cat-ask{border-style:dashed; border-color:var(--n30)}
+.cat-ask:hover{border-color:var(--green-140); border-style:solid}
+.cat-ask .cat-n{color:var(--n100)}
+.cat-ask .cat-c{color:var(--green-140); font-weight:700}
