@@ -1,65 +1,137 @@
 /* vana shop — página de producto */
-const WA_ICON = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8C11.6 28.4 13.8 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 1 1.1-3.9-.3-.4A10.5 10.5 0 0 1 5.5 16C5.5 10.2 10.2 5.5 16 5.5S26.5 10.2 26.5 16 21.8 26.6 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.8.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>';
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const ico = (id) => '<svg class="ico"><use href="#' + id + '"/></svg>';
 
 const id = new URLSearchParams(location.search).get("id");
+let DATA = null, P = null, QTY = 1;
 
-fetch("data/products.json")
-  .then((r) => r.json())
-  .then((d) => {
-    const p = d.products.find((x) => x.id === id);
-    const m = p ? d.merchants.find((x) => x.slug === p.merchant_slug) : null;
-    if (!p) { document.getElementById("pdp").innerHTML = '<div class="empty">Producto no encontrado.</div>'; return; }
-    render(p, m);
-  });
+fetch("data/products.json").then((r) => r.json()).then((d) => {
+  DATA = d;
+  P = d.products.find((x) => x.id === id);
+  if (!P) {
+    $("#pdp").innerHTML =
+      '<div class="empty" style="grid-column:auto">' +
+        "<h3>Producto no encontrado</h3>" +
+        "<p>Puede que ya no esté disponible. Escríbenos y te lo conseguimos.</p>" +
+        '<a class="wabtn" href="' + VPS.waAskLink("") + '" target="_blank" rel="noopener">' + ico("i-wa") + "Escribir por WhatsApp</a>" +
+      "</div>";
+    wireCommon();
+    return;
+  }
+  render();
+  renderRelated();
+  wireCommon();
+  if (window.VanaShopEmbed) window.VanaShopEmbed.report();
+});
 
-function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
+function merchant(slug) { return DATA.merchants.find((m) => m.slug === slug); }
 
-function render(p, m) {
-  document.title = p.title + " · vana shop";
-  document.getElementById("breadcrumb").innerHTML =
-    '<a href="index.html">Inicio</a> · <a href="index.html">' + p.category + "</a> · " + esc(p.title);
+function render() {
+  document.title = P.title + " · vana shop";
+  const m = merchant(P.merchant_slug);
+  const logo = m && m.logo ? '<img src="' + m.logo + '" alt="">' : "";
+  const imgs = P.images || [];
+  const pg = VPS.paguitos(P.price);
 
-  const thumbs = p.images.map((src, i) =>
-    '<img src="' + src + '" data-i="' + i + '" class="' + (i === 0 ? "active" : "") + '" alt="">').join("");
-  const disc = p.discount_pct ? '<span class="disc">-' + p.discount_pct + "%</span>" : "";
-  const was = p.compare_at_price ? '<span class="was">' + VPS.money(p.compare_at_price) + "</span>" : "";
-  const mlogo = m && m.logo ? '<img src="' + m.logo + '" alt="' + esc(p.merchant) + '">' : '<span class="txt-badge">' + esc(p.merchant) + "</span>";
-  const desc = p.description ? '<p class="pdp-desc">' + esc(p.description) + "</p>" : "";
-
-  document.getElementById("pdp").innerHTML =
-    '<div class="gallery">' +
-      '<div class="main"><img id="main-img" src="' + p.images[0] + '" alt="' + esc(p.title) + '"></div>' +
-      (p.images.length > 1 ? '<div class="thumbs">' + thumbs + "</div>" : "") +
+  $("#pdp").innerHTML =
+    '<div class="pdp-gal">' +
+      '<div class="pdp-main">' +
+        '<img id="mainImg" src="' + esc(imgs[0] || "") + '" alt="' + esc(P.title) + '">' +
+        (P.discount_pct ? '<span class="pdp-badge">-' + P.discount_pct + "% hoy</span>" : "") +
+      "</div>" +
+      (imgs.length > 1
+        ? '<div class="thumbs">' + imgs.map((src, i) =>
+            '<img src="' + esc(src) + '" data-i="' + i + '" class="' + (i === 0 ? "on" : "") + '" alt="">').join("") + "</div>"
+        : "") +
     "</div>" +
     '<div class="pdp-info">' +
-      '<a class="m" href="' + p.url + '" target="_blank" rel="noopener">' + mlogo + "<span>Vendido por " + esc(p.merchant) + "</span></a>" +
-      '<div class="cat">' + p.category + "</div>" +
-      "<h1>" + esc(p.title) + "</h1>" +
-      (p.discount_pct ? '<div class="pdp-disc">−' + p.discount_pct + "% de descuento hoy</div>" : "") +
-      VPS.pagHTML(p, "pdp") +
-      desc +
-      '<button class="buy" id="buy">' + WA_ICON + "<span>Comprar en paguitos</span></button>" +
-      '<p class="pdp-note">Te ponemos con un personal shopper de vana shop por WhatsApp. Confirma el producto y págalo en paguitos con vana pay, sin salir del chat.</p>' +
+      '<div class="pdp-eyebrow">' + logo + esc(P.merchant) + " · " + esc(P.category) + "</div>" +
+      "<h1>" + esc(P.title) + "</h1>" +
+      (P.discount_pct ? '<div class="pdp-disc">−' + P.discount_pct + "% de descuento hoy</div>" : "") +
+      '<div>' +
+        '<div class="pdp-cuota"><b id="cuota">' + VPS.money2(pg.per) + "</b><span>/paguito</span></div>" +
+        '<div class="pdp-tot" id="tot">' +
+          (P.compare_at_price ? "<s>" + VPS.money(P.compare_at_price) + "</s>" : "") +
+          pg.n + " paguitos quincenales · " + VPS.money(P.price) + " en total</div>" +
+      "</div>" +
+      '<div class="paybox">' + ico("i-pay") +
+        "<p>Pagas <b>" + pg.n + " paguitos de " + VPS.money2(pg.per) + "</b> con vana pay. Te confirmamos todo en el chat antes de cobrar.</p>" +
+      "</div>" +
+      '<div class="qty">' +
+        '<span class="qty-l">Cantidad</span>' +
+        '<div class="qty-box">' +
+          '<button class="qty-b" id="dec" type="button" aria-label="Quitar uno">' + ico("i-rem") + "</button>" +
+          '<span class="qty-v" id="qtyV">1</span>' +
+          '<button class="qty-b" id="inc" type="button" aria-label="Agregar uno">' + ico("i-add") + "</button>" +
+        "</div>" +
+      "</div>" +
+      '<button class="buy" id="buy" type="button">' + ico("i-pay") + "Comprar en paguitos</button>" +
+      '<button class="link-btn" id="askQ" type="button">¿Preguntas por este producto?</button>' +
+      '<div class="fineprint">' + ico("i-lock") + "Confirmas y pagas dentro del chat de WhatsApp.</div>" +
+      (P.description ? '<p style="margin:6px 0 0;font-size:14px;line-height:1.5;color:var(--n70)">' + esc(P.description) + "</p>" : "") +
+      '<a href="' + esc(P.url) + '" target="_blank" rel="noopener" style="font-size:13px;color:var(--n60)">Ver en el sitio de ' + esc(P.merchant) + " →</a>" +
     "</div>";
 
-  document.getElementById("buy").addEventListener("click", () => window.open(VPS.waLink(p), "_blank"));
-
-  // Barra fija inferior (mobile): resumen de paguitos + comprar
-  var pg = VPS.paguitos(p.price);
-  var bar = document.createElement("div");
-  bar.className = "pdp-bar";
-  bar.innerHTML =
-    '<div class="pdp-bar-price"><span>' + pg.n + " paguitos de</span><b>" + VPS.money2(pg.per) + "</b></div>" +
-    '<button class="buy" id="buy-bar">' + WA_ICON + "<span>Comprar</span></button>";
-  document.body.appendChild(bar);
-  document.getElementById("buy-bar").addEventListener("click", () => window.open(VPS.waLink(p), "_blank"));
+  // galería
   document.querySelectorAll(".thumbs img").forEach((t) =>
     t.addEventListener("click", () => {
-      document.getElementById("main-img").src = p.images[t.dataset.i];
-      document.querySelectorAll(".thumbs img").forEach((x) => x.classList.toggle("active", x === t));
+      $("#mainImg").src = imgs[t.dataset.i];
+      document.querySelectorAll(".thumbs img").forEach((x) => x.classList.toggle("on", x === t));
       if (window.VanaShopEmbed) window.VanaShopEmbed.report();
     }));
 
-  // el detalle ya está montado: avisarle su alto al embed de Framer
-  if (window.VanaShopEmbed) window.VanaShopEmbed.report();
+  // cantidad
+  const setQty = (n) => {
+    QTY = Math.max(1, n);
+    $("#qtyV").textContent = QTY;
+    const tot = P.price * QTY;
+    const g = VPS.paguitos(tot);
+    $("#cuota").textContent = VPS.money2(g.per);
+    $("#tot").innerHTML = (P.compare_at_price && QTY === 1 ? "<s>" + VPS.money(P.compare_at_price) + "</s>" : "") +
+      g.n + " paguitos quincenales · " + VPS.money(tot) + " en total";
+  };
+  $("#inc").addEventListener("click", () => setQty(QTY + 1));
+  $("#dec").addEventListener("click", () => setQty(QTY - 1));
+
+  $("#buy").addEventListener("click", () => openSheet(VPS.waMessage(P, QTY)));
+  $("#askQ").addEventListener("click", () =>
+    openSheet("Hola 👋 Tengo una duda sobre *" + P.title + "* de " + P.merchant + ".\n" + (P.url || "")));
+}
+
+function renderRelated() {
+  const rel = DATA.products.filter((x) => x.merchant_slug === P.merchant_slug && x.id !== P.id).slice(0, 4);
+  if (!rel.length) return;
+  $("#related").innerHTML =
+    '<div class="related"><h2>Más de ' + esc(P.merchant) + "</h2>" +
+      '<div class="grid">' + rel.map((p) => {
+        const pg = VPS.paguitos(p.price);
+        return '<a class="card" href="product.html?id=' + encodeURIComponent(p.id) + '">' +
+          '<div class="card-img"><img src="' + esc((p.images || [])[0] || "") + '" alt="' + esc(p.title) + '" loading="lazy"></div>' +
+          '<div class="card-body">' +
+            '<div class="card-name">' + esc(p.title) + "</div>" +
+            '<div class="cuota"><b>' + VPS.money2(pg.per) + "</b><span>/paguito</span></div>" +
+          "</div></a>";
+      }).join("") + "</div></div>";
+}
+
+/* ---- Sheet ---- */
+function openSheet(msg) {
+  $("#sheetMsg").textContent = msg;
+  $("#sheetSend").href = VPS.waRaw(msg);
+  $("#scrim").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeSheet() {
+  $("#scrim").classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+function wireCommon() {
+  $("#ctaChat").addEventListener("click", () => openSheet(VPS.waAskMessage("")));
+  $("#sheetX").addEventListener("click", closeSheet);
+  $("#scrim").addEventListener("click", (e) => { if (e.target === $("#scrim")) closeSheet(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSheet(); });
+  $("#footWa").href = VPS.waAskLink("");
+  $("#helpWa").href = VPS.waAskLink("");
 }

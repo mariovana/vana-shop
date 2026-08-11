@@ -22,47 +22,40 @@ window.VPS = {
     return { n: n, per: price / n };
   },
 
-  // Mensaje prellenado para WhatsApp, con paguitos.
-  waMessage: function (p) {
-    var pg = window.VPS.paguitos(p.price);
-    return [
-      "Hola 👋 Vi este producto en *vana shop* y me interesa:",
+  // Mensaje para WhatsApp. Incluye el link a la fuente porque el personal
+  // shopper lo necesita para conseguir el producto.
+  waMessage: function (p, qty) {
+    qty = Math.max(1, Number(qty) || 1);
+    var total = p.price * qty;
+    var pg = window.VPS.paguitos(total);
+    var lines = [
+      "Hola 👋 Quiero comprar en *vana shop*:",
       "",
-      "🛍️ " + p.title,
-      p.merchant + " · " + pg.n + " paguitos quincenales de " + window.VPS.money2(pg.per) + " (" + window.VPS.money(p.price) + ")",
-      p.url,
-      "",
-      "¿Me ayudas a llevármelo con vana pay?",
-    ].join("\n");
+      "🛍️ " + p.title + (qty > 1 ? "  ×" + qty : ""),
+      p.merchant + " · " + window.VPS.money(total) +
+        " — o " + pg.n + " paguitos quincenales de " + window.VPS.money2(pg.per) + " con vana pay",
+    ];
+    if (p.url) lines.push(p.url);
+    lines.push("", "¿Me ayudas a llevármelo?");
+    return lines.join("\n");
   },
 
-  waLink: function (p) {
-    return "https://wa.me/" + window.VPS.WA_NUMBER + "?text=" + encodeURIComponent(window.VPS.waMessage(p));
+  waLink: function (p, qty) {
+    return "https://wa.me/" + window.VPS.WA_NUMBER + "?text=" + encodeURIComponent(window.VPS.waMessage(p, qty));
   },
 
-  waSearchLink: function (q) {
-    var msg = "Hola 👋 Estoy buscando *" + q + "* en vana shop. ¿Me ayudas a conseguirlo?";
+  // Mensaje libre (búsqueda sin resultados, CTA general, dudas).
+  waAskMessage: function (q) {
+    return q
+      ? "Hola 👋 Estoy buscando *" + q + "* en vana shop. ¿Me ayudas a conseguirlo?"
+      : "Hola 👋 Quiero comprar con vana shop. ¿Me ayudas?";
+  },
+
+  waAskLink: function (q) {
+    return "https://wa.me/" + window.VPS.WA_NUMBER + "?text=" + encodeURIComponent(window.VPS.waAskMessage(q));
+  },
+
+  waRaw: function (msg) {
     return "https://wa.me/" + window.VPS.WA_NUMBER + "?text=" + encodeURIComponent(msg);
-  },
-
-  // Bloque de precio en paguitos (reutilizable). variant: "card" | "hero" | "pdp"
-  pagHTML: function (p, variant) {
-    var pg = window.VPS.paguitos(p.price);
-    var per = window.VPS.money2(pg.per);
-    var total = window.VPS.money(p.price);
-    var was = p.compare_at_price ? '<s>' + window.VPS.money(p.compare_at_price) + "</s> " : "";
-    if (variant === "hero") {
-      return '<div class="pag pag-hero"><span class="pag-n">' + pg.n + ' paguitos quincenales de</span>' +
-        '<span class="pag-per">' + per + '</span>' +
-        '<span class="pag-total">' + was + total + ' en total</span></div>';
-    }
-    if (variant === "pdp") {
-      return '<div class="pag pag-pdp"><span class="pag-lead">Llévatelo con</span>' +
-        '<div class="pag-line"><span class="pag-n">' + pg.n + ' paguitos quincenales de</span><span class="pag-per">' + per + "</span></div>" +
-        '<span class="pag-total">' + was + "Precio total " + total + "</span></div>";
-    }
-    return '<div class="pag"><span class="pag-n">' + pg.n + ' paguitos quincenales de</span>' +
-      '<span class="pag-per">' + per + '</span>' +
-      '<span class="pag-total">' + was + total + ' en total</span></div>';
   },
 };

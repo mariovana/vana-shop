@@ -5,36 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Producto · vana shop</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.92em' font-size='92'>🛍️</text></svg>">
-  <link rel="stylesheet" href="assets/css/styles.css?v=18">
+  <link rel="stylesheet" href="assets/css/styles.css?v=22">
 </head>
 <body>
-  <header class="hdr">
-    <div class="wrap">
-      <a class="brand" href="index.html" aria-label="vana shop"><span class="brand-txt">vana <i>shop</i></span></a>
-      <div class="search">
-        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5 1.5-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
-        <input id="search" type="search" placeholder="¿Qué estás buscando hoy?" aria-label="Buscar" readonly onclick="location.href='index.html'">
-      </div>
-      <a class="hdr-cta" href="https://wa.me/50254166752?text=Hola%20%F0%9F%91%8B%20quiero%20comprar%20con%20vana%20shop" target="_blank" rel="noopener">
-        <svg viewBox="0 0 32 32"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8C11.6 28.4 13.8 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm5.8 13.7c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.8.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5z"/></svg>
-        <span>Compra por WhatsApp</span>
-      </a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="i-wa" viewBox="0 0 32 32"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8C11.6 28.4 13.8 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 1 1.1-3.9-.3-.4A10.5 10.5 0 0 1 5.5 16C5.5 10.2 10.2 5.5 16 5.5S26.5 10.2 26.5 16 21.8 26.6 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.8.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5z"/></symbol>
+  <symbol id="i-arrow-l" viewBox="0 0 24 24"><path d="M12 20l1.4-1.4L7.8 13H20v-2H7.8l5.6-5.6L12 4l-8 8z"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1.2 15L6.5 12.7l1.4-1.4 2.9 2.9 5.3-5.3 1.4 1.4z"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><path d="M18 8h-1V6A5 5 0 007 6v2H6a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V10a2 2 0 00-2-2zM9 6a3 3 0 016 0v2H9zm3 12a2 2 0 110-4 2 2 0 010 4z"/></symbol>
+  <symbol id="i-pay" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 14H4v-6h16zm0-9H4V6h16z"/></symbol>
+  <symbol id="i-add" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"/></symbol>
+  <symbol id="i-rem" viewBox="0 0 24 24"><path d="M19 13H5v-2h14z"/></symbol>
+</defs></svg>
+
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="vana shop">
+      <img src="assets/img/logo-vana.svg" alt="vana"><span>shop</span>
+    </a>
+    <button class="hdr-cta" id="ctaChat" type="button">
+      <svg class="ico"><use href="#i-wa"/></svg><span>Pide directo a vana shop</span>
+    </button>
+  </div>
+</header>
+
+<main class="pdp-wrap">
+  <a class="back" href="index.html"><svg class="ico"><use href="#i-arrow-l"/></svg>Volver al catálogo</a>
+  <div class="pdp" id="pdp"></div>
+  <div id="related"></div>
+</main>
+
+<footer class="footer">
+  <div class="wrap cols">
+    <div class="f-brand">
+      <div class="f-logo"><img src="assets/img/logo-vana-inverse.svg" alt="vana"><span>shop</span></div>
+      <p class="f-about">Tu personal shopper por WhatsApp. Pide productos de las mejores tiendas y paga en paguitos con vana pay, sin salir del chat.</p>
+      <a class="wabtn" id="footWa" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>Escríbenos por WhatsApp</a>
     </div>
-  </header>
+    <div class="col"><h4>Comprar</h4><ul><li><a href="index.html">Todas las tiendas</a></li><li><a href="index.html">Categorías</a></li><li><a href="index.html">Ofertas</a></li></ul></div>
+    <div class="col"><h4>vana pay</h4><ul><li><a href="#">Cómo funciona</a></li><li><a href="#">Paga en paguitos</a></li><li><a href="#">Preguntas frecuentes</a></li></ul></div>
+    <div class="col"><h4>Ayuda</h4><ul><li><a id="helpWa" href="#" target="_blank" rel="noopener">Escríbenos por WhatsApp</a></li><li><a href="#">Devoluciones</a></li><li><a href="#">Términos</a></li></ul></div>
+  </div>
+  <div class="legal">vana shop · prototipo MVP. Los productos, precios e imágenes se muestran con fines de demostración y provienen de las tiendas de comercios partner, con enlace a la fuente original.</div>
+</footer>
 
-  <main class="wrap">
-    <div class="breadcrumb" id="breadcrumb"></div>
-    <div class="pdp" id="pdp"></div>
-  </main>
-
-  <footer class="footer">
-    <div class="wrap">
-      <div class="legal">vana shop · prototipo MVP. Los productos, precios e imágenes se muestran con fines de demostración y provienen de las tiendas de comercios partner, con enlace a la fuente original.</div>
+<div class="scrim" id="scrim">
+  <div class="sheet" id="sheet">
+    <div class="sheet-head">
+      <h3>Así le llega tu pedido</h3>
+      <button class="sheet-x" id="sheetX" type="button" aria-label="Cerrar"><svg class="ico"><use href="#i-close"/></svg></button>
     </div>
-  </footer>
+    <p class="sheet-lead">Revisa el mensaje. Al enviarlo te confirmamos precio, entrega y tus paguitos.</p>
+    <div class="sheet-prev">
+      <div class="sheet-msg" id="sheetMsg"></div>
+      <div class="sheet-reply"><svg class="ico"><use href="#i-check"/></svg>vana shop te responde en minutos</div>
+    </div>
+    <a class="sheet-send" id="sheetSend" href="#" target="_blank" rel="noopener">
+      <svg class="ico"><use href="#i-wa"/></svg>Enviar por WhatsApp
+    </a>
+    <div class="sheet-fine"><svg class="ico"><use href="#i-lock"/></svg>Confirmas y pagas dentro del chat.</div>
+  </div>
+</div>
 
-  <script src="assets/js/config.js?v=18"></script>
-  <script src="assets/js/embed-height.js?v=18"></script>
-  <script src="assets/js/product.js?v=18"></script>
+<script src="assets/js/config.js?v=22"></script>
+<script src="assets/js/embed-height.js?v=22"></script>
+<script src="assets/js/product.js?v=22"></script>
 </body>
 </html>
