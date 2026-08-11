@@ -59,9 +59,9 @@ function setHdrVar() {
 }
 
 /* ---- Mockup de chat del hero ----
- * Usa data real, pero prefiere calzado para que la conversación de ejemplo
- * cuadre con el placeholder del buscador ("unos tenis para correr, talla 41").
- * La card destacada del catálogo sigue siendo la mejor oferta real. */
+ * Usa data real, pero prefiere un microondas o licuadora para que el ejemplo
+ * cuadre con el placeholder del buscador. La card destacada del catálogo sigue
+ * siendo la mejor oferta real. */
 function mockProduct() {
   const star = state.data.products.filter(
     (p) => /Microondas|Licuadoras/.test(p.category) && p.discount_pct);
@@ -236,7 +236,7 @@ function card(p) {
     "</div>" +
     '<div class="card-body">' +
       '<div class="card-store">' + logo + esc(p.merchant) + "</div>" +
-      '<div class="card-name">' + esc(p.title) + "</div>" +
+      '<div class="card-name"><span>' + esc(p.title) + "</span></div>" +
       '<div class="cuota"><b>' + VPS.money2(pg.per) + "</b><span>/paguito</span></div>" +
       '<div class="card-tot">' + was + pg.n + " paguitos · " + VPS.money(p.price) + " total</div>" +
     "</div></a>";

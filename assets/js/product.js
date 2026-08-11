@@ -110,7 +110,7 @@ function renderRelated() {
         return '<a class="card" href="product.html?id=' + encodeURIComponent(p.id) + '">' +
           '<div class="card-img"><img src="' + esc((p.images || [])[0] || "") + '" alt="' + esc(p.title) + '" loading="lazy"></div>' +
           '<div class="card-body">' +
-            '<div class="card-name">' + esc(p.title) + "</div>" +
+            '<div class="card-name"><span>' + esc(p.title) + "</span></div>" +
             '<div class="cuota"><b>' + VPS.money2(pg.per) + "</b><span>/paguito</span></div>" +
           "</div></a>";
       }).join("") + "</div></div>";

@@ -1,10 +1,21 @@
 /* ============================================================
    vana shop — estilos del storefront
    Tokens tomados del vana Design System (colors_and_type.css).
-   Sofia Pro es la tipografía de marca; como todavía no shippeamos
-   los archivos de fuente, la stack cae al sistema si no está
-   instalada localmente.
+   Sofia Pro es la tipografía de marca y se sirve como webfont
+   (subset latino → woff2, ~19 KB por peso), para que mobile se vea
+   igual que desktop.
    ============================================================ */
+/* ---------- Sofia Pro (subset latino, woff2) ----------
+   Se sirven 3 pesos: 400 texto, 700 labels/botones, 900 display/precios.
+   font-display:swap → el texto se ve de inmediato con el fallback y cambia
+   al llegar la fuente, sin bloquear el render en mobile. */
+@font-face{font-family:"Sofia Pro"; src:url("../fonts/SofiaPro-Regular.woff2") format("woff2");
+  font-weight:400; font-style:normal; font-display:swap}
+@font-face{font-family:"Sofia Pro"; src:url("../fonts/SofiaPro-Bold.woff2") format("woff2");
+  font-weight:700; font-style:normal; font-display:swap}
+@font-face{font-family:"Sofia Pro"; src:url("../fonts/SofiaPro-Black.woff2") format("woff2");
+  font-weight:900; font-style:normal; font-display:swap}
+
 :root{
   /* neutral */
   --n0:#FFFFFF; --n10:#F6F8FB; --n30:#E2E6E9; --n50:#C6CCD3;
@@ -181,18 +192,20 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   border:1px solid var(--line); overflow:hidden; cursor:pointer; box-shadow:var(--sh-card);
   transition:border-color .15s, transform .1s, box-shadow .15s}
 .card:hover{border-color:var(--n50); transform:translateY(-2px); box-shadow:var(--sh-raised)}
-.card-img{position:relative; aspect-ratio:4/3; background:var(--n10);
-  display:flex; align-items:center; justify-content:center; padding:10px}
-.card-img img{max-width:100%; max-height:100%; width:auto; object-fit:contain}
+.card-img{position:relative; width:100%; aspect-ratio:4/3; flex:none; overflow:hidden;
+  background:var(--n0); border-bottom:1px solid var(--line)}
+.card-img img{position:absolute; inset:10px; margin:auto; max-width:calc(100% - 20px);
+  max-height:calc(100% - 20px); width:auto; height:auto; object-fit:contain}
 .card-badge{position:absolute; top:10px; left:10px; padding:4px 10px; border-radius:var(--r-pill);
   background:var(--amber); color:var(--n100); font-size:11px; font-weight:700}
 .card-body{padding:14px 14px 16px; display:flex; flex-direction:column; gap:6px; flex:1}
 .card-store{font-size:11px; font-weight:700; color:var(--n70); text-transform:uppercase;
   letter-spacing:.05em; display:flex; align-items:center; gap:6px}
 .card-store img{height:13px; width:auto}
-.card-name{font-size:15px; font-weight:700; line-height:1.3; color:var(--n100); flex:1;
-  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
-.cuota{display:flex; align-items:baseline; gap:6px; margin-top:4px}
+.card-name{font-size:15px; font-weight:700; line-height:1.3; color:var(--n100); min-height:0}
+.card-name span{display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical;
+  overflow:hidden; line-clamp:3}
+.cuota{display:flex; align-items:baseline; gap:6px; margin-top:auto; padding-top:4px}
 .cuota b{font-size:21px; font-weight:900; letter-spacing:-.02em}
 .cuota span{font-size:12px; color:var(--n70); font-weight:700}
 .card-tot{font-size:12px; color:var(--n60)}
@@ -212,9 +225,10 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   letter-spacing:.05em; margin-bottom:6px}
 .feat-name{font-size:clamp(19px,2.1vw,25px); font-weight:900; line-height:1.12; letter-spacing:-.02em;
   max-width:20ch; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden}
-.feat-img{flex:1; min-height:120px; display:flex; align-items:center; justify-content:center}
-.feat-img img{max-width:82%; max-height:100%; width:auto; object-fit:contain;
-  filter:drop-shadow(0 14px 28px rgba(0,0,0,.22))}
+.feat-img{flex:1; min-height:120px; display:flex; align-items:center; justify-content:center;
+  background:var(--n0); border-radius:var(--r-lg); padding:14px; position:relative; overflow:hidden;
+  box-shadow:0 6px 18px rgba(0,0,0,.14)}
+.feat-img img{max-width:100%; max-height:100%; width:auto; height:auto; object-fit:contain}
 .feat-bot{flex:none; display:flex; flex-direction:column; gap:6px}
 .feat-cuota{display:flex; align-items:baseline; gap:8px}
 .feat-cuota b{font-size:clamp(26px,3.2vw,36px); font-weight:900; letter-spacing:-.02em}
