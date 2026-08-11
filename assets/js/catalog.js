@@ -45,6 +45,13 @@ function bestOffer() {
   return withDisc.sort((a, b) => b.discount_pct - a.discount_pct)[0] || state.data.products[0];
 }
 function img0(p) { return (p.images && p.images[0]) || ""; }
+/* Corta en límite de palabra para que el mockup no quede a media palabra. */
+function shorten(s, max) {
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max);
+  const sp = cut.lastIndexOf(" ");
+  return (sp > max * 0.5 ? cut.slice(0, sp) : cut) + "…";
+}
 function setHdrVar() {
   const h = document.querySelector(".hdr");
   if (h) document.documentElement.style.setProperty("--hdr-h", h.offsetHeight + "px");
@@ -67,7 +74,7 @@ function renderChatMock() {
       '<span class="chat-av"><img src="assets/img/logo-vana-inverse.svg" alt=""></span>' +
       '<div><div class="chat-name">vana shop</div><div class="chat-on">en línea</div></div>' +
     "</div>" +
-    '<div class="b-out">Hola 👋 quiero ' + esc(p.title.toLowerCase().slice(0, 42)) + "</div>" +
+    '<div class="b-out">Hola 👋 quiero ' + esc(shorten(p.title.toLowerCase(), 38)) + "</div>" +
     '<div class="b-in">¡Listo! Te lo conseguimos en <b>' + esc(p.merchant) + "</b> desde " +
       pg.n + " paguitos de " + VPS.money2(pg.per) + " 🙌</div>" +
     '<div class="b-plan">' +
