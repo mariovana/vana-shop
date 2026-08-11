@@ -25,6 +25,9 @@ fetch("data/products.json").then((r) => r.json()).then((d) => {
   if (window.VanaShopEmbed) window.VanaShopEmbed.report();
 });
 
+function askMsg() {
+  return "Hola 👋 Tengo una duda sobre *" + P.title + "* de " + P.merchant + ".\n" + (P.url || "");
+}
 function merchant(slug) { return DATA.merchants.find((m) => m.slug === slug); }
 
 function render() {
@@ -66,8 +69,9 @@ function render() {
           '<button class="qty-b" id="inc" type="button" aria-label="Agregar uno">' + ico("i-add") + "</button>" +
         "</div>" +
       "</div>" +
-      '<button class="buy" id="buy" type="button">' + ico("i-pay") + "Comprar en paguitos</button>" +
-      '<button class="link-btn" id="askQ" type="button">¿Preguntas por este producto?</button>' +
+      '<a class="buy" id="buy" href="' + esc(VPS.waLink(P, 1)) + '" target="_blank" rel="noopener">' +
+        ico("i-wa") + "Comprar en paguitos</a>" +
+      '<a class="link-btn" id="askQ" href="' + esc(VPS.waRaw(askMsg())) + '" target="_blank" rel="noopener" style="text-align:center">¿Preguntas por este producto?</a>' +
       '<div class="fineprint">' + ico("i-lock") + "Confirmas y pagas dentro del chat de WhatsApp.</div>" +
       (P.description ? '<p style="margin:6px 0 0;font-size:14px;line-height:1.5;color:var(--n70)">' + esc(P.description) + "</p>" : "") +
       '<a href="' + esc(P.url) + '" target="_blank" rel="noopener" style="font-size:13px;color:var(--n60)">Ver en el sitio de ' + esc(P.merchant) + " →</a>" +
@@ -90,13 +94,10 @@ function render() {
     $("#cuota").textContent = VPS.money2(g.per);
     $("#tot").innerHTML = (P.compare_at_price && QTY === 1 ? "<s>" + VPS.money(P.compare_at_price) + "</s>" : "") +
       g.n + " paguitos quincenales · " + VPS.money(tot) + " en total";
+    $("#buy").href = VPS.waLink(P, QTY); // el mensaje lleva la cantidad elegida
   };
   $("#inc").addEventListener("click", () => setQty(QTY + 1));
   $("#dec").addEventListener("click", () => setQty(QTY - 1));
-
-  $("#buy").addEventListener("click", () => openSheet(VPS.waMessage(P, QTY)));
-  $("#askQ").addEventListener("click", () =>
-    openSheet("Hola 👋 Tengo una duda sobre *" + P.title + "* de " + P.merchant + ".\n" + (P.url || "")));
 }
 
 function renderRelated() {
@@ -115,23 +116,8 @@ function renderRelated() {
       }).join("") + "</div></div>";
 }
 
-/* ---- Sheet ---- */
-function openSheet(msg) {
-  $("#sheetMsg").textContent = msg;
-  $("#sheetSend").href = VPS.waRaw(msg);
-  $("#scrim").classList.add("open");
-  document.body.style.overflow = "hidden";
-}
-function closeSheet() {
-  $("#scrim").classList.remove("open");
-  document.body.style.overflow = "";
-}
-
 function wireCommon() {
-  $("#ctaChat").addEventListener("click", () => openSheet(VPS.waAskMessage("")));
-  $("#sheetX").addEventListener("click", closeSheet);
-  $("#scrim").addEventListener("click", (e) => { if (e.target === $("#scrim")) closeSheet(); });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSheet(); });
+  $("#ctaChat").href = VPS.waAskLink("");
   $("#footWa").href = VPS.waAskLink("");
   $("#helpWa").href = VPS.waAskLink("");
 }

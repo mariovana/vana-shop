@@ -272,18 +272,6 @@ function goToPage(n) {
   scrollToCatalog();
 }
 
-/* ---- Sheet de WhatsApp ---- */
-function openSheet(msg) {
-  $("#sheetMsg").textContent = msg;
-  $("#sheetSend").href = VPS.waRaw(msg);
-  $("#scrim").classList.add("open");
-  document.body.style.overflow = "hidden";
-}
-function closeSheet() {
-  $("#scrim").classList.remove("open");
-  document.body.style.overflow = "";
-}
-
 /* ---- Eventos ---- */
 function wireUp() {
   const inp = $("#search");
@@ -299,12 +287,6 @@ function wireUp() {
   });
   syncAsk();
 
-  // "Pedirlo" abre el sheet con el mensaje libre (o lo que se haya escrito).
-  $("#askBtn").addEventListener("click", (e) => {
-    e.preventDefault();
-    openSheet(VPS.waAskMessage(inp.value.trim()));
-  });
-
   ["Tenis", "Audífonos", "Mochila", "Licuadora"].forEach((label) => {
     const b = document.createElement("button");
     b.className = "pop"; b.type = "button"; b.textContent = label;
@@ -315,10 +297,7 @@ function wireUp() {
     $("#pops").appendChild(b);
   });
 
-  $("#ctaChat").addEventListener("click", () => openSheet(VPS.waAskMessage("")));
-  $("#sheetX").addEventListener("click", closeSheet);
-  $("#scrim").addEventListener("click", (e) => { if (e.target === $("#scrim")) closeSheet(); });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSheet(); });
+  $("#ctaChat").href = VPS.waAskLink("");
 
   $("#footWa").href = VPS.waAskLink("");
   $("#helpWa").href = VPS.waAskLink("");

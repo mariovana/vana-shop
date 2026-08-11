@@ -198,20 +198,24 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .card-tot{font-size:12px; color:var(--n60)}
 .card-tot s{margin-right:5px}
 
-/* card destacada 2x2 */
-.feat{grid-column:span 2; grid-row:span 2; position:relative; border-radius:20px; background:var(--teal);
-  padding:26px; display:flex; flex-direction:column; cursor:pointer; color:#fff;
-  box-shadow:0 8px 24px rgba(42,160,198,.22); overflow:hidden}
-.feat-top{position:relative; z-index:1}
+/* card destacada 2x2 — columna: título arriba, imagen al centro, precio abajo.
+   Se evita position:absolute para que la foto no quede recortada ni deje huecos. */
+.feat{grid-column:span 2; grid-row:span 2; border-radius:20px; background:var(--teal);
+  padding:24px; display:flex; flex-direction:column; gap:14px; cursor:pointer; color:#fff;
+  box-shadow:0 8px 24px rgba(42,160,198,.22); overflow:hidden;
+  transition:transform .1s, box-shadow .15s}
+.feat:hover{transform:translateY(-2px); box-shadow:0 12px 30px rgba(42,160,198,.3); color:#fff}
+.feat-top{flex:none}
 .feat-pill{display:inline-flex; padding:6px 12px; border-radius:var(--r-pill); background:var(--amber);
-  color:var(--n100); font-size:12px; font-weight:700; margin-bottom:16px}
+  color:var(--n100); font-size:12px; font-weight:700; margin-bottom:14px}
 .feat-store{font-size:12px; font-weight:700; color:rgba(255,255,255,.75); text-transform:uppercase;
-  letter-spacing:.05em; margin-bottom:8px}
-.feat-name{font-size:clamp(20px,2.2vw,26px); font-weight:900; line-height:1.1; letter-spacing:-.02em; max-width:18ch}
-.feat-img{position:absolute; right:-6%; bottom:-4%; width:64%; max-width:280px; z-index:0; opacity:.96;
-  filter:drop-shadow(0 12px 24px rgba(0,0,0,.18))}
-.feat-img img{width:100%; height:auto; object-fit:contain}
-.feat-bot{position:relative; z-index:1; margin-top:auto; display:flex; flex-direction:column; gap:8px}
+  letter-spacing:.05em; margin-bottom:6px}
+.feat-name{font-size:clamp(19px,2.1vw,25px); font-weight:900; line-height:1.12; letter-spacing:-.02em;
+  max-width:20ch; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden}
+.feat-img{flex:1; min-height:120px; display:flex; align-items:center; justify-content:center}
+.feat-img img{max-width:82%; max-height:100%; width:auto; object-fit:contain;
+  filter:drop-shadow(0 14px 28px rgba(0,0,0,.22))}
+.feat-bot{flex:none; display:flex; flex-direction:column; gap:6px}
 .feat-cuota{display:flex; align-items:baseline; gap:8px}
 .feat-cuota b{font-size:clamp(26px,3.2vw,36px); font-weight:900; letter-spacing:-.02em}
 .feat-cuota span{font-size:15px; color:rgba(255,255,255,.8); font-weight:700}
@@ -287,10 +291,10 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .buy{height:54px; border:0; border-radius:var(--r-pill); background:var(--teal); color:#fff;
   font-size:17px; font-weight:700; cursor:pointer; box-shadow:var(--sh-teal); display:flex;
   align-items:center; justify-content:center; gap:9px; transition:background .15s}
-.buy:hover{background:var(--teal-120)}
+.buy:hover{background:var(--teal-120); color:#fff}
 .buy .ico{font-size:20px}
-.link-btn{font-size:15px; font-weight:700; color:var(--teal); background:transparent; border:0;
-  cursor:pointer; padding:4px}
+.link-btn{display:block; text-align:center; font-size:15px; font-weight:700; color:var(--teal);
+  background:transparent; border:0; cursor:pointer; padding:6px}
 .fineprint{display:flex; align-items:center; gap:8px; font-size:13px; color:var(--n60)}
 .fineprint .ico{font-size:16px}
 .related{margin-top:48px}
@@ -345,8 +349,8 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 
 /* ---------- Mobile ---------- */
 @media (max-width:860px){
-  .feat{grid-column:span 2; grid-row:auto; padding:22px}
-  .feat-img{width:52%}
+  .feat{grid-column:span 2; grid-row:auto; padding:22px; min-height:340px}
+  .feat-img{min-height:150px}
 }
 @media (max-width:640px){
   :root{--hdr-h:64px}
@@ -363,8 +367,9 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   .card-body{padding:12px 12px 14px; gap:5px}
   .card-name{font-size:14px}
   .cuota b{font-size:19px}
-  .feat{grid-column:span 2; padding:20px}
-  .feat-img{width:46%; right:-4%}
+  .feat{grid-column:span 2; padding:18px; min-height:320px}
+  .feat-img{min-height:130px}
+  .feat-img img{max-width:70%}
   .cats{grid-template-columns:repeat(2,1fr)}
   .related .grid{grid-template-columns:repeat(2,1fr)}
   .pager{gap:5px; padding-bottom:26px}
