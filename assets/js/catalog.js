@@ -27,7 +27,6 @@ fetch(VPS.DATA_URL).then((r) => r.json()).then((d) => {
   renderCategories();
   renderMerchants();
   renderChips();
-  renderDiscover();
   render();
   wireUp();
   setHdrVar();
@@ -105,49 +104,7 @@ function renderCategories() {
       '<span class="cat-c">Pídelo por el chat</span>' +
     "</a>");
   $("#cats").querySelectorAll("[data-cat]").forEach((b) =>
-    b.addEventListener("click", () => { setFilter("cat", b.dataset.cat); closeDiscover(); scrollToCatalog(); }));
-}
-
-/* ---- Botones de descubrimiento (solo mobile) ----
- * Categorías y tiendas ocupaban ~470px de scroll antes del primer producto, y
- * los chips sticky del catálogo ya filtran por lo mismo. Acá se vuelven dos
- * botones que despliegan su sección al tocarlos: nada se pierde, pero deja de
- * costar scroll a quien solo quiere ver productos.
- * En desktop los botones no se muestran y ambas secciones van abiertas. */
-function renderDiscover() {
-  const nCats = categories().length;
-  const nStores = state.data.merchants.length;
-  const btn = (panel, emoji, label, n) =>
-    '<button class="disc" type="button" data-panel="' + panel + '" aria-expanded="false">' +
-      '<span class="disc-e">' + emoji + "</span>" +
-      '<span class="disc-t">' + label + "</span>" +
-      '<b class="disc-n">' + n + "</b>" +
-      ico("i-chev-d", "disc-c") +
-    "</button>";
-  $("#discover").innerHTML =
-    btn("secCats", "🗂️", "Categorías", nCats) + btn("secStores", "🏬", "Tiendas", nStores);
-
-  $("#discover").querySelectorAll("[data-panel]").forEach((b) =>
-    b.addEventListener("click", () => {
-      const sec = document.getElementById(b.dataset.panel);
-      const abierto = sec.classList.toggle("open");
-      b.setAttribute("aria-expanded", abierto ? "true" : "false");
-      b.classList.toggle("on", abierto);
-      if (abierto) sec.scrollIntoView({ block: "nearest", behavior: "smooth" });
-      if (window.VanaShopEmbed) window.VanaShopEmbed.report();
-    }));
-}
-
-/* Cierra los paneles al elegir algo: ya filtró, no tiene sentido dejarlos abiertos. */
-function closeDiscover() {
-  ["secCats", "secStores"].forEach((id) => {
-    const s = document.getElementById(id);
-    if (s) s.classList.remove("open");
-  });
-  document.querySelectorAll("#discover .disc").forEach((b) => {
-    b.classList.remove("on");
-    b.setAttribute("aria-expanded", "false");
-  });
+    b.addEventListener("click", () => { setFilter("cat", b.dataset.cat); scrollToCatalog(); }));
 }
 
 /* ---- Tiendas ---- */
@@ -165,14 +122,15 @@ function renderMerchants() {
     "</button>";
   }).join("");
   $("#merchants").querySelectorAll("[data-store]").forEach((b) =>
-    b.addEventListener("click", () => { setFilter("store", b.dataset.store); closeDiscover(); scrollToCatalog(); }));
+    b.addEventListener("click", () => { setFilter("store", b.dataset.store); scrollToCatalog(); }));
 }
 
 /* ---- Chips de filtro (sticky) ---- */
 function renderChips() {
-  const cats = ["Todas"].concat(categories().map((c) => c.name));
+  const cats = [{ name: "Todas", emoji: "" }].concat(categories());
   $("#catChips").innerHTML = cats.map((c) =>
-    '<button class="chip' + (state.cat === c ? " on" : "") + '" type="button" data-fc="' + esc(c) + '">' + esc(c) + "</button>").join("");
+    '<button class="chip' + (state.cat === c.name ? " on" : "") + '" type="button" data-fc="' + esc(c.name) + '">' +
+      (c.emoji ? '<span class="chip-e">' + c.emoji + "</span>" : "") + esc(c.name) + "</button>").join("");
 
   const stores = ["Todas"].concat(state.data.merchants.map((m) => m.name));
   $("#storeChips").innerHTML = '<span class="chiprow-l">Tienda</span>' + stores.map((s) => {
@@ -345,6 +303,9 @@ function goToPage(n) {
 /* ---- Eventos ---- */
 function wireUp() {
   const inp = $("#search");
+  // En mobile el placeholder largo se corta a media palabra; los chips de
+  // populares que están debajo ya dan los ejemplos.
+  if (window.matchMedia("(max-width:640px)").matches) inp.placeholder = "¿Qué estás buscando?";
   const syncAsk = () => { $("#askBtn").href = VPS.waAskLink(state.q); };
   let searched = false;
   inp.addEventListener("input", (e) => {
@@ -366,6 +327,16 @@ function wireUp() {
     });
     $("#pops").appendChild(b);
   });
+
+  // Popup de "cómo funciona": saca la explicación del hero sin perderla.
+  const modal = $("#howModal");
+  const abrirHow = () => { modal.hidden = false; document.body.style.overflow = "hidden"; };
+  const cerrarHow = () => { modal.hidden = true; document.body.style.overflow = ""; };
+  $("#howOpen").addEventListener("click", abrirHow);
+  $("#howClose").addEventListener("click", cerrarHow);
+  modal.addEventListener("click", (e) => { if (e.target === modal) cerrarHow(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !modal.hidden) cerrarHow(); });
+  $("#howWa").href = VPS.waAskLink("");
 
   const ft = $("#filterToggle");
   if (ft) ft.addEventListener("click", () => {

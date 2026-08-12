@@ -112,14 +112,31 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .hero-jump{display:inline-flex; align-items:center; gap:7px; font-size:15px; font-weight:700; color:var(--teal)}
 .hero-jump .ico{font-size:18px}
 
-/* Tira "cómo funciona" — solo mobile: sustituye la explicación que en desktop
-   da el mockup de chat, con 6 palabras en vez de 40. */
-.steps{display:none; list-style:none; margin:0; padding:14px 0 2px;
-  border-top:1px solid var(--line)}
-.steps li{display:flex; align-items:center; gap:6px; font-size:12.5px; font-weight:400; color:var(--n70)}
-.steps b{width:17px; height:17px; flex:none; border-radius:var(--r-pill); background:var(--teal-25);
-  color:var(--teal-120); display:inline-flex; align-items:center; justify-content:center;
-  font-size:10.5px; font-weight:700}
+/* "¿Cómo funciona?" — link discreto que abre el popup. La explicación existe,
+   pero deja de ocupar espacio en la primera pantalla. */
+.howlink{display:none; border:0; background:transparent; padding:0; cursor:pointer;
+  font-family:inherit; font-size:13.5px; font-weight:400; color:var(--n70);
+  text-decoration:underline; text-decoration-color:var(--n50); text-underline-offset:3px}
+.howlink:hover{color:var(--teal-120); text-decoration-color:var(--teal)}
+
+/* ---------- Popup "cómo funciona" ---------- */
+.modal{position:fixed; inset:0; z-index:70; background:rgba(54,64,73,.46);
+  display:flex; align-items:center; justify-content:center; padding:20px;
+  animation:fadeIn .16s ease}
+.modal[hidden]{display:none}
+.modal-card{width:100%; max-width:420px; background:var(--n0); border-radius:var(--r-xl);
+  padding:24px; display:flex; flex-direction:column; gap:22px;
+  box-shadow:0 20px 50px rgba(54,64,73,.28); animation:sheetUp .2s ease}
+.modal-head{display:flex; align-items:center; justify-content:space-between; gap:12px}
+.modal-head h3{font-size:21px; font-weight:700}
+.howsteps{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:18px}
+.howsteps li{display:flex; align-items:flex-start; gap:13px}
+.howsteps b{width:26px; height:26px; flex:none; border-radius:var(--r-pill);
+  background:var(--teal-25); color:var(--teal-120); display:inline-flex;
+  align-items:center; justify-content:center; font-size:13px; font-weight:700}
+.howsteps div{display:flex; flex-direction:column; gap:3px}
+.howsteps strong{font-size:15px; font-weight:700; color:var(--n100)}
+.howsteps span{font-size:13.5px; line-height:1.45; color:var(--n70)}
 
 /* mockup de chat */
 .chat{flex:1 1 340px; min-width:290px; display:flex; justify-content:center}
@@ -220,6 +237,7 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .chip:hover{border-color:var(--teal); color:var(--teal)}
 .chip.on{background:var(--teal); border-color:var(--teal); color:#fff}
 .chip img{height:15px; width:auto; border-radius:3px}
+.chip-e{font-size:14px; line-height:1}
 .chip.on img{filter:brightness(0) invert(1)}
 .count{font-size:15px; color:var(--n70)}
 
@@ -405,101 +423,96 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   .feat-img{min-height:150px}
 }
 @media (max-width:640px){
+  /* ============================================================
+     MOBILE — 95% del tráfico. Se rehizo este bloque completo porque había
+     reglas duplicadas peleándose (tres .hero h1, dos .hero .wrap, .askbtn
+     definido dos veces), que es parte de por qué el espaciado se sentía
+     apretado e impredecible.
+
+     Escala vertical, aplicada con intención:
+       8 · 12 · 16 · 24 · 32 · 40 · 48
+     ============================================================ */
   :root{--hdr-h:64px}
-  .wrap{padding-inline:16px}
-  /* Ritmo vertical de mobile: ~40px de aire entre secciones. */
-  .section{padding-top:36px; padding-bottom:4px}
-  .section-head{margin-bottom:16px}
-  .hero .wrap{padding-top:22px; padding-bottom:28px}
+  .wrap{padding-inline:18px}
 
-  /* ---- Hero aligerado en mobile ----
-     El feedback fue que se sentía muy cargado de texto: eran 952px (1.17
-     pantallas) y 80 palabras, con el primer producto a 2.77 pantallas de
-     scroll. Se quita todo lo que es texto de apoyo y se deja el titular, el
-     buscador (protagonista) y los chips, que son acción. El mockup de chat, el
-     badge, el subpárrafo y el link siguen intactos en desktop. */
+  /* ---- Header ---- */
+  .hdr .wrap{gap:10px; padding-top:12px; padding-bottom:12px}
+  .brand img{height:17px}
+  .brand span{font-size:16px}
+  .hdr-cta{height:40px; padding:0 14px; font-size:0; gap:0}
+  .hdr-cta .ico{font-size:21px}
+
+  /* ---- Hero: titular + buscador + populares + link a "cómo funciona" ----
+     El feedback fue que un usuario nuevo tenía demasiado que hacer. Se quitan
+     badge, subpárrafo, link "explorar" y el mockup de chat (todos siguen en
+     desktop). Los populares se quedan: son acción, no prosa, y son el único
+     elemento visual del hero ahora que el mockup no está. Los pasos se fueron
+     a un popup detrás de "¿Cómo funciona?". */
   .chat, .hero-sub, .hero-jump, .badge{display:none}
-  .hero h1{margin-bottom:14px}
+  .hero .wrap{gap:0; padding-top:32px; padding-bottom:40px}
+  .hero h1{font-size:clamp(28px,7.8vw,34px); line-height:1.08; margin-bottom:32px}
 
-  /* El botón "Pedirlo" se integra dentro del buscador: un control en vez de
-     dos bloques apilados, y el campo gana peso visual. */
-  .askrow{position:relative; margin-bottom:14px}
-  .askfield{padding-top:15px; padding-bottom:15px; padding-right:56px}
+  /* Fila scrolleable, sangrada al borde: sin label y sin wrap, para que lea
+     como un carrusel de acciones y no como una lista de texto */
+  .pops{display:flex; flex-wrap:nowrap; overflow-x:auto; gap:8px;
+    margin:24px -18px 0; padding-inline:18px; -webkit-overflow-scrolling:touch;
+    scrollbar-width:none}
+  .pops::-webkit-scrollbar{display:none}
+  .pops-l{display:none}
+  .howlink{display:inline-block; margin-top:28px}
+
+  /* El botón de WhatsApp vive dentro del buscador: un control, no dos bloques */
+  .askrow{position:relative; margin-bottom:0}
+  .askfield{padding-top:16px; padding-bottom:16px; padding-right:58px; border-radius:14px}
   .askbtn{position:absolute; right:6px; top:50%; transform:translateY(-50%);
-    width:42px; height:42px; padding:0; border-radius:10px; box-shadow:none}
+    width:44px; height:44px; padding:0; border-radius:11px; box-shadow:none; flex:none}
   .askbtn span{display:none}
   .askbtn .ico{font-size:21px}
 
-  /* La tira de pasos aparece solo acá */
-  .steps{display:flex; gap:14px; flex-wrap:wrap}
+  /* ---- Secciones ---- */
+  .section{padding-top:40px; padding-bottom:0}
+  .section-head{margin-bottom:20px}
 
-  /* Más aire del titular al buscador (el de los chips al divider va en la
-     regla de .pops de abajo, que es la que gana por orden) */
-  .hero h1{margin-bottom:24px}
+  /* Categorías y tiendas dejan de ser secciones con scroll propio: en mobile
+     viven dentro de Filtros, que ya las tenía como chips. Se elimina la
+     duplicación en vez de esconderla. */
+  #secCats, #secStores{display:none}
 
-  /* El bloque "Explora todo" + las dos filas de chips costaba ~150px de alto
-     fijo antes de ver producto. En mobile se colapsa en un botón "Filtros"
-     (con badge de filtros activos) y el contador al lado; las filas aparecen
-     al tocarlo. La barra sigue siendo sticky, así que se puede filtrar en
-     cualquier momento del scroll. */
+  /* ---- Catálogo: encabezado colapsado en un botón de Filtros ---- */
+  #catalogo{padding-top:32px}
   #catalogo > .section-head{display:none}
   .filterbar{display:flex}
-  .filters{padding-top:8px; padding-bottom:8px; gap:8px}
-  .filters #chiprows{display:none; flex-direction:column; gap:8px}
+  .filters{padding-top:12px; padding-bottom:12px; gap:12px; margin-bottom:0}
+  .filters #chiprows{display:none; flex-direction:column; gap:10px}
   .filters.open #chiprows{display:flex}
+  .chip-e{margin-right:5px}
 
-  /* Categorías y tiendas pasan a ser botones que despliegan su sección.
-     Antes costaban ~470px de scroll antes del primer producto. */
-  .discover{display:flex}
-  #secCats, #secStores{display:none}
-  #secCats.open, #secStores.open{display:block}
-  #secCats .section-head, #secStores .section-head{margin-bottom:14px}
-  /* Populares en una sola línea scrolleable: ocupaba 2 filas (80px). */
-  .pops{flex-wrap:nowrap; overflow-x:auto; margin-bottom:24px; -webkit-overflow-scrolling:touch}
-  .pop{font-size:12.5px; padding:6px 12px}
-  .pops-l{padding:0}
+  /* Las filas que scrollean sangran al borde: cortadas contra el padding del
+     wrap parecen contenido truncado en vez de algo que se desliza. */
+  .chiprow, .merchants{margin-inline:-18px; padding-inline:18px}
+  .chiprow::-webkit-scrollbar, .merchants::-webkit-scrollbar{display:none}
 
-  /* Las filas que scrollean sangran hasta el borde de la pantalla: si se
-     cortan contra el padding del wrap parecen contenido truncado en vez de
-     algo que se desliza. */
-  .pops, .chiprow, .merchants{margin-inline:-16px; padding-inline:16px}
-  .pops::-webkit-scrollbar, .chiprow::-webkit-scrollbar,
-  .merchants::-webkit-scrollbar{display:none}
-  .hdr .wrap{gap:10px; padding-top:11px; padding-bottom:11px}
-  .brand img{height:18px}
-  .brand span{font-size:17px}
-  .hdr-cta{height:40px; padding:0 14px; font-size:0; gap:0}
-  .hdr-cta .ico{font-size:21px}
-  .hero .wrap{gap:28px}
-  .hero h1{font-size:clamp(27px,7.6vw,34px)}
-  .askbtn{flex:1 1 100%}
-  .grid{grid-template-columns:repeat(2,1fr); gap:12px}
-  .card-body{padding:12px 12px 14px; gap:5px}
+  /* ---- Grid de producto ---- */
+  .grid{grid-template-columns:repeat(2,1fr); gap:14px; padding:4px 0 24px}
+  .card-body{padding:14px 13px 16px; gap:6px}
   .card-name{font-size:14px}
   .cuota b{font-size:19px}
-  .feat{grid-column:span 2; padding:18px; min-height:320px}
-  .feat-img{min-height:130px}
-  .feat-img img{max-width:70%}
-  /* ---- Categorías como fila scrolleable ----
-     La grilla de 10 tiles ocupaba 665px: casi una pantalla solo para elegir
-     categoría, y los chips sticky del catálogo ya filtran por lo mismo. Se
-     conserva el emoji y el tinte (es la parte más visual de la página), pero
-     en horizontal. El conteo se omite acá: lo dice el contador del catálogo. */
-  .cats{display:flex; grid-template-columns:none; gap:9px; overflow-x:auto;
-    -webkit-overflow-scrolling:touch; scroll-snap-type:x proximity}
-  .cats::-webkit-scrollbar{display:none}
-  .cat{flex:none; width:88px; scroll-snap-align:start; align-items:center;
-    text-align:center; padding:12px 8px; gap:7px}
-  .cat-ico{padding:8px; border-radius:12px}
-  .cat-ico .ico{font-size:23px}
-  .cat-n{font-size:12.5px; line-height:1.25}
-  .cat-c{display:none}
-  .related .grid{grid-template-columns:repeat(2,1fr)}
-  .pager{gap:5px; padding-bottom:26px}
+  .feat{grid-column:span 2; padding:20px; min-height:330px}
+  .feat-img{min-height:140px}
+  .feat-img img{max-width:72%}
+
+  /* ---- Popup ---- */
+  .modal{padding:16px}
+  .modal-card{padding:22px; gap:20px}
+
+  /* ---- Resto ---- */
+  .pager{gap:6px; padding:8px 0 32px}
   .pg{min-width:38px; height:40px; padding:0 9px; font-size:14px}
-  .pdp{gap:22px}
-  .pdp-wrap{padding:18px 16px 48px}
-  .footer .cols{gap:26px}
+  .related .grid{grid-template-columns:repeat(2,1fr)}
+  .pdp{gap:24px}
+  .pdp-wrap{padding:20px 18px 52px}
+  .footer{margin-top:40px}
+  .footer .cols{gap:28px}
   .footer .col{flex:1 1 45%}
 }
 
