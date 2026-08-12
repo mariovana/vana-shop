@@ -348,7 +348,6 @@ function wireUp() {
   $("#ctaChat").href = VPS.waAskLink("");
 
   $("#footWa").href = VPS.waAskLink("");
-  $("#helpWa").href = VPS.waAskLink("");
   $("#seeAllStores").addEventListener("click", (e) => {
     e.preventDefault(); setFilter("store", "Todas"); scrollToCatalog();
   });

@@ -352,15 +352,6 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   background:var(--blue-bg)}
 .paybox .ico{font-size:20px; color:var(--blue); margin-top:1px}
 .paybox p{margin:0; font-size:14px; line-height:1.45; color:var(--n100)}
-.qty{display:flex; align-items:center; gap:12px}
-.qty-l{font-size:14px; color:var(--n70)}
-.qty-box{display:flex; align-items:center; gap:4px; border:1px solid var(--n30);
-  border-radius:var(--r-pill); padding:4px}
-.qty-b{width:34px; height:34px; border:0; border-radius:var(--r-pill); background:var(--n10);
-  color:var(--n100); cursor:pointer; display:flex; align-items:center; justify-content:center}
-.qty-b:hover{background:var(--teal-25); color:var(--teal-120)}
-.qty-b .ico{font-size:17px}
-.qty-v{min-width:28px; text-align:center; font-size:16px; font-weight:700}
 .buy{height:54px; border:0; border-radius:var(--r-pill); background:var(--teal); color:#fff;
   font-size:17px; font-weight:700; cursor:pointer; box-shadow:var(--sh-teal); display:flex;
   align-items:center; justify-content:center; gap:9px; transition:background .15s}
@@ -418,7 +409,9 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .footer ul a{font-size:14px; color:rgba(255,255,255,.72)}
 .footer ul a:hover{color:#fff}
 .legal{max-width:var(--maxw); margin:30px auto 0; padding:20px 20px 0;
-  border-top:1px solid rgba(255,255,255,.14); font-size:13px; line-height:1.5; color:rgba(255,255,255,.5)}
+  border-top:1px solid rgba(255,255,255,.14); font-size:13px; line-height:1.5; color:rgba(255,255,255,.5);
+  display:flex; align-items:center; gap:10px}
+.legal img{height:15px; opacity:.5}
 
 /* ---------- Mobile ---------- */
 @media (max-width:860px){

@@ -4,7 +4,7 @@ const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 const ico = (id) => '<svg class="ico"><use href="#' + id + '"/></svg>';
 
 const id = new URLSearchParams(location.search).get("id");
-let DATA = null, P = null, QTY = 1;
+let DATA = null, P = null;
 
 fetch(VPS.DATA_URL).then((r) => r.json()).then((d) => {
   DATA = d;
@@ -61,20 +61,11 @@ function render() {
       '<div class="paybox">' + ico("i-pay") +
         "<p>Pagas <b>" + pg.n + " paguitos de " + VPS.money2(pg.per) + "</b> con vana pay. Te confirmamos todo en el chat antes de cobrar.</p>" +
       "</div>" +
-      '<div class="qty">' +
-        '<span class="qty-l">Cantidad</span>' +
-        '<div class="qty-box">' +
-          '<button class="qty-b" id="dec" type="button" aria-label="Quitar uno">' + ico("i-rem") + "</button>" +
-          '<span class="qty-v" id="qtyV">1</span>' +
-          '<button class="qty-b" id="inc" type="button" aria-label="Agregar uno">' + ico("i-add") + "</button>" +
-        "</div>" +
-      "</div>" +
       '<a class="buy" id="buy" href="' + esc(VPS.waLink(P, 1)) + '" target="_blank" rel="noopener">' +
         ico("i-wa") + "Comprar en paguitos</a>" +
       '<a class="link-btn" id="askQ" href="' + esc(VPS.waRaw(askMsg())) + '" target="_blank" rel="noopener" style="text-align:center">¿Preguntas por este producto?</a>' +
       '<div class="fineprint">' + ico("i-lock") + "Confirmas y pagas dentro del chat de WhatsApp.</div>" +
       (P.description ? '<p style="margin:6px 0 0;font-size:14px;line-height:1.5;color:var(--n70)">' + esc(P.description) + "</p>" : "") +
-      '<a href="' + esc(P.url) + '" target="_blank" rel="noopener" style="font-size:13px;color:var(--n60)">Ver en el sitio de ' + esc(P.merchant) + " →</a>" +
     "</div>";
 
   // galería
@@ -85,19 +76,6 @@ function render() {
       if (window.VanaShopEmbed) window.VanaShopEmbed.report();
     }));
 
-  // cantidad
-  const setQty = (n) => {
-    QTY = Math.max(1, n);
-    $("#qtyV").textContent = QTY;
-    const tot = P.price * QTY;
-    const g = VPS.paguitos(tot);
-    $("#cuota").textContent = VPS.money2(g.per);
-    $("#tot").innerHTML = (P.compare_at_price && QTY === 1 ? "<s>" + VPS.money(P.compare_at_price) + "</s>" : "") +
-      g.n + " paguitos quincenales · " + VPS.money(tot) + " en total";
-    $("#buy").href = VPS.waLink(P, QTY); // el mensaje lleva la cantidad elegida
-  };
-  $("#inc").addEventListener("click", () => setQty(QTY + 1));
-  $("#dec").addEventListener("click", () => setQty(QTY - 1));
 }
 
 function renderRelated() {
@@ -119,5 +97,4 @@ function renderRelated() {
 function wireCommon() {
   $("#ctaChat").href = VPS.waAskLink("");
   $("#footWa").href = VPS.waAskLink("");
-  $("#helpWa").href = VPS.waAskLink("");
 }
