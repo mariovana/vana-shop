@@ -114,11 +114,12 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 
 /* Tira "cómo funciona" — solo mobile: sustituye la explicación que en desktop
    da el mockup de chat, con 6 palabras en vez de 40. */
-.steps{display:none; list-style:none; margin:0 0 4px; padding:0}
-.steps li{display:flex; align-items:center; gap:7px; font-size:12.5px; font-weight:700; color:var(--n80)}
-.steps b{width:19px; height:19px; flex:none; border-radius:var(--r-pill); background:var(--teal-25);
+.steps{display:none; list-style:none; margin:0; padding:14px 0 2px;
+  border-top:1px solid var(--line)}
+.steps li{display:flex; align-items:center; gap:6px; font-size:12.5px; font-weight:400; color:var(--n70)}
+.steps b{width:17px; height:17px; flex:none; border-radius:var(--r-pill); background:var(--teal-25);
   color:var(--teal-120); display:inline-flex; align-items:center; justify-content:center;
-  font-size:11px; font-weight:900}
+  font-size:10.5px; font-weight:700}
 
 /* mockup de chat */
 .chat{flex:1 1 340px; min-width:290px; display:flex; justify-content:center}
@@ -402,7 +403,7 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   .askbtn .ico{font-size:21px}
 
   /* La tira de pasos aparece solo acá */
-  .steps{display:flex; gap:14px; flex-wrap:wrap; margin-bottom:2px}
+  .steps{display:flex; gap:14px; flex-wrap:wrap}
   /* Populares en una sola línea scrolleable: ocupaba 2 filas (80px). */
   .pops{flex-wrap:nowrap; overflow-x:auto; margin-bottom:16px; -webkit-overflow-scrolling:touch}
   .pop{font-size:12.5px; padding:6px 12px}
