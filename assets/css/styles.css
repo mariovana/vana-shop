@@ -87,6 +87,9 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .hero h1 em{font-style:normal; color:var(--teal)}
 .hero-sub{margin:0 0 22px; font-size:clamp(16px,1.9vw,18px); line-height:1.45; color:var(--n70);
   max-width:46ch; text-wrap:pretty}
+/* "3 o 5 paguitos" es el dato que diferencia esto de cualquier catálogo:
+   se resalta para que se lea de un vistazo sin leer la frase completa */
+.hero-sub em{font-style:normal; font-weight:700; color:var(--n80)}
 
 /* buscar / pedir */
 .askrow{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:12px}
@@ -448,9 +451,12 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
      desktop). Los populares se quedan: son acción, no prosa, y son el único
      elemento visual del hero ahora que el mockup no está. Los pasos se fueron
      a un popup detrás de "¿Cómo funciona?". */
-  .chat, .hero-sub, .hero-jump, .badge{display:none}
+  .chat, .hero-jump, .badge{display:none}
   .hero .wrap{gap:0; padding-top:32px; padding-bottom:40px}
-  .hero h1{font-size:clamp(28px,7.8vw,34px); line-height:1.08; margin-bottom:32px}
+  .hero h1{font-size:clamp(28px,7.8vw,34px); line-height:1.08; margin-bottom:14px}
+  /* El subtítulo vuelve en mobile: es el único lugar donde el hero dice que se
+     puede pagar en paguitos, que es la razón para elegir vana shop */
+  .hero-sub{display:block; font-size:15px; line-height:1.4; margin-bottom:28px}
 
   /* Fila scrolleable, sangrada al borde: sin label y sin wrap, para que lea
      como un carrusel de acciones y no como una lista de texto */
