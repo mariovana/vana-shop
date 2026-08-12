@@ -112,6 +112,14 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .hero-jump{display:inline-flex; align-items:center; gap:7px; font-size:15px; font-weight:700; color:var(--teal)}
 .hero-jump .ico{font-size:18px}
 
+/* Tira "cómo funciona" — solo mobile: sustituye la explicación que en desktop
+   da el mockup de chat, con 6 palabras en vez de 40. */
+.steps{display:none; list-style:none; margin:0 0 4px; padding:0}
+.steps li{display:flex; align-items:center; gap:7px; font-size:12.5px; font-weight:700; color:var(--n80)}
+.steps b{width:19px; height:19px; flex:none; border-radius:var(--r-pill); background:var(--teal-25);
+  color:var(--teal-120); display:inline-flex; align-items:center; justify-content:center;
+  font-size:11px; font-weight:900}
+
 /* mockup de chat */
 .chat{flex:1 1 340px; min-width:290px; display:flex; justify-content:center}
 .chat-inner{width:100%; max-width:380px; background:var(--n10); border:1px solid var(--n30);
@@ -373,7 +381,28 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   /* Ritmo vertical de mobile: ~40px de aire entre secciones. */
   .section{padding-top:36px; padding-bottom:4px}
   .section-head{margin-bottom:16px}
-  .hero .wrap{padding-top:24px; padding-bottom:32px}
+  .hero .wrap{padding-top:22px; padding-bottom:28px}
+
+  /* ---- Hero aligerado en mobile ----
+     El feedback fue que se sentía muy cargado de texto: eran 952px (1.17
+     pantallas) y 80 palabras, con el primer producto a 2.77 pantallas de
+     scroll. Se quita todo lo que es texto de apoyo y se deja el titular, el
+     buscador (protagonista) y los chips, que son acción. El mockup de chat, el
+     badge, el subpárrafo y el link siguen intactos en desktop. */
+  .chat, .hero-sub, .hero-jump, .badge{display:none}
+  .hero h1{margin-bottom:14px}
+
+  /* El botón "Pedirlo" se integra dentro del buscador: un control en vez de
+     dos bloques apilados, y el campo gana peso visual. */
+  .askrow{position:relative; margin-bottom:14px}
+  .askfield{padding-top:15px; padding-bottom:15px; padding-right:56px}
+  .askbtn{position:absolute; right:6px; top:50%; transform:translateY(-50%);
+    width:42px; height:42px; padding:0; border-radius:10px; box-shadow:none}
+  .askbtn span{display:none}
+  .askbtn .ico{font-size:21px}
+
+  /* La tira de pasos aparece solo acá */
+  .steps{display:flex; gap:14px; flex-wrap:wrap; margin-bottom:2px}
   /* Populares en una sola línea scrolleable: ocupaba 2 filas (80px). */
   .pops{flex-wrap:nowrap; overflow-x:auto; margin-bottom:16px; -webkit-overflow-scrolling:touch}
   .pop{font-size:12.5px; padding:6px 12px}
@@ -400,14 +429,20 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   .feat{grid-column:span 2; padding:18px; min-height:320px}
   .feat-img{min-height:130px}
   .feat-img img{max-width:70%}
-  /* Tiles más compactos: con 10 categorías, a 180px de alto eran 5 filas de
-     scroll solo para elegir una. */
-  .cats{grid-template-columns:repeat(2,1fr); gap:10px}
-  .cat{padding:13px; gap:8px}
-  .cat-ico{padding:7px; border-radius:10px}
-  .cat-ico .ico{font-size:21px}
-  .cat-n{font-size:14.5px}
-  .cat-c{font-size:12px}
+  /* ---- Categorías como fila scrolleable ----
+     La grilla de 10 tiles ocupaba 665px: casi una pantalla solo para elegir
+     categoría, y los chips sticky del catálogo ya filtran por lo mismo. Se
+     conserva el emoji y el tinte (es la parte más visual de la página), pero
+     en horizontal. El conteo se omite acá: lo dice el contador del catálogo. */
+  .cats{display:flex; grid-template-columns:none; gap:9px; overflow-x:auto;
+    -webkit-overflow-scrolling:touch; scroll-snap-type:x proximity}
+  .cats::-webkit-scrollbar{display:none}
+  .cat{flex:none; width:88px; scroll-snap-align:start; align-items:center;
+    text-align:center; padding:12px 8px; gap:7px}
+  .cat-ico{padding:8px; border-radius:12px}
+  .cat-ico .ico{font-size:23px}
+  .cat-n{font-size:12.5px; line-height:1.25}
+  .cat-c{display:none}
   .related .grid{grid-template-columns:repeat(2,1fr)}
   .pager{gap:5px; padding-bottom:26px}
   .pg{min-width:38px; height:40px; padding:0 9px; font-size:14px}
