@@ -57,7 +57,7 @@ a:hover{color:var(--teal-120)}
 img{display:block; max-width:100%}
 button,input,select{font-family:inherit}
 h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
-.wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px}
+.wrap{max-width:var(--maxw); margin:0 auto; padding-inline:20px}
 .ico{width:1em; height:1em; fill:currentColor; flex:none; display:block}
 
 /* ---------- Header ---------- */
@@ -97,16 +97,17 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .askfield .ico{font-size:20px; color:var(--n60)}
 .askfield input{flex:1; min-width:0; border:0; background:transparent; outline:none;
   font-size:16px; color:var(--n100)}
+.askfield input::placeholder{color:var(--n60); font-weight:400; opacity:1}
 .askbtn{flex:none; display:inline-flex; align-items:center; justify-content:center; gap:9px;
   height:48px; padding:0 22px; border:0; border-radius:12px; background:var(--teal); color:#fff;
   font-size:16px; font-weight:700; cursor:pointer; box-shadow:var(--sh-teal); transition:background .15s}
 .askbtn:hover{background:var(--teal-120); color:#fff}
 .askbtn .ico{font-size:19px}
-.pops{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; align-items:center}
+.pops{display:flex; gap:8px; margin-bottom:20px; align-items:center; flex-wrap:wrap}
 .pops-l{font-size:13px; color:var(--n60); padding:6px 0}
-.pop{border:1px solid var(--n30); background:var(--n0); border-radius:var(--r-pill);
+.pop{flex:none; border:1px solid var(--n30); background:var(--n0); border-radius:var(--r-pill);
   padding:7px 14px; font-size:13px; font-weight:700; color:var(--n80); cursor:pointer;
-  transition:border-color .15s, color .15s}
+  white-space:nowrap; transition:border-color .15s, color .15s}
 .pop:hover{border-color:var(--teal); color:var(--teal)}
 .hero-jump{display:inline-flex; align-items:center; gap:7px; font-size:15px; font-weight:700; color:var(--teal)}
 .hero-jump .ico{font-size:18px}
@@ -368,7 +369,22 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 }
 @media (max-width:640px){
   :root{--hdr-h:64px}
-  .wrap{padding:0 16px}
+  .wrap{padding-inline:16px}
+  /* Ritmo vertical de mobile: ~40px de aire entre secciones. */
+  .section{padding-top:36px; padding-bottom:4px}
+  .section-head{margin-bottom:16px}
+  .hero .wrap{padding-top:24px; padding-bottom:32px}
+  /* Populares en una sola línea scrolleable: ocupaba 2 filas (80px). */
+  .pops{flex-wrap:nowrap; overflow-x:auto; margin-bottom:16px; -webkit-overflow-scrolling:touch}
+  .pop{font-size:12.5px; padding:6px 12px}
+  .pops-l{padding:0}
+
+  /* Las filas que scrollean sangran hasta el borde de la pantalla: si se
+     cortan contra el padding del wrap parecen contenido truncado en vez de
+     algo que se desliza. */
+  .pops, .chiprow, .merchants{margin-inline:-16px; padding-inline:16px}
+  .pops::-webkit-scrollbar, .chiprow::-webkit-scrollbar,
+  .merchants::-webkit-scrollbar{display:none}
   .hdr .wrap{gap:10px; padding-top:11px; padding-bottom:11px}
   .brand img{height:18px}
   .brand span{font-size:17px}
@@ -384,7 +400,14 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   .feat{grid-column:span 2; padding:18px; min-height:320px}
   .feat-img{min-height:130px}
   .feat-img img{max-width:70%}
-  .cats{grid-template-columns:repeat(2,1fr)}
+  /* Tiles más compactos: con 10 categorías, a 180px de alto eran 5 filas de
+     scroll solo para elegir una. */
+  .cats{grid-template-columns:repeat(2,1fr); gap:10px}
+  .cat{padding:13px; gap:8px}
+  .cat-ico{padding:7px; border-radius:10px}
+  .cat-ico .ico{font-size:21px}
+  .cat-n{font-size:14.5px}
+  .cat-c{font-size:12px}
   .related .grid{grid-template-columns:repeat(2,1fr)}
   .pager{gap:5px; padding-bottom:26px}
   .pg{min-width:38px; height:40px; padding:0 9px; font-size:14px}
