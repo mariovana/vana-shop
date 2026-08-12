@@ -196,6 +196,20 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
 .filters{position:sticky; top:var(--hdr-h); z-index:20; background:rgba(246,248,251,.94);
   backdrop-filter:blur(8px); padding:10px 0 14px; margin-bottom:6px;
   display:flex; flex-direction:column; gap:10px}
+.filterbar{display:none; align-items:center; gap:10px}
+.fbtn{display:inline-flex; align-items:center; gap:7px; height:38px; padding:0 14px;
+  border:1px solid var(--n30); background:var(--n0); border-radius:var(--r-pill);
+  font-size:13.5px; font-weight:700; color:var(--n100); cursor:pointer; flex:none;
+  box-shadow:var(--sh-card); transition:border-color .15s, background .15s}
+.fbtn .ico{font-size:16px; color:var(--n70)}
+.fbtn.on{background:var(--teal); border-color:var(--teal); color:#fff}
+.fbtn.on .ico{color:#fff}
+.fbtn-n{min-width:18px; height:18px; border-radius:var(--r-pill); background:var(--teal);
+  color:#fff; font-size:11px; font-weight:700; display:inline-flex; align-items:center;
+  justify-content:center; padding:0 5px}
+.fbtn.on .fbtn-n{background:rgba(255,255,255,.9); color:var(--teal-140)}
+.fbtn-n[hidden]{display:none}
+.fcount{font-size:13px; color:var(--n70); flex:1; text-align:right}
 .chiprow{display:flex; gap:8px; overflow-x:auto; padding-bottom:2px; align-items:center;
   -webkit-overflow-scrolling:touch}
 .chiprow-l{flex:none; font-size:13px; color:var(--n60); font-weight:700; padding-right:2px}
@@ -422,6 +436,17 @@ h1,h2,h3{color:var(--n100); letter-spacing:-.02em; margin:0}
   /* Más aire del titular al buscador (el de los chips al divider va en la
      regla de .pops de abajo, que es la que gana por orden) */
   .hero h1{margin-bottom:24px}
+
+  /* El bloque "Explora todo" + las dos filas de chips costaba ~150px de alto
+     fijo antes de ver producto. En mobile se colapsa en un botón "Filtros"
+     (con badge de filtros activos) y el contador al lado; las filas aparecen
+     al tocarlo. La barra sigue siendo sticky, así que se puede filtrar en
+     cualquier momento del scroll. */
+  #catalogo > .section-head{display:none}
+  .filterbar{display:flex}
+  .filters{padding-top:8px; padding-bottom:8px; gap:8px}
+  .filters #chiprows{display:none; flex-direction:column; gap:8px}
+  .filters.open #chiprows{display:flex}
 
   /* Categorías y tiendas pasan a ser botones que despliegan su sección.
      Antes costaban ~470px de scroll antes del primer producto. */

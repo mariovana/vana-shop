@@ -187,6 +187,21 @@ function renderChips() {
     b.addEventListener("click", () => setFilter("store", b.dataset.fs)));
 }
 
+/* Marca en el botón cuántos filtros hay puestos, para que al estar colapsado
+ * se note que el catálogo está filtrado. */
+function syncFilterCount() {
+  const b = $("#fCount");
+  if (!b) return;
+  let n = 0;
+  if (state.cat !== "Todas") n++;
+  if (state.store !== "Todas") n++;
+  if (state.q) n++;
+  b.textContent = n || "";
+  b.hidden = !n;
+  const t = $("#filterToggle");
+  if (t) t.classList.toggle("on", !!n);
+}
+
 function setFilter(kind, val) {
   state[kind] = val;
   state.page = 1; // filtrar siempre arranca desde la primera página
@@ -230,9 +245,12 @@ function render() {
   const from = (state.page - 1) * PER_PAGE;
   const pageItems = base.slice(from, from + PER_PAGE);
 
-  $("#count").textContent = list.length === 0 ? ""
+  const etiqueta = list.length === 0 ? ""
     : list.length + (list.length === 1 ? " producto" : " productos") +
       (pages > 1 ? " · página " + state.page + " de " + pages : "");
+  $("#count").textContent = etiqueta;
+  const cb = $("#countBar"); if (cb) cb.textContent = etiqueta;
+  syncFilterCount();
 
   if (!list.length) {
     $("#grid").innerHTML =
@@ -347,6 +365,13 @@ function wireUp() {
       inp.dispatchEvent(new Event("input", { bubbles: true }));
     });
     $("#pops").appendChild(b);
+  });
+
+  const ft = $("#filterToggle");
+  if (ft) ft.addEventListener("click", () => {
+    const abierto = $(".filters").classList.toggle("open");
+    ft.setAttribute("aria-expanded", abierto ? "true" : "false");
+    if (window.VanaShopEmbed) window.VanaShopEmbed.report();
   });
 
   $("#ctaChat").href = VPS.waAskLink("");
