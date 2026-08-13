@@ -1,7 +1,9 @@
 /* vana shop — configuración central */
 window.VPS = {
-  // Número de WhatsApp de vana shop (cambiar aquí en un solo lugar).
-  WA_NUMBER: "50254166752",
+  // Número oficial de WhatsApp de vana shop: +502 3140 0058.
+  // Formato wa.me: código de país + número, sin "+" ni espacios.
+  // Cambiar aquí en un solo lugar: header, hero, cards, PDP y footer lo derivan.
+  WA_NUMBER: "50231400058",
 
   // URL del catálogo con la misma versión que traen los assets. Sin esto, un
   // visitante con products.json en caché seguiría viendo el catálogo viejo
