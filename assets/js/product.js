@@ -101,7 +101,7 @@ function renderRelated() {
     '<div class="related"><h2>Más de ' + esc(P.merchant) + "</h2>" +
       '<div class="grid">' + rel.map((p) => {
         const pg = VPS.paguitos(p.price);
-        return '<div class="card">' +
+        return '<a class="card" href="product.html?id=' + encodeURIComponent(p.id) + '">' +
           '<div class="card-img" style="--tint:' + tint(p.id) + '">' +
             '<img src="' + cutout(p, 0) + '" alt="' + esc(p.title) + '" loading="lazy"' + onerr(p) + '>' +
             (p.discount_pct ? '<span class="card-badge">-' + p.discount_pct + '%</span>' : '') +
@@ -112,10 +112,7 @@ function renderRelated() {
               (p.compare_at_price ? '<s>' + VPS.money(p.compare_at_price) + '</s>' : '') + '</div>' +
             '<div class="card-pag">' + pg.n + ' paguitos de ' + VPS.money2(pg.per) + '</div>' +
           '</div>' +
-          '<a class="card-hit" href="product.html?id=' + encodeURIComponent(p.id) + '" aria-label="Ver ' + esc(p.title) + '"></a>' +
-          '<a class="card-add" href="' + esc(VPS.waLink(p, 1)) + '" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">' +
-            ico("i-add") + '</a>' +
-        '</div>';
+        '</a>';
       }).join("") + "</div></div>";
 }
 

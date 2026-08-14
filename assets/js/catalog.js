@@ -58,9 +58,12 @@ function imgTag(p, cls) {
 }
 
 /* ---- Card de producto ---- */
+/* La card entera es el link a la página de producto. Desde ahí se va a
+ * WhatsApp: es el flujo que ya estaba validado y deja ver ficha y precio
+ * antes de escribir. */
 function cardHTML(p) {
   const pg = VPS.paguitos(p.price);
-  return '<div class="card">' +
+  return '<a class="card" href="product.html?id=' + encodeURIComponent(p.id) + '">' +
     '<div class="card-img" style="--tint:' + tint(p.id) + '">' +
       imgTag(p) +
       (p.discount_pct ? '<span class="card-badge">-' + p.discount_pct + "%</span>" : "") +
@@ -71,10 +74,7 @@ function cardHTML(p) {
         (p.compare_at_price ? "<s>" + VPS.money(p.compare_at_price) + "</s>" : "") + "</div>" +
       '<div class="card-pag">' + pg.n + " paguitos de " + VPS.money2(pg.per) + "</div>" +
     "</div>" +
-    '<a class="card-hit" href="product.html?id=' + encodeURIComponent(p.id) + '" aria-label="Ver ' + esc(p.title) + '"></a>' +
-    '<a class="card-add" href="' + esc(VPS.waLink(p, 1)) + '" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">' +
-      ico("i-add") + "</a>" +
-  "</div>";
+  "</a>";
 }
 
 /* ---- Explora por categoría ----
@@ -174,12 +174,9 @@ function render() {
   const desde = (state.page - 1) * PER_PAGE;
   const pagina = base.slice(desde, desde + PER_PAGE);
 
-  const etiqueta = base.length
-    ? base.length + " producto" + (base.length === 1 ? "" : "s") +
-      (paginas > 1 ? " · página " + state.page + " de " + paginas : "")
-    : "";
-  $("#count").textContent = etiqueta;
-  $("#countBar").textContent = etiqueta;
+  // Solo el total, como en el diseño. La página en curso ya la dice el pager.
+  $("#count").textContent = base.length
+    ? base.length + " producto" + (base.length === 1 ? "" : "s") : "";
 
   $("#grid").innerHTML = pagina.length
     ? pagina.map(cardHTML).join("")

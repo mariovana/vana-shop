@@ -85,11 +85,14 @@ h1,h2,h3{color:var(--n100); margin:0}
   object-position:center 42%}
 .hero-in{position:relative; z-index:2; width:100%; text-align:center;
   padding-bottom:clamp(28px,4.2vw,80px)}
-.hero h1{font-weight:900; letter-spacing:-.04em; line-height:.92; color:var(--n0);
-  margin:0 0 clamp(20px,2.6vw,50px); text-wrap:balance}
-.hero h1 span{display:block; font-size:clamp(38px,8vw,154px)}
+/* En el Figma las dos líneas comparten una caja de 172.35px, con la de arriba a
+   153.58px y la de abajo a 241.58px. De ahí salen los interlineados: 1.12 y
+   0.71. Un line-height único las separaba de más. */
+.hero h1{font-weight:900; letter-spacing:-.04em; color:var(--n0);
+  margin:0 0 clamp(20px,2.6vw,50px)}
+.hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1.12}
 .hero h1 em{display:block; font-style:normal; color:var(--ink);
-  font-size:clamp(58px,12.6vw,242px)}
+  font-size:clamp(58px,12.6vw,242px); line-height:.71}
 
 /* buscador: pastilla blanca con el botón morado adentro */
 .askrow{position:relative; margin:0 auto; width:min(47.5vw,912px); min-width:min(100%,340px)}
@@ -153,7 +156,7 @@ h1,h2,h3{color:var(--n100); margin:0}
   padding-bottom:8px}
 .toprow{display:grid; grid-template-columns:repeat(5,1fr); gap:clamp(12px,1.3vw,16px)}
 
-.card{position:relative; display:flex; flex-direction:column; gap:12px}
+.card{position:relative; display:flex; flex-direction:column; gap:12px; color:inherit}
 .card-img{position:relative; aspect-ratio:1/1; border-radius:var(--r-card);
   background:var(--tint,var(--t1)); overflow:hidden; transition:transform .18s}
 .card:hover .card-img{transform:translateY(-3px)}
@@ -167,13 +170,6 @@ h1,h2,h3{color:var(--n100); margin:0}
   display:inline-flex; align-items:center; height:30px; padding:0 12px;
   border-radius:var(--r-pill); background:var(--pur); color:var(--n0);
   font-size:12px; font-weight:900}
-.card-add{position:absolute; bottom:14px; right:14px; z-index:3;
-  width:46px; height:46px; border-radius:var(--r-pill); background:var(--n0);
-  display:flex; align-items:center; justify-content:center; color:var(--n100);
-  box-shadow:0 2px 8px rgba(16,16,17,.14); transition:background .15s, color .15s, transform .15s}
-.card-add:hover{background:var(--pur); color:var(--n0); transform:scale(1.06)}
-.card-add .ico{font-size:22px}
-.card-hit{position:absolute; inset:0; z-index:1; border-radius:var(--r-card)}
 .card-body{display:flex; flex-direction:column; gap:9px; padding-inline:8px}
 .card-name{font-size:16px; font-weight:700; line-height:1.25; color:var(--n100)}
 .card-name span{display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
@@ -362,7 +358,7 @@ h1,h2,h3{color:var(--n100); margin:0}
   .hero{min-height:auto; border-radius:0 0 var(--r-band) var(--r-band)}
   .hero-bg{object-position:center 38%}
   .hero-in{padding-top:26px; padding-bottom:32px}
-  .hero h1{margin-bottom:24px; line-height:.94}
+  .hero h1{margin-bottom:24px}
   .hero h1 span{font-size:12.4vw}
   .hero h1 em{font-size:19.4vw}   /* 21vw tocaba los bordes con "comprar" */
 
@@ -382,10 +378,11 @@ h1,h2,h3{color:var(--n100); margin:0}
   .section-head{margin-bottom:16px; gap:10px}
   .section-head h2{font-size:23px}
 
-  /* Categorías y top ofertas: filas scrolleables sangradas al borde, para que
-     se note que hay más contenido a la derecha. */
+  /* Categorías y top ofertas: filas scrolleables. El sangrado va SOLO a la
+     derecha —ahí comunica que hay más contenido—; a la izquierda arrancan
+     alineadas con el título de la sección. */
   .cats, .toprow{display:flex; overflow-x:auto; gap:12px; scrollbar-width:none;
-    margin-inline:-18px; padding-inline:18px; scroll-snap-type:x proximity}
+    margin-right:-18px; padding-right:18px; scroll-snap-type:x proximity}
   .cats::-webkit-scrollbar, .toprow::-webkit-scrollbar{display:none}
   .cats > *{flex:0 0 42%; scroll-snap-align:start}
   .toprow > *{flex:0 0 62%; scroll-snap-align:start}
@@ -393,14 +390,20 @@ h1,h2,h3{color:var(--n100); margin:0}
   .cat-n{font-size:14px}
 
   /* ---- Explora todo ---- */
-  #catalogo .section-head{flex-wrap:nowrap}
+  /* "Explora todo" en una línea y Filtros pegado a la derecha. `display:contents`
+     disuelve .filters para que .filterbar y #chiprows sean hijos directos de la
+     fila: así el botón se va al extremo derecho y los chips, al abrirse, bajan a
+     su propia línea a todo el ancho. */
+  #catalogo .section-head{flex-wrap:wrap; row-gap:14px; gap:12px}
+  #catalogo .section-head h2{white-space:nowrap}
   #catalogo .count{display:none}
-  .filters{width:100%; margin-left:0; flex-direction:column; align-items:stretch; gap:12px}
-  .filterbar{display:flex}
-  #chiprows{display:none; flex-direction:column; gap:10px}
+  .filters{display:contents}
+  .filterbar{display:flex; width:auto; margin-left:auto}
+  .fcount{display:none}           /* el contador no aporta y apretaba la fila */
+  #chiprows{display:none; width:100%; flex-direction:column; gap:10px}
   .filters.open #chiprows{display:flex}
   #catChips{display:flex}
-  .chiprow{margin-inline:-18px; padding-inline:18px}
+  .chiprow{margin-right:-18px; padding-right:18px}
 
   .grid{grid-template-columns:repeat(2,1fr); gap:14px}
   .card{gap:10px}
@@ -410,9 +413,7 @@ h1,h2,h3{color:var(--n100); margin:0}
   .card-price s{font-size:13px}
   .card-pag{font-size:12px}
   .card-badge{top:10px; left:10px; height:26px; padding:0 10px; font-size:11px}
-  .card-add{bottom:10px; right:10px; width:38px; height:38px}
-  .card-add .ico{font-size:19px}
-
+    
   .pager{padding-top:28px; gap:6px}
   .pg{min-width:38px; height:40px; padding:0 9px; font-size:14px}
 
