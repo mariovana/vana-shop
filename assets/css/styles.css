@@ -88,11 +88,16 @@ h1,h2,h3{color:var(--n100); margin:0}
 /* En el Figma las dos líneas comparten una caja de 172.35px, con la de arriba a
    153.58px y la de abajo a 241.58px. De ahí salen los interlineados: 1.12 y
    0.71. Un line-height único las separaba de más. */
+/* Un line-height de .71 (el que sale de las cajas del Figma) hacía que la caja
+   mintiera: la tinta de "comprar" se salía ~50px por abajo y quedaba pegada al
+   buscador aunque el margen dijera otra cosa. Con line-height 1 la caja es
+   honesta, y las dos líneas se juntan con un margen negativo, que es lo que
+   realmente controla la separación entre ellas. */
 .hero h1{font-weight:900; letter-spacing:-.04em; color:var(--n0);
-  margin:0 0 clamp(20px,2.6vw,50px)}
-.hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1.12}
+  margin:0 0 clamp(30px,5vw,96px)}
+.hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1}
 .hero h1 em{display:block; font-style:normal; color:var(--ink);
-  font-size:clamp(58px,12.6vw,242px); line-height:.71}
+  font-size:clamp(58px,12.6vw,242px); line-height:1; margin-top:-.04em}
 
 /* buscador: pastilla blanca con el botón morado adentro */
 .askrow{position:relative; margin:0 auto; width:min(47.5vw,912px); min-width:min(100%,340px)}
@@ -358,7 +363,7 @@ h1,h2,h3{color:var(--n100); margin:0}
   .hero{min-height:auto; border-radius:0 0 var(--r-band) var(--r-band)}
   .hero-bg{object-position:center 38%}
   .hero-in{padding-top:26px; padding-bottom:32px}
-  .hero h1{margin-bottom:24px}
+  .hero h1{margin-bottom:30px}
   .hero h1 span{font-size:12.4vw}
   .hero h1 em{font-size:19.4vw}   /* 21vw tocaba los bordes con "comprar" */
 
