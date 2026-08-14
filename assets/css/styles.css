@@ -101,14 +101,16 @@ h1,h2,h3{color:var(--n100); margin:0}
    El -.19em sale del Figma: líneas base a 172.35px, con la de arriba a
    153.58px y la de abajo a 241.58px. */
 .hero h1{font-weight:900; color:var(--n0); margin:0 0 clamp(30px,5vw,96px)}
-/* El tracking del Figma (-9.66px) es absoluto, así que en em NO es el mismo
-   para las dos líneas: sobre 153.58px son -.063em y sobre 241.58px, -.04em.
-   Va un poco más cerrado que eso porque en pantalla se leía suelto. */
+/* El tracking del Figma (-9.66px) es absoluto, así que en em NO es el mismo para
+   las dos líneas: sobre 153.58px son -.063em y sobre 241.58px, -.04em. Va bastante
+   más cerrado que eso porque en pantalla se leía suelto.
+   El word-spacing es necesario: letter-spacing también encoge el espacio entre
+   palabras, y sin compensarlo "Hoy quiero" se leía "Hoyquiero". */
 .hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1;
-  letter-spacing:-.075em}
+  letter-spacing:-.095em; word-spacing:.14em}
 .hero h1 em{display:block; font-style:normal; color:var(--ink);
   font-size:clamp(58px,12.6vw,242px); line-height:1; margin-top:-.19em;
-  letter-spacing:-.055em}
+  letter-spacing:-.085em}
 
 /* buscador: pastilla blanca con el botón morado adentro */
 .askrow{position:relative; margin:0 auto; width:min(47.5vw,912px); min-width:min(100%,340px)}
