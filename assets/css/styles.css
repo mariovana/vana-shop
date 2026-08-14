@@ -107,10 +107,10 @@ h1,h2,h3{color:var(--n100); margin:0}
    El word-spacing es necesario: letter-spacing también encoge el espacio entre
    palabras, y sin compensarlo "Hoy quiero" se leía "Hoyquiero". */
 .hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1;
-  letter-spacing:-.095em; word-spacing:.14em}
+  letter-spacing:-.08em; word-spacing:.10em}
 .hero h1 em{display:block; font-style:normal; color:var(--ink);
   font-size:clamp(58px,12.6vw,242px); line-height:1; margin-top:-.19em;
-  letter-spacing:-.085em}
+  letter-spacing:-.065em}
 
 /* buscador: pastilla blanca con el botón morado adentro */
 .askrow{position:relative; margin:0 auto; width:min(47.5vw,912px); min-width:min(100%,340px)}
