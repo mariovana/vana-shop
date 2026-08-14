@@ -4,8 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>vana shop — pide lo que quieras, paga por WhatsApp</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.92em' font-size='92'>🛍️</text></svg>">
-  <link rel="stylesheet" href="assets/css/styles.css?v=42">
+  <meta name="description" content="Tu personal shopper por WhatsApp. Pide productos de las mejores tiendas y págalos en paguitos con vana pay, sin salir del chat.">
+  <meta name="theme-color" content="#5101BC">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon-180.png">
+  <link rel="preload" as="image" href="assets/img/hero-sky.jpg" imagesrcset="assets/img/hero-sky-sm.jpg 800w, assets/img/hero-sky.jpg 1600w" imagesizes="100vw">
+  <link rel="stylesheet" href="assets/css/styles.css?v=45">
 </head>
 <body>
 
@@ -13,87 +17,85 @@
   <symbol id="i-wa" viewBox="0 0 32 32"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8C11.6 28.4 13.8 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 1 1.1-3.9-.3-.4A10.5 10.5 0 0 1 5.5 16C5.5 10.2 10.2 5.5 16 5.5S26.5 10.2 26.5 16 21.8 26.6 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.8.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5z"/></symbol>
   <symbol id="i-search" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5 1.5-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></symbol>
   <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M12 4l-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20l8-8z"/></symbol>
-  <symbol id="i-arrow-l" viewBox="0 0 24 24"><path d="M12 20l1.4-1.4L7.8 13H20v-2H7.8l5.6-5.6L12 4l-8 8z"/></symbol>
-  <symbol id="i-arrow-d" viewBox="0 0 24 24"><path d="M20 12l-1.4-1.4L13 16.2V4h-2v12.2l-5.6-5.6L4 12l8 8z"/></symbol>
+  <symbol id="i-add" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"/></symbol>
   <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M15.4 7.4L14 6l-6 6 6 6 1.4-1.4L10.8 12z"/></symbol>
+  <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M8.6 16.6L10 18l6-6-6-6-1.4 1.4L13.2 12z"/></symbol>
   <symbol id="i-close" viewBox="0 0 24 24"><path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/></symbol>
   <symbol id="i-filter" viewBox="0 0 24 24"><path d="M3 5h18v2.2l-6.6 6.6V21l-4.8-2.6v-4.6L3 7.2z"/></symbol>
-  <symbol id="i-chev-d" viewBox="0 0 24 24"><path d="M16.6 8.6L18 10l-6 6-6-6 1.4-1.4L12 13.2z"/></symbol>
-  <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M8.6 16.6L10 18l6-6-6-6-1.4 1.4L13.2 12z"/></symbol>
-  <symbol id="i-check" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1.2 15L6.5 12.7l1.4-1.4 2.9 2.9 5.3-5.3 1.4 1.4z"/></symbol>
-  <symbol id="i-pay" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 14H4v-6h16zm0-9H4V6h16z"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 17h-2v-2h2zm2.1-7.7l-.9.9c-.7.7-1.2 1.3-1.2 2.8h-2v-.5c0-1.1.4-2.1 1.2-2.8l1.2-1.3c.4-.3.6-.8.6-1.4a2 2 0 10-4 0H8a4 4 0 118 0c0 .9-.4 1.7-.9 2.3z"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 2H4a2 2 0 00-2 2v18l4-4h14a2 2 0 002-2V4a2 2 0 00-2-2zM7 9h10v2H7zm0 4h7v2H7zm0-8h10v2H7z"/></symbol>
 </defs></svg>
 
-<header class="hdr">
+<header class="hdr over">
   <div class="wrap">
     <a class="brand" href="index.html" aria-label="vana shop">
-      <img src="assets/img/logo-vana.svg" alt="vana"><span>shop</span>
+      <img src="assets/img/logo-shop-white.png" alt="vana shop" width="355" height="96">
     </a>
     <a class="hdr-cta" id="ctaChat" href="#" target="_blank" rel="noopener">
-      <svg class="ico"><use href="#i-wa"/></svg><span>Pide directo a vana shop</span>
+      <svg class="ico"><use href="#i-wa"/></svg><span>WhatsApp</span>
     </a>
   </div>
 </header>
 
 <section class="hero">
-  <div class="wrap">
-    <div class="hero-copy">
-      <span class="badge"><svg class="ico"><use href="#i-check"/></svg>Sin apps, sin filas, sin trámites</span>
-      <h1>Pide lo que quieras.<br><em>Nosotros te lo conseguimos.</em></h1>
-      <p class="hero-sub">Dinos qué buscas, te ayudamos a encontrarlo y págalo en <em>3 o 5 paguitos</em> con vana pay.</p>
-      <div class="askrow">
-        <label class="askfield">
-          <svg class="ico"><use href="#i-search"/></svg>
-          <input id="search" type="search" placeholder="una licuadora, un microondas, una freidora de aire…" aria-label="Buscar productos">
-        </label>
-        <a class="askbtn" id="askBtn" href="#" role="button">
-          <svg class="ico"><use href="#i-wa"/></svg><span>Pedirlo</span>
-        </a>
-      </div>
-      <div class="pops" id="pops"><span class="pops-l">Populares:</span></div>
-      <button class="howlink" id="howOpen" type="button">¿Cómo funciona?</button>
-      <a class="hero-jump" href="#catalogo">Explorar productos<svg class="ico"><use href="#i-arrow-d"/></svg></a>
+  <img class="hero-bg" src="assets/img/hero-sky.jpg"
+       srcset="assets/img/hero-sky-sm.jpg 800w, assets/img/hero-sky.jpg 1600w"
+       sizes="100vw" alt="" fetchpriority="high">
+  <div class="hero-in wrap">
+    <h1><span>Hoy quiero</span><em>comprar</em></h1>
+    <div class="askrow">
+      <label class="askfield">
+        <svg class="ico"><use href="#i-search"/></svg>
+        <input id="search" type="search" placeholder="¿Qué buscas hoy?" aria-label="Buscar productos">
+      </label>
+      <a class="askbtn" id="askBtn" href="#" role="button">
+        <span>Pedirlo</span><svg class="ico"><use href="#i-arrow-r"/></svg>
+      </a>
     </div>
-    <div class="chat">
-      <div class="chat-inner" id="chatMock"></div>
-    </div>
+    <p class="hero-sub">Tu personal <b>shopper por WhatsApp</b><br>pídelo y págalo en paguitos.</p>
+    <button class="howlink" id="howOpen" type="button"><svg class="ico"><use href="#i-help"/></svg>¿Cómo funciona?</button>
   </div>
 </section>
 
 <section class="section wrap" id="secCats">
-  <div class="section-head">
-    <div><h2>Compra por categoría</h2><span class="sub">Encuentra justo lo que buscas</span></div>
-  </div>
+  <div class="section-head"><h2>Explora por categoría</h2></div>
   <div class="cats" id="cats"></div>
 </section>
 
-<section class="section wrap" id="secStores">
+<section class="section wrap" id="secTop">
   <div class="section-head">
-    <h2>Tiendas en vana shop</h2>
-    <a href="#catalogo" class="see-all" id="seeAllStores">Ver todas →</a>
+    <h2>Top ofertas del mes</h2>
+    <span class="hpill" id="topPill"></span>
   </div>
-  <div class="merchants" id="merchants"></div>
+  <div class="toprow" id="topRow"></div>
 </section>
 
 <section class="section wrap" id="catalogo">
   <div class="section-head">
     <h2>Explora todo</h2>
     <span class="count" id="count"></span>
-  </div>
-  <div class="filters">
-    <div class="filterbar">
-      <button class="fbtn" id="filterToggle" type="button" aria-expanded="false" aria-controls="chiprows">
-        <svg class="ico"><use href="#i-filter"/></svg><span>Filtros</span><b class="fbtn-n" id="fCount"></b>
-      </button>
-      <span class="fcount" id="countBar"></span>
-    </div>
-    <div id="chiprows">
-      <div class="chiprow" id="catChips"></div>
-      <div class="chiprow" id="storeChips"></div>
+    <div class="filters">
+      <div class="filterbar">
+        <button class="fbtn" id="filterToggle" type="button" aria-expanded="false" aria-controls="chiprows">
+          <svg class="ico"><use href="#i-filter"/></svg><span>Filtros</span><b class="fbtn-n" id="fCount" hidden></b>
+        </button>
+        <span class="fcount" id="countBar"></span>
+      </div>
+      <div id="chiprows">
+        <div class="chiprow" id="catChips"></div>
+        <div class="chiprow" id="storeChips"></div>
+      </div>
     </div>
   </div>
   <div class="grid" id="grid"></div>
   <nav class="pager" id="pager" aria-label="Paginación de productos"></nav>
+</section>
+
+<section class="ctaband wrap">
+  <h2>¿No lo ves aquí?<br>Te lo conseguimos.</h2>
+  <a class="ctabtn" id="bandWa" href="#" target="_blank" rel="noopener">
+    <svg class="ico"><use href="#i-wa"/></svg>Escríbenos por WhatsApp
+  </a>
 </section>
 
 <div class="modal" id="howModal" hidden>
@@ -116,23 +118,19 @@
 </div>
 
 <footer class="footer">
-  <div class="wrap cols">
-    <div class="f-brand">
-      <div class="f-logo"><img src="assets/img/logo-vana-inverse.svg" alt="vana"><span>shop</span></div>
-      <p class="f-about">Tu personal shopper por WhatsApp. Pide productos de las mejores tiendas y paga en paguitos con vana pay, sin salir del chat.</p>
-      <a class="wabtn" id="footWa" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>Escríbenos por WhatsApp</a>
-    </div>
-    <div class="col"><h4>Comprar</h4><ul><li><a href="#catalogo">Todas las tiendas</a></li><li><a href="#catalogo">Categorías</a></li><li><a href="#catalogo">Ofertas</a></li></ul></div>
-    <div class="col"><h4>vana pay</h4><ul><li><a href="#">Cómo funciona</a></li></ul></div>
-  </div>
-  <div class="legal">
-    <img src="assets/img/logo-vana-inverse.svg" alt="vana">
-    <span>Todos los derechos reservados 2026</span>
+  <div class="wrap">
+    <img class="f-logo" src="assets/img/logo-shop.png" alt="vana shop" width="346" height="96">
+    <span class="legal">vana shop · prototipo MVP. Los productos, precios e imágenes se muestran con fines de demostración y provienen de las tiendas de comercios partner.</span>
+    <nav>
+      <a id="footWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="#" id="howOpen2">¿Cómo funcionan los paguitos?</a>
+      <a href="#">Términos</a>
+    </nav>
   </div>
 </footer>
 
-<script src="assets/js/config.js?v=42"></script>
-<script src="assets/js/embed-height.js?v=42"></script>
-<script src="assets/js/catalog.js?v=42"></script>
+<script src="assets/js/config.js?v=45"></script>
+<script src="assets/js/embed-height.js?v=45"></script>
+<script src="assets/js/catalog.js?v=45"></script>
 </body>
 </html>

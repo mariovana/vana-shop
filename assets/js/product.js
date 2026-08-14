@@ -3,6 +3,22 @@ const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const ico = (id) => '<svg class="ico"><use href="#' + id + '"/></svg>';
 
+/* Mismos pasteles y mismo recorte de fondo que la home. */
+const TINTS = ["var(--t1)", "var(--t2)", "var(--t3)", "var(--t4)", "var(--t5)"];
+function tint(id) {
+  let h = 0;
+  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
+  return TINTS[h % TINTS.length];
+}
+function cutout(p, i) {
+  // Solo la primera foto está recortada; las demás son las del comercio.
+  return i ? (p.images || [])[i] : "assets/img/products/" + encodeURIComponent(p.id) + ".webp";
+}
+function onerr(p) {
+  const r = ((p.images || [])[0] || "").replace(/'/g, "&#39;");
+  return " onerror=\"this.onerror=null;this.classList.add('raw');this.src='" + r + "'\"";
+}
+
 const id = new URLSearchParams(location.search).get("id");
 let DATA = null, P = null;
 
@@ -39,13 +55,13 @@ function render() {
 
   $("#pdp").innerHTML =
     '<div class="pdp-gal">' +
-      '<div class="pdp-main">' +
-        '<img id="mainImg" src="' + esc(imgs[0] || "") + '" alt="' + esc(P.title) + '">' +
+      '<div class="pdp-main" style="--tint:' + tint(P.id) + '">' +
+        '<img id="mainImg" src="' + cutout(P, 0) + '" alt="' + esc(P.title) + '"' + onerr(P) + '>' +
         (P.discount_pct ? '<span class="pdp-badge">-' + P.discount_pct + "% hoy</span>" : "") +
       "</div>" +
       (imgs.length > 1
         ? '<div class="thumbs">' + imgs.map((src, i) =>
-            '<img src="' + esc(src) + '" data-i="' + i + '" class="' + (i === 0 ? "on" : "") + '" alt="">').join("") + "</div>"
+            '<img src="' + (i === 0 ? cutout(P, 0) : esc(src)) + '" data-i="' + i + '" class="' + (i === 0 ? "on" : "") + '" alt="">').join("") + "</div>"
         : "") +
     "</div>" +
     '<div class="pdp-info">' +
@@ -71,7 +87,7 @@ function render() {
   // galería
   document.querySelectorAll(".thumbs img").forEach((t) =>
     t.addEventListener("click", () => {
-      $("#mainImg").src = imgs[t.dataset.i];
+      $("#mainImg").src = t.dataset.i === "0" ? cutout(P, 0) : imgs[t.dataset.i];
       document.querySelectorAll(".thumbs img").forEach((x) => x.classList.toggle("on", x === t));
       if (window.VanaShopEmbed) window.VanaShopEmbed.report();
     }));
@@ -85,12 +101,21 @@ function renderRelated() {
     '<div class="related"><h2>Más de ' + esc(P.merchant) + "</h2>" +
       '<div class="grid">' + rel.map((p) => {
         const pg = VPS.paguitos(p.price);
-        return '<a class="card" href="product.html?id=' + encodeURIComponent(p.id) + '">' +
-          '<div class="card-img"><img src="' + esc((p.images || [])[0] || "") + '" alt="' + esc(p.title) + '" loading="lazy"></div>' +
+        return '<div class="card">' +
+          '<div class="card-img" style="--tint:' + tint(p.id) + '">' +
+            '<img src="' + cutout(p, 0) + '" alt="' + esc(p.title) + '" loading="lazy"' + onerr(p) + '>' +
+            (p.discount_pct ? '<span class="card-badge">-' + p.discount_pct + '%</span>' : '') +
+          '</div>' +
           '<div class="card-body">' +
-            '<div class="card-name"><span>' + esc(p.title) + "</span></div>" +
-            '<div class="cuota"><b>' + VPS.money2(pg.per) + "</b><span>/paguito</span></div>" +
-          "</div></a>";
+            '<div class="card-name"><span>' + esc(p.title) + '</span></div>' +
+            '<div class="card-price"><b>' + VPS.money(p.price) + '</b>' +
+              (p.compare_at_price ? '<s>' + VPS.money(p.compare_at_price) + '</s>' : '') + '</div>' +
+            '<div class="card-pag">' + pg.n + ' paguitos de ' + VPS.money2(pg.per) + '</div>' +
+          '</div>' +
+          '<a class="card-hit" href="product.html?id=' + encodeURIComponent(p.id) + '" aria-label="Ver ' + esc(p.title) + '"></a>' +
+          '<a class="card-add" href="' + esc(VPS.waLink(p, 1)) + '" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">' +
+            ico("i-add") + '</a>' +
+        '</div>';
       }).join("") + "</div></div>";
 }
 
