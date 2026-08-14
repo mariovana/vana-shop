@@ -59,9 +59,10 @@ h1,h2,h3{color:var(--n100); margin:0}
   background:var(--n0); border-bottom:1px solid var(--n30)}
 .hdr.over{position:absolute; top:0; left:0; right:0;
   background:transparent; border-bottom:0}
-.hdr .wrap{display:flex; align-items:center; height:100%; gap:16px}
+.hdr .wrap{display:flex; align-items:center; height:100%; gap:16px; position:relative; z-index:2}
 .brand{flex:none; display:block}
 .brand img{height:34px; width:auto}
+.hdr.over .brand img{filter:drop-shadow(0 2px 12px rgba(16,16,17,.5))}
 .hdr-cta{margin-left:auto; flex:none; display:inline-flex; align-items:center; gap:9px;
   height:45px; padding:0 20px; border-radius:var(--r-pill);
   background:var(--n0); border:1px solid var(--n30); color:var(--n100);
@@ -79,8 +80,16 @@ h1,h2,h3{color:var(--n100); margin:0}
    cualquier ancho en vez de romperse fuera del breakpoint. */
 .hero{position:relative; background:var(--pur-deep);
   border-radius:0 0 var(--r-band) var(--r-band); overflow:hidden;
-  min-height:min(56vw,900px); display:flex; align-items:flex-end;
+  /* Tres topes. 56vw mantiene la proporción del diseño; 900px evita que crezca
+     de más en monitores anchos; 78vh es el que importa: sin él, en un portátil
+     el hero ocupaba toda la pantalla y no se veía nada de la sección de abajo. */
+  min-height:min(56vw,900px,78vh); display:flex; align-items:flex-end;
   padding-top:var(--hdr-h)}
+/* Velo suave arriba: el logo blanco cae sobre la parte más cargada de la foto
+   (la guitarra borrosa) y se perdía. Solo afecta la franja del header. */
+.hero::before{content:""; position:absolute; top:0; left:0; right:0;
+  height:calc(var(--hdr-h) + 60px); z-index:1; pointer-events:none;
+  background:linear-gradient(to bottom, rgba(16,16,17,.34), rgba(16,16,17,.10) 55%, transparent)}
 .hero-bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
   object-position:center 42%}
 .hero-in{position:relative; z-index:2; width:100%; text-align:center;
@@ -91,13 +100,14 @@ h1,h2,h3{color:var(--n100); margin:0}
 /* Un line-height de .71 (el que sale de las cajas del Figma) hacía que la caja
    mintiera: la tinta de "comprar" se salía ~50px por abajo y quedaba pegada al
    buscador aunque el margen dijera otra cosa. Con line-height 1 la caja es
-   honesta, y las dos líneas se juntan con un margen negativo, que es lo que
-   realmente controla la separación entre ellas. */
+   honesta y la separación entre líneas la fija el margen negativo.
+   El -.19em sale del Figma: líneas base a 172.35px, con la de arriba a
+   153.58px y la de abajo a 241.58px. */
 .hero h1{font-weight:900; letter-spacing:-.04em; color:var(--n0);
   margin:0 0 clamp(30px,5vw,96px)}
 .hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1}
 .hero h1 em{display:block; font-style:normal; color:var(--ink);
-  font-size:clamp(58px,12.6vw,242px); line-height:1; margin-top:-.04em}
+  font-size:clamp(58px,12.6vw,242px); line-height:1; margin-top:-.19em}
 
 /* buscador: pastilla blanca con el botón morado adentro */
 .askrow{position:relative; margin:0 auto; width:min(47.5vw,912px); min-width:min(100%,340px)}
