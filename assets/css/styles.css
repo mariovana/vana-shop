@@ -94,20 +94,21 @@ h1,h2,h3{color:var(--n100); margin:0}
   object-position:center 42%}
 .hero-in{position:relative; z-index:2; width:100%; text-align:center;
   padding-bottom:clamp(28px,4.2vw,80px)}
-/* En el Figma las dos líneas comparten una caja de 172.35px, con la de arriba a
-   153.58px y la de abajo a 241.58px. De ahí salen los interlineados: 1.12 y
-   0.71. Un line-height único las separaba de más. */
 /* Un line-height de .71 (el que sale de las cajas del Figma) hacía que la caja
    mintiera: la tinta de "comprar" se salía ~50px por abajo y quedaba pegada al
    buscador aunque el margen dijera otra cosa. Con line-height 1 la caja es
    honesta y la separación entre líneas la fija el margen negativo.
    El -.19em sale del Figma: líneas base a 172.35px, con la de arriba a
    153.58px y la de abajo a 241.58px. */
-.hero h1{font-weight:900; letter-spacing:-.04em; color:var(--n0);
-  margin:0 0 clamp(30px,5vw,96px)}
-.hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1}
+.hero h1{font-weight:900; color:var(--n0); margin:0 0 clamp(30px,5vw,96px)}
+/* El tracking del Figma (-9.66px) es absoluto, así que en em NO es el mismo
+   para las dos líneas: sobre 153.58px son -.063em y sobre 241.58px, -.04em.
+   Va un poco más cerrado que eso porque en pantalla se leía suelto. */
+.hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1;
+  letter-spacing:-.075em}
 .hero h1 em{display:block; font-style:normal; color:var(--ink);
-  font-size:clamp(58px,12.6vw,242px); line-height:1; margin-top:-.19em}
+  font-size:clamp(58px,12.6vw,242px); line-height:1; margin-top:-.19em;
+  letter-spacing:-.055em}
 
 /* buscador: pastilla blanca con el botón morado adentro */
 .askrow{position:relative; margin:0 auto; width:min(47.5vw,912px); min-width:min(100%,340px)}
@@ -128,7 +129,7 @@ h1,h2,h3{color:var(--n100); margin:0}
 .askbtn .ico{font-size:clamp(18px,1.4vw,27px)}
 
 .hero-sub{margin:clamp(18px,2.4vw,46px) auto 0; max-width:34ch;
-  font-size:clamp(15px,1.82vw,35px); line-height:1.42; color:var(--ink)}
+  font-size:clamp(15px,1.3vw,25px); line-height:1.45; color:var(--ink)}
 .hero-sub b{font-weight:900}
 
 /* "¿Cómo funciona?" — solo mobile; en desktop el hero tiene aire de sobra.
