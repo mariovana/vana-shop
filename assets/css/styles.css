@@ -78,45 +78,71 @@ h1,h2,h3{color:var(--n100); margin:0}
    Foto a sangre con las esquinas inferiores redondeadas. Las medidas van en vw
    porque el diseño está hecho a 1920 y así conserva sus proporciones a
    cualquier ancho en vez de romperse fuera del breakpoint. */
-.hero{position:relative; background:var(--pur-deep);
+.hero{
+  /* Geometría de la portada, tomada del Figma:
+       --alto-hero  tres topes. 56vw mantiene la proporción del diseño; 900px
+                    evita que crezca de más en monitores anchos; 78vh es el que
+                    importa: sin él, en un portátil ocupaba toda la pantalla.
+       --alto-foto  alto que tendría la foto completa (1938×1079 → 1.796).
+       --recorte    fracción que se recorta de arriba (object-position).
+       --y-titular  dónde empieza el titular DENTRO de la foto: 284/1079.
+
+     El titular se ancla a la foto, no al fondo del hero. Anclado abajo se
+     corría ~40px hacia abajo respecto del diseño y se topaba con la laptop,
+     el bloc y el tenis; en el Figma cae en la franja de cielo limpio. */
+  --alto-hero:min(56vw,900px,82vh);
+  --alto-foto:55.676vw;
+  --recorte:.42;
+  --y-titular:.2632;
+  --esc:1;          /* escala del hero; baja en pantallas de poco alto */
+
+  position:relative; background:var(--pur-deep);
   border-radius:0 0 var(--r-band) var(--r-band); overflow:hidden;
-  /* Tres topes. 56vw mantiene la proporción del diseño; 900px evita que crezca
-     de más en monitores anchos; 78vh es el que importa: sin él, en un portátil
-     el hero ocupaba toda la pantalla y no se veía nada de la sección de abajo. */
-  min-height:min(56vw,900px,78vh); display:flex; align-items:flex-end;
-  padding-top:var(--hdr-h)}
+  min-height:var(--alto-hero); display:flex; align-items:flex-start}
 /* Velo suave arriba: el logo blanco cae sobre la parte más cargada de la foto
    (la guitarra borrosa) y se perdía. Solo afecta la franja del header. */
 .hero::before{content:""; position:absolute; top:0; left:0; right:0;
   height:calc(var(--hdr-h) + 60px); z-index:1; pointer-events:none;
   background:linear-gradient(to bottom, rgba(16,16,17,.34), rgba(16,16,17,.10) 55%, transparent)}
 .hero-bg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
-  object-position:center 42%}
+  object-position:center calc(var(--recorte) * 100%)}
 .hero-in{position:relative; z-index:2; width:100%; text-align:center;
-  padding-bottom:clamp(28px,4.2vw,80px)}
+  /* borde superior de la foto + el 26.32% de su alto */
+  padding-top:calc((var(--alto-hero) - var(--alto-foto)) * var(--recorte)
+                   + var(--alto-foto) * var(--y-titular));
+  padding-bottom:calc(clamp(28px,4.2vw,80px) * var(--esc))}
+
+/* En pantallas de poco alto la composición del Figma no cabe (necesita ~82vh
+   y muchos portátiles no llegan). Se reduce la tipografía del hero, lo que
+   además le da más aire al titular frente a los objetos que flotan. */
+@media (min-width:641px) and (max-height:880px){ .hero{--esc:.88} }
+@media (min-width:641px) and (max-height:740px){ .hero{--esc:.80} }
+
 /* Un line-height de .71 (el que sale de las cajas del Figma) hacía que la caja
    mintiera: la tinta de "comprar" se salía ~50px por abajo y quedaba pegada al
    buscador aunque el margen dijera otra cosa. Con line-height 1 la caja es
    honesta y la separación entre líneas la fija el margen negativo.
    El -.19em sale del Figma: líneas base a 172.35px, con la de arriba a
    153.58px y la de abajo a 241.58px. */
-.hero h1{font-weight:900; color:var(--n0); margin:0 0 clamp(30px,5vw,96px)}
+.hero h1{font-weight:900; color:var(--n0);
+  margin:0 0 calc(clamp(30px,5vw,96px) * var(--esc))}
 /* El tracking del Figma (-9.66px) es absoluto, así que en em NO es el mismo para
    las dos líneas: sobre 153.58px son -.063em y sobre 241.58px, -.04em. Va bastante
    más cerrado que eso porque en pantalla se leía suelto.
    El word-spacing es necesario: letter-spacing también encoge el espacio entre
    palabras, y sin compensarlo "Hoy quiero" se leía "Hoyquiero". */
-.hero h1 span{display:block; font-size:clamp(38px,8vw,154px); line-height:1;
+.hero h1 span{display:block; font-size:calc(clamp(38px,8vw,154px) * var(--esc)); line-height:1;
   letter-spacing:-.07em; word-spacing:.07em}
 .hero h1 em{display:block; font-style:normal; color:var(--ink);
-  font-size:clamp(58px,12.6vw,242px); line-height:1; margin-top:-.19em;
+  font-size:calc(clamp(58px,12.6vw,242px) * var(--esc)); line-height:1; margin-top:-.19em;
   letter-spacing:-.05em}
 
 /* buscador: pastilla blanca con el botón morado adentro */
-.askrow{position:relative; margin:0 auto; width:min(47.5vw,912px); min-width:min(100%,340px)}
+.askrow{position:relative; margin:0 auto; width:calc(min(47.5vw,912px) * var(--esc));
+  min-width:min(100%,340px)}
 .askfield{display:flex; align-items:center; gap:clamp(10px,1.2vw,22px);
   background:var(--n0); border-radius:var(--r-pill);
-  height:clamp(58px,5.05vw,97px); padding-left:clamp(18px,2.7vw,52px);
+  height:calc(clamp(58px,5.05vw,97px) * var(--esc)); padding-left:clamp(18px,2.7vw,52px);
   padding-right:clamp(70px,10vw,196px); box-shadow:0 10px 30px rgba(16,16,17,.14)}
 .askfield .ico{font-size:clamp(20px,1.7vw,32px); color:var(--n60)}
 .askfield input{flex:1; min-width:0; border:0; background:transparent; outline:none;
@@ -130,8 +156,8 @@ h1,h2,h3{color:var(--n100); margin:0}
 .askbtn:hover{background:var(--pur-120); color:var(--n0)}
 .askbtn .ico{font-size:clamp(18px,1.4vw,27px)}
 
-.hero-sub{margin:clamp(18px,2.4vw,46px) auto 0; max-width:34ch;
-  font-size:clamp(15px,1.3vw,25px); line-height:1.45; color:var(--ink)}
+.hero-sub{margin:calc(clamp(18px,2.4vw,46px) * var(--esc)) auto 0; max-width:34ch;
+  font-size:calc(clamp(15px,1.3vw,25px) * var(--esc)); line-height:1.45; color:var(--ink)}
 .hero-sub b{font-weight:900}
 
 /* "¿Cómo funciona?" — solo mobile; en desktop el hero tiene aire de sobra.
@@ -373,9 +399,14 @@ h1,h2,h3{color:var(--n100); margin:0}
      El titular crece en proporción al ancho (a 12.6vw quedaría chico en un
      teléfono) y la foto se recorta más alta para que se vean los productos
      cayendo, que es lo que hace que la portada funcione. */
-  .hero{min-height:auto; border-radius:0 0 var(--r-band) var(--r-band)}
+  /* En mobile el alto lo pone el contenido, así que la foto se recorta por
+     ancho y el anclaje proporcional no aplica: vuelve al flujo normal. */
+  .hero{min-height:auto; border-radius:0 0 var(--r-band) var(--r-band);
+    align-items:flex-end}
   .hero-bg{object-position:center 38%}
-  .hero-in{padding-top:26px; padding-bottom:32px}
+  /* El header flota encima (position:absolute), así que el contenido tiene que
+     arrancar por debajo de él o el titular se le mete al logo. */
+  .hero-in{padding-top:calc(var(--hdr-h) + 26px); padding-bottom:32px}
   .hero h1{margin-bottom:30px}
   .hero h1 span{font-size:12.4vw}
   .hero h1 em{font-size:19.4vw}   /* 21vw tocaba los bordes con "comprar" */
