@@ -230,20 +230,40 @@ function scrollToCatalog() {
   const y = document.getElementById("catalogo").getBoundingClientRect().top + window.scrollY - 16;
   if (window.VanaShopEmbed && window.VanaShopEmbed.requestScroll) window.VanaShopEmbed.requestScroll(y);
   window.scrollTo({ top: y, behavior: "smooth" });
+  /* Red de seguridad: hay navegadores y configuraciones de accesibilidad que
+   * ignoran behavior:"smooth" y dejan el scroll sin hacer. Si medio segundo
+   * después seguimos lejos del objetivo, se salta directo — vale más llegar
+   * seco que no llegar. */
+  setTimeout(() => {
+    if (Math.abs(window.scrollY - y) > 24) window.scrollTo(0, y);
+  }, 500);
 }
 
 /* ---- Eventos ---- */
 function wireUp() {
   const inp = $("#search");
   const syncAsk = () => { $("#askBtn").href = VPS.waAskLink(state.q); };
-  let buscó = false;
+
+  /* Filtra mientras se escribe, pero NO mueve la página: hacer scroll en cada
+   * tecla desorienta, y en mobile el salto ocurre con el teclado abierto, así
+   * que el usuario pierde de vista el campo donde está escribiendo. */
   inp.addEventListener("input", (e) => {
     state.q = e.target.value.trim().toLowerCase();
     state.page = 1;
     render();
     syncAsk();
-    if (state.q && !buscó) { buscó = true; scrollToCatalog(); }
-    if (!state.q) buscó = false;
+  });
+
+  /* El scroll a los resultados es explícito: Enter, o la tecla "buscar" del
+   * teclado en mobile (por eso el enterkeyhint del input). blur() cierra el
+   * teclado, si no tapa media pantalla justo cuando se van a ver los
+   * resultados. */
+  inp.addEventListener("keydown", (e) => {
+    if (e.key !== "Enter") return;
+    e.preventDefault();
+    if (!state.q) return;
+    inp.blur();
+    scrollToCatalog();
   });
   syncAsk();
 
