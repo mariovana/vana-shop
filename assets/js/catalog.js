@@ -242,7 +242,6 @@ function scrollToCatalog() {
 /* ---- Eventos ---- */
 function wireUp() {
   const inp = $("#search");
-  const syncAsk = () => { $("#askBtn").href = VPS.waAskLink(state.q); };
 
   /* Filtra mientras se escribe, pero NO mueve la página: hacer scroll en cada
    * tecla desorienta, y en mobile el salto ocurre con el teclado abierto, así
@@ -251,21 +250,27 @@ function wireUp() {
     state.q = e.target.value.trim().toLowerCase();
     state.page = 1;
     render();
-    syncAsk();
   });
 
-  /* El scroll a los resultados es explícito: Enter, o la tecla "buscar" del
-   * teclado en mobile (por eso el enterkeyhint del input). blur() cierra el
-   * teclado, si no tapa media pantalla justo cuando se van a ver los
-   * resultados. */
+  /* Ir a los resultados es SIEMPRE explícito y siempre hace lo mismo: Enter,
+   * la tecla "buscar" del teclado en mobile, o el botón del hero. Un control,
+   * un comportamiento — el botón no cambia de destino según si hay resultados.
+   *
+   * Cuando la búsqueda no encuentra nada, el usuario aterriza en el estado
+   * vacío, que lleva el CTA a WhatsApp con lo que escribió. Así el camino al
+   * personal shopper se conserva, pero lo elige él y no lo sorprende un
+   * cambio de app.
+   *
+   * blur() cierra el teclado: si no, tapa media pantalla justo cuando se van
+   * a ver los resultados. */
+  const irAResultados = () => { inp.blur(); scrollToCatalog(); };
   inp.addEventListener("keydown", (e) => {
     if (e.key !== "Enter") return;
     e.preventDefault();
     if (!state.q) return;
-    inp.blur();
-    scrollToCatalog();
+    irAResultados();
   });
-  syncAsk();
+  $("#askBtn").addEventListener("click", irAResultados);
 
   // Filtros (mobile): el panel de chips vive colapsado
   const filtros = document.querySelector(".filters");

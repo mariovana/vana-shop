@@ -81,8 +81,8 @@ h1,h2,h3{color:var(--n100); margin:0}
 .hero{
   /* Geometría de la portada, tomada del Figma:
        --alto-hero  tres topes. 56vw mantiene la proporción del diseño; 900px
-                    evita que crezca de más en monitores anchos; 78vh es el que
-                    importa: sin él, en un portátil ocupaba toda la pantalla.
+                    evita que crezca de más en monitores anchos; 82vh es el que
+                    importa (82vh): sin él, en un portátil ocupaba toda la pantalla.
        --alto-foto  alto que tendría la foto completa (1938×1079 → 1.796).
        --recorte    fracción que se recorta de arriba (object-position).
        --y-titular  dónde empieza el titular DENTRO de la foto: 284/1079.
@@ -151,8 +151,9 @@ h1,h2,h3{color:var(--n100); margin:0}
 .askbtn{position:absolute; top:50%; transform:translateY(-50%);
   right:clamp(6px,.7vw,14px); display:inline-flex; align-items:center; justify-content:center;
   gap:9px; height:clamp(46px,3.65vw,70px); padding:0 clamp(16px,1.6vw,30px);
-  border-radius:var(--r-pill); background:var(--pur); color:var(--n0);
-  font-size:clamp(15px,1.12vw,22px); font-weight:700; transition:background .15s}
+  border:0; border-radius:var(--r-pill); background:var(--pur); color:var(--n0);
+  font-size:clamp(15px,1.12vw,22px); font-weight:700; cursor:pointer;
+  transition:background .15s}
 .askbtn:hover{background:var(--pur-120); color:var(--n0)}
 .askbtn .ico{font-size:clamp(18px,1.4vw,27px)}
 
