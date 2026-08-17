@@ -46,15 +46,11 @@ function tint(id) {
   for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
   return TINTS[h % TINTS.length];
 }
-/* Foto recortada local, con la del comercio como respaldo. La clase "raw"
- * mete la imagen en un recuadro blanco: sin recorte, el borde recto de la
- * foto se vería feo encima del pastel. */
+/* Foto original del comercio; el CSS la mete en un recuadro blanco. */
 function imgTag(p, cls) {
-  const remota = (p.images || [])[0] || "";
-  return '<img src="assets/img/products/' + encodeURIComponent(p.id) + '.webp"' +
+  return '<img src="' + esc((p.images || [])[0] || "") + '"' +
     ' alt="' + esc(p.title) + '" loading="lazy"' +
-    (cls ? ' class="' + cls + '"' : "") +
-    ' onerror="this.onerror=null;this.classList.add(\'raw\');this.src=\'' + esc(remota) + '\'">';
+    (cls ? ' class="' + cls + '"' : "") + ">";
 }
 
 /* ---- Card de producto ---- */
@@ -70,9 +66,11 @@ function cardHTML(p) {
     "</div>" +
     '<div class="card-body">' +
       '<div class="card-name"><span>' + esc(p.title) + "</span></div>" +
-      '<div class="card-price"><b>' + VPS.money(p.price) + "</b>" +
-        (p.compare_at_price ? "<s>" + VPS.money(p.compare_at_price) + "</s>" : "") + "</div>" +
-      '<div class="card-pag">' + pg.n + " paguitos de " + VPS.money2(pg.per) + "</div>" +
+      // El protagonista es el paguito, no el total: es la promesa del producto.
+      '<div class="card-price"><b>' + VPS.money2(pg.per) + '</b><span class="per">/paguito</span></div>' +
+      '<div class="card-pag">' + pg.n + " paguitos · " +
+        (p.compare_at_price ? "<s>" + VPS.money(p.compare_at_price) + "</s> " : "") +
+        VPS.money(p.price) + " en total</div>" +
     "</div>" +
   "</a>";
 }
@@ -81,7 +79,7 @@ function cardHTML(p) {
  * El diseño usa ilustraciones; acá va la foto de un producto real de cada
  * categoría, que además le dice al usuario qué va a encontrar adentro. */
 function renderCategories() {
-  const cats = categories().slice(0, 5);
+  const cats = categories().slice(0, 9);   // 9 + "Otras categorías" = 2 filas de 5
   $("#cats").innerHTML = cats.map((c, i) => {
     const rep = state.data.products.find((p) => p.category === c.name && (p.images || []).length);
     return '<button class="cat" type="button" data-cat="' + esc(c.name) + '">' +
@@ -118,18 +116,27 @@ function renderChips() {
     '<button class="chip' + (state.cat === c.name ? " on" : "") + '" type="button" data-fc="' + esc(c.name) + '">' +
       esc(c.name) + "</button>").join("");
 
-  const stores = ["Todas"].concat(state.data.merchants.map((m) => m.name));
-  $("#storeChips").innerHTML = stores.map((s) => {
-    const m = state.data.merchants.find((x) => x.name === s);
-    const logo = m && m.logo ? '<img src="' + m.logo + '" alt="">' : "";
-    return '<button class="chip' + (state.store === s ? " on" : "") + '" type="button" data-fs="' + esc(s) + '">' +
-      logo + esc(s) + "</button>";
-  }).join("");
+  // Con un solo comercio el filtro de tienda no filtra nada: se oculta.
+  // display:none explícito porque el display:flex de .chiprow gana sobre
+  // el atributo hidden y dejaría un hueco de gap en el panel de Filtros.
+  const multi = state.data.merchants.length > 1;
+  $("#storeChips").style.display = multi ? "" : "none";
+  if (multi) {
+    const stores = ["Todas"].concat(state.data.merchants.map((m) => m.name));
+    $("#storeChips").innerHTML = stores.map((s) => {
+      const m = state.data.merchants.find((x) => x.name === s);
+      const logo = m && m.logo ? '<img src="' + m.logo + '" alt="">' : "";
+      return '<button class="chip' + (state.store === s ? " on" : "") + '" type="button" data-fs="' + esc(s) + '">' +
+        logo + esc(s) + "</button>";
+    }).join("");
+    $("#storeChips").querySelectorAll("[data-fs]").forEach((b) =>
+      b.addEventListener("click", () => setFilter("store", b.dataset.fs)));
+  } else {
+    $("#storeChips").innerHTML = "";
+  }
 
   $("#catChips").querySelectorAll("[data-fc]").forEach((b) =>
     b.addEventListener("click", () => setFilter("cat", b.dataset.fc)));
-  $("#storeChips").querySelectorAll("[data-fs]").forEach((b) =>
-    b.addEventListener("click", () => setFilter("store", b.dataset.fs)));
 }
 
 /* Marca en el botón cuántos filtros hay puestos: colapsado, si no, no se nota

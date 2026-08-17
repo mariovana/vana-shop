@@ -3,20 +3,12 @@ const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const ico = (id) => '<svg class="ico"><use href="#' + id + '"/></svg>';
 
-/* Mismos pasteles y mismo recorte de fondo que la home. */
+/* Mismos pasteles que la home; las fotos son las originales del comercio. */
 const TINTS = ["var(--t1)", "var(--t2)", "var(--t3)", "var(--t4)", "var(--t5)"];
 function tint(id) {
   let h = 0;
   for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
   return TINTS[h % TINTS.length];
-}
-function cutout(p, i) {
-  // Solo la primera foto está recortada; las demás son las del comercio.
-  return i ? (p.images || [])[i] : "assets/img/products/" + encodeURIComponent(p.id) + ".webp";
-}
-function onerr(p) {
-  const r = ((p.images || [])[0] || "").replace(/'/g, "&#39;");
-  return " onerror=\"this.onerror=null;this.classList.add('raw');this.src='" + r + "'\"";
 }
 
 const id = new URLSearchParams(location.search).get("id");
@@ -56,12 +48,12 @@ function render() {
   $("#pdp").innerHTML =
     '<div class="pdp-gal">' +
       '<div class="pdp-main" style="--tint:' + tint(P.id) + '">' +
-        '<img id="mainImg" src="' + cutout(P, 0) + '" alt="' + esc(P.title) + '"' + onerr(P) + '>' +
+        '<img id="mainImg" src="' + esc(imgs[0] || "") + '" alt="' + esc(P.title) + '">' +
         (P.discount_pct ? '<span class="pdp-badge">-' + P.discount_pct + "% hoy</span>" : "") +
       "</div>" +
       (imgs.length > 1
         ? '<div class="thumbs">' + imgs.map((src, i) =>
-            '<img src="' + (i === 0 ? cutout(P, 0) : esc(src)) + '" data-i="' + i + '" class="' + (i === 0 ? "on" : "") + '" alt="">').join("") + "</div>"
+            '<img src="' + esc(src) + '" data-i="' + i + '" class="' + (i === 0 ? "on" : "") + '" alt="">').join("") + "</div>"
         : "") +
     "</div>" +
     '<div class="pdp-info">' +
@@ -87,7 +79,7 @@ function render() {
   // galería
   document.querySelectorAll(".thumbs img").forEach((t) =>
     t.addEventListener("click", () => {
-      $("#mainImg").src = t.dataset.i === "0" ? cutout(P, 0) : imgs[t.dataset.i];
+      $("#mainImg").src = imgs[t.dataset.i];
       document.querySelectorAll(".thumbs img").forEach((x) => x.classList.toggle("on", x === t));
       if (window.VanaShopEmbed) window.VanaShopEmbed.report();
     }));
@@ -95,7 +87,11 @@ function render() {
 }
 
 function renderRelated() {
-  const rel = DATA.products.filter((x) => x.merchant_slug === P.merchant_slug && x.id !== P.id).slice(0, 4);
+  // Con un solo comercio "mismo comercio" no discrimina: primero la misma
+  // categoría y, si no alcanza para 4, se completa con el resto.
+  const otros = DATA.products.filter((x) => x.id !== P.id);
+  const rel = otros.filter((x) => x.category === P.category)
+    .concat(otros.filter((x) => x.category !== P.category)).slice(0, 4);
   if (!rel.length) return;
   $("#related").innerHTML =
     '<div class="related"><h2>Más de ' + esc(P.merchant) + "</h2>" +
@@ -103,14 +99,15 @@ function renderRelated() {
         const pg = VPS.paguitos(p.price);
         return '<a class="card" href="product.html?id=' + encodeURIComponent(p.id) + '">' +
           '<div class="card-img" style="--tint:' + tint(p.id) + '">' +
-            '<img src="' + cutout(p, 0) + '" alt="' + esc(p.title) + '" loading="lazy"' + onerr(p) + '>' +
+            '<img src="' + esc((p.images || [])[0] || "") + '" alt="' + esc(p.title) + '" loading="lazy">' +
             (p.discount_pct ? '<span class="card-badge">-' + p.discount_pct + '%</span>' : '') +
           '</div>' +
           '<div class="card-body">' +
             '<div class="card-name"><span>' + esc(p.title) + '</span></div>' +
-            '<div class="card-price"><b>' + VPS.money(p.price) + '</b>' +
-              (p.compare_at_price ? '<s>' + VPS.money(p.compare_at_price) + '</s>' : '') + '</div>' +
-            '<div class="card-pag">' + pg.n + ' paguitos de ' + VPS.money2(pg.per) + '</div>' +
+            '<div class="card-price"><b>' + VPS.money2(pg.per) + '</b><span class="per">/paguito</span></div>' +
+            '<div class="card-pag">' + pg.n + ' paguitos · ' +
+              (p.compare_at_price ? '<s>' + VPS.money(p.compare_at_price) + '</s> ' : '') +
+              VPS.money(p.price) + ' en total</div>' +
           '</div>' +
         '</a>';
       }).join("") + "</div></div>";

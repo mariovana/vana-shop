@@ -5,65 +5,93 @@
    "name": "Kemik",
    "domain": "www.kemik.gt",
    "logo": "assets/img/merchants/kemik.png"
-  },
-  {
-   "slug": "max",
-   "name": "MAX",
-   "domain": "www.max.com.gt",
-   "logo": "assets/img/merchants/max.svg"
   }
  ],
  "products": [
   {
-   "id": "max-WM1807D",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas de 0.7' cúbicos, 700 Watts de potencia y autolimpieza",
-   "brand": "Whirlpool",
-   "category": "Microondas",
-   "price": 599.0,
-   "currency": "GTQ",
-   "compare_at_price": 995.0,
-   "discount_pct": 40,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/w/m/wm1807d-01.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-de-0-7-cubicos-700-watts-de-potencia-y-opcion-de-autolimpieza-whirlpool-wm1807d",
-   "description": "* 5 niveles de potencia. * 12 opciones para auto cocción. * 4 opciones para descongelar. * Función mantener caliente. * Función auto limpieza, reloj digital y opción para silenciar. * Modalidad Eco Standby para ahorro de energía."
-  },
-  {
-   "id": "kemik-oster-horno-microondas-de-0-7-cubicos-de-capacidad-negro",
+   "id": "kemik-adaptador-de-hdmi-a-vga-15cm-negro-argom",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Horno Microondas de 0.7' Cúbicos de Capacidad - Negro",
-   "brand": "Oster",
-   "category": "Microondas",
-   "price": 496.0,
+   "title": "Argom Adaptador de HDMI a VGA 15cm Negro",
+   "brand": "Argom",
+   "category": "Computación",
+   "price": 30.0,
    "currency": "GTQ",
-   "compare_at_price": 699.0,
-   "discount_pct": 29,
+   "compare_at_price": 38.0,
+   "discount_pct": 21,
    "images": [
-    "https://static.kemikcdn.com/2024/11/OGGE3702-1200x1200-1.-700x700.jpg"
+    "https://static.kemikcdn.com/2021/01/ARG-CB-0055-1000X1000-2-300x300.jpg"
    ],
-   "url": "https://www.kemik.gt/oster-horno-microondas-de-0_7-cubicos-de-capacidad-negro",
+   "url": "https://www.kemik.gt/adaptador-de-hdmi-a-vga-15cm-negro-argom",
    "description": ""
   },
   {
-   "id": "max-OGGE3702",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas digital de 0.7' cúbicos de capacidad, negro",
-   "brand": "Oster",
-   "category": "Microondas",
-   "price": 496.0,
+   "id": "kemik-beltek-ventilador-de-pedestal-de-16pulgadas-con-3-niveles-de",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Beltek DuoPack 2 Ventiladores de Pedestal de 16\" con 3 Niveles de Velocidad y Oscilación de 90°",
+   "brand": "Beltek",
+   "category": "Hogar",
+   "price": 307.0,
    "currency": "GTQ",
-   "compare_at_price": 995.0,
-   "discount_pct": 50,
+   "compare_at_price": null,
+   "discount_pct": null,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/O/G/OGGE3702_1.jpg"
+    "https://static.kemikcdn.com/2025/02/US16058-1200x1200-1..-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/horno-microondas-digital-de-0-7-cubicos-de-capacidad-negro-oster-ogge3702",
-   "description": "* Función de reloj digital. * 6 funciones programables. * Seguro de niños. * Plato giratorio de vidrio templado. * Apertura de puerta con botón."
+   "url": "https://www.kemik.gt/beltek-ventilador-de-pedestal-de-16pulgadas-con-3-niveles-de-velocidad-oscilacion-de-90-us16058a",
+   "description": ""
+  },
+  {
+   "id": "kemik-roku-streaming-stick-2025-hd-roku-streaming-device-for-tv-wi",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Roku Streaming Stick 2025 - HD Roku Streaming Device for TV with Voice Remote - Free & Live TV",
+   "brand": "Roku",
+   "category": "TV y video",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": 996.0,
+   "discount_pct": 70,
+   "images": [
+    "https://static.kemikcdn.com/2025/07/71mye7IQ5jL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/roku-streaming-stick-2025-hd-roku-streaming-device-for-tv-with-voice-remote-free-live-tv",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-redmi-buds-6-play-audifonos-bluetooth-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi Redmi Buds 6 Play Audífonos Bluetooth - Negro",
+   "brand": "Xiaomi",
+   "category": "Audio",
+   "price": 110.0,
+   "currency": "GTQ",
+   "compare_at_price": 199.0,
+   "discount_pct": 45,
+   "images": [
+    "https://static.kemikcdn.com/2024/09/BHR8776GL-REDMI-BUDS-6-PLAY-BLACK-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-redmi-buds-6-play-audifonos-bluetooth-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-members-mark-minoxidil-5-liquido-cabello-barba-para-hombres-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Member´s Mark Minoxidil 5% Líquido Cabello y Barba para Hombres - 1 Unidad (60 ml)",
+   "brand": "Member's Mark",
+   "category": "Cuidado personal",
+   "price": 114.0,
+   "currency": "GTQ",
+   "compare_at_price": 129.0,
+   "discount_pct": 12,
+   "images": [
+    "https://static.kemikcdn.com/2026/02/WhatsAppImage2026-02-23at4.12.12PM(1).-700x700.jpeg"
+   ],
+   "url": "https://www.kemik.gt/members-mark-minoxidil-5-liquido-cabello-barba-para-hombres-1-unidad-60-ml",
+   "description": ""
   },
   {
    "id": "kemik-ninja-licuadora-profesional-plus-con-auto-iq",
@@ -71,7 +99,7 @@
    "merchant_slug": "kemik",
    "title": "Ninja Licuadora Profesional Plus con Auto iQ de 72 oz",
    "brand": "NINJA",
-   "category": "Licuadoras",
+   "category": "Licuadoras y batidoras",
    "price": 735.0,
    "currency": "GTQ",
    "compare_at_price": 899.0,
@@ -83,61 +111,10 @@
    "description": ""
   },
   {
-   "id": "max-WM1114D",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas de 1.4' cúbicos, 1450W de potencia",
-   "brand": "Whirlpool",
-   "category": "Microondas",
-   "price": 999.0,
-   "currency": "GTQ",
-   "compare_at_price": 1995.0,
-   "discount_pct": 50,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/w/m/wm1114d.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-de-1-4-cubicos-1450w-de-potencia-whirlpool-wm1114d",
-   "description": "Calienta en pocos minutos tus alimentos gracias al microondas de Whirlpool modelo WM1114D, el cual cuenta con una capacidad de 1.4 pies cúbicos, también cuenta con una potencia de 1450 W, además cuenta con 6 funciones pre-programadas (palomitas, papa asada, pizza, bebidas, congelados y recalentado,…"
-  },
-  {
-   "id": "kemik-bascula-para-cocina-de-alta-precision-maxima-de-10-kg-digita",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Báscula para Cocina de Alta Precisión Máxima de 10 Kg, Digital - Blanco SF400",
-   "brand": "",
-   "category": "Otros",
-   "price": 91.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2026/03/PESA-COCINA-SF400-BALANZA-NOVA-HOME-1200X1200.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/bascula-para-cocina-de-alta-precision-maxima-de-10-kg-digital-blanco-sf400",
-   "description": ""
-  },
-  {
-   "id": "max-WM1211D",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas de 1.1' cúbicos de capacidad, color gris",
-   "brand": "Whirlpool",
-   "category": "Microondas",
-   "price": 799.0,
-   "currency": "GTQ",
-   "compare_at_price": 1495.0,
-   "discount_pct": 47,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/w/m/wm1211d.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-de-1-1-cubicos-de-capacidad-color-gris-whirlpool-wm1211d",
-   "description": "Pantalla LED, operación con control digital y botones rápidos de tiempo. Cuenta con calentado rápido de 1 a 6 minutos que permitirán tener comidas listas al momento. Además, cuenta con 3 niveles de potencia y 9 opciones para cocina Food Expert."
-  },
-  {
    "id": "kemik-taurus-hervidor-electrico-caronte-de-acero-inoxidable-de-2-l",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Hervidor Eléctrico Caronte de Acero Inoxidable de 2 Litros, 1000 W - Negro",
+   "title": "Taurus Hervidor Eléctrico Caronte de Acero Inoxidable de 2 Litros, 1000 W - Negro",
    "brand": "Taurus",
    "category": "Cafeteras",
    "price": 159.0,
@@ -151,61 +128,61 @@
    "description": ""
   },
   {
-   "id": "max-LWMC30309LB",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas de 0.9', color negro",
-   "brand": "Whirlpool",
-   "category": "Microondas",
-   "price": 699.0,
-   "currency": "GTQ",
-   "compare_at_price": 1295.0,
-   "discount_pct": 46,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/L/W/LWMC30309LB_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-de-0-9-color-negro-whirlpool-lwmc30309lb",
-   "description": "Horno microondas de 0.9' cúbicos de capacidad, color negro, 10 niveles de potencia, opción para mantener calientes los alimentos."
-  },
-  {
-   "id": "kemik-truper-bascula-digital-para-cocina-plato-de-vidrio-5-kg",
+   "id": "kemik-bascula-para-cocina-de-alta-precision-maxima-de-10-kg-digita",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Báscula Digital para Cocina Plato de Vidrio 5 kg",
-   "brand": "Truper",
-   "category": "Otros",
-   "price": 83.0,
+   "title": "Báscula para Cocina de Alta Precisión Máxima de 10 Kg, Digital - Blanco SF400",
+   "brand": "",
+   "category": "Cocina",
+   "price": 91.0,
    "currency": "GTQ",
    "compare_at_price": null,
    "discount_pct": null,
    "images": [
-    "https://static.kemikcdn.com/2025/03/15160-1200x1200-1.-700x700.jpg"
+    "https://static.kemikcdn.com/2026/03/PESA-COCINA-SF400-BALANZA-NOVA-HOME-1200X1200.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/truper-bascula-digital-para-cocina-plato-de-vidrio-5-kg",
+   "url": "https://www.kemik.gt/bascula-para-cocina-de-alta-precision-maxima-de-10-kg-digital-blanco-sf400",
    "description": ""
   },
   {
-   "id": "max-OGGM61002",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas digital de 1.1' cúbicos de capacidad, marco de acero, alta potencia",
-   "brand": "Oster",
-   "category": "Microondas",
-   "price": 796.0,
+   "id": "kemik-volcan-kit-regulador-2-clip-manguera-15-mts-2-abrazderas",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Volcan Kit Regulador, 2 Clip - Manguera 1.5 mts + 2 Abrazderas",
+   "brand": "VOLCAN",
+   "category": "Otros",
+   "price": 62.0,
    "currency": "GTQ",
-   "compare_at_price": 1795.0,
-   "discount_pct": 56,
+   "compare_at_price": null,
+   "discount_pct": null,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/O/G/OGGM61002_1_21082024161030.jpg"
+    "https://static.kemikcdn.com/2024/04/11115-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/horno-microondas-digital-de-1-1-cubicos-de-capacidad-marco-de-acero-alta-potencia-oster-oggm61002",
-   "description": "* Reloj digital * 1000 watts de potencia * Seguro de niños * Plato giratorio de vidrio templado * 6 programas de cocción predeterminados * Agarradera en puerta"
+   "url": "https://www.kemik.gt/volcan-kit-regulador-2-clip-manguera-15-mts-2-abrazderas",
+   "description": ""
+  },
+  {
+   "id": "kemik-frigobar-de-1-6-cubicos-gris",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Hisense Frigobar de 1.6' Cúbicos - Gris",
+   "brand": "Hisense",
+   "category": "Refrigeración",
+   "price": 899.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/RR16D6AGX1-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/frigobar-de-1_6-cubicos-gris",
+   "description": ""
   },
   {
    "id": "kemik-picca-plancha-de-vapor-con-suela-antiadherente-azul-1",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Plancha de Vapor con Suela Antiadherente - Azul",
+   "title": "Picca Plancha de Vapor con Suela Antiadherente - Azul",
    "brand": "Picca",
    "category": "Planchas",
    "price": 85.0,
@@ -219,129 +196,10 @@
    "description": ""
   },
   {
-   "id": "max-OGYME1502",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas digital de 1.6' cúbicos de capacidad, acero, alta potencia",
-   "brand": "Oster",
-   "category": "Microondas",
-   "price": 1499.0,
-   "currency": "GTQ",
-   "compare_at_price": 2495.0,
-   "discount_pct": 40,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/O/G/OGYME1502_1_23082024091938.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-digital-de-1-6-cubicos-de-capacidad-acero-alta-potencia-oster-ogyme1502",
-   "description": "* Función de reloj digital. * 12 funciones programables. * Seguro de niños. * Marco y puerta de acero * Agarradera en puerta * 1100 Watts de potencia"
-  },
-  {
-   "id": "kemik-nima-molino-electrico-de-granos-de-cafe-especias-nm-8300",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Molino Eléctrico de Granos de Café y Especias",
-   "brand": "NIMA",
-   "category": "Cafeteras",
-   "price": 135.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2024/05/MOLINOELECTRICO-1200x1200-1.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/nima-molino-electrico-de-granos-de-cafe-especias-nm-8300",
-   "description": ""
-  },
-  {
-   "id": "max-OGYM3701M",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas digital de 0.7' cúbicos de capacidad, acero con puerta tipo espejo",
-   "brand": "Oster",
-   "category": "Microondas",
-   "price": 699.0,
-   "currency": "GTQ",
-   "compare_at_price": 1295.0,
-   "discount_pct": 46,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/O/G/OGYM3701M_1_23082024091437.png"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-digital-de-0-7-cubicos-de-capacidad-acero-con-puerta-tipo-espejo-oster-ogym3701m",
-   "description": "* Función de reloj digital. * 10 funciones programables. * Seguro de niños. * Marco de acero * Plato giratorio de vidrio templado. * Agarradera en puerta"
-  },
-  {
-   "id": "kemik-espumador-portatil-para-hacer-bebidas-cremosas-gris",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Espumador Portátil para Hacer Bebidas Cremosas - Gris",
-   "brand": "",
-   "category": "Cafeteras",
-   "price": 29.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2023/06/ACP-OURSLIFE-1200x1200-02.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/espumador-portatil-para-hacer-bebidas-cremosas-gris",
-   "description": ""
-  },
-  {
-   "id": "max-MS1536GIR",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas de 1.5' cúbicos de capacidad, color negro, acabado espejo",
-   "brand": "LG",
-   "category": "Microondas",
-   "price": 1599.0,
-   "currency": "GTQ",
-   "compare_at_price": 2295.0,
-   "discount_pct": 30,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/m/s/ms1536gir.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-de-1-5-cubicos-de-capacidad-color-negro-acabado-espejo",
-   "description": "Horno microondas de 1.5' cúbicos de capacidad"
-  },
-  {
-   "id": "kemik-peanuts-x-dash-mini-waffle-maker-peanuts-black-white",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Peanuts x Dash Mini Waffle Maker (Black & White)",
-   "brand": "",
-   "category": "Otros",
-   "price": 185.0,
-   "currency": "GTQ",
-   "compare_at_price": 364.0,
-   "discount_pct": 49,
-   "images": [
-    "https://static.kemikcdn.com/2026/01/81clo1ahNRL.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/peanuts-x-dash-mini-waffle-maker-peanuts-black-white",
-   "description": ""
-  },
-  {
-   "id": "max-MS19DG8500SR",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas de 1.9', acabado en acero",
-   "brand": "Samsung",
-   "category": "Microondas",
-   "price": 1999.0,
-   "currency": "GTQ",
-   "compare_at_price": 2995.0,
-   "discount_pct": 33,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/M/S/MS19DG8500SR_1_27082025152533.png"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-de-1-9-acabado-en-acero-samsung-ms19dg8500sr-samsung-ms19dg8500sr",
-   "description": "Horno microondas de 1.9' de capacidad, interior de acero, 10 niveles de potencia, bloqueo de seguridad, acabado en acero."
-  },
-  {
    "id": "kemik-gourmia-freidora-de-aire-en-acero-inoxidable-6-62-l-7-qt",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Freidora de Aire en Acero Inoxidable - 6.62 L / 7 qt",
+   "title": "Gourmia Freidora de Aire en Acero Inoxidable - 6.62 L / 7 qt",
    "brand": "Gourmia",
    "category": "Freidoras",
    "price": 566.0,
@@ -355,327 +213,208 @@
    "description": ""
   },
   {
-   "id": "max-FMOS1846BS",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas de 1.8' con extractor de olores",
-   "brand": "Frigidaire",
-   "category": "Microondas",
-   "price": 4299.0,
-   "currency": "GTQ",
-   "compare_at_price": 4795.0,
-   "discount_pct": 10,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/F/M/FMOS1846BS_1_16062023152516.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-de-1-8-con-extractor-de-olores-frigidaire-fmos1846bs-frigidaire-fmos1846bs",
-   "description": "Horno microondas de 1.8' de capacidad, con extractor de olores, acabado en acero."
-  },
-  {
-   "id": "kemik-ninja-cafetera-programable-de-12-tazas-negro",
+   "id": "kemik-oster-horno-microondas-de-0-7-cubicos-de-capacidad-negro",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Ninja Cafetera Programable de 12 Tazas - Negro",
-   "brand": "NINJA",
-   "category": "Cafeteras",
-   "price": 759.0,
+   "title": "Oster Horno Microondas de 0.7' Cúbicos de Capacidad - Negro",
+   "brand": "Oster",
+   "category": "Microondas",
+   "price": 496.0,
    "currency": "GTQ",
-   "compare_at_price": 859.0,
-   "discount_pct": 12,
+   "compare_at_price": 699.0,
+   "discount_pct": 29,
    "images": [
-    "https://static.kemikcdn.com/2025/03/CE250-NINJA-1200X1200-1.-700x700.jpg"
+    "https://static.kemikcdn.com/2024/11/OGGE3702-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/ninja-cafetera-programable-de-12-tazas-negro",
+   "url": "https://www.kemik.gt/oster-horno-microondas-de-0_7-cubicos-de-capacidad-negro",
    "description": ""
   },
   {
-   "id": "max-FMDO17S3GSPG",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno microondas de 0.6', color gris",
-   "brand": "Frigidaire",
-   "category": "Microondas",
-   "price": 596.0,
-   "currency": "GTQ",
-   "compare_at_price": 699.0,
-   "discount_pct": 15,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/F/M/FMDO17S3GSPG_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-microondas-de-0-6-color-gris-frigidaire-fmdo17s3gspg",
-   "description": "Horno microondas de 0.6', color gris"
-  },
-  {
-   "id": "kemik-batidor-electrico-de-metal-kitchen-pro-espumador-inalambrico",
+   "id": "kemik-logitech-g305-raton-optico",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Batidor Eléctrico Kitchen-Pro Espumador Inalámbrico USB Multifuncional - Negro",
-   "brand": "",
-   "category": "Cafeteras",
+   "title": "Logitech G305 Mouse Inalámbrico LightSpeed 6 Botones - Negro",
+   "brand": "Logitech",
+   "category": "Computación",
+   "price": 309.0,
+   "currency": "GTQ",
+   "compare_at_price": 617.0,
+   "discount_pct": 50,
+   "images": [
+    "https://static.kemikcdn.com/2023/04/910-005281-LOGITECH-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/logitech-g305-raton-optico",
+   "description": ""
+  },
+  {
+   "id": "kemik-smartec-aspiradora-portatil-recargable-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Smartec Aspiradora Portátil Recargable - Negro",
+   "brand": "Smartec",
+   "category": "Hogar",
    "price": 149.0,
    "currency": "GTQ",
    "compare_at_price": null,
    "discount_pct": null,
    "images": [
-    "https://static.kemikcdn.com/2026/06/ESPUMADOR-ELE-NEGRO-IMPORT-1200X1200.-700x700.jpg"
+    "https://static.kemikcdn.com/2024/07/ASPIRADORAKPO-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/batidor-electrico-de-metal-kitchen-pro-espumador-inalambrico-usb-multifuncional-negro",
+   "url": "https://www.kemik.gt/smartec-aspiradora-portatil-recargable-negro",
    "description": ""
   },
   {
-   "id": "max-BN701LAA",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Licuadora Ninja profesional Plus Auto- IQ 2.1 L",
-   "brand": "NINJA",
-   "category": "Licuadoras",
-   "price": 799.0,
-   "currency": "GTQ",
-   "compare_at_price": 895.0,
-   "discount_pct": 11,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/B/N/BN701LAA_1_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/licuadora-profesional-plus-auto-iq-2-1-l-ninja-ninja-bn701laa",
-   "description": "Tecnología y potencia en una sola licuadora digital. Tritura frutas, verduras, hielo e ingredientes congelados con la combinación perfecta de un potente motor * Crea tus smoothies malteadas, licuados, batidos * 1 Tapa tipo Flip Top para jarra * 4 velocidades , 3 Programas Autoprogramables * 2.1 L. d…"
-  },
-  {
-   "id": "kemik-blackdecker-cafetera-personal-2-en-1-con-taza-termica-de-16-",
+   "id": "kemik-soporte-de-pared-para-tv-32-hasta-60-klip-xtreme-ktm-876",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Black+Decker Cafetera Personal 2 en 1 con Taza Térmica de 16 oz - 650 W",
-   "brand": "Black + Decker",
+   "title": "Soporte TV Klip Xtreme KTM-876 Articulado para Televisores 32-60\" VESA 400x400, 30kg",
+   "brand": "Klip Xtreme",
+   "category": "TV y video",
+   "price": 179.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2020/10/SOPORTE-KTM-876-1000X1000-6-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/soporte-de-pared-para-tv-32-hasta-60-klip-xtreme-ktm-876",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-redmi-buds-6-play-audifonos-bluetooth-azul",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi Redmi Buds 6 Play Audífonos Bluetooth - Azul",
+   "brand": "Xiaomi",
+   "category": "Audio",
+   "price": 110.0,
+   "currency": "GTQ",
+   "compare_at_price": 199.0,
+   "discount_pct": 45,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/RedmiBuds6PlayAzul1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-redmi-buds-6-play-audifonos-bluetooth-azul",
+   "description": ""
+  },
+  {
+   "id": "kemik-set-de-rasuradora-de-acero-inoxidable",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Rasuradora de Acero Inoxidable con Cuchilla Gratis",
+   "brand": "",
+   "category": "Cuidado personal",
+   "price": 25.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2022/11/RASUSRADORA-CUCHILLAGRATIS-1200X1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/set-de-rasuradora-de-acero-inoxidable",
+   "description": ""
+  },
+  {
+   "id": "kemik-oster-kit-de-acoples-para-licuadora",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Oster Kit de Acoples para Licuadora",
+   "brand": "Oster",
+   "category": "Licuadoras y batidoras",
+   "price": 49.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/03/BLSTAC-KIT-011-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-kit-de-acoples-para-licuadora",
+   "description": ""
+  },
+  {
+   "id": "kemik-nima-molino-electrico-de-granos-de-cafe-especias-nm-8300",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "NIMA Molino Eléctrico de Granos de Café y Especias",
+   "brand": "NIMA",
    "category": "Cafeteras",
-   "price": 219.0,
+   "price": 135.0,
    "currency": "GTQ",
    "compare_at_price": null,
    "discount_pct": null,
    "images": [
-    "https://static.kemikcdn.com/2023/10/CM618-1200x1200-1.-700x700.jpg"
+    "https://static.kemikcdn.com/2024/05/MOLINOELECTRICO-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/blackdecker-cafetera-personal-2-en-1-con-taza-termica-de-16-oz-650-w",
+   "url": "https://www.kemik.gt/nima-molino-electrico-de-granos-de-cafe-especias-nm-8300",
    "description": ""
   },
   {
-   "id": "max-51101RV",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Licuadora personal, Cuchillas de acero inoxidable",
-   "brand": "Hamilton Beach",
-   "category": "Licuadoras",
-   "price": 199.0,
-   "currency": "GTQ",
-   "compare_at_price": 245.0,
-   "discount_pct": 19,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/5/1/51101rv-vpa-01.jpg"
-   ],
-   "url": "https://www.max.com.gt/hamilton-beach-51101rv-licuadora-personal-cuchillas-de-acero-inoxidable-hamilton-beach-51101rv",
-   "description": "* El vaso de la licuadora también sirve como vaso para llevar * Potente rendimiento de licuado con cuchillas de acero inoxidable duraderas * La limpieza es rápida y fácil. * El diseño compacto se adapta a la mayoría de los portavasos de automóviles * Mezcla fácil con un solo toque * Frasco duradero…"
-  },
-  {
-   "id": "kemik-taurus-licuadora-personal-blender-2go-con-2-botellas-de-500-",
+   "id": "kemik-truper-bascula-digital-para-cocina-plato-de-vidrio-5-kg",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Licuadora Personal Blender 2GO con 2 Botellas de 500 ml, 300 W - Negro",
-   "brand": "Taurus",
-   "category": "Licuadoras",
-   "price": 299.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2025/08/8414234121424-taurus-1200x1200-1.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/taurus-licuadora-personal-blender-2go-con-2-botellas-de-500-ml-2-velocidades-300-w-negro",
-   "description": ""
-  },
-  {
-   "id": "max-BL08762SDLA",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Licuadora Black and Decker de 1.25L con acabado de acero",
-   "brand": "Black & Decker",
-   "category": "Licuadoras",
-   "price": 499.0,
-   "currency": "GTQ",
-   "compare_at_price": 565.0,
-   "discount_pct": 12,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/B/L/BL08762SDLA_1_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/licuadora-black-and-decker-de-1-25l-con-acabado-de-acero-black-decker-bl08762sdla",
-   "description": "* 4 cuchillas de acero inoxidable * 8 velocidades * 700 watts de potencia* para triturar hielo * Jarra de vidrio ergonómica de 1.25L * Tapa de doble abertura * Cuchillas removibles para una limpieza fácil"
-  },
-  {
-   "id": "kemik-estufa-de-mesa-a-gas-gris-metalico",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Estufa de Mesa a Gas - Gris Metálico",
-   "brand": "Oster",
-   "category": "Cocina",
-   "price": 699.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2024/11/OSGSTB20IS-1200x1200-1.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/estufa-de-mesa-a-gas-gris-metalico",
-   "description": ""
-  },
-  {
-   "id": "max-BLSTKAGRPB013",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Oster®, BLSTKAGRPB013, Licuadora de 2 velocidades, Jarra de vidrio",
-   "brand": "Oster",
-   "category": "Licuadoras",
-   "price": 469.0,
-   "currency": "GTQ",
-   "compare_at_price": 545.0,
-   "discount_pct": 14,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/B/L/BLSTKAGRPB013_1_20052025174402_1.png"
-   ],
-   "url": "https://www.max.com.gt/oster-blstkagrpb013-licuadora-de-2-velocidades-jarra-de-vidrio-oster-blstkagrpb013",
-   "description": "El poderoso motor con alta fuerza de torsión y vaso de vidrio refractario Boroclass® de la licuadora Oster® son ideales para preparar una amplia variedad de recetas frías y calientes, jugos, batidos y mucho más. Dos velocidades con pulso alto y bajo Capacidad de 1.5 litros para preparar desde sopas…"
-  },
-  {
-   "id": "kemik-oster-batidora-manual-5-velocidades-blanco",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Batidora Manual - 5 Velocidades, Blanco",
-   "brand": "Oster",
-   "category": "Batidoras",
-   "price": 299.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2024/02/2499-013-1200x1200-1.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/oster-batidora-manual-5-velocidades-blanco",
-   "description": ""
-  },
-  {
-   "id": "max-BLSTBPST",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Oster®, BLSTBPST, Licuadora Clásica, Serie Profesional Color Negro",
-   "brand": "Oster",
-   "category": "Licuadoras",
-   "price": 1299.0,
-   "currency": "GTQ",
-   "compare_at_price": 1445.0,
-   "discount_pct": 10,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/b/l/blstbpst_1_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/oster-blstbpst-licuadora-clasica-serie-profesional-color-negro-oster-blstbpst",
-   "description": "Oster®, BLSTBPST, Licuadora Clásica, Serie Profesional Color Negro. 700 Watts de potencia Motor 6 veces mas duradero Vaso de vidrio de 1.5 lt. Capacidad para 6 tazas Interruptor de palanca"
-  },
-  {
-   "id": "kemik-picca-cafetera-digital-de-12-tazas-con-filtro-permanente-jar",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Cafetera Digital de 12 Tazas con Filtro Permanente, Jarra de Vidrio - Gris",
-   "brand": "Picca",
-   "category": "Cafeteras",
-   "price": 331.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2025/05/PICM12DN-1200x1200-1.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/picca-cafetera-digital-de-12-tazas-con-filtro-permanente-jarra-de-vidrio-gris-con-negro",
-   "description": ""
-  },
-  {
-   "id": "max-67a3da07",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Freidora de aire digital mertec 4.2 litros con visor",
-   "brand": "Mertec",
-   "category": "Freidoras",
-   "price": 474.0,
-   "currency": "GTQ",
-   "compare_at_price": 678.0,
-   "discount_pct": 30,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/d/8/d811b6a4180acd6c.jpg"
-   ],
-   "url": "https://www.max.com.gt/freidora-de-aire-digital-mertec-4-2-litros-con-visor-67a3da07",
-   "description": "Freír, asar y hornear de una forma saludable nunca fue tan fácil como con tu mertec 4,2l digital. La freidora de aire usa un sistema para cocinar los alimentos circulando aire caliente alrededor de la comida y requiere muy poco o nada de aceite, esto te permite realizar recetas saludables y para tod…"
-  },
-  {
-   "id": "kemik-taurus-estufa-electrica-alpha-duo-black-con-dos-hornillas-en",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Estufa Eléctrica Alpha Duo con Dos Hornillas, 1650W - Negro",
-   "brand": "Taurus",
-   "category": "Cocina",
-   "price": 219.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2025/08/8414234681324-taurus-1200x1200-1.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/taurus-estufa-electrica-alpha-duo-black-con-dos-hornillas-en-espiral-con-5-niveles-de-calentamiento-1650w-negro",
-   "description": ""
-  },
-  {
-   "id": "max-AFBD82",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Freidora de aire con 9 funciones preprogramadas 8L. purifry, Black+ Decker",
-   "brand": "Black & Decker",
-   "category": "Freidoras",
-   "price": 999.0,
-   "currency": "GTQ",
-   "compare_at_price": 1195.0,
-   "discount_pct": 16,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/A/F/AFBD82_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/freidora-de-aire-con-9-funciones-preprogramadas-8l-purifry-black-decker-black-decker-afbd82",
-   "description": "Disfruta de un sabor crujiente con menos cantidad de aceite y en menos tiempo, con 9 funciones preprogramadas para asistirte mientras cocinas. La cesta antiadherente te permite fácil limpieza y es apta para lavavajillas Pantalla táctil 2 veces más rápida Notificación para agitar los alimentos Tempor…"
-  },
-  {
-   "id": "kemik-truper-bascula-digital-para-cocina-con-tazon-5-kg",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Báscula Digital para Cocina con Tazón 5 kg",
+   "title": "Truper Báscula Digital para Cocina Plato de Vidrio 5 kg",
    "brand": "Truper",
-   "category": "Otros",
-   "price": 115.0,
+   "category": "Cocina",
+   "price": 83.0,
    "currency": "GTQ",
    "compare_at_price": null,
    "discount_pct": null,
    "images": [
-    "https://static.kemikcdn.com/2025/03/102421-1200x1200-1.-700x700.jpg"
+    "https://static.kemikcdn.com/2025/03/15160-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/truper-bascula-digital-para-cocina-con-tazon-5-kg",
+   "url": "https://www.kemik.gt/truper-bascula-digital-para-cocina-plato-de-vidrio-5-kg",
    "description": ""
   },
   {
-   "id": "max-466e6d86",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Freidor de aire Morphy Richards con doble cesta con 7.2L de capacidad",
-   "brand": "MORPHY RICHARDS",
-   "category": "Freidoras",
-   "price": 799.0,
+   "id": "kemik-peanuts-x-dash-mini-waffle-maker-peanuts-black-white",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Peanuts x Dash Mini Waffle Maker Peanuts (Black & White)",
+   "brand": "",
+   "category": "Otros",
+   "price": 185.0,
    "currency": "GTQ",
-   "compare_at_price": 1299.0,
-   "discount_pct": 38,
+   "compare_at_price": 364.0,
+   "discount_pct": 49,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/c/1/c124abce552a2a12.jpg"
+    "https://static.kemikcdn.com/2026/01/81clo1ahNRL.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/freidor-de-aire-morphy-richards-con-doble-cesta-con-7-2l-de-capacidad-466e6d86",
-   "description": "Freidor de aire color negro Morphy Richards con doble canasta con 3.6L de capacidad por cada canasta, total 7.2 litros. Incluye 14 ajustes generales, independientes por cada canasta, iluminación y ventana para ver interior. Producto tiene 2 años de garantía."
+   "url": "https://www.kemik.gt/peanuts-x-dash-mini-waffle-maker-peanuts-black-white",
+   "description": ""
+  },
+  {
+   "id": "kemik-dispensador-de-agua-portatil-automatico-de-5-galones-bomba-d",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Dispensador de Agua Portátil Automático de 5 Galones, Recargable USB - Negro",
+   "brand": "",
+   "category": "Refrigeración",
+   "price": 111.0,
+   "currency": "GTQ",
+   "compare_at_price": 254.0,
+   "discount_pct": 56,
+   "images": [
+    "https://static.kemikcdn.com/2024/12/61EAQaMr8UL.-293x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/dispensador-de-agua-portatil-automatico-de-5-galones-bomba-de-botella-de-agua-electrica-universal-dispensador-de-agua-recargable-usb-con-2-siliconas-dispensador-de-agua-portatil-para-campamento-en-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-plancha-a-vapo-black-decker",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Black + Decker Plancha a Vapor",
+   "brand": "Black + Decker",
+   "category": "Planchas",
+   "price": 159.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2018/08/3513-large_default-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/plancha-a-vapo-black-decker",
+   "description": ""
   },
   {
    "id": "kemik-ninja-freidora-de-aire-dualzone-6-en-1-de-7-5-l-negro",
@@ -695,61 +434,197 @@
    "description": ""
   },
   {
-   "id": "max-TO62350SDLA",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno tostador para freír con aire, Black and Decker, con 6 funciones automáticas",
-   "brand": "Black & Decker",
-   "category": "Freidoras",
-   "price": 899.0,
-   "currency": "GTQ",
-   "compare_at_price": 995.0,
-   "discount_pct": 10,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/T/O/TO62350SDLA_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-tostador-para-freir-con-aire-black-and-decker-con-6-funciones-automaticas-black-decker-to62350sdla",
-   "description": "* Gran capacidad de 23L con espacio para 6 rebanadas de pan o una pizza de hasta 30 cm. * 6 funciones automáticas: Freír con aire, asar, hornear, tostar, calentar y pizza. * Reloj automático de 60 minutos y temporizador de tostado para resultados perfectos. * Potencia de 1500 watts * Rejilla con 4 p…"
-  },
-  {
-   "id": "kemik-plancha-a-vapo-black-decker",
+   "id": "kemik-whirlpool-microondas-1-1-p-900w-natural-silver",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Plancha a Vapor",
-   "brand": "Black + Decker",
-   "category": "Planchas",
-   "price": 159.0,
+   "title": "Whirlpool Microondas 1.1 p³ 900W - Natural Silver",
+   "brand": "Whirlpool",
+   "category": "Microondas",
+   "price": 866.0,
+   "currency": "GTQ",
+   "compare_at_price": 1135.0,
+   "discount_pct": 24,
+   "images": [
+    "https://static.kemikcdn.com/2022/02/WM1211D-WHIRPOOL-1200X1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/whirlpool-microondas-1-1-p-900w-natural-silver",
+   "description": ""
+  },
+  {
+   "id": "kemik-ugreen-cm185-lector-de-memorias-usb-dual-tipo-c-y-usba-para-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ugreen Lector de Memorias USB Dual Tipo C y USB-A para Memorias SD/Micro SD",
+   "brand": "Ugreen",
+   "category": "Computación",
+   "price": 119.0,
    "currency": "GTQ",
    "compare_at_price": null,
    "discount_pct": null,
    "images": [
-    "https://static.kemikcdn.com/2018/08/3513-large_default-300x300.jpg"
+    "https://static.kemikcdn.com/2025/11/CM185-50706-Ugreen-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/plancha-a-vapo-black-decker",
+   "url": "https://www.kemik.gt/ugreen-cm185-lector-de-memorias-usb-dual-tipo-c-y-usba-para-memorias-sdmicro-sd",
    "description": ""
   },
   {
-   "id": "max-CMU3000",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker, CMU3000, Percoladora de acero, 30 tazas",
-   "brand": "Black & Decker",
-   "category": "Cafeteras",
-   "price": 499.0,
+   "id": "kemik-advion-cebo-en-gel-para-cucarachas-4-tubos-x-1-06-onzas-1-je",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Advion - Cebo en Gel para Cucarachas - 0.6% Indoxacarb - Paquete de 4 Tubos (4 x 30g) - Control de Plagas para Interiores y Exteriores",
+   "brand": "",
+   "category": "Hogar",
+   "price": 321.0,
    "currency": "GTQ",
-   "compare_at_price": 565.0,
+   "compare_at_price": 383.0,
+   "discount_pct": 16,
+   "images": [
+    "https://static.kemikcdn.com/2024/09/71D+7sez6SL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/advion-cebo-en-gel-para-cucarachas-4-tubos-x-1_06-onzas-1-jeringa-2-boquillas-gel-para-el-control-de-plagas-de-cucarachas-alemanas-estadounidenses-otras-especies-uso-interior-exterior",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-tv-box-s-3ra-generacion-35-gb-rom-4k-hdr10-dolby-visi",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi TV Box S 3ra Generación 32 GB Almacenamiento, 4K HDR10+ Dolby Vision con Google TV - Negro",
+   "brand": "Xiaomi",
+   "category": "TV y video",
+   "price": 699.0,
+   "currency": "GTQ",
+   "compare_at_price": 981.0,
+   "discount_pct": 29,
+   "images": [
+    "https://static.kemikcdn.com/2025/12/AE000XIA13-1200x1200-2.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-tv-box-s-3ra-generacion-35-gb-rom-4k-hdr10-dolby-vision-con-google-tv-negro-2",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-redmi-buds-6-play-audifonos-bluetooth-blanco",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi Redmi Buds 6 Play Audífonos Bluetooth - Blanco",
+   "brand": "Xiaomi",
+   "category": "Audio",
+   "price": 110.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/09/BHR8773GL-REDMI-BUDS-6-PLAY-WHITE-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-redmi-buds-6-play-audifonos-bluetooth-blanco",
+   "description": ""
+  },
+  {
+   "id": "kemik-armaf-odyssey-mandarin-sky-eau-de-parfum-en-espray-para-homb",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Armaf Odyssey Perfume Mandarin Sky Eau de Parfum para Hombre - 100 ml",
+   "brand": "ARMAF",
+   "category": "Cuidado personal",
+   "price": 356.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/B0C3G9J5Q8-1200x1200-A1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/armaf-odyssey-mandarin-sky-eau-de-parfum-en-espray-para-hombre-3_4-onzas-frutado-3_4-fl-oz-pack-of-1",
+   "description": ""
+  },
+  {
+   "id": "kemik-mertec-mini-licuadora-portatil-recargable-personal-con-puert",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Mertec Mini Licuadora Portátil Recargable Personal con Puerto USB para Smoothies y Proteína – Celeste",
+   "brand": "Mertec",
+   "category": "Licuadoras y batidoras",
+   "price": 75.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/04/10000587-LICUADORA-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/mertec-mini-licuadora-portatil-recargable-personal-con-puerto-usb-para-smoothies-proteina-celeste",
+   "description": ""
+  },
+  {
+   "id": "kemik-espumador-portatil-para-hacer-bebidas-cremosas-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Espumador Portátil para Hacer Bebidas Cremosas - Negro",
+   "brand": "",
+   "category": "Cafeteras",
+   "price": 29.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2023/10/ESPUMADOR-CAFE-BLACK-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/espumador-portatil-para-hacer-bebidas-cremosas-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-estufa-de-mesa-a-gas-gris-metalico",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Oster Estufa de Mesa a Gas - Gris Metálico",
+   "brand": "Oster",
+   "category": "Cocina",
+   "price": 699.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/OSGSTB20IS-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/estufa-de-mesa-a-gas-gris-metalico",
+   "description": ""
+  },
+  {
+   "id": "kemik-oster-accesorios-2-mini-jarras-500-ml",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Oster Accesorios, 2 Mini Jarras - 500 ml",
+   "brand": "Oster",
+   "category": "Otros",
+   "price": 149.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/02/BLSTMJ-500-011-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-accesorios-2-mini-jarras-500-ml",
+   "description": ""
+  },
+  {
+   "id": "kemik-frigidaire-frigobar-3-1-pies-con-compartimento-de-congelacio",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Frigidaire Frigobar 3.1 Pies con Compartimento de Congelación, Control de Temperatura y Anaqueles para Botellas, 88 L – Gris",
+   "brand": "Frigidaire",
+   "category": "Refrigeración",
+   "price": 1499.0,
+   "currency": "GTQ",
+   "compare_at_price": 1699.0,
    "discount_pct": 12,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/c/m/cmu3000_1.jpg"
+    "https://static.kemikcdn.com/2026/04/FFPS3133UM-BODEGANGA-1200X1200.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/black-decker-cmu3000-percoladora-de-acero-30-tazas-black-decker-cmu3000",
-   "description": "Black+Decker, CMU3000, Cafetera de acero, 30 tazas. * Cuela el café a la velocidad de 1 taza por minuto * Mantiene el café caliente automáticamente * Filtro de café * Asas frias al tacto * Marcas de nivel de agua * Llave * Luz indicadora"
+   "url": "https://www.kemik.gt/frigidaire-frigobar-3_1-pies-con-compartimento-de-congelacion-control-de-temperatura-anaqueles-para-botellas-88-l-gris",
+   "description": ""
   },
   {
    "id": "kemik-oster-s7000-plancha-de-vapor-aeroglide-de-1250w-con-suela-ae",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "S7000 Plancha de Vapor AeroGlide con Suela Aeroceramic, 1250W - Negro",
+   "title": "Oster S7000 Plancha de Vapor AeroGlide con Capacidad de 250 ml y Suela Aeroceramic, 1250W - Negro",
    "brand": "Oster",
    "category": "Planchas",
    "price": 299.0,
@@ -763,214 +638,10 @@
    "description": ""
   },
   {
-   "id": "max-BVSTDCS121B",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Cafetera de 12 tazas con filtro permanente",
-   "brand": "Oster",
-   "category": "Cafeteras",
-   "price": 369.0,
-   "currency": "GTQ",
-   "compare_at_price": 445.0,
-   "discount_pct": 17,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/B/V/BVSTDCS121B_1_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/cafetera-de-12-tazas-con-filtro-permanente-oster-oster-bvstdcs121b",
-   "description": "Cafetera de 12 tazas Oster Usarla es muy fácil: simplemente agrega agua, café y presiona el botón de encendido Con el filtro reutilizable, ahorra dinero y reduce residuos, ya que no necesitarás comprar filtros desechables Función Pausa y Servir te permite saborear una taza antes de que finalice la p…"
-  },
-  {
-   "id": "kemik-oster-plancha-para-ropa-a-vapor-suela-anti-adherente-rosada",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Plancha Antiadherente, Vapor - Palo Rosa",
-   "brand": "Oster",
-   "category": "Planchas",
-   "price": 162.0,
-   "currency": "GTQ",
-   "compare_at_price": 229.0,
-   "discount_pct": 29,
-   "images": [
-    "https://static.kemikcdn.com/2022/02/GCSTBS3801-13-OSTER-PLANCA-1200X1200-1-1-300x300.jpg"
-   ],
-   "url": "https://www.kemik.gt/oster-plancha-para-ropa-a-vapor-suela-anti-adherente-rosada",
-   "description": ""
-  },
-  {
-   "id": "max-JKCBD7876W",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker, JKCBD7876W, Tetera Eléctrica de 1.7 litros, Inalambrica",
-   "brand": "Black & Decker",
-   "category": "Cafeteras",
-   "price": 199.0,
-   "currency": "GTQ",
-   "compare_at_price": 245.0,
-   "discount_pct": 19,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/j/k/jkcbd7876w_1.png"
-   ],
-   "url": "https://www.max.com.gt/black-decker-jkcbd7876w-tetera-electrica-de-1-7-litros-inalambrica-black-decker-jkcbd7876w",
-   "description": "Black+Decker, JKCBD7876W, Hervidor Eléctrico de 1.7 litros, Inalambrica. 1500 Watts Capacidad de 1.7 lt. Base giratoria de 360° Apagado automático Sistema Anti-Goteo Guardacable Interruptor de encendido y apagado"
-  },
-  {
-   "id": "kemik-mertec-mini-licuadora-portatil-recargable-personal-con-puert",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Mini Licuadora Portátil Recargable con Puerto USB - Celeste",
-   "brand": "Mertec",
-   "category": "Licuadoras",
-   "price": 75.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2026/04/10000587-LICUADORA-1200X1200.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/mertec-mini-licuadora-portatil-recargable-personal-con-puerto-usb-para-smoothies-proteina-celeste",
-   "description": ""
-  },
-  {
-   "id": "max-HB2400B",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker, HB2400B, Batidora de inmersión, Color negro",
-   "brand": "Black & Decker",
-   "category": "Batidoras",
-   "price": 199.0,
-   "currency": "GTQ",
-   "compare_at_price": 295.0,
-   "discount_pct": 33,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/h/b/hb2400b_1.png"
-   ],
-   "url": "https://www.max.com.gt/black-decker-hb2400b-batidora-de-inmersion-color-negro",
-   "description": "Black+Decker, HB2400B, Batidora de inmersión, Color negro. * 200 Watts * 2 Velocidades * Cuchillas de acero inoxidable 2 veces mas grandes * Mango Ergónomico * Con boquilla fácil de verter. (700ml)"
-  },
-  {
-   "id": "kemik-frigobar-de-1-6-cubicos-gris",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Frigobar de 1.6' Cúbicos - Gris",
-   "brand": "Hisense",
-   "category": "Refrigeración",
-   "price": 899.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2024/11/RR16D6AGX1-1200x1200-1.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/frigobar-de-1_6-cubicos-gris",
-   "description": ""
-  },
-  {
-   "id": "max-HB2800B",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker, HB2800B, Batidora de inmersión, Color negro",
-   "brand": "Black & Decker",
-   "category": "Batidoras",
-   "price": 399.0,
-   "currency": "GTQ",
-   "compare_at_price": 595.0,
-   "discount_pct": 33,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/h/b/hb2800b_1.png"
-   ],
-   "url": "https://www.max.com.gt/black-decker-hb2800b-batidora-de-inmersion-color-negro",
-   "description": "Con tu batidora de inmersión 3 en 1 Black+Decker, mezcla, pica y bate todo tipo de alimentos de manera fácil y rápida."
-  },
-  {
-   "id": "max-CI100",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Licuadora de mano, Ninja, Power Mixer 3 en 1",
-   "brand": "NINJA",
-   "category": "Licuadoras",
-   "price": 949.0,
-   "currency": "GTQ",
-   "compare_at_price": 1095.0,
-   "discount_pct": 13,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/C/I/CI100_1_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/licuadora-de-mano-ninja-power-mixer-3-en-1-ninja-ci100",
-   "description": "¡Mezcla, bate y licua, todo en uno! Versatilidad y potencia. 5 velocidades de mezcla y 2 velocidades de batido Batidores potentes Brazo de mezcla de inmersión de acero inoxidable de 9\". El motor está diseñado para funcionar a través de ingredientes densos sin atascarse, lo que es ideal para hacer sm…"
-  },
-  {
-   "id": "kemik-fresh-juice-licuadora-portatil-de-350-ml-blanco",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Fresh Juice Licuadora Portátil de 350 ml - Blanco",
-   "brand": "FRESH JUICE",
-   "category": "Licuadoras",
-   "price": 163.0,
-   "currency": "GTQ",
-   "compare_at_price": 299.0,
-   "discount_pct": 45,
-   "images": [
-    "https://static.kemikcdn.com/2024/08/214B-BLANCO-1200x1200-1.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/fresh-juice-licuadora-portatil-de-350-ml-blanco",
-   "description": ""
-  },
-  {
-   "id": "max-62633R",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Hamilton Beach®, 62633R, Batidora de mano, Color Rojo",
-   "brand": "Hamilton Beach",
-   "category": "Batidoras",
-   "price": 299.0,
-   "currency": "GTQ",
-   "compare_at_price": 345.0,
-   "discount_pct": 13,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/6/2/62633r.jpg"
-   ],
-   "url": "https://www.max.com.gt/hamilton-beachr-62633r-batidora-de-mano-color-rojo",
-   "description": "Hamilton Beach®, 62633R, Batidora de mano, Color Rojo. * 6 Velocidades * Estuche de almacenamiento a presión * 250 Watts de potencia * Accesorios versátiles * Reposacauchos"
-  },
-  {
-   "id": "kemik-ninja-blast-max-licuadora-portatil-twist-go-licuadora-person",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Ninja Blast Max Licuadora Portátil Inalámbrica (22 oz) - Gris",
-   "brand": "NINJA",
-   "category": "Licuadoras",
-   "price": 697.0,
-   "currency": "GTQ",
-   "compare_at_price": 781.0,
-   "discount_pct": 11,
-   "images": [
-    "https://static.kemikcdn.com/2025/01/71riGHW4v4L.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/ninja-blast-max-licuadora-portatil-twist-go-licuadora-personal-ninja-blender-licuadora-licuadora-mezcla-de-hielo-3-programas-inalambrico-recipiente-extraible-de-22-onzas-apto-para-gris",
-   "description": ""
-  },
-  {
-   "id": "max-0c3665ff",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Plancha de vapor morada Morphy Richards de alta potencia 1",
-   "brand": "MORPHY RICHARDS",
-   "category": "Planchas",
-   "price": 399.0,
-   "currency": "GTQ",
-   "compare_at_price": 499.0,
-   "discount_pct": 20,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/f/b/fb414805fcbe3775.jpg"
-   ],
-   "url": "https://www.max.com.gt/plancha-de-vapor-morada-morphy-richards-de-alta-potencia-1-700w-0c3665ff",
-   "description": "Plancha de vapor Morphy Richards color morado de alta potencia. Con potencia de 1,700W, con suela cerámica. Tanque con capacidad de 350 ml. Perilla para seleccionar distintos tipos de planchado. Producto tiene 2 años de garantía."
-  },
-  {
    "id": "kemik-ninja-crispi-freidora-de-aire-apta-para-microondas-congelado",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Ninja Crispi Freidora de Aire de Vidrio 4 en 1, 1500W - Gris",
+   "title": "Ninja Crispi Freidora de Aire de Vidrio 4 en 1 con Contenedores de 4QT y de 6 Tazas, 1500W - Gris",
    "brand": "NINJA",
    "category": "Freidoras",
    "price": 1239.0,
@@ -984,89 +655,463 @@
    "description": ""
   },
   {
-   "id": "max-GCSTAC7002",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Plancha de Vapor AeroGlide Oster color Negro",
-   "brand": "Oster",
-   "category": "Planchas",
-   "price": 299.0,
-   "currency": "GTQ",
-   "compare_at_price": 335.0,
-   "discount_pct": 11,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/G/C/GCSTAC7002_1_9062026163342_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/plancha-de-vapor-aeroglide-oster-color-negro-oster-gcstac7002",
-   "description": "La plancha AEROGLIDE permite planchar más rápido y fácilmente gracias a su potente vapor de 180 g/min, que elimina arrugas difíciles. Su suela aerocerámica se desliza mejor, es más resistente y cubre más superficie. Incluye vapor vertical, punta de precisión y cable giratorio Además, cuenta con roci…"
-  },
-  {
-   "id": "kemik-ninja-detect-power-blender-pro-personal-single-serve-tecnolo",
+   "id": "kemik-xiaomi-a24i-2026-monitor-de-24pulgadas-full-hd-hdmi-displayp",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Ninja Licuadora Detect Power Blender Pro de 72 oz - Negro",
-   "brand": "NINJA",
-   "category": "Licuadoras",
-   "price": 1285.0,
+   "title": "Xiaomi A24i (2026) Monitor de 24\" Full HD, HDMI y DisplayPort a 144Hz Negro",
+   "brand": "Xiaomi",
+   "category": "Computación",
+   "price": 753.0,
    "currency": "GTQ",
-   "compare_at_price": 2324.0,
+   "compare_at_price": 1374.0,
    "discount_pct": 45,
    "images": [
-    "https://static.kemikcdn.com/2025/04/TB301-NINJA-1200X1200-1.-700x700.jpg"
+    "https://static.kemikcdn.com/2026/04/69672-XIAOMI-1200x1200-01.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/ninja-detect-power-blender-pro-personal-single-serve-tecnologia-blendsense-para-batidos-alimentos-mas-encimera-de-cocina-compacta-1800-p-w-jarra-de-72-onzas-2-tazas-para-llevar-de-24-power-blender-tazas",
+   "url": "https://www.kemik.gt/xiaomi-a24i-2026-monitor-de-24pulgadas-full-hd-hdmi-displayport-a-144hz-negro",
    "description": ""
   },
   {
-   "id": "max-GCSTAC7202",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Plancha de Vapor Oster con suela Aeroceramic color azul",
-   "brand": "Oster",
-   "category": "Planchas",
-   "price": 349.0,
-   "currency": "GTQ",
-   "compare_at_price": 395.0,
-   "discount_pct": 12,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/G/C/GCSTAC7202_1_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/plancha-de-vapor-oster-con-suela-aeroceramic-color-azul-oster-gcstac7202",
-   "description": "La plancha Oster AEROGLIDE genera hasta 40% más vapor para quitar arrugas difíciles sin esfuerzo. Su suela Aeroceramic tiene 25% más cobertura y se desliza 30% mejor, además de ser 50% más resistente a rayaduras. Con golpe de vapor vertical, punta de precisión. También cuenta con función de autolimp…"
-  },
-  {
-   "id": "kemik-frigidaire-frigobar-3-1-pies-con-compartimento-de-congelacio",
+   "id": "kemik-xtech-xta-900-mini-ventilador-recargable-de-6-velocidades-bl",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Frigobar 3.1 Pies con Compartimento de Congelación, 88 L - Gris",
-   "brand": "Frigidaire",
-   "category": "Refrigeración",
-   "price": 1323.0,
+   "title": "Xtech XTA-900 Mini Ventilador Recargable de 6 Velocidades - Blanco",
+   "brand": "Xtech",
+   "category": "Hogar",
+   "price": 84.0,
    "currency": "GTQ",
-   "compare_at_price": 1699.0,
-   "discount_pct": 22,
+   "compare_at_price": 120.0,
+   "discount_pct": 30,
    "images": [
-    "https://static.kemikcdn.com/2026/04/FFPS3133UM-BODEGANGA-1200X1200.-700x700.jpg"
+    "https://static.kemikcdn.com/2026/01/AC010XTK27-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/frigidaire-frigobar-3_1-pies-con-compartimento-de-congelacion-control-de-temperatura-anaqueles-para-botellas-88-l-gris",
+   "url": "https://www.kemik.gt/xtech-xta-900-mini-ventilador-recargable-de-6-velocidades-blanco",
    "description": ""
   },
   {
-   "id": "max-GCSTCC5000013",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Oster®, GCSTCC5000013, Plancha de ropa, inalámbrica",
+   "id": "kemik-soporte-articulado-con-inclinacion-y-giro-de-32-hasta-70-xte",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "XTECH XTA-475 Soporte Articulado Inclinable y Giro de 32\" a 70\"",
+   "brand": "Xtech",
+   "category": "TV y video",
+   "price": 307.0,
+   "currency": "GTQ",
+   "compare_at_price": 362.0,
+   "discount_pct": 15,
+   "images": [
+    "https://static.kemikcdn.com/2020/03/XTA-475_1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/soporte-articulado-con-inclinacion-y-giro-de-32-hasta-70-xtech-xta-475",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-redmi-buds-6-play-audifonos-bluetooth-rosado",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi Redmi Buds 6 Play Audífonos Bluetooth - Rosado",
+   "brand": "Xiaomi",
+   "category": "Audio",
+   "price": 110.0,
+   "currency": "GTQ",
+   "compare_at_price": 199.0,
+   "discount_pct": 45,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/RedmiBuds6PlayRosa1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-redmi-buds-6-play-audifonos-bluetooth-rosado",
+   "description": ""
+  },
+  {
+   "id": "kemik-dralthea-345-relief-cream-crema-coreana-hidratante-con-niaci",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Dr. Althea 345 Relief Cream – Crema Coreana Hidratante con Niacinamida y Té de Árbol - 50 ml",
+   "brand": "Dr. Althea",
+   "category": "Cuidado personal",
+   "price": 290.0,
+   "currency": "GTQ",
+   "compare_at_price": 377.0,
+   "discount_pct": 23,
+   "images": [
+    "https://static.kemikcdn.com/2025/09/51ImJkfL-NL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/dralthea-345-relief-cream-crema-coreana-hidratante-con-niacinamida-y-te-de-arbol-50ml",
+   "description": ""
+  },
+  {
+   "id": "kemik-batidor-electrico-de-metal-kitchen-pro-espumador-inalambrico",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Batidor Eléctrico de Metal Kitchen-Pro Espumador Inalámbrico USB Multifuncional - Negro",
+   "brand": "",
+   "category": "Licuadoras y batidoras",
+   "price": 149.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/06/ESPUMADOR-ELE-NEGRO-IMPORT-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/batidor-electrico-de-metal-kitchen-pro-espumador-inalambrico-usb-multifuncional-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-picca-cafetera-digital-de-12-tazas-con-filtro-permanente-jar",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Picca Cafetera Digital de 12 Tazas con Filtro Permanente, Jarra de Vidrio - Gris con Negro",
+   "brand": "Picca",
+   "category": "Cafeteras",
+   "price": 331.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/05/PICM12DN-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/picca-cafetera-digital-de-12-tazas-con-filtro-permanente-jarra-de-vidrio-gris-con-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-taurus-estufa-electrica-alpha-duo-black-con-dos-hornillas-en",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Taurus Estufa Eléctrica Alpha Duo Black con Dos Hornillas en Espiral con 5 Niveles de Calentamiento, 1650W - Negro",
+   "brand": "Taurus",
+   "category": "Cocina",
+   "price": 219.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/08/8414234681324-taurus-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/taurus-estufa-electrica-alpha-duo-black-con-dos-hornillas-en-espiral-con-5-niveles-de-calentamiento-1650w-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-nutribullet-nby-50100-baby-sistema-completo-de-preparacion-d",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "NutriBullet NBY-50100 Baby - Sistema completo de preparación de alimentos para bebés, 32 onzas, color azul Clear 32-oz",
+   "brand": "Nutribullet",
+   "category": "Otros",
+   "price": 831.0,
+   "currency": "GTQ",
+   "compare_at_price": 955.0,
+   "discount_pct": 13,
+   "images": [
+    "https://static.kemikcdn.com/2024/07/61eF0fUalLL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/nutribullet-nby-50100-baby-sistema-completo-de-preparacion-de-alimentos-para-bebes-32-onzas-color-azul-clear-32-oz",
+   "description": ""
+  },
+  {
+   "id": "kemik-frigobar-de-2-puertas-3-3-cubicos-de-capacidad-gris",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Frigobar de 2 Puertas, 3.3' Cúbicos de Capacidad - Gris",
+   "brand": "Hisense",
+   "category": "Refrigeración",
+   "price": 1599.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/RT31D6AGX1-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/frigobar-de-2-puertas-3_3-cubicos-de-capacidad-gris",
+   "description": ""
+  },
+  {
+   "id": "kemik-oster-plancha-para-ropa-a-vapor-suela-anti-adherente-rosada",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Oster Plancha Antiadherente, Vapor - Palo Rosa",
    "brand": "Oster",
    "category": "Planchas",
-   "price": 529.0,
+   "price": 204.0,
    "currency": "GTQ",
-   "compare_at_price": 595.0,
+   "compare_at_price": 229.0,
    "discount_pct": 11,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/G/C/GCSTCC5000013_1.jpg"
+    "https://static.kemikcdn.com/2022/02/GCSTBS3801-13-OSTER-PLANCA-1200X1200-1-1-300x300.jpg"
    ],
-   "url": "https://www.max.com.gt/oster-gcstcc5000013-plancha-de-ropa-inalambrica-oster-gcstcc5000013",
-   "description": "Plancha de ropa inalámbrica con pontente golpe de vapor. Apagado inteligente Opción para planchar con cable."
+   "url": "https://www.kemik.gt/oster-plancha-para-ropa-a-vapor-suela-anti-adherente-rosada",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-a27i-2026-monitor-de-27pulgadas-full-hd-hdmi-displayp",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi A27i (2026) Monitor de 27\" Full HD, HDMI y DisplayPort a 144Hz Negro",
+   "brand": "Xiaomi",
+   "category": "Computación",
+   "price": 899.0,
+   "currency": "GTQ",
+   "compare_at_price": 1695.0,
+   "discount_pct": 47,
+   "images": [
+    "https://static.kemikcdn.com/2026/04/69666-XIAOMI-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-a27i-2026-monitor-de-27pulgadas-full-hd-hdmi-displayport-a-144hz-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-ekiipa-silla-ejecutiva-con-mesh-eco-107-negro-cormado",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ekiipa Silla Ejecutiva con Mesh ECO 107 - Negro Cormado",
+   "brand": "Ekiipa",
+   "category": "Hogar",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/05/SILLA-ECO-107-BLK-CRO-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ekiipa-silla-ejecutiva-con-mesh-eco-107-negro-cormado",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-tv-a-pro-43-2026-smart-tv-43-4k-qled-google-tv-hdr-do",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi TV A Pro 43 2026 Smart TV 43” 4K QLED - Google TV HDR Dolby Audio",
+   "brand": "Xiaomi",
+   "category": "TV y video",
+   "price": 2363.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/09/63977-XIAOMI-Xiaomi-TV-A-Pro-43-2026-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-tv-a-pro-43-2026-smart-tv-43-4k-qled-google-tv-hdr-dolby-audio",
+   "description": ""
+  },
+  {
+   "id": "kemik-audifonos-inalambricos-redmi-buds-8-lite-con-cancelacion-act",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Audífonos Inalámbricos Redmi Buds 8 Lite con Cancelación Activa de Ruido ANC 42dB, Bluetooth 5.4, 36h Batería, Google Fast Pair, IP54, Micrófonos Dual AI, True Wireless - Negro",
+   "brand": "Xiaomi",
+   "category": "Audio",
+   "price": 185.0,
+   "currency": "GTQ",
+   "compare_at_price": 219.0,
+   "discount_pct": 16,
+   "images": [
+    "https://static.kemikcdn.com/2026/01/REDMI-BUDS-8-LITE-BLACK-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/audifonos-inalambricos-redmi-buds-8-lite-con-cancelacion-activa-de-ruido-anc-42db-bluetooth-5_4-36h-bateria-google-fast-pair-ip54-microfonos-dual-ai-true-wireless-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-the-ordinary-duo-niacinamide-10-zinc-1-and-hyaluronic-2-b5-3",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "The Ordinary Niacinamide 10% + Zinc 1% - 30ml",
+   "brand": "The Ordinary",
+   "category": "Cuidado personal",
+   "price": 88.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/12/5FA096727A-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/the-ordinary-duo-niacinamide-10-zinc-1-and-hyaluronic-2-b5-30ml",
+   "description": ""
+  },
+  {
+   "id": "kemik-taurus-licuadora-personal-blender-2go-con-2-botellas-de-500-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Taurus Licuadora Personal Blender 2GO con 2 Botellas de 500 ml y 2 Velocidades, 300 W - Negro",
+   "brand": "Taurus",
+   "category": "Licuadoras y batidoras",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/08/8414234121424-taurus-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/taurus-licuadora-personal-blender-2go-con-2-botellas-de-500-ml-2-velocidades-300-w-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-ninja-cafetera-programable-de-12-tazas-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Cafetera Programable de 12 Tazas - Negro",
+   "brand": "NINJA",
+   "category": "Cafeteras",
+   "price": 759.0,
+   "currency": "GTQ",
+   "compare_at_price": 859.0,
+   "discount_pct": 12,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/CE250-NINJA-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-cafetera-programable-de-12-tazas-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-truper-bascula-digital-para-cocina-con-tazon-5-kg",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Truper Báscula Digital para Cocina con Tazón 5 kg",
+   "brand": "Truper",
+   "category": "Cocina",
+   "price": 115.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/102421-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/truper-bascula-digital-para-cocina-con-tazon-5-kg",
+   "description": ""
+  },
+  {
+   "id": "kemik-taurus-wafflera-belgica-up-con-placas-profundas-de-19-cm-950",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Taurus Wafflera Bélgica Up con Placas Profundas de 19 cm, 950 W - Negro",
+   "brand": "Taurus",
+   "category": "Otros",
+   "price": 205.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/08/2412AF0F51-TAURUS-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/taurus-wafflera-belgica-up-con-placas-profundas-de-19-cm-950-w-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-oster-dispensador-de-mesa-frio-caliente-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Oster Dispensador de Agua de Mesa, Frío - Caliente, Negro",
+   "brand": "Oster",
+   "category": "Refrigeración",
+   "price": 673.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/02/OS-WD522B-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-dispensador-de-mesa-frio-caliente-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-espuma-limpiadora-20-onzas-etouch",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Espuma Limpiadora 20 Onzas eTouch",
+   "brand": "eTouch",
+   "category": "Computación",
+   "price": 42.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/05/300025-ETOUCH-1200x1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/espuma-limpiadora-20-onzas-etouch",
+   "description": ""
+  },
+  {
+   "id": "kemik-king-boss-ventilador-metal-de-pedestal-18pulgadas-con-3-velo",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "King Boss Ventilador Metal de Pedestal 18\" con 3 Velocidades",
+   "brand": "King Boss",
+   "category": "Hogar",
+   "price": 270.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/08/KBfan1982-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/king-boss-ventilador-metal-de-pedestal-18pulgadas-con-3-velocidades",
+   "description": ""
+  },
+  {
+   "id": "kemik-capturadora-de-video-hdmi-1080p-usb-2-0",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Capturadora de video HDMI 1080p, USB 2.0",
+   "brand": "",
+   "category": "TV y video",
+   "price": 149.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/07/CAPTURADORA-VIDEO-HDMI-1080P-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/capturadora-de-video-hdmi-1080p-usb-2_0",
+   "description": ""
+  },
+  {
+   "id": "kemik-jbl-audifonos-bluetooth-tune-770nc-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "JBL Audífonos Bluetooth Tune 770NC Negro",
+   "brand": "JBL",
+   "category": "Audio",
+   "price": 699.0,
+   "currency": "GTQ",
+   "compare_at_price": 969.0,
+   "discount_pct": 28,
+   "images": [
+    "https://static.kemikcdn.com/2024/02/JBLT770NCBLKAM-JBL-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/jbl-audifonos-bluetooth-tune-770nc-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-the-ordinary-tonico-exfoliante-con-acido-glicolico-7-para-lu",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "The Ordinary Tónico Exfoliante con Ácido Glicólico 7% - Para Luminosidad, Textura y Tono Uniforme - 100 ml",
+   "brand": "The Ordinary",
+   "category": "Cuidado personal",
+   "price": 117.0,
+   "currency": "GTQ",
+   "compare_at_price": 229.0,
+   "discount_pct": 49,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/61DAurbQboL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/the-ordinary-tonico-exfoliante-con-acido-glicolico-7-para-luminosidad-textura-y-tono-uniforme-100ml",
+   "description": ""
+  },
+  {
+   "id": "kemik-oster-batidora-manual-5-velocidades-blanco",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Oster Batidora Manual - 5 Velocidades, Blanco",
+   "brand": "Oster",
+   "category": "Licuadoras y batidoras",
+   "price": 299.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/02/2499-013-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/oster-batidora-manual-5-velocidades-blanco",
+   "description": ""
   },
   {
    "id": "kemik-espumador-portatil-para-hacer-bebidas-cremosas-rosado",
@@ -1086,129 +1131,248 @@
    "description": ""
   },
   {
-   "id": "max-TO1950SBD",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker, TO1950SBD, Horno tostador, de 14 o 6 rebanadas",
-   "brand": "Black & Decker",
-   "category": "Cocina",
-   "price": 699.0,
-   "currency": "GTQ",
-   "compare_at_price": 795.0,
-   "discount_pct": 12,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/t/o/to1950sbd_1.png"
-   ],
-   "url": "https://www.max.com.gt/black-decker-to1950sbd-horno-tostador-de-14-o-6-rebanadas",
-   "description": "El horno de seis rebanadas de pan BLACK+DECKER tiene tecnología de convección que circula aire caliente para cocinar pizzas y congelados favoritos por mínimo tiempo. El interior está diseñado para el enfoque hacia la comida rápida e incluso cocinar. La"
-  },
-  {
-   "id": "kemik-oster-vaso-de-vidrio-para-licuadora-de-1-5-litros-termorresi",
+   "id": "kemik-oster-sandwichera-con-plastos-hondos-negro",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Vaso de Vidrio para Licuadora de 1.5 Litros Termorresistente",
+   "title": "Oster Sandwichera con Platos Hondos - Negro",
    "brand": "Oster",
-   "category": "Licuadoras",
-   "price": 129.0,
+   "category": "Cocina",
+   "price": 239.0,
    "currency": "GTQ",
    "compare_at_price": null,
    "discount_pct": null,
    "images": [
-    "https://static.kemikcdn.com/2026/06/124461-000-000-1200x1200-1.-700x700.jpg"
+    "https://static.kemikcdn.com/2024/07/CKSTSM400-013-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/oster-vaso-de-vidrio-para-licuadora-de-1_5-litros-termorresistente",
+   "url": "https://www.kemik.gt/oster-sandwichera-con-plastos-hondos-negro",
    "description": ""
   },
   {
-   "id": "max-TO41300SDLA",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno tostador de 4 rebanadas, 5 funciones de cocción, negro",
-   "brand": "Black & Decker",
-   "category": "Cocina",
+   "id": "kemik-tp-link-nano-adaptador-bluetooth-50-para-computadora",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "TP-Link UB500 Nano Adaptador Bluetooth 5.0 para Computadora",
+   "brand": "Tp-Link",
+   "category": "Computación",
+   "price": 57.0,
+   "currency": "GTQ",
+   "compare_at_price": 66.0,
+   "discount_pct": 14,
+   "images": [
+    "https://static.kemikcdn.com/2024/05/UB500-TPLINK-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/tp-link-nano-adaptador-bluetooth-50-para-computadora",
+   "description": ""
+  },
+  {
+   "id": "kemik-nippon-america-clavija-adaptadora-de-enchufe-europeo-a-ameri",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Nippon America Clavija Adaptadora de Enchufe Europeo a Americano",
+   "brand": "Nippon America",
+   "category": "Hogar",
+   "price": 10.0,
+   "currency": "GTQ",
+   "compare_at_price": 25.0,
+   "discount_pct": 60,
+   "images": [
+    "https://static.kemikcdn.com/2023/10/P-510D-1200x1200-42.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/nippon-america-clavija-adaptadora-de-enchufe-europeo-a-americano-10-unidades",
+   "description": ""
+  },
+  {
+   "id": "kemik-nippon-america-control-remoto-universal-para-tv-samsung",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Nippon America Control Remoto Universal para TV Samsung",
+   "brand": "Nippon America",
+   "category": "TV y video",
+   "price": 38.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2023/10/RCN-SAM809-1200x1200-52.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/nippon-america-control-remoto-universal-para-tv-samsung",
+   "description": ""
+  },
+  {
+   "id": "kemik-jbl-audifonos-bluetooth-vibe-buds-2-true-wireless-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "JBL Audífonos Bluetooth Vibe Buds 2 - Negro",
+   "brand": "JBL",
+   "category": "Audio",
+   "price": 391.0,
+   "currency": "GTQ",
+   "compare_at_price": 1303.0,
+   "discount_pct": 70,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/JBLVBUDS2BLKAM-JBL-1200X1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/jbl-audifonos-bluetooth-vibe-buds-2-true-wireless-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-members-mark-minoxidil-5-liquido-cabello-barba-para-hombres--2",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Member´s Mark Minoxidil 5% Líquido Cabello y Barba para Hombres - Caja 6 Unidades (60 ml)",
+   "brand": "Member's Mark",
+   "category": "Cuidado personal",
    "price": 449.0,
    "currency": "GTQ",
-   "compare_at_price": 495.0,
-   "discount_pct": 9,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/T/O/TO41300SDLA_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/horno-tostador-de-4-rebanadas-5-funciones-de-coccion-negro-black-decker-to41300sdla",
-   "description": "Tecnología Eventoast, diseñada para un tostado uniforme 5 funciones de cocción: hornear, asar, tostar, calentar y recalentar Temporizador de 30 minutos con función de apagado automático Accesorios incluidos: bandeja para hornear y parrilla Bandeja de migas extraíble para una fácil limpieza 3 perilla…"
-  },
-  {
-   "id": "kemik-molino-electrico-multifuncional-de-acero-inoxidable-para-caf",
-   "merchant": "Kemik",
-   "merchant_slug": "kemik",
-   "title": "Molino Eléctrico Multifuncional para Café, Especias y Granos",
-   "brand": "",
-   "category": "Cafeteras",
-   "price": 150.0,
-   "currency": "GTQ",
-   "compare_at_price": null,
-   "discount_pct": null,
-   "images": [
-    "https://static.kemikcdn.com/2026/05/MOL-ELE-001-MOLINO-1200X12000.-700x700.jpg"
-   ],
-   "url": "https://www.kemik.gt/molino-electrico-multifuncional-de-acero-inoxidable-para-cafe-especias-granos-semillas-200w",
-   "description": ""
-  },
-  {
-   "id": "max-TO82350SDLA",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Horno tostador con freidora extra ancho",
-   "brand": "Black & Decker",
-   "category": "Freidoras",
-   "price": 1299.0,
-   "currency": "GTQ",
-   "compare_at_price": 1445.0,
+   "compare_at_price": 499.0,
    "discount_pct": 10,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/T/O/TO82350SDLA_1_1.jpg"
+    "https://static.kemikcdn.com/2026/02/32J40-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/horno-tostador-con-freidora-extra-ancho-black-decker-to82350sdla",
-   "description": "Desempeño de 1750 watts para una cocción rápida y uniforme Diseño extra ancho con capacidad de 32 litros Horno con freidora de aire y 6 funciones automáticas para freír con aire, hornear, asar, tostar, calentar y pizza. Incluye cesta para freír, bandeja para hornear y rejilla"
+   "url": "https://www.kemik.gt/members-mark-minoxidil-5-liquido-cabello-barba-para-hombres-caja-6-unidades-60-ml",
+   "description": ""
   },
   {
-   "id": "kemik-multilaser-plancha-a-vapor-portatil-con-tanque-de-280-ml-800",
+   "id": "kemik-oster-cuchilla-picahielo-4-aspas-con-anillo-de-goma",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Plancha a Vapor Portátil con Tanque de 280 ml, 800W - Blanco",
-   "brand": "Multilaser",
-   "category": "Planchas",
-   "price": 174.0,
+   "title": "Oster Cuchilla Picahielo, 4 Aspas con Anillo de Goma",
+   "brand": "Oster",
+   "category": "Licuadoras y batidoras",
+   "price": 69.0,
    "currency": "GTQ",
    "compare_at_price": null,
    "discount_pct": null,
    "images": [
-    "https://static.kemikcdn.com/2026/03/HO470USA-1200x1200-4.-700x700.jpg"
+    "https://static.kemikcdn.com/2024/04/BLSTAA4961-011-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.kemik.gt/multilaser-plancha-a-vapor-portatil-con-tanque-de-280-ml-800w-blanco",
+   "url": "https://www.kemik.gt/oster-cuchilla-picahielo-4-aspas-con-anillo-de-goma",
    "description": ""
   },
   {
-   "id": "max-MUCTS25B",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Tostador de Pan Signature Negro de 4 rebanadas,| Morphy Richards",
-   "brand": "MORPHY RICHARDS",
-   "category": "Cocina",
-   "price": 599.0,
+   "id": "kemik-blackdecker-cafetera-personal-2-en-1-con-taza-termica-de-16-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Black+Decker Cafetera Personal 2 en 1 con Taza Térmica de 16 oz - 650 W",
+   "brand": "Black + Decker",
+   "category": "Cafeteras",
+   "price": 219.0,
    "currency": "GTQ",
-   "compare_at_price": 795.0,
-   "discount_pct": 25,
+   "compare_at_price": null,
+   "discount_pct": null,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/M/U/MUCTS25B_1.jpg"
+    "https://static.kemikcdn.com/2023/10/CM618-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/tostador-de-pan-signature-negro-de-4-rebanadas-morphy-richards-morphy-richards-mucts25b",
-   "description": "2 ranuras, 4 rebanadas – Ranuras extra largas. Prepara variedad; como pan de masa madre, baguettes, pita o paninis. Control de tostado variable Botones de cancelación, recalentamiento y descongelación: Botones cromados con luces LED grabadas a láser. Bandeja recogemigas extraíble para una limpieza s…"
+   "url": "https://www.kemik.gt/blackdecker-cafetera-personal-2-en-1-con-taza-termica-de-16-oz-650-w",
+   "description": ""
+  },
+  {
+   "id": "kemik-cable-hdmi-etouch-de-4-5-metros",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Cable HDMI eTouch de 4.5 Metros",
+   "brand": "eTouch",
+   "category": "Computación",
+   "price": 25.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/05/323255-ETOUCH-1200x1200-1-2-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/cable-hdmi-etouch-de-4-5-metros",
+   "description": ""
+  },
+  {
+   "id": "kemik-taurus-ventilador-de-piso-oasis-de-10pulgadas-con-3-velocida",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Taurus Ventilador de Piso Oasis de 10\" con 3 Velocidades, 30 W - Negro",
+   "brand": "Taurus",
+   "category": "Hogar",
+   "price": 199.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/08/8414234440990-taurus-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/taurus-ventilador-de-piso-oasis-de-10pulgadas-con-3-velocidades-30-w-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-amazon-fire-tv-stick-hd-tv-en-vivo-gratuita-control-remoto-p",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Amazon Fire TV Stick HD, TV en vivo gratuita, Control remoto por voz Alexa, controles de Smart Home",
+   "brand": "Amazon",
+   "category": "TV y video",
+   "price": 399.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/04/840414697713-FIRE-TV-STICK-HD-AMAZON-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/amazon-fire-tv-stick-hd-tv-en-vivo-gratuita-control-remoto-por-voz-alexa-controles-de-smart-home-streaming-en-hd",
+   "description": ""
+  },
+  {
+   "id": "kemik-argom-audifonos-inalambricos-skeipods-e40-bluetooth-6-0-ai-e",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Argom Audífonos Inalámbricos SkeiPods E40 Bluetooth 6.0 AI ENC, 25 Horas de Uso, Baja Latencia 80 ms - Negro",
+   "brand": "Argom",
+   "category": "Audio",
+   "price": 149.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/01/ARG-HS-5040GM-Argom-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/argom-audifonos-inalambricos-skeipods-e40-bluetooth-6_0-ai-enc-25-horas-de-uso-baja-latencia-80-ms-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-lattafa-khamrah-dukhan-edp-unisex-3-4-fl-oz",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Lattafa Perfume Khamrah Dukhan Eau de Parfum Unisex - 100 ml",
+   "brand": "Lattafa",
+   "category": "Cuidado personal",
+   "price": 361.0,
+   "currency": "GTQ",
+   "compare_at_price": 599.0,
+   "discount_pct": 40,
+   "images": [
+    "https://static.kemikcdn.com/2025/11/99C64A9A4D-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/lattafa-khamrah-dukhan-edp-unisex-3_4-fl-oz",
+   "description": ""
+  },
+  {
+   "id": "kemik-procesador-de-alimentos-multi-funcion-de-acero-inoxidable-85",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Procesador de Alimentos Multi Función de Acero Inoxidable, 850 W - 2 L",
+   "brand": "",
+   "category": "Licuadoras y batidoras",
+   "price": 230.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/12/PROCESADOR-ALIMENTO-NOVA-HOME-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/procesador-de-alimentos-multi-funcion-de-acero-inoxidable-850-w-2-l",
+   "description": ""
   },
   {
    "id": "kemik-picca-cafetera-programable-de-12-tazas-con-filtro-permanente",
    "merchant": "Kemik",
    "merchant_slug": "kemik",
-   "title": "Cafetera Programable de 12 Tazas, Pantalla LCD - Gris con Negro",
+   "title": "Picca Cafetera Programable de 12 Tazas con Filtro Permanente, Pantalla LCD - Gris con Negro",
    "brand": "Picca",
    "category": "Cafeteras",
    "price": 219.0,
@@ -1222,276 +1386,1670 @@
    "description": ""
   },
   {
-   "id": "max-MCH14",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "BLACK+DECKER®,MCH14, Olla Multifunción",
-   "brand": "Black & Decker",
-   "category": "Cocina",
+   "id": "kemik-cable-hdmi-etouch-de-10-35-metros",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Cable HDMI eTouch de 10.35 Metros",
+   "brand": "eTouch",
+   "category": "Computación",
+   "price": 58.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/05/503040-ETOUCH-1200x1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/cable-hdmi-etouch-de-10-35-metros",
+   "description": ""
+  },
+  {
+   "id": "kemik-nippon-america-adaptador-universal-de-contactos-para-viaje",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Nippon America Adaptador Universal de Contactos para Viaje",
+   "brand": "Nippon America",
+   "category": "Hogar",
+   "price": 14.0,
+   "currency": "GTQ",
+   "compare_at_price": 46.0,
+   "discount_pct": 70,
+   "images": [
+    "https://static.kemikcdn.com/2016/11/p-521-500x500_1-300x285.jpg"
+   ],
+   "url": "https://www.kemik.gt/nippon-america-adaptador-universal-de-contactos-para-viaje",
+   "description": ""
+  },
+  {
+   "id": "kemik-transmisor-receptor-hdmi-inalambrico-de-100-pies-98-4-ft-dec",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Transmisor y Receptor HDMI Inalámbrico 4K 1080P – Alcance 30mts/100 pies, Plug & Play, Compatible con TV, Proyector y Laptop",
+   "brand": "",
+   "category": "TV y video",
+   "price": 549.0,
+   "currency": "GTQ",
+   "compare_at_price": 650.0,
+   "discount_pct": 16,
+   "images": [
+    "https://static.kemikcdn.com/2024/10/71bxLc4EfkL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/transmisor-receptor-hdmi-inalambrico-de-100-pies_98_4-ft-decodificacion-4k-1080p-salida-hdmi-inalambrico-2_4g_5g-plug-play-portatil-hdmi-inalambrico-para-transmitir-video-audio-para-blanco-100-pies",
+   "description": ""
+  },
+  {
+   "id": "kemik-jbl-audifonos-tune-110e-in-ear-con-microfono-sonido-pure-bas",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "JBL Audífonos Tune 110E In-Ear con Micrófono Sonido Pure Bass Cable Plano Manos Libres - Blanco",
+   "brand": "JBL",
+   "category": "Audio",
+   "price": 54.0,
+   "currency": "GTQ",
+   "compare_at_price": 111.0,
+   "discount_pct": 51,
+   "images": [
+    "https://static.kemikcdn.com/2026/03/MM112JBL25-JBL-1200X1200-3.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/jbl-audifonos-tune-110e-in-ear-con-microfono-sonido-pure-bass-cable-plano-manos-libres-blanco",
+   "description": ""
+  },
+  {
+   "id": "kemik-philips-qp22051-one-blade-2-replacement-blades",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Philips QP220/51 One Blade, 2 Cuchillas de Repuesto",
+   "brand": "PHILIPS",
+   "category": "Cuidado personal",
+   "price": 186.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/08/17670-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/philips-qp22051-one-blade-2-replacement-blades",
+   "description": ""
+  },
+  {
+   "id": "kemik-fresh-juice-licuadora-portatil-de-350-ml-blanco",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Fresh Juice Licuadora Portátil de 350 ml - Blanco",
+   "brand": "FRESH JUICE",
+   "category": "Licuadoras y batidoras",
+   "price": 163.0,
+   "currency": "GTQ",
+   "compare_at_price": 299.0,
+   "discount_pct": 45,
+   "images": [
+    "https://static.kemikcdn.com/2024/08/214B-BLANCO-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/fresh-juice-licuadora-portatil-de-350-ml-blanco",
+   "description": ""
+  },
+  {
+   "id": "kemik-tp-link-adaptador-de-red-usb-archer-t2ub-nano-ac600-doble-ba",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "TP Link Archer T2UB Nano Adaptador USB Wi-Fi AC600 + Bluetooth 4.2",
+   "brand": "Tp-Link",
+   "category": "Computación",
+   "price": 94.0,
+   "currency": "GTQ",
+   "compare_at_price": 149.0,
+   "discount_pct": 37,
+   "images": [
+    "https://static.kemikcdn.com/2023/09/Archer-T2UB-Nano-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/tp-link-adaptador-de-red-usb-archer-t2ub-nano-ac600-doble-banda",
+   "description": ""
+  },
+  {
+   "id": "kemik-essential-living-ventilador-de-torre-digital-de-47-blanco",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Essential Living Ventilador de Torre Digital de 47” - Blanco",
+   "brand": "Essential  Living",
+   "category": "Hogar",
    "price": 499.0,
    "currency": "GTQ",
-   "compare_at_price": 565.0,
-   "discount_pct": 12,
+   "compare_at_price": 900.0,
+   "discount_pct": 45,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/m/c/mch14_1_1.jpg"
+    "https://static.kemikcdn.com/2025/02/KY-TF1-D-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/black-deckerr-mch14-olla-multifuncion",
-   "description": "BLACK+DECKER®,MCH14, Olla Multifunción"
+   "url": "https://www.kemik.gt/essential-living-ventilador-de-torre-digital-de-47-blanco",
+   "description": ""
   },
   {
-   "id": "max-CKSTPC4693",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Oster®, CKSTPC4693, Multi olla de presión, 12 funciones",
+   "id": "kemik-anycast-tv-stick-dongle-inalambrico-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Anycast Tv Stick M4 Plus, Dongle Inalambrico Negro",
+   "brand": "Anycast",
+   "category": "TV y video",
+   "price": 119.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2020/10/ANYCAST-1000X1000-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/anycast-tv-stick-dongle-inalambrico-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-jbl-go-5-bocina-portatil-bluetooth-6-0-ip68-impermeable-anti",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "JBL Go 5 Bocina Portátil Bluetooth 6.0 IP68 Impermeable y Antipolvo 4.8W RMS con USB-C y hasta 8 Horas de Batería - Negro",
+   "brand": "JBL",
+   "category": "Audio",
+   "price": 329.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/07/JBLGO5BLKAM-1200x1200-001.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/jbl-go-5-bocina-portatil-bluetooth-6_0-ip68-impermeable-antipolvo-4_8w-rms-con-usb-c-hasta-8-horas-de-bateria",
+   "description": ""
+  },
+  {
+   "id": "kemik-eau-de-toilette-club-de-nuit-intense-para-hombre-de-armaf-en",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Armaf Club de Nuit Intense Man Eau de Toilette para Hombre - 105 ml",
+   "brand": "ARMAF",
+   "category": "Cuidado personal",
+   "price": 324.0,
+   "currency": "GTQ",
+   "compare_at_price": 496.0,
+   "discount_pct": 35,
+   "images": [
+    "https://static.kemikcdn.com/2025/02/51m2Le98GdL.-316x500.jpg"
+   ],
+   "url": "https://www.kemik.gt/eau-de-toilette-club-de-nuit-intense-para-hombre-de-armaf-en-caja-3_6-oz",
+   "description": ""
+  },
+  {
+   "id": "kemik-ninja-blast-max-licuadora-portatil-twist-go-licuadora-person",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Blast Max Licuadora Portátil + Twist & Go, Batidora Inalámbrica de Alta Potencia (22 oz) - Gris",
+   "brand": "NINJA",
+   "category": "Licuadoras y batidoras",
+   "price": 647.0,
+   "currency": "GTQ",
+   "compare_at_price": 1135.0,
+   "discount_pct": 43,
+   "images": [
+    "https://static.kemikcdn.com/2025/01/71riGHW4v4L.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-blast-max-licuadora-portatil-twist-go-licuadora-personal-ninja-blender-licuadora-licuadora-mezcla-de-hielo-3-programas-inalambrico-recipiente-extraible-de-22-onzas-apto-para-gris",
+   "description": ""
+  },
+  {
+   "id": "kemik-oster-cafetera-con-filtro-permanente-negro-12-tazas-1",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Oster Cafetera con Filtro Permanente - Negro, 12 Tazas",
    "brand": "Oster",
-   "category": "Cocina",
-   "price": 839.0,
+   "category": "Cafeteras",
+   "price": 369.0,
    "currency": "GTQ",
-   "compare_at_price": 945.0,
-   "discount_pct": 11,
+   "compare_at_price": null,
+   "discount_pct": null,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/c/k/ckstpc4693_2.jpg"
+    "https://static.kemikcdn.com/2024/02/BVSTDCS12BN-013-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/osterr-ckstpc4693-multi-olla-de-presion-12-funciones",
-   "description": "Oster®, CKSTPC4693, Multi olla de presión, 12 funciones. * Echo de aluminio * 4 valvulas de seguridad * Tapa con cierre de seguridad * Filtro integrado para retener residuos * doble asa para mejor uso"
+   "url": "https://www.kemik.gt/oster-cafetera-con-filtro-permanente-negro-12-tazas-1",
+   "description": ""
   },
   {
-   "id": "max-RC620S",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker, RC620S, Arrocera de 20 Tazas",
-   "brand": "Black & Decker",
-   "category": "Cocina",
-   "price": 589.0,
+   "id": "kemik-mouse-inalambrico-logitech-m170-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Logitech M170 Mouse Inalámbrico USB 1000 DPI Negro",
+   "brand": "Logitech",
+   "category": "Computación",
+   "price": 89.0,
    "currency": "GTQ",
-   "compare_at_price": 675.0,
-   "discount_pct": 13,
+   "compare_at_price": 170.0,
+   "discount_pct": 48,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/r/c/rc620s.jpg"
+    "https://static.kemikcdn.com/2021/01/910-004940-1200X1200-5-300x300.jpg"
    ],
-   "url": "https://www.max.com.gt/black-decker-rc620s-arrocera-de-20-tazas",
-   "description": "Recubrimiento antiadherente con tecnología DURAGLIDE Capacidad de 20 tazas/1.8L Ciclo para mantener los alimentos calientes Escape de vapor Asas frías al tacto Tapa de vidrio resistente Soporte para la tapa Luces indicadoras del ciclo de cocción y calentamiento Accesorios incluidos: cesta para cocin…"
+   "url": "https://www.kemik.gt/mouse-inalambrico-logitech-m170-negro",
+   "description": ""
   },
   {
-   "id": "max-FPSTFP3322",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Oster®, FPSTFP3322, Mini picatodo, de 1.5 tazas",
-   "brand": "Oster",
-   "category": "Batidoras",
-   "price": 239.0,
+   "id": "kemik-bestway-inflador-de-mano-30cm",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Bestway Inflador de Mano - 30cm",
+   "brand": "Bestway",
+   "category": "Hogar",
+   "price": 21.0,
    "currency": "GTQ",
-   "compare_at_price": 295.0,
+   "compare_at_price": 29.0,
+   "discount_pct": 28,
+   "images": [
+    "https://static.kemikcdn.com/2022/07/6942138917796-Bestway-1200X1200-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/bestway-inflador-de-mano-30cm",
+   "description": ""
+  },
+  {
+   "id": "kemik-steren-pantalla-de-tela-para-proyector-de-100",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Steren Pantalla de Tela para Proyector de 100”",
+   "brand": "Steren",
+   "category": "TV y video",
+   "price": 199.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2023/05/PRO-005-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/steren-pantalla-de-tela-para-proyector-de-100",
+   "description": ""
+  },
+  {
+   "id": "kemik-jbl-tune-110e-audifonos-con-cable-microfono-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "JBL Tune 110E Audífonos con Cable 3.5mm y Micrófono - Negro",
+   "brand": "JBL",
+   "category": "Audio",
+   "price": 89.0,
+   "currency": "GTQ",
+   "compare_at_price": 129.0,
+   "discount_pct": 31,
+   "images": [
+    "https://static.kemikcdn.com/2026/03/JBLT110BLKAME-AUDIFONOS-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/jbl-tune-110e-audifonos-con-cable-microfono-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-members-mark-minoxidil-5-liquido-cabello-barba-para-hombres--2-2",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Member´s Mark Minoxidil 5% Líquido Cabello y Barba para Hombres - 2 Unidades (60 ml)",
+   "brand": "Member's Mark",
+   "category": "Cuidado personal",
+   "price": 199.0,
+   "currency": "GTQ",
+   "compare_at_price": 246.0,
    "discount_pct": 19,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/f/p/fpstfp3322.png"
+    "https://static.kemikcdn.com/2026/02/MINO-LIQUIDO-2UNIDADES-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/osterr-fpstfp3322-mini-picatodo-de-1-5-tazas",
-   "description": "Pica, muele y mezcla diferentes alimentos e ingredientes, permitiéndote preparar una gran variedad de recetas en tan solo segundos."
+   "url": "https://www.kemik.gt/members-mark-minoxidil-5-liquido-cabello-barba-para-hombres-2-unidades-60-ml-1",
+   "description": ""
   },
   {
-   "id": "max-3320",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Mini procesador de alimentos, Oster, 3320, De 3 tazas",
+   "id": "kemik-oster-vaso-de-vidrio-para-licuadora-de-1-5-litros-termorresi",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Oster Vaso de Vidrio para Licuadora de 1.5 Litros Termorresistente",
    "brand": "Oster",
-   "category": "Batidoras",
-   "price": 449.0,
+   "category": "Licuadoras y batidoras",
+   "price": 129.0,
    "currency": "GTQ",
-   "compare_at_price": 495.0,
-   "discount_pct": 9,
+   "compare_at_price": null,
+   "discount_pct": null,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/3/3/3320_2_1.jpg"
+    "https://static.kemikcdn.com/2026/06/124461-000-000-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/mini-procesador-de-alimentos-oster-3320-de-3-tazas",
-   "description": "Mini procesador de alimentos, Oster, 3320, De 3 tazas"
+   "url": "https://www.kemik.gt/oster-vaso-de-vidrio-para-licuadora-de-1_5-litros-termorresistente",
+   "description": ""
   },
   {
-   "id": "max-a7ff79ac",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Procesador alimentos portátil Morphy Richards",
-   "brand": "MORPHY RICHARDS",
-   "category": "Batidoras",
-   "price": 299.0,
+   "id": "kemik-black-decker-cafetera-de-12-tazas-color-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Black + Decker Cafetera de 12 Tazas - Negro",
+   "brand": "Black + Decker",
+   "category": "Cafeteras",
+   "price": 289.0,
    "currency": "GTQ",
-   "compare_at_price": 449.0,
-   "discount_pct": 33,
+   "compare_at_price": null,
+   "discount_pct": null,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/7/b/7be028b8981dc4ad.jpg"
+    "https://static.kemikcdn.com/2022/09/2561-CM0916B-BLACKDECKER-1200x1200-1-300x300.jpg"
    ],
-   "url": "https://www.max.com.gt/procesador-alimentos-portatil-morphy-richards-a7ff79ac",
-   "description": "Procesador de alimentos inalámbrica y portátil Morphy Richards color azul. Con batería de recarga rápida, batería alcanza para 100 usos, 30 segundos máximo por cada presión del botón de pulso. 3 tazones incluidos para licuar distintos alimentos. Cable de carga USB tipo C incluído. Producto tiene 2 a…"
+   "url": "https://www.kemik.gt/black-decker-cafetera-de-12-tazas-color-negro",
+   "description": ""
   },
   {
-   "id": "max-WMD200B",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker, WMD200B, Wafflera doble, color negro",
-   "brand": "Black & Decker",
-   "category": "Cocina",
-   "price": 599.0,
+   "id": "kemik-argom-gabinete-para-disco-duro-2-5-sata-usb-3-0-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Argom Gabinete para Disco Duro 2.5\" SATA USB 3.0 Negro",
+   "brand": "Argom",
+   "category": "Computación",
+   "price": 62.0,
    "currency": "GTQ",
-   "compare_at_price": 665.0,
-   "discount_pct": 10,
+   "compare_at_price": 77.0,
+   "discount_pct": 19,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/w/m/wmd200b.png"
+    "https://static.kemikcdn.com/2021/08/ARG-AC-1032-ARGOM-1200x1200-1-1-300x300.jpg"
    ],
-   "url": "https://www.max.com.gt/black-decker-wmd200b-wafflera-doble-color-negro-black-decker-wmd200b",
-   "description": "Black+Decker, WMD200B, Wafflera doble, color negro"
+   "url": "https://www.kemik.gt/argom-gabinete-para-disco-duro-2-5-sata-usb-3-0-negro",
+   "description": ""
   },
   {
-   "id": "max-WM1000B",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker,WM1000B, Waflera Estilo Belga, Giratoria, Color Negro",
-   "brand": "Black & Decker",
-   "category": "Cocina",
-   "price": 429.0,
+   "id": "kemik-ekiipa-mega-set-de-bolsas-al-vacio-total-storage-de-compresi",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ekiipa Mega Set de Bolsas al Vacío Total-Storage de Compresión Multitamaño con Bomba Manual - 20 Bolsas",
+   "brand": "Ekiipa",
+   "category": "Hogar",
+   "price": 199.0,
    "currency": "GTQ",
-   "compare_at_price": 475.0,
-   "discount_pct": 10,
+   "compare_at_price": null,
+   "discount_pct": null,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/w/m/wm1000b.jpg"
+    "https://static.kemikcdn.com/2026/03/CLOTH-VACUUM-KIT-BOLSAS-1200X1200.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/black-decker-wm1000b-waflera-estilo-belga-giratoria-color-negro-black-decker-wm1000b",
-   "description": "Nada mejor para desayunar que unos Wafles Belgas con tus ingredientes favoritos, pueden ser con chocolate, de avena si estas cuidando tu figura o simplemente la receta tradicional con la Waflera giratoria de Black + Decker. Su sistema de rotación de 180°C ayuda a garantizar una cocción uniforme. Lis…"
+   "url": "https://www.kemik.gt/ekiipa-mega-set-de-bolsas-al-vacio-total-storage-de-compresion-multitamano-con-bomba-manual-20-bolsas",
+   "description": ""
   },
   {
-   "id": "max-JC151",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Extractor de jugos de prensado en frío, Neverclog",
-   "brand": "NINJA",
-   "category": "Batidoras",
-   "price": 1499.0,
+   "id": "kemik-control-remoto-universal-para-samsung-smart-tv-control-remot",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Control remoto universal para Samsung Smart TV, control remoto for samsung tv",
+   "brand": "",
+   "category": "TV y video",
+   "price": 127.0,
    "currency": "GTQ",
-   "compare_at_price": 1755.0,
+   "compare_at_price": 165.0,
+   "discount_pct": 23,
+   "images": [
+    "https://static.kemikcdn.com/2026/06/SAMSUNG-REMOTE-CONTROL-BN59-01260A-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/control-remoto-universal-para-samsung-smart-tv-control-remoto-for-samsung-tv",
+   "description": ""
+  },
+  {
+   "id": "kemik-amazon-echo-dot-5ta-gen-bocina-inteligente-con-alexa-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Amazon Alexa Echo Dot 5ta Gen Bocina Inteligente - Negro",
+   "brand": "Amazon",
+   "category": "Audio",
+   "price": 489.0,
+   "currency": "GTQ",
+   "compare_at_price": 699.0,
+   "discount_pct": 30,
+   "images": [
+    "https://static.kemikcdn.com/2022/12/840080503653-AMAZON-ECHODOT5-BK-1200X1200-1.-700x700.-500x500.-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/amazon-echo-dot-5ta-gen-bocina-inteligente-con-alexa-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-the-ordinary-the-acne-set-kit-3-pasos-limpiador-salicilico-h",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "The Ordinary The Acne Set - Kit de 3 Pasos: Limpiador (50 ml), Ácido Salicílico (30ml) e Hidratante (30ml)",
+   "brand": "The Ordinary",
+   "category": "Cuidado personal",
+   "price": 209.0,
+   "currency": "GTQ",
+   "compare_at_price": 247.0,
    "discount_pct": 15,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/J/C/JC151_1_1.jpg"
+    "https://static.kemikcdn.com/2025/01/71pu0nR4CGL.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/extractor-de-jugos-de-prensado-en-frio-neverclog-ninja-ninja-jc151",
-   "description": "Potencia a través de ingredientes resistentes para un jugo potente y sin parar Control total de pulpa permite un jugo personalizado con dos filtros de pulpa intercambiables: Menos pulpa y mucha pulpa Programas Inicio/Parada y Reversa Potente base de motor de alto torque que gira la barrena a bajas v…"
+   "url": "https://www.kemik.gt/the-ordinary-the-acne-set-kit-3-pasos-limpiador-salicilico-hidratante",
+   "description": ""
   },
   {
-   "id": "max-JE26012DLA",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Extractor de jugos",
-   "brand": "Black & Decker",
-   "category": "Batidoras",
-   "price": 499.0,
+   "id": "kemik-picca-procesador-8-tazas-de-500-watts-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Picca Procesador 8 Tazas de 500 Watts - Negro",
+   "brand": "Picca",
+   "category": "Licuadoras y batidoras",
+   "price": 385.0,
    "currency": "GTQ",
-   "compare_at_price": 565.0,
-   "discount_pct": 12,
+   "compare_at_price": null,
+   "discount_pct": null,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/J/E/JE26012DLA_1_1.jpg"
+    "https://static.kemikcdn.com/2025/05/PIFP08BN-1200x1200-1.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/extractor-de-jugos-black-decker-je26012dla",
-   "description": "Tubo de alimentación extra grande Potencia de 400 watts Recipiente para pulpa de 1.6 L Boquilla antigoteo integrada Incluye empujador y cepillo de limpieza, para un uso completo y mantenimiento rápido"
+   "url": "https://www.kemik.gt/picca-procesador-8-tazas-de-500-watts-negro",
+   "description": ""
   },
   {
-   "id": "max-67608Z",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Hamilton Beach®, 67608Z, Extractor de Jugos Big Mouth® Pro Negro con Acero",
-   "brand": "Hamilton Beach",
-   "category": "Batidoras",
-   "price": 999.0,
+   "id": "kemik-forza-nt-1011-ups-interactivo-de-1000va-500w-6-salidas",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Forza NT-1011 UPS Interactivo de 1000va/500w 6 Salidas",
+   "brand": "Forza",
+   "category": "Computación",
+   "price": 540.0,
    "currency": "GTQ",
-   "compare_at_price": 1145.0,
-   "discount_pct": 13,
+   "compare_at_price": 653.0,
+   "discount_pct": 17,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/6/7/67608z.jpg"
+    "https://static.kemikcdn.com/2017/06/NT-1011x2-300x300.jpg"
    ],
-   "url": "https://www.max.com.gt/hamilton-beach-67608z-extractor-de-jugos-big-mouth-pro-negro-con-acero-hamilton-beach-67608z",
-   "description": "Hamilton Beach®, 67608Z, Extractor de Jugos Big Mouth® Pro Negro con Acero Caben alimentos enteros Jugos frescos y saludable en segundos Fácil de armar y guardar Incluye recetario Motor poderoso de 800 Watts"
+   "url": "https://www.kemik.gt/forza-nt-1011-ups-interactivo-de-1000va-500w-6-salidas",
+   "description": ""
   },
   {
-   "id": "max-IG201",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Black+Decker, IG201, Parrilla para interior, Antiadherente",
-   "brand": "Black & Decker",
-   "category": "Cocina",
-   "price": 529.0,
-   "currency": "GTQ",
-   "compare_at_price": 595.0,
-   "discount_pct": 11,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/i/g/ig201.jpg"
-   ],
-   "url": "https://www.max.com.gt/black-decker-ig201-parrilla-para-interior-antiadherente",
-   "description": "Prepare comidas con rápidez con la superficie de cocción antiadherente grande y con temperaturas variables. A la hora de limpiar, la bandeja de goteo es apta para lavavajillas y la plancha es submergible sin el control de temperatura."
-  },
-  {
-   "id": "max-JS2135",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "MÁQUINA DE COSER CON 14 PUNTADAS INTEGRADAS",
-   "brand": "BROTHER",
-   "category": "Otros",
-   "price": 1349.0,
-   "currency": "GTQ",
-   "compare_at_price": 1525.0,
-   "discount_pct": 12,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/J/S/JS2135_1_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/maquina-de-coser-con-14-puntadas-integradas-brother-js2135",
-   "description": "Brother JS2135 es una máquina de coser mecánica compacta y portátil, ideal para costura básica, reparaciones y manualidades. Cuenta con 14 puntadas integradas, ojal automático de 4 pasos, brazo libre para mangas y pantalones, sistema de devanado rápido y cambio sencillo de prensatelas. Permite reali…"
-  },
-  {
-   "id": "max-ST371HD",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Máquina de coser con 37 puntadas integradas",
-   "brand": "BROTHER",
-   "category": "Otros",
-   "price": 2399.0,
-   "currency": "GTQ",
-   "compare_at_price": 2695.0,
-   "discount_pct": 11,
-   "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/S/T/ST371HD_1_1.jpg"
-   ],
-   "url": "https://www.max.com.gt/maquina-de-coser-con-37-puntadas-integradas-brother-st371hd",
-   "description": "Brother ST371HD es una máquina de coser mecánica de trabajo pesado, ideal para telas ligeras y gruesas. Cuenta con 37 puntadas incorporadas, ojal automático de un paso, brazo libre, enhebrador de aguja y sistema de arrastre reforzado para una alimentación uniforme de la tela. Su diseño resistente y…"
-  },
-  {
-   "id": "max-7b877ae0",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Licuadora blanca Morphy Richards con accesorio para triturar",
-   "brand": "MORPHY RICHARDS",
-   "category": "Licuadoras",
+   "id": "kemik-basic-living-estante-de-acero-5-niveles-174x75x30cm-color-ne",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Basic Living Estante De Acero 5 Niveles 174x75x30cm Color Negro",
+   "brand": "Basic Living",
+   "category": "Hogar",
    "price": 299.0,
    "currency": "GTQ",
-   "compare_at_price": 449.0,
-   "discount_pct": 33,
+   "compare_at_price": 359.0,
+   "discount_pct": 17,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/3/f/3f8a89ba1fc3269f.jpg"
+    "https://static.kemikcdn.com/2022/06/Basicliving-2712461000007-1200x-1200-1-300x300.png"
    ],
-   "url": "https://www.max.com.gt/licuadora-blanca-morphy-richards-con-accesorio-para-triturar-7b877ae0",
-   "description": "Licuadora color blanca Morphy Richards con jarra de vidrio, incluye accesorio para triturar. Con 5 velocidades y botón de pulso, potencia de 350 watts. Capacidad de 1.5 litros. Producto tiene 2 años de garantía."
+   "url": "https://www.kemik.gt/basic-living-estante-de-acero-5-niveles-174x75x30cm-color-negro",
+   "description": ""
   },
   {
-   "id": "max-94ae15d9",
-   "merchant": "MAX",
-   "merchant_slug": "max",
-   "title": "Cafetera gris programable Morphy Richards (12 tazas)",
-   "brand": "MORPHY RICHARDS",
-   "category": "Cafeteras",
+   "id": "kemik-control-remoto-de-voz-actualizado-para-google-chromecast-4k-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Control remoto de voz actualizado para Google Chromecast 4k Snow TV, G9N9N Control remoto de repuesto para Google TV, GA01920-US, GA01409-US, GA01923-US, GA01919-US Voz-Google Chromecast remoto",
+   "brand": "",
+   "category": "TV y video",
+   "price": 121.0,
+   "currency": "GTQ",
+   "compare_at_price": 147.0,
+   "discount_pct": 18,
+   "images": [
+    "https://static.kemikcdn.com/2025/09/51XxtFJC8EL.-380x500.-280x368.jpg"
+   ],
+   "url": "https://www.kemik.gt/control-remoto-de-voz-actualizado-para-google-chromecast-4k-snow-tv-g9n9n-control-remoto-de-repuesto-para-google-tv-ga01920-us-ga01409-us-ga01923-us-ga01919-us-voz-google-chromecast-remoto",
+   "description": ""
+  },
+  {
+   "id": "kemik-samsung-galaxy-buds-core-audifonos-bluetooth-con-cancelacion",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Samsung Galaxy Buds Core Audífonos Bluetooth con Cancelación de Ruido ANC - Negro",
+   "brand": "Samsung",
+   "category": "Audio",
    "price": 349.0,
    "currency": "GTQ",
-   "compare_at_price": 649.0,
+   "compare_at_price": 430.0,
+   "discount_pct": 19,
+   "images": [
+    "https://static.kemikcdn.com/2025/09/SM-R410NZKALTA-SAMSUNG-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/samsung-galaxy-buds-core-audifonos-bluetooth-con-cancelacion-de-ruido-anc-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-neutrogena-clear-face-spf-50-protector-solar-piel-acne-grasa",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Neutrogena Clear Face SPF 50 - Protector Solar para Piel con Acné y Grasa - Sin Aceite ni Fragancia (88 ml)",
+   "brand": "Neutrogena",
+   "category": "Cuidado personal",
+   "price": 161.0,
+   "currency": "GTQ",
+   "compare_at_price": 183.0,
+   "discount_pct": 12,
+   "images": [
+    "https://static.kemikcdn.com/2023/09/61dErqIWJoL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/neutrogena-clear-face-spf-50-protector-solar-piel-acne-grasa-sin-aceite-88ml",
+   "description": ""
+  },
+  {
+   "id": "kemik-ninja-deluxe-kitchen-system-licuadora-inteligente-multifunci",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ninja Deluxe Kitchen System Licuadora Inteligente Multifuncional con Procesador Auto-IQ 1200 W",
+   "brand": "NINJA",
+   "category": "Licuadoras y batidoras",
+   "price": 1652.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/06/507311-NINJA-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ninja-deluxe-kitchen-system-licuadora-inteligente-multifuncional-con-procesador-auto-iq-1200-w-co905ks",
+   "description": ""
+  },
+  {
+   "id": "kemik-kingston-datatraveler-exodia-m-memoria-usb-64gb-3-2-gen-1-az",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Kingston Memoria USB 3.2 64GB Exodia M Gen 1 - Negro y Azul",
+   "brand": "Kingston",
+   "category": "Computación",
+   "price": 65.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2022/07/DTXM64GB-KINGSTON-1200x1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/kingston-datatraveler-exodia-m-memoria-usb-64gb-3-2-gen-1-azul",
+   "description": ""
+  },
+  {
+   "id": "kemik-clavija-adaptadora-a-europeo-americano",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Clavija Adaptadora de enchufe Europeo a Americano",
+   "brand": "Steren",
+   "category": "Hogar",
+   "price": 6.5,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2020/02/905-102-1200x1200-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/clavija-adaptadora-a-europeo-americano",
+   "description": ""
+  },
+  {
+   "id": "kemik-roku-streaming-stick-plus-2025-4k-hdr-roku-streaming-device-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Roku Streaming Stick Plus 2025 – Reproductor 4K HDR para TV con Control por Voz, Canales Gratuitos y TV en Vivo",
+   "brand": "Roku",
+   "category": "TV y video",
+   "price": 440.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/07/71gFPvNe5KL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/roku-streaming-stick-plus-2025-4k-hdr-roku-streaming-device-for-tv-with-voice-remote-free-live-tv",
+   "description": ""
+  },
+  {
+   "id": "kemik-anker-p25-audifonos-bluetooth-hasta-10-horas-de-autonomia-ne",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Anker Soundcore P25i Audífonos Bluetooth, Hasta 10 Horas de Autonomía - Negro",
+   "brand": "Soundcore",
+   "category": "Audio",
+   "price": 129.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/09/A3949Z11-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/anker-p25-audifonos-bluetooth-hasta-10-horas-de-autonomia-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-lattada-yara-rosada-perfume-para-mujer-100-ml",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Lattafa Yara Rosada Perfume para Mujer - 100 ml",
+   "brand": "Lattafa",
+   "category": "Cuidado personal",
+   "price": 319.0,
+   "currency": "GTQ",
+   "compare_at_price": 726.0,
+   "discount_pct": 56,
+   "images": [
+    "https://static.kemikcdn.com/2024/08/6291108730515-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/lattada-yara-rosada-perfume-para-mujer-100-ml",
+   "description": ""
+  },
+  {
+   "id": "kemik-black-decker-licuadora-trituradora-de-hielo-2-en-1-con-doble",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Black + Decker Licuadora trituradora de hielo 2 en 1 con Doble Jarra de Vidrio y Plástico, Autolimpieza con 700 W - Blanco",
+   "brand": "Black + Decker",
+   "category": "Licuadoras y batidoras",
+   "price": 479.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/11/D42F9A6380-BLACK-DECKER-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/black-decker-licuadora-trituradora-de-hielo-2-en-1-con-doble-jarra-de-vidrio-plastico-autolimpieza-con-700-w-blanco",
+   "description": ""
+  },
+  {
+   "id": "kemik-kingston-tarjeta-microsd-de-128gb-canvas-select-plus-clase-1",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Kingston Tarjeta MicroSD de 128GB Canvas Select Plus Clase 10",
+   "brand": "Kingston",
+   "category": "Computación",
+   "price": 227.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/09/CH804KNG68-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/kingston-tarjeta-microsd-de-128gb-canvas-select-plus-clase-10-1",
+   "description": ""
+  },
+  {
+   "id": "kemik-termometro-digital-de-cocina-para-comida",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Termometro Digital de Cocina para Comida - Negro",
+   "brand": "",
+   "category": "Hogar",
+   "price": 34.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/05/TERM-DIG-COC-1200x1200-1..-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/termometro-digital-de-cocina-para-comida",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-tv-stick-2da-generacion-4k-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi TV Stick 2da. Generación, 4K - Negro",
+   "brand": "Xiaomi",
+   "category": "TV y video",
+   "price": 549.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/06/6941948707108-1200x1200-5.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-tv-stick-2da_-generacion-4k-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-bocina-sound-pocket-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi Sound Pocket Bocina Bluetooth Portátil IP67 con Sonido Estéreo y 10 Horas de Reproducción – Negro",
+   "brand": "Xiaomi",
+   "category": "Audio",
+   "price": 149.0,
+   "currency": "GTQ",
+   "compare_at_price": 199.0,
+   "discount_pct": 25,
+   "images": [
+    "https://static.kemikcdn.com/2024/11/XiaomiBocinaSounPocketNegro1200x1200-2.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-bocina-sound-pocket-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-atlevit-talco-desodorante-refrescante-antihongos-250-g",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Atlevit Talco Desodorante y Refrescante Antihongos - 250 g",
+   "brand": "Atlevit",
+   "category": "Cuidado personal",
+   "price": 15.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/10/520002-1200x1200-1.-700x700.-500x500.jpg"
+   ],
+   "url": "https://www.kemik.gt/atlevit-talco-desodorante-refrescante-antihongos-250-g",
+   "description": ""
+  },
+  {
+   "id": "kemik-my-eko-home-corta-vegetales-multifuncional-22-en-1-con-cuchi",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "My Eko Home Corta Vegetales Multifuncional 22 en 1 con Cuchillas de Acero Inoxidable - Verde",
+   "brand": "My Eko Home",
+   "category": "Licuadoras y batidoras",
+   "price": 180.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/12/M031-00-MY-EKO-HOME-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/my-eko-home-corta-vegetales-multifuncional-22-en-1-con-cuchillas-de-acero-inoxidable-verde",
+   "description": ""
+  },
+  {
+   "id": "kemik-steren-alcohol-ssopropilico-limpiador-de-circuitos-de-1-litr",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Steren Alcohol Isopropílico Limpiador de Circuitos de 1 Litro",
+   "brand": "Steren",
+   "category": "Computación",
+   "price": 120.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/02/LIM-ALH-L-STEREN-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/steren-alcohol-ssopropilico-limpiador-de-circuitos-de-1-litro",
+   "description": ""
+  },
+  {
+   "id": "kemik-almohada-deluxe-queen-de-microfibra-antialergica-de-alto-con",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Almohada Deluxe Queen de Microfibra Antialérgica de Alto Confort, 50 x 76 cm - Blanca",
+   "brand": "",
+   "category": "Hogar",
+   "price": 50.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/11/424002-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/almohada-deluxe-queen-de-microfibra-antialergica-de-alto-confort-50-x-76-cm-blanca",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-tv-a-pro-55-2026-smart-tv-55-4k-qled-google-tv-hdr-do",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi TV A Pro 55 2026 Smart TV 55” 4K QLED - Google TV HDR Dolby Audio",
+   "brand": "Xiaomi",
+   "category": "TV y video",
+   "price": 3430.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/12/TV055XIA13-Xiaomi-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-tv-a-pro-55-2026-smart-tv-55-4k-qled-google-tv-hdr-dolby-audio",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-sound-outdoor-bocina-bluetooth-30w-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi Sound Outdoor Bocina Bluetooth 30W - Negro",
+   "brand": "Xiaomi",
+   "category": "Audio",
+   "price": 387.0,
+   "currency": "GTQ",
+   "compare_at_price": 499.0,
+   "discount_pct": 22,
+   "images": [
+    "https://static.kemikcdn.com/2025/01/54588-XIAOMI-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-sound-outdoor-bocina-bluetooth-30w-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-panoxyl-espuma-limpiadora-para-el-acne-55-ounce-pack-of-1",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "PanOxyl Espuma Limpiadora para el Acné - 5.5 oz",
+   "brand": "",
+   "category": "Cuidado personal",
+   "price": 134.0,
+   "currency": "GTQ",
+   "compare_at_price": 247.0,
    "discount_pct": 46,
    "images": [
-    "https://backoffice.max.com.gt/media/catalog/product/1/a/1af13b42ddc2f681.jpg"
+    "https://static.kemikcdn.com/2023/08/71-GCIBN8wL.-700x700.jpg"
    ],
-   "url": "https://www.max.com.gt/cafetera-gris-programable-morphy-richards-12-tazas-94ae15d9",
-   "description": "Cafetera color gris programable Morphy Richards de 1.5 litros de capacidad (12 tazas) con jarra de vidrio, filtro permanente y cuchara para servir incorporada. Compartimento para guardar el cable detrás. Producto tiene 2 años de garantía."
+   "url": "https://www.kemik.gt/panoxyl-espuma-limpiadora-para-el-acne-55-ounce-pack-of-1",
+   "description": ""
+  },
+  {
+   "id": "kemik-combo-de-limpieza-etouch-espuma-limpia-contactos-aire-compri",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Combo de Limpieza eTouch Espuma + Limpia Contactos + Aire Comprimido de 20 onzas",
+   "brand": "eTouch",
+   "category": "Computación",
+   "price": 142.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/05/COMBO-ETOUCH-1200x1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/combo-de-limpieza-etouch-espuma-limpia-contactos-aire-comprimido-de-20-onzas",
+   "description": ""
+  },
+  {
+   "id": "kemik-essential-living-ventilador-de-pedestal-blanco-16pulgadas",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Essential Living Ventilador de Pedestal, Blanco - 16\"",
+   "brand": "Essential  Living",
+   "category": "Hogar",
+   "price": 189.0,
+   "currency": "GTQ",
+   "compare_at_price": 353.0,
+   "discount_pct": 46,
+   "images": [
+    "https://static.kemikcdn.com/2025/02/KY-ST1601-1-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/essential-living-ventilador-de-pedestal-blanco-16pulgadas",
+   "description": ""
+  },
+  {
+   "id": "kemik-soporte-xtech-wall-mount-bracket-tilt-swivel-32-55",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "XTECH XTA-425 Soporte para Televisión Articulado con Inclinación y Giro de 32\" a 55\"",
+   "brand": "Xtech",
+   "category": "TV y video",
+   "price": 202.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2023/05/XTA-425-XTECH-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/soporte-xtech-wall-mount-bracket-tilt-swivel-32-55",
+   "description": ""
+  },
+  {
+   "id": "kemik-jbl-tune-520bt-audifonos-bluetooth-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "JBL Tune 520BT Audífonos Bluetooth Negro",
+   "brand": "JBL",
+   "category": "Audio",
+   "price": 319.0,
+   "currency": "GTQ",
+   "compare_at_price": 381.0,
+   "discount_pct": 16,
+   "images": [
+    "https://static.kemikcdn.com/2023/05/JBLT520BTBLKAM-JBL-1200X1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/jbl-tune-520bt-audifonos-bluetooth-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-philips-rasuradora-electrica-recargable-oneblade-para-cara-r",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "PHILIPS Rasuradora Eléctrica Recargable OneBlade para Cara, Recorta, Perfila y Afeita",
+   "brand": "PHILIPS",
+   "category": "Cuidado personal",
+   "price": 241.0,
+   "currency": "GTQ",
+   "compare_at_price": 275.0,
+   "discount_pct": 12,
+   "images": [
+    "https://static.kemikcdn.com/2026/04/C7EB0112D0-1200x1200-1..-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/philips-rasuradora-electrica-recargable-oneblade-para-cara-recorta-perfila-y-afeita-qp1424-10",
+   "description": ""
+  },
+  {
+   "id": "kemik-etouch-enclosure-2-5pulgadas-usb-3-0-a-sata-case-para-disco-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "ETouch Enclosure 2.5\" USB 3.0 a SATA – Case para Disco Duro HDD/SSD Externo Alta Velocidad",
+   "brand": "eTouch",
+   "category": "Computación",
+   "price": 29.0,
+   "currency": "GTQ",
+   "compare_at_price": 42.0,
+   "discount_pct": 31,
+   "images": [
+    "https://static.kemikcdn.com/2026/04/BS-MR23S-eTouch-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/etouch-enclosure-2_5pulgadas-usb-3_0-a-sata-case-para-disco-duro-hdd_ssd-externo-alta-velocidad",
+   "description": ""
+  },
+  {
+   "id": "kemik-ekiipa-silla-empresarial-con-mesh-eco-6-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ekiipa Silla Empresarial con Mesh ECO 6 - Negro",
+   "brand": "Ekiipa",
+   "category": "Hogar",
+   "price": 325.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/05/SILLA-ECO-6-BLK-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ekiipa-silla-empresarial-con-mesh-eco-6-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-soporte-de-television-para-26-a-63-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Soporte de Televisión para 26\" a 63\" Negro",
+   "brand": "",
+   "category": "TV y video",
+   "price": 36.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/12/1000103050017-1-300x300.png"
+   ],
+   "url": "https://www.kemik.gt/soporte-de-television-para-26-a-63-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-argom-ultimate-sound-audifonos-bluetooth-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Audífonos Inalámbricos Argom Ultimate Sound Live Bluetooth con Reducción de Ruido, Micrófono Integrado y Sonido Envolvente - Negro",
+   "brand": "Argom",
+   "category": "Audio",
+   "price": 110.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/01/ARG-HS-2553BK-argom-1200x1200-00.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/argom-ultimate-sound-audifonos-bluetooth-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-limpiador-para-lengua-de-acero-inoxidable-grande",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Limpiador para Lengua de Acero Inoxidable - Grande",
+   "brand": "",
+   "category": "Cuidado personal",
+   "price": 35.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/RASPADOR-GRANDE-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/limpiador-para-lengua-de-acero-inoxidable-grande",
+   "description": ""
+  },
+  {
+   "id": "kemik-xtech-xtm-318-mouse-optico-inalambrico-4-botones-3200-dpi-il",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xtech XTM-318 Mouse Óptico Inalámbrico, 4 Botones, 3200 DPI, Iluminación LED - Negro",
+   "brand": "Xtech",
+   "category": "Computación",
+   "price": 54.0,
+   "currency": "GTQ",
+   "compare_at_price": 79.0,
+   "discount_pct": 32,
+   "images": [
+    "https://static.kemikcdn.com/2026/01/ID011XTK55-1200x1200-9.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xtech-xtm-318-mouse-optico-inalambrico-4-botones-3200-dpi-iluminacion-led-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-steren-clavija-adaptadora-de-enchufe-americano-a-europeo",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Steren Clavija adaptadora de enchufe Americano a Europeo",
+   "brand": "Steren",
+   "category": "Hogar",
+   "price": 6.5,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2020/02/clavija-adaptadora-europeo-a-americano-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/steren-clavija-adaptadora-de-enchufe-americano-a-europeo",
+   "description": ""
+  },
+  {
+   "id": "kemik-pack-of-2-universal-remote-control-for-lg-smart-tv-remote-re",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "(Pack of 2) Universal Remote Control for LG Smart TV Remote Replacement Compatible All LG LCD LED OLED UHD HDTV 3D 4K Smart TVs Models black",
+   "brand": "",
+   "category": "TV y video",
+   "price": 111.0,
+   "currency": "GTQ",
+   "compare_at_price": 132.0,
+   "discount_pct": 16,
+   "images": [
+    "https://static.kemikcdn.com/2025/06/71sk4kDe2hL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/pack-of-2-universal-remote-control-for-lg-smart-tv-remote-replacement-compatible-all-lg-lcd-led-oled-uhd-hdtv-3d-4k-smart-tvs-models-black",
+   "description": ""
+  },
+  {
+   "id": "kemik-audifonos-inalambricos-xiaomi-redmi-buds-8-active-bluetooth-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Audífonos Inalámbricos Xiaomi Redmi Buds 8 Active Bluetooth 5.4, 37H de Batería, Doble Micrófono con IA, IP54, Conexión Dual, Carga Rápida USB-C - Negro",
+   "brand": "Xiaomi",
+   "category": "Audio",
+   "price": 152.0,
+   "currency": "GTQ",
+   "compare_at_price": 193.0,
+   "discount_pct": 21,
+   "images": [
+    "https://static.kemikcdn.com/2026/04/REDMI-BUDS-8-ACTIVE-BLACK-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/audifonos-inalambricos-xiaomi-redmi-buds-8-active-bluetooth-5_4-37h-de-bateria-doble-microfono-con-ia-ip54-conexion-dual-carga-rapida-usb-c-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-lattafa-perfumes-asad-for-unisex-eau-de-parfum-spray-34-onza",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Lattafa Perfume Asad Eau de Parfum Unisex - 100 ml",
+   "brand": "Lattafa",
+   "category": "Cuidado personal",
+   "price": 349.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/11/6117D3E973-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/lattafa-perfumes-asad-for-unisex-eau-de-parfum-spray-34-onzas",
+   "description": ""
+  },
+  {
+   "id": "kemik-brocs-teclado-mouse-gaming-alambrico-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Brocs Combo Gaming Teclado y Mouse Spectrum Alámbrico USB en Español - Negro",
+   "brand": "Brocs",
+   "category": "Computación",
+   "price": 109.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/10/7401195101313-Brocs-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/brocs-teclado-mouse-gaming-alambrico-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-almohada-para-piernas-blanco",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Almohada para Piernas - Blanco",
+   "brand": "",
+   "category": "Hogar",
+   "price": 59.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2022/08/8998203280034-ALMOHADA-DE-PIERNAS-1200X1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/almohada-para-piernas-blanco",
+   "description": ""
+  },
+  {
+   "id": "kemik-soporte-de-pared-para-tv-de-32-hasta-55-inclinable-marca-arg",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Argom Soporte de Pared para TV de 32″ hasta 55″ Inclinable",
+   "brand": "Argom",
+   "category": "TV y video",
+   "price": 70.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2020/08/ARG-BR-1345-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/soporte-de-pared-para-tv-de-32-hasta-55-inclinable-marca-argom",
+   "description": ""
+  },
+  {
+   "id": "kemik-jbl-tune-310c-audifonos-alambricos-usb-c-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "JBL Tune 310C Audífonos Alámbricos USB-C - Negro",
+   "brand": "JBL",
+   "category": "Audio",
+   "price": 119.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/05/JBLT310CBLKAM-JBL-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/jbl-tune-310c-audifonos-alambricos-usb-c-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-maison-alhambra-sceptre-malachite-eau-de-parfum-en-espray-un",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Maison Alhambra Sceptre Malachite Eau de Parfum Unisex - 100 ml",
+   "brand": "MAISON ALHAMBRA",
+   "category": "Cuidado personal",
+   "price": 331.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/11/F92CB72E90-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/maison-alhambra-sceptre-malachite-eau-de-parfum-en-espray-unisex-3_4-onzas-picante",
+   "description": ""
+  },
+  {
+   "id": "kemik-soporte-de-plastico-para-laptops-tablets-de-10pulgadas-a-15-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Soporte de Plástico para Laptops y Tablets de 10\" a 15.6\" - Negro",
+   "brand": "",
+   "category": "Computación",
+   "price": 49.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/08/N3B-SOP-LAP-BLK-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/soporte-de-plastico-para-laptops-tablets-de-10pulgadas-a-15_6pulgadas-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-bug-zapper-lampara-portatil-mata-mosquito",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Bug Zapper Lampara Mata Mosquito",
+   "brand": "",
+   "category": "Hogar",
+   "price": 59.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/10/XSRNBUGSKILLX-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/bug-zapper-lampara-portatil-mata-mosquito",
+   "description": ""
+  },
+  {
+   "id": "kemik-soporte-con-inclinacion-y-giro-de-23-hasta-42-44lbs-xtech-xt",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "XTECH XTA-400 Soporte Inclinable con Giro para Televisión de 23\" a 42\"",
+   "brand": "Xtech",
+   "category": "TV y video",
+   "price": 80.0,
+   "currency": "GTQ",
+   "compare_at_price": 109.0,
+   "discount_pct": 27,
+   "images": [
+    "https://static.kemikcdn.com/2020/03/XTA-400_1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/soporte-con-inclinacion-y-giro-de-23-hasta-42-44lbs-xtech-xta-400",
+   "description": ""
+  },
+  {
+   "id": "kemik-nova-adaptador-usb-c-3-en-1-para-laptop-macbook-con-hdmi-4k-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Nova Adaptador USB-C 3 en 1 para Laptop y MacBook con HDMI 4K, USB-A 3.0 y USB-C - Gris",
+   "brand": "Nova",
+   "category": "Computación",
+   "price": 67.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/10/AHU2S340001C-NOVA-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/nova-adaptador-usb-c-3-en-1-para-laptop-macbook-con-hdmi-4k-usb-a-3_0-usb-c-gris",
+   "description": ""
+  },
+  {
+   "id": "kemik-combat-max-gel-para-eliminar-cucarachas-para-uso-interno-y-e",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Combat Max Gel Mata Cucarachas, para uso Interno y Externo -1 jeringa 60 gramos",
+   "brand": "Combat",
+   "category": "Hogar",
+   "price": 149.0,
+   "currency": "GTQ",
+   "compare_at_price": 228.0,
+   "discount_pct": 35,
+   "images": [
+    "https://static.kemikcdn.com/2023/03/234005196004-COMBAT-ELIMINA-CUCARACHA-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/combat-max-gel-para-eliminar-cucarachas-para-uso-interno-y-externo-1-jeringa-60-gramos",
+   "description": ""
+  },
+  {
+   "id": "kemik-soporte-para-television-de-32-a-43-ajustable",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Soporte para Televisión de 32 a 43\" Ajustable",
+   "brand": "",
+   "category": "TV y video",
+   "price": 74.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2022/06/5551831900038-1200x1200-1-300x300.png"
+   ],
+   "url": "https://www.kemik.gt/soporte-para-television-de-32-a-43-ajustable",
+   "description": ""
+  },
+  {
+   "id": "kemik-aire-comprimido-20-onzas-etouch",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Aire Comprimido 20 onzas eTouch",
+   "brand": "eTouch",
+   "category": "Computación",
+   "price": 51.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/05/300040-ETOUCH-1200x1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/aire-comprimido-20-onzas-etouch",
+   "description": ""
+  },
+  {
+   "id": "kemik-tabletas-limpiadoras-para-lavadora-24-pack-limpieza-profunda",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Tabletas Limpiadoras para Lavadora 24 Pack – Limpieza Profunda y Eliminación de Olores",
+   "brand": "",
+   "category": "Hogar",
+   "price": 133.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/11/81bm7WWVjzL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/tabletas-limpiadoras-para-lavadora-24-pack-limpieza-profunda-y-eliminacion-de-olores",
+   "description": ""
+  },
+  {
+   "id": "kemik-xiaomi-tv-a-32-2026-smart-tv-32-lcd-va-google-tv-hdr10-dolby",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Xiaomi TV A 32 2026 Smart TV 32” LCD VA Google TV, HDR10, Dolby Audio, Bluetooth 5.0, Wi-Fi Dual Band + Soporte de Pared Incluido",
+   "brand": "Xiaomi",
+   "category": "TV y video",
+   "price": 1399.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/06/63903-XIAOMI-TV-32-2026-BRACKET-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/xiaomi-tv-a-32-2026-smart-tv-32-lcd-va-google-tv-hdr10-dolby-audio-bluetooth-5_0-wi-fi-dual-band-soporte-de-pared-incluido-1",
+   "description": ""
+  },
+  {
+   "id": "kemik-argom-adaptador-dvi-d-macho-a-hdmi-hembra",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Argom Adaptador DVI-D Macho a HDMI Hembra",
+   "brand": "Argom",
+   "category": "Computación",
+   "price": 16.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/04/ARG-CB-1320-ARGOM-1200x1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/argom-adaptador-dvi-d-macho-a-hdmi-hembra",
+   "description": ""
+  },
+  {
+   "id": "kemik-cojin-transpirable-para-silla-o-sillon",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Cojín Transpirable para silla o sillón",
+   "brand": "",
+   "category": "Hogar",
+   "price": 130.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/05/EGG-SITTER-1000x1000-1-2-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/cojin-transpirable-para-silla-o-sillon",
+   "description": ""
+  },
+  {
+   "id": "kemik-control-remoto-universal-4-en-1",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Steren Control Remoto Universal 4 en 1 para TV y Multimedia – Programación por Marca o Búsqueda Automática Compatible con TV, CBL, SAT, DVD y BD",
+   "brand": "Steren",
+   "category": "TV y video",
+   "price": 59.0,
+   "currency": "GTQ",
+   "compare_at_price": 79.0,
+   "discount_pct": 25,
+   "images": [
+    "https://static.kemikcdn.com/2020/01/control-remoto-universal-4-en-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/control-remoto-universal-4-en-1",
+   "description": ""
+  },
+  {
+   "id": "kemik-soporte-de-aluminio-para-laptops-tablets-de-10pulgadas-a-15-",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Soporte de Aluminio para Laptops y Tablets de 10\" a 15.6\" - Negro",
+   "brand": "",
+   "category": "Computación",
+   "price": 99.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2024/08/N3-SOP-LAP-BLK-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/soporte-de-aluminio-para-laptops-tablets-de-10pulgadas-a-15_6pulgadas-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-lampara-mata-mosquitos-de-alto-rendimiento-con-tecnologia-le",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Lámpara Mata Mosquitos de Alto Rendimiento con Tecnología LED UV Pro - Pequeña",
+   "brand": "",
+   "category": "Hogar",
+   "price": 116.0,
+   "currency": "GTQ",
+   "compare_at_price": 147.0,
+   "discount_pct": 21,
+   "images": [
+    "https://static.kemikcdn.com/2026/02/47240521-LAMPARA-LED-MATA-MOSQUITOS-1200X1200.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/lampara-mata-mosquitos-de-alto-rendimiento-con-tecnologia-led-uv-pro-pequena",
+   "description": ""
+  },
+  {
+   "id": "kemik-5rcom-soporte-universal-para-tv-soporte-universal-para-tv-de",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "5Rcom Soporte universal para TV, soporte universal para TV de 22 a 65 pulgadas LCD de plasma LED de pantalla plana, patas de TV, soporta hasta 88 libras, VESA máximo de 31.496 x 19.685 in, base de TV",
+   "brand": "",
+   "category": "TV y video",
+   "price": 332.0,
+   "currency": "GTQ",
+   "compare_at_price": 584.0,
+   "discount_pct": 43,
+   "images": [
+    "https://static.kemikcdn.com/2024/07/61Qk662f5zL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/5rcom-soporte-universal-para-tv-soporte-universal-para-tv-de-22-a-65-pulgadas-lcd-de-plasma-led-de-pantalla-plana-patas-de-tv-soporta-hasta-88-libras-vesa-maximo-de-31496-x-19685-in-base-de-tv",
+   "description": ""
+  },
+  {
+   "id": "kemik-argom-mouspad-classic-sapphire-blue",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Argom Mousepad Clasico Azul",
+   "brand": "Argom",
+   "category": "Computación",
+   "price": 8.5,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2022/10/ARG-AC-1233L-Argom-1200x1200-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/argom-mouspad-classic-sapphire-blue",
+   "description": ""
+  },
+  {
+   "id": "kemik-iman-decorativo-kemishito-11-aniversario",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Imán decorativo - Kemishito 11 Aniversario",
+   "brand": "Kemik",
+   "category": "Hogar",
+   "price": 14.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/06/kemishito-ANIVERSARIO-1200X1200-4.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/iman-decorativo-kemishito-11-aniversario",
+   "description": ""
+  },
+  {
+   "id": "kemik-primus-ballista92t-teclado-gamer-mecanico-inalambrico-con-sw",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Primus Ballista92T Teclado Gamer Mecánico Inalámbrico con Switch Rojo, RGB y USB-C - Negro",
+   "brand": "Primus",
+   "category": "Computación",
+   "price": 313.0,
+   "currency": "GTQ",
+   "compare_at_price": 502.0,
+   "discount_pct": 38,
+   "images": [
+    "https://static.kemikcdn.com/2026/05/ID011PGL25-1200x1200-15.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/primus-ballista92t-teclado-gamer-mecanico-inalambrico-con-switch-rojo-rgb-usb-c-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-nido-limpio-insecticida-en-polvo-400-g",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Nido Limpio Insecticida en Polvo - 400 g",
+   "brand": "Nido Limpio",
+   "category": "Hogar",
+   "price": 21.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2026/01/0174-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/nido-limpio-insecticida-en-polvo-400-g",
+   "description": ""
+  },
+  {
+   "id": "kemik-smartec-soporte-para-laptop-ajustable-10-17pulgadas-aluminio",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Smartec Soporte para Laptop Ajustable 10-17\" - Aluminio",
+   "brand": "Smartec",
+   "category": "Computación",
+   "price": 99.0,
+   "currency": "GTQ",
+   "compare_at_price": 125.0,
+   "discount_pct": 21,
+   "images": [
+    "https://static.kemikcdn.com/2024/05/SMARTEC-SOPORTE-10-17PLG-ALUMINIO-1200X1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/smartec-soporte-para-laptop-ajustable-10-17pulgadas-aluminio",
+   "description": ""
+  },
+  {
+   "id": "kemik-hexibo-organizador-caja-de-medicina-mediana-celeste",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Hexibo Organizador Caja de Medicina Mediana Celeste",
+   "brand": "Hexibo",
+   "category": "Hogar",
+   "price": 99.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2023/11/H-MEDI-M-CELESTE-hexibo-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/hexibo-organizador-caja-de-medicina-mediana-celeste",
+   "description": ""
+  },
+  {
+   "id": "kemik-brocs-ventilador-para-laptops-rgb-de-15-6pulgadas-con-8-vent",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Brocs Ventilador para Laptops RGB de 15.6\" con 8 Ventiladores - Negro",
+   "brand": "Brocs",
+   "category": "Computación",
+   "price": 170.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/02/7401195101467-brocs-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/brocs-ventilador-para-laptops-rgb-de-15_6pulgadas-con-8-ventiladores-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-sara-yerba-tradicional-sin-palo-1-kg",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Sara Yerba Tradicional sin Palo - 1 kg",
+   "brand": "Sara",
+   "category": "Hogar",
+   "price": 140.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/03/Y24-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/sara-yerba-tradicional-sin-palo-1-kg",
+   "description": ""
+  },
+  {
+   "id": "kemik-teclado-alambrico-kb-300-etouch-usb-espanol",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "ETouch Teclado Alámbrico KB-300 USB Español",
+   "brand": "eTouch",
+   "category": "Computación",
+   "price": 42.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2021/05/KM-300-ETOUCH-1200x1200-1-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/teclado-alambrico-kb-300-etouch-usb-espanol",
+   "description": ""
+  },
+  {
+   "id": "kemik-mouse-alambrico-optico-etouch-usb-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "ETouch Mouse Alámbrico USB 800 DPI Negro",
+   "brand": "eTouch",
+   "category": "Computación",
+   "price": 10.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/04/MO-001-ETOUCH-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/mouse-alambrico-optico-etouch-usb-negro",
+   "description": ""
+  },
+  {
+   "id": "kemik-receptor-de-audio-bluetooth-para-auto-o-bocinas-plug-3-5mm",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Receptor de Audio Bluetooth para Auto o Bocinas Plug 3.5mm",
+   "brand": "",
+   "category": "Computación",
+   "price": 42.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2022/08/5551797001091-ADAPTADOR20BLUETOOTH-1200X1200-1-300x300.jpg"
+   ],
+   "url": "https://www.kemik.gt/receptor-de-audio-bluetooth-para-auto-o-bocinas-plug-3-5mm",
+   "description": ""
+  },
+  {
+   "id": "kemik-kingston-tarjeta-microsd-de-256gb-canvas-select-plus-clase-1",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Kingston Tarjeta MicroSD de 256GB Canvas Select! Plus Clase 10",
+   "brand": "Kingston",
+   "category": "Computación",
+   "price": 403.0,
+   "currency": "GTQ",
+   "compare_at_price": null,
+   "discount_pct": null,
+   "images": [
+    "https://static.kemikcdn.com/2025/07/SDCS3256GB-KINGSTON-1200x1200-01.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/kingston-tarjeta-microsd-de-256gb-canvas-select-plus-clase-10",
+   "description": ""
+  },
+  {
+   "id": "kemik-arctic-mx6pasta-trmica-para-procesadores-de-4-g-cleaners",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "ARCTIC MX-6 Pasta Térmica para Procesadores de 4 g. + MX Cleaners",
+   "brand": "Arctic",
+   "category": "Computación",
+   "price": 117.0,
+   "currency": "GTQ",
+   "compare_at_price": 209.0,
+   "discount_pct": 44,
+   "images": [
+    "https://static.kemikcdn.com/2024/12/61-m6K3G+KL.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/arctic-mx6pasta-trmica-para-procesadores-de-4-g-cleaners",
+   "description": ""
+  },
+  {
+   "id": "kemik-ugreen-cm219-hub-usb-4-en-1-usb-a-3-0-negro",
+   "merchant": "Kemik",
+   "merchant_slug": "kemik",
+   "title": "Ugreen Hub USB-C 4 Puertos USB 3.0 – Adaptador 5Gbps con Alimentación Auxiliar, Plug y Play - Gris",
+   "brand": "Ugreen",
+   "category": "Computación",
+   "price": 87.0,
+   "currency": "GTQ",
+   "compare_at_price": 129.0,
+   "discount_pct": 33,
+   "images": [
+    "https://static.kemikcdn.com/2025/11/CM219-70336-Ugreen-1200x1200-1.-700x700.jpg"
+   ],
+   "url": "https://www.kemik.gt/ugreen-cm219-hub-usb-4-en-1-usb-a-3_0-negro",
+   "description": ""
   }
  ]
 }
