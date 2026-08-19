@@ -26,25 +26,36 @@ window.VPS = {
     return "Q" + r.toLocaleString("es-GT", opts);
   },
 
-  // Lógica de paguitos: cuántos y de cuánto, según el precio.
-  paguitos: function (price) {
+  // Peor fee posible si el comercio no trae los suyos en products.json
+  // (3: máximo entre comercios; 5: peor segmento de riesgo E1).
+  FEES_MAX: { 3: 0.13, 5: 0.36 },
+
+  // PAGUITO SEGURO. El paguito real es dinámico por usuario (segmento de
+  // riesgo E1→A, tier, comercio) y el sitio no sabe quién es el visitante:
+  // se muestra el PEOR caso —fee máximo, enganche 0— para que al autenticarse
+  // la sorpresa sea positiva: su paguito baja o queda igual, nunca sube.
+  // fees viene de merchant.fees en products.json (data/pricing.json, que se
+  // regenera con scripts/export_pricing.py desde la base). Redondeo hacia
+  // ARRIBA a quetzal entero: también es parte de la cota.
+  paguitos: function (price, fees) {
     price = Number(price);
     var n = price < 300 ? 3 : 5; // vana pay: 3 o 5 paguitos quincenales
-    return { n: n, per: price / n };
+    var fee = fees && fees[n] != null ? Number(fees[n]) : window.VPS.FEES_MAX[n];
+    return { n: n, per: Math.ceil(price * (1 + fee) / n) };
   },
 
   // Mensaje para WhatsApp. Incluye el link a la fuente porque el personal
-  // shopper lo necesita para conseguir el producto.
+  // shopper lo necesita para conseguir el producto. OJO: sin monto de
+  // paguito — los agentes no cotizan paguitos (son dinámicos por usuario);
+  // el cliente ve el suyo al entrar a su cuenta de vana pay.
   waMessage: function (p, qty) {
     qty = Math.max(1, Number(qty) || 1);
     var total = p.price * qty;
-    var pg = window.VPS.paguitos(total);
     var lines = [
       "Hola 👋 Quiero comprar en *vana shop*:",
       "",
       "🛍️ " + p.title + (qty > 1 ? "  ×" + qty : ""),
-      p.merchant + " · " + window.VPS.money(total) +
-        " — o " + pg.n + " paguitos quincenales de " + window.VPS.money2(pg.per) + " con vana pay",
+      p.merchant + " · " + window.VPS.money(total) + " — en paguitos con vana pay",
     ];
     if (p.url) lines.push(p.url);
     lines.push("", "¿Me ayudas a llevármelo?");

@@ -57,8 +57,16 @@ function imgTag(p, cls) {
 /* La card entera es el link a la página de producto. Desde ahí se va a
  * WhatsApp: es el flujo que ya estaba validado y deja ver ficha y precio
  * antes de escribir. */
+/* Fees del paguito seguro por comercio (products.json → merchant.fees). */
+function feesOf(slug) {
+  const m = state.data.merchants.find((x) => x.slug === slug);
+  return m && m.fees;
+}
 function cardHTML(p) {
-  const pg = VPS.paguitos(p.price);
+  // Paguito SEGURO: peor caso por comercio; el real solo puede ser menor.
+  // Por eso el precio del producto ya no se rotula "en total": con fee,
+  // n × paguito seguro es MÁS que el precio y el rótulo mentiría.
+  const pg = VPS.paguitos(p.price, feesOf(p.merchant_slug));
   return '<a class="card" href="product.html?id=' + encodeURIComponent(p.id) + '">' +
     '<div class="card-img" style="--tint:' + tint(p.id) + '">' +
       imgTag(p) +
@@ -67,10 +75,10 @@ function cardHTML(p) {
     '<div class="card-body">' +
       '<div class="card-name"><span>' + esc(p.title) + "</span></div>" +
       // El protagonista es el paguito, no el total: es la promesa del producto.
-      '<div class="card-price"><b>' + VPS.money2(pg.per) + '</b><span class="per">/paguito</span></div>' +
-      '<div class="card-pag">' + pg.n + " paguitos · " +
+      '<div class="card-price"><b>' + VPS.money2(pg.per) + '</b><span class="per">/paguito o menos</span></div>' +
+      '<div class="card-pag">' + pg.n + " paguitos quincenales · precio " +
         (p.compare_at_price ? "<s>" + VPS.money(p.compare_at_price) + "</s> " : "") +
-        VPS.money(p.price) + " en total</div>" +
+        VPS.money(p.price) + "</div>" +
     "</div>" +
   "</a>";
 }
