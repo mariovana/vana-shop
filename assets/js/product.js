@@ -87,9 +87,9 @@ function render() {
 }
 
 function renderRelated() {
-  // Con un solo comercio "mismo comercio" no discrimina: primero la misma
-  // categoría y, si no alcanza para 4, se completa con el resto.
-  const otros = DATA.products.filter((x) => x.id !== P.id);
+  // El título dice "Más de {comercio}": solo productos de ese comercio,
+  // con la misma categoría primero.
+  const otros = DATA.products.filter((x) => x.merchant_slug === P.merchant_slug && x.id !== P.id);
   const rel = otros.filter((x) => x.category === P.category)
     .concat(otros.filter((x) => x.category !== P.category)).slice(0, 4);
   if (!rel.length) return;
