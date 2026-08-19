@@ -52,9 +52,11 @@ window.VPS = {
     qty = Math.max(1, Number(qty) || 1);
     var total = p.price * qty;
     var lines = [
-      "Hola 👋 Quiero comprar en *vana shop*:",
+      // Sin emojis: según el dispositivo llegan como caracteres rotos por
+      // el encoding del link wa.me — texto plano llega bien siempre.
+      "Hola, quiero comprar en *vana shop*:",
       "",
-      "🛍️ " + p.title + (qty > 1 ? "  ×" + qty : ""),
+      p.title + (qty > 1 ? "  ×" + qty : ""),
       p.merchant + " · " + window.VPS.money(total) + " — en paguitos con vana pay",
     ];
     if (p.url) lines.push(p.url);
@@ -69,8 +71,8 @@ window.VPS = {
   // Mensaje libre (búsqueda sin resultados, CTA general, dudas).
   waAskMessage: function (q) {
     return q
-      ? "Hola 👋 Estoy buscando *" + q + "* en vana shop. ¿Me ayudas a conseguirlo?"
-      : "Hola 👋 Quiero comprar con vana shop. ¿Me ayudas?";
+      ? "Hola, estoy buscando *" + q + "* en vana shop. ¿Me ayudas a conseguirlo?"
+      : "Hola, quiero comprar con vana shop. ¿Me ayudas?";
   },
 
   waAskLink: function (q) {

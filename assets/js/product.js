@@ -34,7 +34,7 @@ fetch(VPS.DATA_URL).then((r) => r.json()).then((d) => {
 });
 
 function askMsg() {
-  return "Hola 👋 Tengo una duda sobre *" + P.title + "* de " + P.merchant + ".\n" + (P.url || "");
+  return "Hola, tengo una duda sobre *" + P.title + "* de " + P.merchant + ".\n" + (P.url || "");
 }
 function merchant(slug) { return DATA.merchants.find((m) => m.slug === slug); }
 
